@@ -26,7 +26,7 @@ title: Go to the start platform
 ```blocks3
 when flag clicked // setup
 go to (Start v)
-set size to [25] %
+set size to [100] %
 go to [front v] layer
 broadcast (start v) // start other scripts
 ```
@@ -96,6 +96,28 @@ You will need to set the colour that is sensed to the colour of your End platfor
 
 --- task ---
 **Test:** Click the green flag and then jump your character across the Stage. Make sure you hear the reward sound when you reach the End platform.
+--- /task ---
+
+
+--- task ---
+**Debug:***
+
+<mark>TBD</mark>
+
+My sprite doesn't go to the Start platform when I click the green flag
+
+My sprite won't jump - I have a keyboard
+
+My sprite won't jump - I'm using a tablet
+
+My sprite jumps in the wrong direction!
+
+My sprite doesn't jump the right distance
+
+My sprite doesn't grow and shrink when it jumps
+
+The sound doesn't play when I land on the End platform
+
 --- /task ---
 
 --- save ----
