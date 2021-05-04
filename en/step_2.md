@@ -21,7 +21,7 @@ Create a solid colour backdrop.
 
 [[[scratch-paint-single-colour-backdrop]]]
 
---- task ---
+--- /task ---
 
 --- task ---
 
