@@ -33,21 +33,21 @@ Create a solid colour backdrop.
 
 --- task ---
 
-Create a **start platform** sprite. 
+Create a **Start platform** sprite. 
 
 Start with a simple single coloured shape. You can add more detail later. 
 
-Position your **start platform** sprite where you want your character to start the game.
+Position your **Start platform** sprite where you want your character to start the game.
 
 --- /task ---
 
 --- task ---
 
-Create an **end platform** sprite. 
+Create an **End platform** sprite. 
 
 Remember to start with a simple single coloured shape. You can add more detail later. 
 
-Position your **end platform** sprite where you want your character to finish the game.
+Position your **End platform** sprite where you want your character to finish the game.
 
 --- /task ---
 
@@ -56,6 +56,8 @@ Position your **end platform** sprite where you want your character to finish th
 Add a character sprite. 
 
 **Choose:** Do you want to add a top-down character sprite such as **Tatiana**, **Taylor** or **Trisha**? Or do you want to paint your own character sprite? You can start with simple shapes and add details later.
+
+![Image of the top down sprites available in scratch](images/top-down-sprites.png)
 
 --- /task ---
 

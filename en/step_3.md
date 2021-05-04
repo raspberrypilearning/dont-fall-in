@@ -9,14 +9,13 @@ In this step, you will add a character and backdrop and create start and end pla
 </div>
 </div>
 
-
 --- task ---
 
 Get your character to go to the Start platform `when flag clicked`{:class="block3events"} and set the `size`{:class="block3looks"} and `go to front layer`{:class="block3looks"}. 
 
 This is the set up code that gets your game ready at the start. 
 
-**Tip:** It's a good idea to get it to `broadcast`{:class="block3events"} a `start`{:class="block3events"} message to let other scripts know when to start, otherwise they might start before everything has been setup.
+**Tip:** It's a good idea to `broadcast`{:class="block3events"} a `start`{:class="block3events"} message at the end of your setup script to let other scripts know when to start, otherwise they might start before everything is ready.
 
 --- collapse ---
 
@@ -33,7 +32,7 @@ broadcast (start v) // start other scripts
 ```
 
 --- /collapse ---
-i
+
 --- /task ---
 
 You're going to make your character jump across the Stage. Don't worry about falling in yet.
@@ -76,6 +75,7 @@ when I receive [start v]
 forever
 if <(size) = [100]> then // not in the air
 if <touching color (#b89d2f) ?> then // at end
+broadcast (stop v) // stop other sprites
 go to (End v)
 play sound (Win v) until done
 stop [all v]
@@ -88,7 +88,9 @@ end
 
 You will need to set the colour that is sensed to the colour of your End platform.
 
-[scratch3-set-block-input-colour-with-eyedropper]
+[[[scratch3-set-block-input-colour-with-eyedropper]]]
+
+**Tip:** It's a good idea to `broadcast`{:class="block3events"} a `stop`{:class="block3events"} message when you detect that your game is finished so that other sprites can stop, but this sprite can do something such as playing a sound before it stops.
 
 --- /task ---
 

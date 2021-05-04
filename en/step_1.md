@@ -46,7 +46,6 @@ You are going to make some design decisions to make a top-down platform game of 
 
 Explore these example projects to get more ideas:
 
-
 **Baby bird**: [See inside](https://scratch.mit.edu/projects/525236983/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236983/?autostart=false" frameborder="0"></iframe>

@@ -1,8 +1,10 @@
-## Platforms
+## Ride on platforms
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Well that's too easy! In this step, you will add platforms to land on. Jumping on them will avoid falling in. 
+Well that's too easy! 
+
+In this step, you will add platforms to land on. Jumping on them will avoid falling in. 
 </div>
 <div>
 ![](images/step-4-aims.png){:width="300px"}
@@ -11,21 +13,21 @@ Well that's too easy! In this step, you will add platforms to land on. Jumping o
 
 --- task ---
 
-Create a **platform 1** sprite to land on. 
+Create a **Platform 1** sprite to land on. 
 
-Paint a costume for your **platform 1** sprite.
+Paint a costume for your **Platform 1** sprite.
 
 **Choose:** If you want your sprite to `bounce`{:class="block3motion"} without the costume appearing to change direction you will need a costume that is symmetrical. 
 
-**Choose:** If your costume has an outline you can add code later so your **character** sprite falls in if they only touch the edge. 
+**Choose:** If your costume has an outline you can add code later so your **Character** sprite falls in if they only touch the edge. 
 
 --- /task ---
 
 --- task ---
 
-Add code to your **platform 1** sprite to get it moving.
+Add code to your **Platform 1** sprite to get it moving.
 
-You may need your **platform 1** sprite to `point in direction`{:class="block3motion"} `0` to move up and down the screen. 
+You may need your **Platform 1** sprite to `point in direction`{:class="block3motion"} `0` to move up and down the screen. 
 
 --- collapse ---
 
@@ -48,7 +50,7 @@ end
 
 --- task ---
 
-Duplicate your **platform 1** sprite twice and rename the new sprites **platform 2** and **platform 3**. 
+Duplicate your **Platform 1** sprite twice and rename the new sprites **Platform 2** and **Platform 3**. 
 
 [[[scratch3-duplicate-sprite]]]
 
@@ -56,11 +58,11 @@ Experiment with the number of steps and the sprite size to make each platforms e
 
 --- /task ---
 
-Detect `if`{:class="block3control"} your **character** sprite has landed on a **platform** sprite and is safe, `else`{:class="block3control"} your **character** sprite has fallen in!
+Detect `if`{:class="block3control"} your **Character** sprite has landed on a **Platform** sprite and is safe, `else`{:class="block3control"} your **Character** sprite has fallen in!
 
 --- task ---
 
-Add code to your **character** sprite to sense `if touching`{:class="block3sensing"} a colour on the **platform** sprites.
+Add code to your **Character** sprite to sense `if touching`{:class="block3sensing"} a colour on the **Platform** sprites.
 
 **Choose:** If your platform has multiple colours, choose which colour your character needs to land on. You might want them to fall in if they are only on the edge!
 
@@ -75,6 +77,7 @@ when I receive [start v]
 forever
 if <(size) = [100]> then // not in the air
 if <touching color (#b89d2f) ?> then // at end
+broadcast (stop v) // stop other sprites
 go to (End v)
 play sound (Win v) until done
 stop [all v]
@@ -101,7 +104,7 @@ end
 
 --- task ---
 
-Add code to your **character** sprite to sense `if touching`{:class="block3sensing"} the backdrop colour then end the game.
+Add code to your **Character** sprite to sense `if`{:class="block3control"} `touching`{:class="block3sensing"} the backdrop colour then end the game.
 
 --- collapse ---
 
@@ -114,6 +117,7 @@ when I receive [start v]
 forever
 if <(size) = [100]> then // not in the air
 if <touching color (#b89d2f) ?> then // at end
+broadcast (stop v) // stop other sprites
 go to (End v)
 play sound (Win v) until done
 stop [all v]
@@ -145,7 +149,7 @@ end
 
 --- task ---
 
-Add code to your **platform** sprites to stop them moving when the **character** sprite reaches the **end platform** - or falls in!
+Add code to your **Platform** sprites to stop them moving when the **Character** sprite reaches the **End platform** - or falls in!
 
 ```blocks3
 when I receive [stop v]
