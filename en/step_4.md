@@ -49,6 +49,11 @@ end
 --- /task ---
 
 --- task ---
+**Test:** Click the green flag and make sure your platform moves correctly.
+
+--- /task ---
+
+--- task ---
 
 Duplicate your **Platform 1** sprite twice and rename the new sprites **Platform 2** and **Platform 3**. 
 
@@ -103,6 +108,11 @@ end
 --- /task ---
 
 --- task ---
+**Test:** Click the green flag and make sure your sprite can ride on the platforms.
+
+--- /task ---
+
+--- task ---
 
 Add code to your **Character** sprite to sense `if`{:class="block3control"} `touching`{:class="block3sensing"} the backdrop colour then end the game.
 
@@ -148,6 +158,11 @@ end
 --- /task ---
 
 --- task ---
+**Test:** Play your game and try missing a platform, make sure you hear the lose sound.
+
+--- /task ---
+
+--- task ---
 
 Add code to your **Platform** sprites to stop them moving when the **Character** sprite reaches the **End platform** - or falls in!
 
@@ -155,6 +170,24 @@ Add code to your **Platform** sprites to stop them moving when the **Character**
 when I receive [stop v]
 stop [other scripts in sprite v]
 ```
+
+--- /task ---
+
+--- task ---
+**Test:** Play again and make sure the platforms stop when the game ends. The game ends when you reach the End platform, or when you fall in.
+
+--- /task ---
+
+--- task ---
+**Debug:**
+<mark>TBD</mark>
+
+The game ends too soon
+(if in wrong order/place)
+
+The platforms don't stop when I win
+
+The platforms don't stop when I lose
 
 --- /task ---
 
