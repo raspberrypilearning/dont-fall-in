@@ -1,6 +1,13 @@
 ## Adjust the difficulty
 
-Is your game too hard or too easy?
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
+Is your game too hard or too easy? 
+</div>
+<div>
+![](images/step-5-aims.png){:width="300px"}
+</div>
+</div>
 
 --- task ---
 

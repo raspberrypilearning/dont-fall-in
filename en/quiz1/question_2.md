@@ -5,35 +5,17 @@
 legend: Question 2 of 3
 ---
 
-You made Pico say hello in a speech bubble.
-
-```blocks3
-say [Hello!] for [2] secs
-```
-
-Where would you go to find this block?
+This game is too hard and it's not fun to play. What could you do to make it easier to play?
 
 --- choices ---
 
-- (x) 
+- (x) Change the number in the `move`{:class="block3motion"} block to a smaller number.
 
   --- feedback ---
 
   --- /feedback ---
 
-- ( ) 
-
-  --- feedback ---
-
-  --- /feedback ---
-
-- ( ) 
-
-  --- feedback ---
-
-  --- /feedback ---
-
-- ( ) 
+- ( ) Change the number in the `move`{:class="block3motion"} block to a bigger number.
 
   --- feedback ---
 

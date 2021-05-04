@@ -1,17 +1,17 @@
-## Get jumping!
+## Jump, hop, bounce or glide!
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add a character and backdrop and create start and end platforms. 
+In this step, you will code your character to jump from start to end platforms. 
 </div>
 <div>
-<mark>Image, gif or video showing what they will achieve by the end of the step.</mark> ![](images/image.png){:width="300px"}
+![](images/step-3-aims.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Get your character to go to the Start platform `when flag clicked`{:class="block3events"} and set the `size`{:class="block3looks"} and `go to front layer`{:class="block3looks"}. 
+Get your character to go to the **Start** `when flag clicked`{:class="block3events"} and set the `size`{:class="block3looks"} and `go to front layer`{:class="block3looks"}. 
 
 This is the set up code that gets your game ready at the start. 
 

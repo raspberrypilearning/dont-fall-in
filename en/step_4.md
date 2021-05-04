@@ -83,14 +83,14 @@ play sound (Win v) until done
 stop [all v]
 end
 + if <touching color (#762356) ?> then // choose a colour on your platform
-if <touching (platform 1 v)> then
-go to (platform 1 v)
+if <touching (Platform 1 v)> then
+go to (Platform 1 v)
 end
-if <touching (platform 2 v)> then
-go to (platform 2 v)
+if <touching (Platform 2 v)> then
+go to (Platform 2 v)
 end
-if <touching (platform 3 v)> then
-go to (platform 3 v)
+if <touching (Platform 3 v)> then
+go to (Platform 3 v)
 end
 else
 end
@@ -123,14 +123,14 @@ play sound (Win v) until done
 stop [all v]
 end
 if <touching color (#762356) ?> then // choose a colour on your platform
-if <touching (platform 1 v)> then
-go to (platform 1 v)
+if <touching (Platform 1 v)> then
+go to (Platform 1 v)
 end
-if <touching (platform 2 v)> then
-go to (platform 2 v)
+if <touching (Platform 2 v)> then
+go to (Platform 2 v)
 end
-if <touching (platform 3 v)> then
-go to (platform 3 v)
+if <touching (Platform 3 v)> then
+go to (Platform 3 v)
 end
 else
 + if <touching color (#37ab37) ?> then // choose your backdrop colour

@@ -5,7 +5,7 @@
 In this step, you will add a character and backdrop and create start and end platforms. 
 </div>
 <div>
-![](images/step-1-aims.png){:width="300px"}
+![](images/step-2-aims.png){:width="300px"}
 </div>
 </div>
 
