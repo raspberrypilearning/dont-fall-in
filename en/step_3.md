@@ -118,6 +118,8 @@ My sprite doesn't grow and shrink when it jumps
 
 The sound doesn't play when I land on the End platform
 
+My sprite doesn't go to the centre of the Start or End platform
+
 --- /task ---
 
 --- save ----
