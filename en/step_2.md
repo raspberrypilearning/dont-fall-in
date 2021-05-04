@@ -61,4 +61,13 @@ Add a character sprite.
 
 --- /task ---
 
+--- task ---
+**Debug:***
+
+<mark>TBD</mark>
+
+My sprite is pointing in the wrong direction
+
+--- /task ---
+
 --- save ---
