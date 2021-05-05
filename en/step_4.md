@@ -17,7 +17,9 @@ Create a **Platform 1** sprite to land on.
 
 Paint a costume for your **Platform 1** sprite.
 
-**Choose:** If you want your sprite to `bounce`{:class="block3motion"} without the costume appearing to change direction you will need a costume that is symmetrical. 
+**Tip:** If you want your sprite to `bounce`{:class="block3motion"} without the costume appearing to change direction you will need a costume that is symmetrical or set the rotation style to `don't rotate`{:class="block3motion"}. 
+
+![The direction property popup menu in the Sprite pane with the dont rotate icon selected.](images/dont-rotate.png)
 
 **Choose:** If your costume has an outline you can add code later so your **Character** sprite falls in if they only touch the edge. 
 
@@ -64,6 +66,10 @@ Experiment with the number of steps and the sprite size to make each platforms e
 --- /task ---
 
 Detect `if`{:class="block3control"} your **Character** sprite has landed on a **Platform** sprite and is safe, `else`{:class="block3control"} your **Character** sprite has fallen in!
+
+In the previous step you added a `forever`{:class="block3control"} loop that checks if your **Character** is at platform level, and if so, `if`{:class="block3control"} it has reached the End platform. Now you're going to add more conditions to check for the **Character** landing safely on a platform, or falling into the hazard.
+
+![Flow chart showing the decisions the game will go through.](images/platform-code-4.png)
 
 --- task ---
 
@@ -180,15 +186,45 @@ stop [other scripts in sprite v]
 
 --- task ---
 **Debug:**
-<mark>TBD</mark>
 
-The game ends too soon
-(if in wrong order/place)
+--- collapse ---
 
-The platforms don't stop when I win
+---
+title: The game ends too soon
+---
 
-The platforms don't stop when I lose
+Make sure you have the `if`{:class="block3control"} blocks in the correct order inside your `forever`{:class="block3control"} block. Check carefully against the example code.
+
+If you check that the **Character** is touching the backdrop before it has had chance to land on a platform then your game could end unfairly!
+
+Make sure your `if`{:class="block3control"} blocks to check game conditions are inside an `if`{:class="block3control"} block that checks the size of the **Character** is normal. It's fine for your sprite to be touching the backdrop colour when jumping, it's only a problem if they land in the custard, lava, radio-active goo or whatever hazard you have chosen.
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: The platforms don't stop when I win or lose
+---
+
+Look at your **Platform** sprites `when I receive`{:class="block3events"} script and check the message is `stop`.
+
+```blocks3
+when I receive [stop v]
+stop [other scripts in sprite v]
+```
+Check that the `broadcast`{:class="block3events"} block inside the win and lose `if`{:class="block3control"} blocks is `stop`. 
+
+```blocks3
+broadcast (stop v)
+```
+
+--- /collapse ---
 
 --- /task ---
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+There are lots of <span style="color: #0faeb0">platform games</span> including 2D and 3D ones. Platforms are common in obstacle (obby) games and parkour games. Some games have platforms that move or show and hide or gradually disappear when you jump on them. Can you think of games that you have played that have platforms that you have to jump on? What about games with moving platforms?
+</p>
 
 --- save ----

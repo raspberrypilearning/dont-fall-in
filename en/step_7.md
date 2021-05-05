@@ -7,6 +7,7 @@ Here are some ideas you could try:
 - Make platforms appear and disappear in a `forever`{:class="block3control"} block using `show`{:class="block3looks"}, `hide`{:class="block3looks"} and `wait`{:class="block3control"}.
 - Add more platforms, or make more platforms appear when you get to the next level, you will need to consider what else needs to change to make your game work on the second level and reset correctly to the first level `when flag clicked`{:class="block3events"}.
 - Design your own top-down character in the Paint editor.
+- Introduce a variable for the `normal size`{:class="block3variables"} of your character `set`{:class="block3variables"} the value in your **Character**'s setup script and and use it in all the places where you currently have a number for the size.
 
 <mark> Add a more advanced example </mark>
 
