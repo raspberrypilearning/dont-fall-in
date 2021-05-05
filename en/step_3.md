@@ -13,7 +13,7 @@ In the previous step you added a `forever`{:class="block3control"} loop that che
 
 You're going to add a `forever`{:class="block3control"} loop that checks if your **Character** is at platform level, and if so, `if`{:class="block3control"} it has reached the End platform.
 
-![Flow chart showing the decisions the game will go through.](images/platform-code-4.png)
+![Flow chart showing the decisions the game will go through.](images/platform-code-3.png)
 
 --- task ---
 
