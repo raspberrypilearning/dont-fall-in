@@ -18,4 +18,5 @@ steps:
       questions: 3
       passing_score: 3
   - title: Upgrade your project
+  - title: Share
   - title: What next?
