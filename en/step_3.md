@@ -33,8 +33,6 @@ Adjust your code until the character jumps across the stage in three or four jum
 **Tip:** It's really common for games to have a `forever`{:class="block3control"} block with `if`{:class="block3control"} statements inside it to do something when important conditions become true.
 
 --- task ---
-
---- task ---
 **Debug:**
 
 --- collapse ---
