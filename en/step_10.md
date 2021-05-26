@@ -5,11 +5,11 @@ You learned some useful ways to combine the blocks you have learned about to mak
 + Broadcasting a `start`{:class="block3control"} message after setting up your character so everything is ready when you start the game,
 + Broadcasting a `stop`{:class="block3control"} message when you detect a game end **condition** such as winning or losing so that other script can stop and you can play a sound or do an animation before `stop [all]`{:class="block3control"}.
 
-If you are following the [More Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) pathway, you can move on to the [Trading simulation](https://projects.raspberrypi.org/en/projects/trading-simulation) project. In this project, you will make a (add description here).
+If you are following the [More Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) pathway, you can move on to the [Next customer please!](https://projects.raspberrypi.org/en/projects/next-customer-please) project. In this project, you will make a (add description here).
 
 --- print-only ---
 
-![Trading simulation](images/trading-simulation.png)
+![Next customer please](images/next-customer-please.png)
 
 --- /print-only ---
 
@@ -17,7 +17,7 @@ If you are following the [More Scratch](https://projects.raspberrypi.org/en/rasp
 
 <mark>Update project when available</mark>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719199/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/528696418/?autostart=false" frameborder="0"></iframe>
 </div>
 
 --- /no-print ---
