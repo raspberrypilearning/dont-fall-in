@@ -17,7 +17,7 @@ You're going to make your character jump across the Stage. Don't worry about fal
 
 [[[generic-scratch3-sound-from-library]]]
 
-Now make your character jump across the Stage.  If you have a computer keyboard then you can use `when space key pressed`{:class="block3events"} to jump, if you are on a touchscreen you can make your character jump `when stage clicked`{:class="block3events"} by `broadcasting`{:class="block3events"} a `jump`{:class="block3events"} message.
+Now make your character jump across the Stage by pressing the <kbd>space</kdb> on a keyboard or tapping the Stage on a tablet.
 
 [[[scratch3-top-down-jumping]]]
 
@@ -78,26 +78,6 @@ The `go to`{:class="block3motion"} `other sprite` block moves a sprite so that i
 --- collapse ---
 
 ---
-title: My sprite won't jump - I have a keyboard
----
-
-Check that you have a `when space key pressed`{:class="block3events"} script which `broadcasts`{:class="block3events"} a `jump`{:class="block3events"} message. Check that your `when I recieve [jump]`{:class="block3events"} script is correct.
-
---- /collapse ---
-
---- collapse ---
-
----
-title: My sprite won't jump - I'm using a tablet
----
-
-Make sure you have a `when stage clicked`{:class="block3events"} script on the **Stage** which `broadcasts`{:class="block3events"} a `jump`{:class="block3events"} message. Check that the `when I recieve [jump]`{:class="block3events"} script on your **Character** sprite is correct.
-
---- /collapse ---
-
---- collapse ---
-
----
 title: My sprite points or jumps in the wrong direction!
 ---
 
@@ -113,23 +93,11 @@ title: My sprite doesn't jump the right distance
 
 Look at your **Character**'s `when I receieve [jump]`{:class="block3events"} script. Try changing the number of steps in the `move`{:class="block3motion"} blocks, or the number of repeats in the `repeat`{:class="block3control"} blocks.
 
-Remember you will need to change the numbers for the up and down parts of the jump. 
-
 ```blocks3
-when I receive [jump v] // jump
-if < (size) = (landed) > then // avoid double jumping
-start sound (Drum Boing v) // add a sound
-+repeat [10] // jump up
 +move [5] steps
-change size by [3]
-end
-+repeat [10] // come back down
-+move [5] steps
-change size by [-3]
-end
-set size to (landed) % // back to normal size
-end
 ```
+
+Remember you will need to change the numbers for the up and down parts of the jump. 
 
 --- /collapse ---
 
@@ -139,30 +107,13 @@ end
 title: My sprite doesn't grow and shrink correctly when it jumps
 ---
 
-Look at your **Character**'s `when I receieve [jump]`{:class="block3events"} script. 
+Make sure you have a `broadcast (start)`{:class="block3events"} block at the end of your **Character**'s `when flag clicked`{:class="block3events"} script.
 
-Check that you use the same normal size for your **Character** sprite throughout the project, this example uses `50`.
+Look at your **Character**'s `when I receieve [start]`{:class="block3events"} script. 
 
-Make sure that the `change size`{:class="block3looks"} block in the second `repeat`{:class="block3events"} block has a negative number to make the sprite smaller, the example uses `-3`.
-
-```blocks3
-when I receive [jump v] // jump
-+if < (size) = (landed) > then // avoid double jumping
-start sound (Drum Boing v) // add a sound
-repeat [10] // jump up
-move [5] steps
-+change size by [3]
-end
-repeat [10] // come back down
-move [5] steps
-+change size by [-3]
-end
-+set size to (landed) % // back to normal size
-end
-```
+Make sure that the `change size`{:class="block3looks"} block in the second `repeat`{:class="block3events"} block has a negative number to make the sprite smaller such as `-3`.
 
 --- /collapse ---
-
 
 If you have a bug that we haven't covered here then let us know in the feedback, and if you fixed the bug yourself (well done!) let us know that too. 
 
