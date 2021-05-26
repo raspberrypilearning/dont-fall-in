@@ -1,6 +1,6 @@
 ## Introduction
 
-Design and create a top-down view obstacle or platform parkour game. Your character will need to jump, hop, glide, bounce or fly to catch a ride on moving platforms and make it to the other side.
+Design and build a top-down view obstacle or platform parkour game. Your character will need to jump, hop, glide, bounce or fly to catch a ride on moving platforms and make it to the end.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**top-down/birds-eye view games**</span> look down on the game from above. Sometimes the whole game has this view, other games use top-down views when you enter a design mode. Can you think of any games you play that use top-down view? 
