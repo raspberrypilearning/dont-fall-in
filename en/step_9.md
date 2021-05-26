@@ -1,25 +1,23 @@
-## What next?
+## Share
 
-You learned some useful ways to combine the blocks you have learned about to make a game, including:
-+ Using `forever`{:class="block3control"} block with `if`{:class="block3control"} statements to detect important **conditions** in your game and take action,
-+ Broadcasting a `start`{:class="block3control"} message after setting up your character so everything is ready when you start the game,
-+ Broadcasting a `stop`{:class="block3control"} message when you detect a game end **condition** such as winning or losing so that other script can stop and you can play a sound or do an animation before `stop [all]`{:class="block3control"}.
+If you are in a club, why not share your project with friends?
 
-If you are following the [More Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) pathway, you can move on to the [Trading simulation](https://projects.raspberrypi.org/en/projects/trading-simulation) project. In this project, you will make a (add description here).
+You could also show your family how your project works.
 
---- print-only ---
+If you have a Scratch account, you can share your project through Scratch. You can send a link to people you know, and the whole Scratch community will be able to find your project and try it out.
 
-![Trading simulation](images/trading-simulation.png)
+[[[share-scratch]]]
 
---- /print-only ---
+Why not invite your friends to create a project? Let them know how you had fun.
 
---- no-print ---
+If you have a Scratch account, and have shared your 'Googly eye character' project, keep an eye out for comments that others may make about your creation. Feedback is a great way to reflect on your work. Ignore any comments that are unhelpful or irrelevant.
 
-<mark>Update project when available</mark>
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719199/?autostart=false" frameborder="0"></iframe>
-</div>
+[[[comments-feedback-scratch]]]
 
---- /no-print ---
+--- task ---
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+Inspire the Raspberry Pi Foundation community with your project!
+
+To submit your project to our ['Don't fall in - Community'](https://scratch.mit.edu/studios/29601182){:target="_blank"} Scratch studio, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+
+--- /task ---
