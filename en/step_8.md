@@ -1,6 +1,13 @@
 ## Upgrade your project
 
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 If you have time you can upgrade your project. 
+</div>
+<div>
+![](images/upgrade-example.png){:width="300px"}
+</div>
+</div> 
 
 Here are some ideas you could try:
 - Add another level. When the player wins, `broadcast`{:class="block3events"} a `level2`{:class="block3events"} message and change the speed that the sprites move at using a `speed`{:class="block3variables"} variable.

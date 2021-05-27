@@ -7,7 +7,7 @@ Design and build a top-down view obstacle or platform parkour game. Your charact
 </p>
 
 You will:
-+ Make a game with a goal
++ Make a game with a goal using an algorithm that checks for important game conditions
 + Personalize a game to your interests
 + Adjust the difficulty of a game so that it’s fun to play
 
@@ -72,7 +72,10 @@ Explore these example projects to get more ideas:
 
 You are going to make some design decisions to make a top-down platform game of your own. You'll choose the theme, colours, character, number of platforms and the difficulty level. See inside example projects in [Scratch 2: Don't fall in - Examples](https://scratch.mit.edu/studios/29599110/){:target="_blank"} Scratch studio.
 
-<mark>one image file per example</mark>
+![The Stage from the 'dont fall in the custard' project.](images/dont-fall-in.png)
+![The Stage from the 'baby bird' project.](images/baby-bird.png)
+![The Stage from the 'log hopper' project.](images/log-hopper.png)
+![The Stage from the 'planet bounce' project.](images/planet-bounce.png)
 
 --- /print-only ---
 

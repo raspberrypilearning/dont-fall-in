@@ -5,7 +5,7 @@
 Is your game too hard or too easy? In this step, adjust the difficulty to get the gameplay just right. 
 </div>
 <div>
-![](images/step-5-aims.png){:width="300px"}
+![](images/difficulty-example.png){:width="300px"}
 </div>
 </div>
 

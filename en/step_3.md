@@ -5,7 +5,7 @@
 In this step, you will code your character to jump from start to end platforms. 
 </div>
 <div>
-![](images/step-3-aims.png){:width="300px"}
+![](images/jump-example.png){:width="300px"}
 </div>
 </div>
 
