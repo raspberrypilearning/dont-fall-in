@@ -7,7 +7,7 @@ Well that's too easy!
 In this step, you will add platforms to land on. Jumping on them will avoid falling in. 
 </div>
 <div>
-![](images/step-4-aims.png){:width="300px"}
+![](images/riding-example.png){:width="300px"}
 </div>
 </div>
 
@@ -85,6 +85,7 @@ forever
 if <(size) = (landed) > then // not in the air
 if <touching color (#b89d2f) ?> then // at end
 broadcast (stop v) // stop other sprites
+stop [other scripts in sprite v]
 go to (End v)
 play sound (Win v) until done
 stop [all v]
@@ -127,9 +128,10 @@ title: Else touching backdrop
 ```blocks3
 when I receive [start v]
 forever
-if <(size) = [100]> then // not in the air
+if <(size) = (landed)> then // not in the air
 if <touching color (#b89d2f) ?> then // at end
 broadcast (stop v) // stop other sprites
+stop [other scripts in sprite v] 
 go to (End v)
 play sound (Win v) until done
 stop [all v]
@@ -147,6 +149,7 @@ end
 else
 + if <touching color (#37ab37) ?> then // choose your backdrop colour
 broadcast (stop v)
+stop [other scripts in sprite v] // prevent jumping after losing
 hide
 play sound (lose v) until done // add a sound of your choice
 stop [all v]

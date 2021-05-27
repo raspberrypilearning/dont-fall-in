@@ -30,9 +30,10 @@ title: End the game when touching colour
 ```blocks3
 when I receive [start v]
 forever
-if <(size) = [40]> then // not in the air
+if <(size) = (landed)> then // not in the air
 if <touching color (#b89d2f) ?> then // at end
 broadcast (stop v) // stop other sprites
+stop [other scripts in sprite v] // stop jumping after win
 go to (End v)
 play sound (Win v) until done
 stop [all v]
@@ -40,6 +41,8 @@ end
 end
 end
 ```
+
+It's a good idea to `broadcast`{:class="block3events"} a 'stop' message to let other sprites know the game has ended. The `stop other scripts in sprite`{:class="block3control"} block stops the loop that makes the character jump.
 
 --- /collapse ---
 

@@ -5,7 +5,7 @@
 In this step, you will add a character and backdrop and create start and end platforms. 
 </div>
 <div>
-![](images/step-2-aims.png){:width="300px"}
+![](images/setup-example.png){:width="300px"}
 </div>
 </div>
 
@@ -57,15 +57,15 @@ Position your **End** sprite on the Stage where you want your character to finis
 
 --- task ---
 
-Add a character sprite. 
+Create a character sprite. 
 
-**Choose:** Do you want to add a top-down character sprite such as **Tatiana**, **Taylor** or **Trisha**? 
+**Choose:** Do you want to add or paint a character sprite? 
+
+You might want to add a top-down character sprite such as **Tatiana**, **Taylor** or **Trisha**? 
 
 ![Image of the top down sprites available in scratch](images/top-down-sprites.png)
 
-Or, do you want to paint your own character sprite? You can start with simple shapes and add details later.
-
-Centre your costume in the Paint editor.
+Or, paint your own character sprite? Start with simple shapes and add details later. Centre your costume in the Paint editor.
 
 [[[generic-scratch3-draw-sprite]]]
 

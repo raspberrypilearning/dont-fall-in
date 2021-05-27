@@ -1,13 +1,13 @@
 ## Introduction
 
-Design and create a top-down view obstacle or platform parkour game. Your character will need to jump, hop, glide, bounce or fly to catch a ride on moving platforms and make it to the other side.
+Design and build a top-down view obstacle or platform parkour game. Your character will need to jump, hop, glide, bounce or fly to catch a ride on moving platforms and make it to the end.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**top-down/birds-eye view games**</span> look down on the game from above. Sometimes the whole game has this view, other games use top-down views when you enter a design mode. Can you think of any games you play that use top-down view? 
 </p>
 
 You will:
-+ Make a game with a goal
++ Make a game with a goal using an algorithm that checks for important game conditions
 + Personalize a game to your interests
 + Adjust the difficulty of a game so that it’s fun to play
 
@@ -58,7 +58,7 @@ Explore these example projects to get more ideas:
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236345/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**Planet bounce**: [See inside](https://scratch.mit.edu/525236603/editor){:target="_blank"}
+**Planet bounce**: [See inside](https://scratch.mit.edu/projects/525236603/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236603/?autostart=false" frameborder="0"></iframe>
 </div>
@@ -72,7 +72,10 @@ Explore these example projects to get more ideas:
 
 You are going to make some design decisions to make a top-down platform game of your own. You'll choose the theme, colours, character, number of platforms and the difficulty level. See inside example projects in [Scratch 2: Don't fall in - Examples](https://scratch.mit.edu/studios/29599110/){:target="_blank"} Scratch studio.
 
-<mark>one image file per example</mark>
+![The Stage from the 'dont fall in the custard' project.](images/dont-fall-in.png)
+![The Stage from the 'baby bird' project.](images/baby-bird.png)
+![The Stage from the 'log hopper' project.](images/log-hopper.png)
+![The Stage from the 'planet bounce' project.](images/planet-bounce.png)
 
 --- /print-only ---
 
