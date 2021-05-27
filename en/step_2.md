@@ -61,11 +61,11 @@ Create a character sprite.
 
 **Choose:** Do you want to add or paint a character sprite? 
 
-You might want to add a top-down character sprite such as **Tatiana**, **Taylor** or **Trisha**? 
+You might want to add a top-down character sprite such as **Tatiana**, **Taylor** or **Trisha**. 
 
 ![Image of the top down sprites available in scratch](images/top-down-sprites.png)
 
-Or, paint your own character sprite? Start with simple shapes and add details later. Centre your costume in the Paint editor.
+Or, paint your own character sprite. Start with simple shapes and add details later. Centre your costume in the Paint editor.
 
 [[[generic-scratch3-draw-sprite]]]
 
