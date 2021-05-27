@@ -17,7 +17,7 @@ You're going to make your character jump across the Stage. Don't worry about fal
 
 [[[generic-scratch3-sound-from-library]]]
 
-Now make your character jump across the Stage by pressing the <kbd>space</kdb> on a keyboard or tapping the Stage on a tablet.
+Now make your character jump across the Stage by pressing the [kbd]space[/kdb] on a keyboard or tapping the Stage on a tablet.
 
 [[[scratch3-top-down-jumping]]]
 
