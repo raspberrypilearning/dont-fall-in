@@ -19,7 +19,7 @@ Have fun!
 legend: Question 1 of 3
 ---
 
-<mark>Add screenshot of lava jumping game</mark>
+![The Stagee of a lava jumping game. The character is on the end platform, a golden door.](images/quiz-lava-stage.png)
 
 You win this game by reaching the golden door and lose if you land in the lava pit. The game isn't working, how could you fix it?
 
@@ -29,16 +29,15 @@ go to (Start v)
 broadcast (start v)
 ```
 
-<mark>Choose colour to match screenshot</mark>
-
 ```blocks3
 when I receive [start v]
 forever
-if <touching color (#b89d2f) ?> then // check lose
+if <touching color (#fff700) ?> then // check lose
 broadcast (stop v) // stop other sprites
 play sound (Lose v) until done
 stop [all v]
-if <touching color (#b89d2f) ?> then // check win
+end
+if <touching color (#ff0000) ?> then // check win
 broadcast (stop v) // stop other sprites
 play sound (Win v) until done
 stop [all v]
@@ -52,17 +51,23 @@ end
 
   --- feedback ---
 
-  --- /feedback ---
-
-- (x) Change the colour in the 'check win' condition.
-
-  --- feedback ---
+Close. The 'check lose' condition doesn't have the right colour, but just changing that won't make the game work.
 
   --- /feedback ---
 
-- ( ) Swap the colours in the 'check win' and 'check lose' conditions.
+- ( ) Change the colour in the 'check win' condition.
 
   --- feedback ---
+
+Close. The 'check win' condition doesn't have the right colour, but just changing that won't make the game work.
+
+  --- /feedback ---
+
+- (x) Swap the colours in the 'check win' and 'check lose' conditions.
+
+  --- feedback ---
+
+Yes. The 'check lose' and 'check win' conditions have the colours the wrong way round! The player will will when they fall in the lava and lose when they reach the golden door! Swapping the conditions will fix this.
 
   --- /feedback ---
 
