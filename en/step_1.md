@@ -72,10 +72,10 @@ Explore these example projects to get more ideas:
 
 You are going to make some design decisions to make a top-down platform game of your own. You'll choose the theme, colours, character, number of platforms and the difficulty level. See inside example projects in [Scratch 2: Don't fall in - Examples](https://scratch.mit.edu/studios/29599110/){:target="_blank"} Scratch studio.
 
-![The Stage from the 'dont fall in the custard' project.](images/dont-fall-in.png)
-![The Stage from the 'baby bird' project.](images/baby-bird.png)
-![The Stage from the 'log hopper' project.](images/log-hopper.png)
-![The Stage from the 'planet bounce' project.](images/planet-bounce.png)
+![The Stage from the 'dont fall in the custard' project.](images/custard.png)
+![The Stage from the 'baby bird' project.](images/bird.png)
+![The Stage from the 'log hopper' project.](images/frog.png)
+![The Stage from the 'planet bounce' project.](images/space.png)
 
 --- /print-only ---
 
