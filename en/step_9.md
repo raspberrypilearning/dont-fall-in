@@ -10,7 +10,7 @@ If you have a Scratch account, you can share your project through Scratch. You c
 
 Why not invite your friends to create a project? Let them know how you had fun.
 
-If you have a Scratch account, and have shared your 'Googly eye character' project, keep an eye out for comments that others may make about your creation. Feedback is a great way to reflect on your work. Ignore any comments that are unhelpful or irrelevant.
+If you have a Scratch account, and have shared your 'Don't fall in' project, keep an eye out for comments that others may make about your creation. Feedback is a great way to reflect on your work. Ignore any comments that are unhelpful or irrelevant.
 
 [[[comments-feedback-scratch]]]
 
