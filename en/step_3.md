@@ -17,7 +17,7 @@ You're going to make your character jump across the Stage. Don't worry about fal
 
 [[[generic-scratch3-sound-from-library]]]
 
-Now make your character jump across the Stage by pressing the [<kbd>]space[</kdb>] on a keyboard or tapping the Stage on a tablet.
+Now make your character jump across the Stage by pressing the <kbd>space</kbd> bar on a keyboard or tapping the Stage on a tablet.
 
 [[[scratch3-top-down-jumping]]]
 
@@ -71,7 +71,7 @@ title: My sprite doesn't go to the centre of the Start platform
 
 You need to make sure all your sprite costumes are centered in the Paint editor. 
 
-The `go to`{:class="block3motion"} `other sprite` block moves a sprite so that its centre is in the same position as the centre of the 'other sprite'. If their centres are in the wrong place, then your **character** won't go to the centre of the platforms.
+The `go to`{:class="block3motion"} `other sprite` block moves a sprite so that its centre is in the same position as the centre of the other sprite. If their centres are in the wrong place, then your **character** won't go to the centre of the platforms.
 
 --- /collapse ---
 
