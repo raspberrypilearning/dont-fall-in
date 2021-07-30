@@ -71,7 +71,7 @@ title: My sprite doesn't go to the centre of the Start platform
 
 You need to make sure all your sprite costumes are centered in the Paint editor. 
 
-The `go to`{:class="block3motion"} `other sprite` block moves a sprite so that its centre is in the same position as the centre of the other sprite. If their centres are in the wrong place, then your **character** won't go to the centre of the platforms.
+The `go to`{:class="block3motion"} `other sprite`{:class="block3motion"} block moves a sprite so that its centre is in the same position as the centre of the other sprite. If their centres are in the wrong place, then your **character** won't go to the centre of the platforms.
 
 --- /collapse ---
 
@@ -91,7 +91,7 @@ Add a `point in direction`{:class="block3motion"} block to the **character**'s s
 title: My sprite doesn't jump the right distance
 ---
 
-Look at your **character**'s `when I receieve [jump]`{:class="block3events"} script. Try changing the number of steps in the `move`{:class="block3motion"} blocks, or the number of repeats in the `repeat`{:class="block3control"} blocks.
+Look at your **character**'s `when I receieve (jump)`{:class="block3events"} script. Try changing the number of steps in the `move`{:class="block3motion"} blocks, or the number of repeats in the `repeat`{:class="block3control"} blocks.
 
 ```blocks3
 +move [5] steps
@@ -109,7 +109,7 @@ title: My sprite doesn't grow and shrink correctly when it jumps
 
 Make sure you have a `broadcast (start)`{:class="block3events"} block at the end of your **character**'s `when flag clicked`{:class="block3events"} script.
 
-Look at your **character**'s `when I receieve [start]`{:class="block3events"} script. 
+Look at your **character**'s `when I receieve (start)`{:class="block3events"} script. 
 
 Make sure that the `change size`{:class="block3looks"} block in the second `repeat`{:class="block3events"} block has a negative number to make the sprite smaller such as `-3`.
 
