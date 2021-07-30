@@ -46,7 +46,7 @@ It's a good idea to `broadcast`{:class="block3events"} a 'stop' message to let o
 
 --- /collapse ---
 
-You will need to set the colour that is sensed to the colour of your End platform.
+You will need to set the colour that is sensed to the colour of your **End** platform.
 
 [[[scratch3-set-block-input-colour-with-eyedropper]]]
 
