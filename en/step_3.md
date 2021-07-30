@@ -1,4 +1,4 @@
-## Jump, hop, bounce or glide!
+## Jump, hop, bounce, or glide!
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -17,16 +17,16 @@ You're going to make your character jump across the Stage. Don't worry about fal
 
 [[[generic-scratch3-sound-from-library]]]
 
-Now make your character jump across the Stage by pressing the [kbd]space[/kdb] on a keyboard or tapping the Stage on a tablet.
+Now make your character jump across the Stage by pressing the [<kbd>]space[</kdb>] on a keyboard or tapping the Stage on a tablet.
 
 [[[scratch3-top-down-jumping]]]
 
 --- /task ---
 
 --- task ---
-**Test:** Tap the space bar or Stage to make your character jump across the Stage to the **End** platform.
+**Test:** Tap the <kbd>space</kbd> bar or Stage to make your character jump across the Stage to the **End** platform.
 
-Adjust your code until the character jumps across the stage in three or four jumps.
+Adjust your code until the character jumps across the Stage in three or four jumps.
 
 --- /task ---
 
@@ -41,7 +41,7 @@ Adjust your code until the character jumps across the stage in three or four jum
 title: My sprite doesn't go to the Start platform when I click the green flag
 ---
 
-Check that you have a setup script on your **Character** sprite:
+Check that you have a setup script on your **character** sprite:
 
 
 ```blocks3
@@ -54,11 +54,11 @@ show
 broadcast (start v) // start other scripts
 ```
 
-Check that that name in the `go to`{:class="block3motion"} block matches the name of your Start sprite.
+Check that that name in the `go to`{:class="block3motion"} block matches the name of your **Start** sprite.
 
-Check that you have a `go to front layer`{:class="block3looks"} blocks, your sprite might be underneath the Start plaform!
+Check that you have a `go to front layer`{:class="block3looks"} block. Your sprite might be underneath the Start plaform!
 
-Make sure you haven't hidden your **Character** sprite. Add a `show`{:class="block3looks"} block to your setup script if you need to.
+Make sure you haven't hidden your **character** sprite. Add a `show`{:class="block3looks"} block to your setup script if you need to.
 
 
 --- /collapse ---
@@ -69,9 +69,9 @@ Make sure you haven't hidden your **Character** sprite. Add a `show`{:class="blo
 title: My sprite doesn't go to the centre of the Start platform
 ---
 
-You need to make sure all your sprite costumes are centered in the 'Paint editor'. 
+You need to make sure all your sprite costumes are centered in the Paint editor. 
 
-The `go to`{:class="block3motion"} `other sprite` block moves a sprite so that it's center is in the same position as the center of the 'other sprite'. If their centers are in the wrong place then your **Character** won't go to the center of the platforms.
+The `go to`{:class="block3motion"} `other sprite` block moves a sprite so that its centre is in the same position as the centre of the 'other sprite'. If their centres are in the wrong place, then your **character** won't go to the centre of the platforms.
 
 --- /collapse ---
 
@@ -81,7 +81,7 @@ The `go to`{:class="block3motion"} `other sprite` block moves a sprite so that i
 title: My sprite points or jumps in the wrong direction!
 ---
 
-Add a `point in direction`{:class="block3motion"} block to the **Character**'s set up script or change the direction in the sprite pane. You might also need to change the `rotation style`{:class="block3motion"}. You might also need to rotate the **costume** of your sprite so that it faces to the right.
+Add a `point in direction`{:class="block3motion"} block to the **character**'s setup script or change the direction in the sprite pane. You might also need to change the `rotation style`{:class="block3motion"}. You might also need to rotate the **costume** of your sprite so that it faces to the right.
 
 --- /collapse ---
 
@@ -91,13 +91,13 @@ Add a `point in direction`{:class="block3motion"} block to the **Character**'s s
 title: My sprite doesn't jump the right distance
 ---
 
-Look at your **Character**'s `when I receieve [jump]`{:class="block3events"} script. Try changing the number of steps in the `move`{:class="block3motion"} blocks, or the number of repeats in the `repeat`{:class="block3control"} blocks.
+Look at your **character**'s `when I receieve [jump]`{:class="block3events"} script. Try changing the number of steps in the `move`{:class="block3motion"} blocks, or the number of repeats in the `repeat`{:class="block3control"} blocks.
 
 ```blocks3
 +move [5] steps
 ```
 
-Remember you will need to change the numbers for the up and down parts of the jump. 
+Remember, you will need to change the numbers for the up and down parts of the jump. 
 
 --- /collapse ---
 
@@ -107,17 +107,17 @@ Remember you will need to change the numbers for the up and down parts of the ju
 title: My sprite doesn't grow and shrink correctly when it jumps
 ---
 
-Make sure you have a `broadcast (start)`{:class="block3events"} block at the end of your **Character**'s `when flag clicked`{:class="block3events"} script.
+Make sure you have a `broadcast (start)`{:class="block3events"} block at the end of your **character**'s `when flag clicked`{:class="block3events"} script.
 
-Look at your **Character**'s `when I receieve [start]`{:class="block3events"} script. 
+Look at your **character**'s `when I receieve [start]`{:class="block3events"} script. 
 
 Make sure that the `change size`{:class="block3looks"} block in the second `repeat`{:class="block3events"} block has a negative number to make the sprite smaller such as `-3`.
 
 --- /collapse ---
 
-If you have a bug that we haven't covered here then let us know in the feedback, and if you fixed the bug yourself (well done!) let us know that too. 
+If you have a bug that we haven't covered here, then let us know in the feedback. If you fixed the bug yourself (well done!), let us know that too. 
 
-**Tip:** If you're stuck, try reading your code out loud or in your head and make sure it says what you think it does. You might find the bug.
+**Tip:** If you're stuck, try reading your code out loud or in your head to make sure it says what you think it does. You might find the bug.
 
 --- /task ---
 
