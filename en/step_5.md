@@ -17,7 +17,7 @@ Create a **Platform 1** sprite to land on.
 
 Paint a costume for your **Platform 1** sprite.
 
-**Tip:** If you want your sprite to `bounce`{:class="block3motion"} without the costume appearing to change direction, you will need a costume that is symmetrical or set the rotation style to `don't rotate`{:class="block3motion"}. 
+**Tip:** If you want your sprite to `bounce`{:class="block3motion"} without the costume appearing to change direction, you will need a costume that is symmetrical, or set the rotation style to **Don't rotate**. 
 
 ![The direction property pop-up menu in the Sprite pane with the dont rotate icon selected.](images/dont-rotate.png)
 
@@ -169,7 +169,7 @@ end
 
 --- task ---
 
-Add code to your **platform** sprites to stop them moving when the **character** sprite reaches the **End platform** — or falls in!
+Add code to your **platform** sprites to stop them moving when the **character** sprite reaches the **End** platform — or falls in!
 
 ```blocks3
 when I receive [stop v]
@@ -179,7 +179,7 @@ stop [other scripts in sprite v]
 --- /task ---
 
 --- task ---
-**Test:** Play again and make sure the platforms stop when the game ends. The game ends when you reach the **End platform**, or when you fall in.
+**Test:** Play again and make sure the platforms stop when the game ends. The game ends when you reach the **End** platform, or when you fall in.
 
 --- /task ---
 
@@ -206,13 +206,13 @@ Make sure your `if`{:class="block3control"} blocks to check game conditions are 
 title: The platforms don't stop when I win or lose
 ---
 
-Look at your **platform** sprites' `when I receive`{:class="block3events"} script and check the message is `stop`.
+Look at your **platform** sprites' `when I receive`{:class="block3events"} script and check the message is `stop`{:class="block3events"}.
 
 ```blocks3
 when I receive [stop v]
 stop [other scripts in sprite v]
 ```
-Check that the `broadcast`{:class="block3events"} block inside the win and lose `if`{:class="block3control"} blocks is `stop`. 
+Check that the `broadcast`{:class="block3events"} block inside the win and lose `if`{:class="block3control"} blocks is `stop`{:class="block3events"}. 
 
 ```blocks3
 broadcast (stop v)
