@@ -73,7 +73,7 @@ title: My sprite doesn't go to the centre of the End platform
 
 You need to make sure all your sprite costumes are centered in the Paint editor. 
 
-The `go to`{:class="block3motion"} `other sprite` block moves a sprite so that it's centre is in the same position as the centre of the other sprite. If their centres are in the wrong place, then your **character** won't go to the centre of the platforms.
+The `go to (other sprite)`{:class="block3motion"} block moves a sprite so that it's centre is in the same position as the centre of the other sprite. If their centres are in the wrong place, then your **character** won't go to the centre of the platforms.
 
 --- /collapse ---
 
