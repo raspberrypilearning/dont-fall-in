@@ -10,7 +10,7 @@ In this step, you will detect the player reaching the **End** platform to win th
 </div>
 
 
-You're going to add a `forever`{:class="block3control"} loop that checks if your **Character** is at platform level, and if so, `if`{:class="block3control"} it has reached the **End** platform.
+You're going to add a `forever`{:class="block3control"} loop that checks if your **character** is at platform level, and if so, `if`{:class="block3control"} it has reached the **End** platform.
 
 --- task ---
 **Choose:** Add a winning sound to your character.
@@ -115,9 +115,9 @@ end
 
 --- /collapse ---
 
-If you have a bug that we haven't covered here then let us know in the feedback, and if you fixed the bug yourself (well done!) let us know that too. 
+If you have a bug that we haven't covered here, then let us know in the feedback. If you fixed the bug yourself (well done!), let us know that too. 
 
-**Tip:** If you're stuck, try reading your code out loud or in your head and make sure it says what you think it does. You might find the bug.
+**Tip:** If you're stuck, try reading your code out loud or in your head to make sure it says what you think it does. You might find the bug.
 
 --- /task ---
 
