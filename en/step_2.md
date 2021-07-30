@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add a character and backdrop and create start and end platforms. 
+In this step, you will add a character and backdrop, and create start and end platforms. 
 </div>
 <div>
 ![](images/setup-example.png){:width="300px"}
@@ -25,7 +25,7 @@ Create a solid colour backdrop.
 
 --- task ---
 
-**Choose:** Will your character move from left to right or top to bottom? 
+**Choose:** Will your character move from left to right, or bottom to top? 
 
 ![](images/direction-examples.png)
 
@@ -57,15 +57,15 @@ Position your **End** sprite on the Stage where you want your character to finis
 
 --- task ---
 
-Create a character sprite. 
+Create a **character** sprite. 
 
-**Choose:** Do you want to add or paint a character sprite? 
+**Choose:** Do you want to add or paint a **character** sprite? 
 
-You might want to add a top-down character sprite such as **Tatiana**, **Taylor** or **Trisha**. 
+You might want to add a top-down **character** sprite such as **Tatiana**, **Taylor**, or **Trisha**. 
 
 ![Image of the top down sprites available in scratch](images/top-down-sprites.png)
 
-Or, paint your own character sprite. Start with simple shapes and add details later. Centre your costume in the Paint editor.
+Or, paint your own **character** sprite. Start with simple shapes and add details later. Centre your costume in the Paint editor.
 
 [[[generic-scratch3-draw-sprite]]]
 
@@ -73,17 +73,17 @@ Or, paint your own character sprite. Start with simple shapes and add details la
 
 --- task ---
 
-Your **Character** sprite needs a start script to get everything set up for the beginning of the game.
+Your **character** sprite needs a start script to get everything set up for the beginning of the game.
 
 --- collapse ---
 
 ---
-title: Get the Character ready to start
+title: Get your character ready to start
 ---
 
-Make a `variable`{:class="block3variables"} called `landed` and set it to the size your sprite should be when it has landed and is not jumping.
+Make a `variable`{:class="block3variables"} called `landed`, and set it to the size your sprite should be when it has landed and is not jumping.
 
-Get your character to go to the **Start** `when flag clicked`{:class="block3events"}. Add a `go to front layer`{:class="block3looks"} block so your character is on top of the platforms. 
+Get your character to go to the **Start** `when flag clicked`{:class="block3events"}. Add a `go to front layer`{:class="block3looks"} block, so your character is on top of the platforms. 
 
 **Character:**
 
@@ -123,7 +123,7 @@ The **Direction** property in the Sprite pane can be used to control the directi
 --- /task ---
 
 --- task ---
-Give your project a title that matches the theme you have chosen.
+Give your project a title that describes your game.
 --- /task ---
 
 --- save ---
