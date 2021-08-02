@@ -15,6 +15,8 @@ Here are some ideas you could try:
 - Add more platforms, or make more platforms appear when you get to the next level. You will need to consider what else needs to change, to make your game work on the second level, and reset correctly to the first level `when flag clicked`{:class="block3events"}.
 - Design your own top-down character in the Paint editor.
 
-Take a look at our [Don't fall in Scratch studio](https://scratch.mit.edu/studios/29601182){:target="_blank"} to see projects created by community members.
+Take a look at our [Don't fall in - Examples Scratch studio](https://scratch.mit.edu/studios/29599110){:target="_blank"} each project has a ‘See Inside’ link for you to open the project in Scratch, and look at the code to get ideas and see how they work. 
+
+For more inspiration, take a look at the [Don't fall in - Community Scratch studio](https://scratch.mit.edu/studios/29601182){:target="_blank"} to see projects created by community members.
 
 --- save ---
