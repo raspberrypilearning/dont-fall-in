@@ -5,7 +5,7 @@
 legend: Question 2 of 3
 ---
 
-This is is the code for a moving platform:
+This is the code for a moving platform:
 
 ```blocks3
 when I receive [start v]
@@ -15,11 +15,11 @@ if on edge, bounce
 end
 ```
 
-The game is too hard and it's not fun to play. What could you do to make it easier to play?
+The game is too hard, and it's not fun to play. What could you do to make it easier to play?
 
 --- choices ---
 
-- (x) Change the number in the `move`{:class="block3motion"} block to a **smaller** number.
+- (x) Change the number in the `move`{:class="block3motion"} block to a **smaller** number
 
   --- feedback ---
 
@@ -27,7 +27,7 @@ That's right. Making the number smaller will make the platform move a smaller nu
 
   --- /feedback ---
 
-- ( ) Change the number in the `move`{:class="block3motion"} block to a **bigger** number.
+- ( ) Change the number in the `move`{:class="block3motion"} block to a **bigger** number
 
   --- feedback ---
 

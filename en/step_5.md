@@ -17,9 +17,9 @@ Create a **Platform 1** sprite to land on.
 
 Paint a costume for your **Platform 1** sprite.
 
-**Tip:** If you want your sprite to `bounce`{:class="block3motion"} without the costume appearing to change direction you will need a costume that is symmetrical or set the rotation style to `don't rotate`{:class="block3motion"}. 
+**Tip:** If you want your sprite to `bounce`{:class="block3motion"} without the costume appearing to change direction, you will need a costume that is symmetrical, or set the rotation style to **Don't rotate**. 
 
-![The direction property popup menu in the Sprite pane with the dont rotate icon selected.](images/dont-rotate.png)
+![The direction property pop-up menu in the Sprite pane with the dont rotate icon selected.](images/dont-rotate.png)
 
 --- /task ---
 
@@ -57,7 +57,7 @@ end
 
 Duplicate your **Platform 1** sprite and name it **Platform 2** .
 
-**Choose:** If you want to have 3 platforms duplicate the **Platform 1** sprite again and name it **Platform 3**. 
+**Choose:** If you want to have 3 platforms, duplicate the **Platform 1** sprite again and name it **Platform 3**. 
 
 [[[scratch3-duplicate-sprite]]]
 
@@ -65,11 +65,11 @@ Experiment with the number of steps and the sprite size to make each platforms e
 
 --- /task ---
 
-Detect `if`{:class="block3control"} your **Character** sprite has landed on a **Platform** sprite and is safe, `else`{:class="block3control"} your **Character** sprite has fallen in!
+Detect `if`{:class="block3control"} your **character** sprite has landed on a **platform** sprite and is safe, `else`{:class="block3control"} your **character** sprite has fallen in!
 
 --- task ---
 
-Add code to your **Character** sprite to sense `if touching`{:class="block3sensing"} a colour on the **Platform** sprites.
+Add code to your **character** sprite to sense `if touching`{:class="block3sensing"} a colour on the **platform** sprites.
 
 **Choose:** If your platform has multiple colours, choose which colour your character needs to land on. You might want them to fall in if they are only on the edge!
 
@@ -117,7 +117,7 @@ end
 
 --- task ---
 
-Add code to your **Character** sprite to sense `if`{:class="block3control"} `touching`{:class="block3sensing"} the backdrop colour then end the game.
+Add code to your **character** sprite to sense `if`{:class="block3control"} `touching`{:class="block3sensing"} the backdrop colour, then end the game.
 
 --- collapse ---
 
@@ -163,13 +163,13 @@ end
 --- /task ---
 
 --- task ---
-**Test:** Play your game and try missing a platform, make sure you hear the lose sound.
+**Test:** Play your game and try missing a platform. Make sure you hear the lose sound.
 
 --- /task ---
 
 --- task ---
 
-Add code to your **Platform** sprites to stop them moving when the **Character** sprite reaches the **End platform** - or falls in!
+Add code to your **platform** sprites to stop them moving when the **character** sprite reaches the **End** platform — or falls in!
 
 ```blocks3
 when I receive [stop v]
@@ -179,7 +179,7 @@ stop [other scripts in sprite v]
 --- /task ---
 
 --- task ---
-**Test:** Play again and make sure the platforms stop when the game ends. The game ends when you reach the End platform, or when you fall in.
+**Test:** Play again and make sure the platforms stop when the game ends. The game ends when you reach the **End** platform, or when you fall in.
 
 --- /task ---
 
@@ -194,9 +194,9 @@ title: The game ends too soon
 
 Make sure you have the `if`{:class="block3control"} blocks in the correct order inside your `forever`{:class="block3control"} block. Check carefully against the example code.
 
-If you check that the **Character** is touching the backdrop before it has had chance to land on a platform then your game could end unfairly!
+If you check that the **character** is touching the backdrop before it has had chance to land on a platform, then your game could end unfairly!
 
-Make sure your `if`{:class="block3control"} blocks to check game conditions are inside an `if`{:class="block3control"} block that checks the size of the **Character** is normal. It's fine for your sprite to be touching the backdrop colour when jumping, it's only a problem if they land in the custard, lava, radio-active goo or whatever hazard you have chosen.
+Make sure your `if`{:class="block3control"} blocks to check game conditions are inside an `if`{:class="block3control"} block that checks the size of the **character** is normal. It's fine for your sprite to be touching the backdrop colour when jumping. It's only a problem if they land in the custard, lava, radio-active goo, or whatever hazard you have chosen.
 
 --- /collapse ---
 
@@ -206,13 +206,13 @@ Make sure your `if`{:class="block3control"} blocks to check game conditions are 
 title: The platforms don't stop when I win or lose
 ---
 
-Look at your **Platform** sprites `when I receive`{:class="block3events"} script and check the message is `stop`.
+Look at your **platform** sprites' `when I receive`{:class="block3events"} script and check the message is `stop`{:class="block3events"}.
 
 ```blocks3
 when I receive [stop v]
 stop [other scripts in sprite v]
 ```
-Check that the `broadcast`{:class="block3events"} block inside the win and lose `if`{:class="block3control"} blocks is `stop`. 
+Check that the `broadcast`{:class="block3events"} block inside the win and lose `if`{:class="block3control"} blocks is `stop`{:class="block3events"}. 
 
 ```blocks3
 broadcast (stop v)
@@ -223,7 +223,7 @@ broadcast (stop v)
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-There are lots of <span style="color: #0faeb0">platform games</span> including 2D and 3D ones. Platforms are common in obstacle (obby) games and parkour games. Some games have platforms that move or show and hide or gradually disappear when you jump on them. Can you think of games that you have played that have platforms that you have to jump on? What about games with moving platforms?
+There are lots of <span style="color: #0faeb0">platform games</span> including 2D and 3D ones. Platforms are common in obstacle (obby) games and parkour games. Some games have platforms that move, show and hide, or gradually disappear when you jump on them. Can you think of games that you have played that have platforms that you have to jump on? What about games with moving platforms?
 </p>
 
 --- save ----

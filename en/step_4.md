@@ -10,7 +10,7 @@ In this step, you will detect the player reaching the **End** platform to win th
 </div>
 
 
-You're going to add a `forever`{:class="block3control"} loop that checks if your **Character** is at platform level, and if so, `if`{:class="block3control"} it has reached the **End** platform.
+You're going to add a `forever`{:class="block3control"} loop that checks if your **character** is at platform level, and if so, `if`{:class="block3control"} it has reached the **End** platform.
 
 --- task ---
 **Choose:** Add a winning sound to your character.
@@ -46,7 +46,7 @@ It's a good idea to `broadcast`{:class="block3events"} a 'stop' message to let o
 
 --- /collapse ---
 
-You will need to set the colour that is sensed to the colour of your End platform.
+You will need to set the colour that is sensed to the colour of your **End** platform.
 
 [[[scratch3-set-block-input-colour-with-eyedropper]]]
 
@@ -71,9 +71,9 @@ You will need to set the colour that is sensed to the colour of your End platfor
 title: My sprite doesn't go to the centre of the End platform
 ---
 
-You need to make sure all your sprite costumes are centered in the 'Paint editor'. 
+You need to make sure all your sprite costumes are centered in the Paint editor. 
 
-The `go to`{:class="block3motion"} `other sprite` block moves a sprite so that it's center is in the same position as the center of the 'other sprite'. If their centers are in the wrong place then your **Character** won't go to the center of the platforms.
+The `go to (other sprite)`{:class="block3motion"} block moves a sprite so that it's centre is in the same position as the centre of the other sprite. If their centres are in the wrong place, then your **character** won't go to the centre of the platforms.
 
 --- /collapse ---
 
@@ -83,7 +83,7 @@ The `go to`{:class="block3motion"} `other sprite` block moves a sprite so that i
 title: The game ends too soon
 ---
 
-Check that your sprite isn't touching the End colour when it's not on the **End** platform - if you use the same colour elsewhere in your project then your character could die too soon.
+Check that your sprite isn't touching the End colour when it's not on the **End** platform — if you use the same colour elsewhere in your project, then your character could die too soon.
 
 --- /collapse ---
 
@@ -93,9 +93,9 @@ Check that your sprite isn't touching the End colour when it's not on the **End*
 title: The sound doesn't play when I land on the End platform
 ---
 
-Click on your **Character** sprite and then the 'Sounds' tab. Make sure you have added the end sound to your sprite. Click on the play button to make sure sound is working on your computer.
+Click on your **character** sprite and then the 'Sounds' tab. Make sure you have added the End sound to your sprite. Click on the **Play** button to make sure sound is working on your computer.
 
-Click on the 'Code' tab and check that the correct sound is in the `play sound`{:class="block3sounds"} block that runs when the sprite reaches the **End** platform.
+Click on the **Code** tab and check that the correct sound is in the `play sound`{:class="block3sounds"} block that runs when the sprite reaches the **End** platform.
 
 Make sure the colour is correct in the `touching colour`{:class="block3sensing"} block. Select it again if you're not sure. Sometimes colours look similar but aren't the same.
 
@@ -115,9 +115,9 @@ end
 
 --- /collapse ---
 
-If you have a bug that we haven't covered here then let us know in the feedback, and if you fixed the bug yourself (well done!) let us know that too. 
+If you have a bug that we haven't covered here, then let us know in the feedback. If you fixed the bug yourself (well done!), let us know that too. 
 
-**Tip:** If you're stuck, try reading your code out loud or in your head and make sure it says what you think it does. You might find the bug.
+**Tip:** If you're stuck, try reading your code out loud or in your head to make sure it says what you think it does. You might find the bug.
 
 --- /task ---
 

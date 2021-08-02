@@ -26,7 +26,7 @@ No, this block is used by one sprite to get it to do something when you click on
 
   --- /feedback ---
 
-- (x) `broadcast`{:class="block3events"}.
+- (x) `broadcast`{:class="block3events"}
 
   --- feedback ---
 
@@ -38,7 +38,7 @@ Yes, this block sends a message that can be used to communicate with other sprit
 
   --- feedback ---
 
-No, start can be a message that it sent but it is not a block.
+No, `start`{:class="block3events"} can be a message that the block sent, but it is not a block.
 
   --- /feedback ---
 
