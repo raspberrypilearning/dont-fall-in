@@ -106,6 +106,7 @@ broadcast (start v) // start other scripts
 --- /task ---
 
 --- task ---
+
 **Debug:**
 
 --- collapse ---
@@ -123,7 +124,9 @@ The **Direction** property in the Sprite pane can be used to control the directi
 --- /task ---
 
 --- task ---
+
 Give your project a title that describes your game.
+
 --- /task ---
 
 --- save ---
