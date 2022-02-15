@@ -20,6 +20,7 @@ Here are some things you can try to experiment with the difficulty:
 --- /task ---
 
 --- task ---
+
 **Play:** Playing your game is part of testing that your game works properly. It's also useful and fun!
 
 --- /task ---
