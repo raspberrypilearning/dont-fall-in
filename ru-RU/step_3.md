@@ -23,7 +23,9 @@ Now make your character jump across the Stage by pressing the <kbd>space</kbd> b
 
 --- /task ---
 
---- task --- **Test:** Tap the <kbd>space</kbd> bar or Stage to make your character jump across the Stage to the **End** platform.
+--- task ---
+
+**Test:** Tap the <kbd>space</kbd> bar or Stage to make your character jump across the Stage to the **End** platform.
 
 Adjust your code until the character jumps across the Stage in three or four jumps.
 
@@ -31,7 +33,9 @@ Adjust your code until the character jumps across the Stage in three or four jum
 
 **Tip:** It's really common for games to have a `forever`{:class="block3control"} block with `if`{:class="block3control"} statements inside it to do something when important conditions become true.
 
---- task --- **Debug:**
+--- task ---
+
+**Debug:**
 
 --- collapse ---
 
