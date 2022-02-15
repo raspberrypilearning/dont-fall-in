@@ -11,9 +11,15 @@ In this step, you will detect the player reaching the **End** platform to win th
 
 You're going to add a `forever`{:class="block3control"} loop that checks if your **character** is at platform level, and if so, `if`{:class="block3control"} it has reached the **End** platform.
 
---- task --- **Choose:** Add a winning sound to your character. --- /task ---
+--- task ---
 
---- task --- Add code to detect when your character reaches the **End** platform using `touching color`{:class="block3sensing"}.
+**Choose:** Add a winning sound to your character.
+
+--- /task ---
+
+--- task ---
+
+Add code to detect when your character reaches the **End** platform using `touching color`{:class="block3sensing"}.
 
 --- collapse ---
 
@@ -50,14 +56,18 @@ You will need to set the colour that is sensed to the colour of your **End** pla
 
 --- /task ---
 
---- task --- **Test:** Click the green flag and then jump your character across the Stage. Make sure you hear the winning sound when you reach the **End** platform.
+--- task ---
+
+**Test:** Click the green flag and then jump your character across the Stage. Make sure you hear the winning sound when you reach the **End** platform.
 
 **Tip:** It's really important that you test your project before moving to the next step and adding more code. It's harder to find and fix bugs when you have added more code.
 
 --- /task ---
 
 
---- task --- **Debug:**
+--- task ---
+
+**Debug:**
 
 --- collapse ---
 
