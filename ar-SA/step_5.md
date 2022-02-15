@@ -48,7 +48,9 @@ end
 
 --- /task ---
 
---- task --- **Test:** Click the green flag and make sure your platform moves correctly.
+--- task ---
+
+**Test:** Click the green flag and make sure your platform moves correctly.
 
 --- /task ---
 
@@ -109,7 +111,9 @@ end
 
 --- /task ---
 
---- task --- **Test:** Click the green flag and make sure your sprite can ride on the platforms.
+--- task ---
+
+**Test:** Click the green flag and make sure your sprite can ride on the platforms.
 
 --- /task ---
 
@@ -160,7 +164,9 @@ end
 
 --- /task ---
 
---- task --- **Test:** Play your game and try missing a platform. Make sure you hear the lose sound.
+--- task ---
+
+**Test:** Play your game and try missing a platform. Make sure you hear the lose sound.
 
 --- /task ---
 
@@ -175,11 +181,15 @@ stop [other scripts in sprite v]
 
 --- /task ---
 
---- task --- **Test:** Play again and make sure the platforms stop when the game ends. The game ends when you reach the **End** platform, or when you fall in.
+--- task ---
+
+**Test:** Play again and make sure the platforms stop when the game ends. The game ends when you reach the **End** platform, or when you fall in.
 
 --- /task ---
 
---- task --- **Debug:**
+--- task ---
+
+**Debug:**
 
 --- collapse ---
 
