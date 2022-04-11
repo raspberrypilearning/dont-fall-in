@@ -1,8 +1,8 @@
-## Adjust the difficulty
+## Ajuster la difficulté
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Is your game too hard or too easy? In this step, adjust the difficulty to get the gameplay just right. 
+Ton jeu est-il trop difficile ou trop facile ? Dans cette étape, ajustez la difficulté pour obtenir la meilleure jouabilité possible. 
 </div>
 <div>
 ![](images/difficulty-example.png){:width="300px"}
@@ -11,17 +11,17 @@ Is your game too hard or too easy? In this step, adjust the difficulty to get th
 
 --- task ---
 
-Here are some things you can try to experiment with the difficulty:
+Voici quelques trucs que tu peux essayer d'expérimenter avec la difficulté :
 
-+ Change the size of the platforms or character
-+ Change the speed that the platforms move at
-+ Change how long it takes the character to jump to make the timing harder
++ Modifier la taille des plateformes ou du personnage
++ Modifier la vitesse à laquelle les plateformes se déplacent
++ Modifier le temps que met le personnage à sauter pour rendre le timing plus difficile
 
 --- /task ---
 
 --- task ---
 
-**Play:** Playing your game is part of testing that your game works properly. It's also useful and fun!
+**Jouer :** Jouer à ton jeu fait partie du test du bon fonctionnement de ton jeu. C'est aussi utile et amusant !
 
 --- /task ---
 
