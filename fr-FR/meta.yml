@@ -1,7 +1,7 @@
 ---
-title: "Don't fall in!"
+title: "Ne tombe pas dedans !"
 hero_image: images/banner.png
-description: Design and create a top-down view obstacle or platform parkour game.
+description: Concevoir et créer un obstacle en vue de dessus ou un jeu de parcours de plateforme.
 version: 4
 listed: true
 copyedit: false
@@ -10,28 +10,28 @@ steps:
   - 
     title: Introduction
   - 
-    title: Choose your theme
+    title: Choisir ton thème
   - 
-    title: Jump, hop, bounce, or glide!
+    title: Saute, bondis, rebondis ou glisse !
     completion: engaged
   - 
-    title: Winner
+    title: Gagnant
   - 
-    title: Ride on platforms
+    title: Monter sur des plateformes
   - 
-    title: Adjust the difficulty
+    title: Ajuster la difficulté
     completion: internal
   - 
-    title: Reflection
+    title: Réflexion
+    completion: external
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
-    completion: external
   - 
-    title: Upgrade your project
+    title: Améliorer ton projet
   - 
-    title: Share
+    title: Partager
   - 
-    title: What next?
+    title: Et ensuite ?
