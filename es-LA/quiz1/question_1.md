@@ -1,27 +1,27 @@
-## Reflection
+## Reflexión
 
-Well done, you made a game and customised the game play! You learnt some useful ways to combine Scratch blocks to make a game, including:
-+ Using `forever`{:class="block3control"} blocks with `if`{:class="block3control"} statements to detect important **conditions** in your game and take action
-+ Broadcasting a `start`{:class="block3control"} message after setting up your character, so everything is ready when you start the game
-+ Broadcasting a `stop`{:class="block3control"} message when you detect a game end **condition** such as winning or losing, so that other scripts can stop and you can play a sound or do an animation before `stop [all]`{:class="block3control"}
+¡Bien hecho, creaste un juego y lo personalizaste! Aprendiste maneras útiles de combinar bloques de Scratch para crear un juego, que incluyen:
++ Usar bloques `por siempre`{:class="block3control"} con sentencias `si`{:class="block3control"} para detectar **condiciones** importantes en tu juego y pasar a la acción
++ Enviar un mensaje de `comenzar`{:class="block3control"} después de configurar tu personaje, para que todo esté listo cuando empieces el juego
++ Enviar un mensaje de `detener`{:class="block3control"} cuando detectas una ** condición ** de fin del juego, como ganar o perder, para que otros scripts puedan detenerse y puedas reproducir un sonido o hacer una animación antes de `detener [todos]`{:clase="bloque3control"}
 
-Now it's time to reflect — reflecting is an important part of learning because it helps make new connections in your brain.
+Ahora es momento de reflexionar: esta es una parte importante del aprendizaje porque te ayuda a establecer nuevas conexiones en tu cerebro.
 
-Answer the three questions below to reflect on what you've learnt.
+Responde las siguientes tres preguntas para reflexionar sobre lo que has aprendido.
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Después de cada pregunta presiona enviar. Vamos a guiarte hacia la respuesta correcta. Puedes realizar esta actividad tantas veces como quieras.
 
-Have fun!
+¡Qué te diviertas!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Pregunta 1 de 3
 ---
 
-![The Stage of a lava-jumping game. The character is on the end platform, a golden door.](images/quiz-lava-stage.png)
+![El Escenario de un juego de saltar la lava. El personaje está en la plataforma final, una puerta dorada.](images/quiz-lava-stage.png)
 
-You win this game by reaching the golden door, and lose if you land in the lava pit. The game isn't working. How could you fix it?
+Ganas este juego al llegar a la puerta dorada y pierdes si aterrizas en el pozo de lava. El juego no funciona. ¿Cómo podrías arreglarlo?
 
 ```blocks3
 when flag clicked
@@ -47,27 +47,27 @@ end
 
 --- choices ---
 
-- ( ) Change the colour in the 'check lose' condition
+- ( ) Cambiando el color en la condición 'comprueba si pierdes'
 
   --- feedback ---
 
-Close. The 'check lose' condition doesn't have the right colour, but just changing that won't make the game work.
+Casi. La condición de 'comprueba si pierdes' no tiene el color correcto, pero solo cambiarlo no hará que el juego funcione.
 
   --- /feedback ---
 
-- ( ) Change the colour in the 'check win' condition
+- ( ) Cambiando el color en la condición 'comprueba si ganas'
 
   --- feedback ---
 
-Close. The 'check win' condition doesn't have the right colour, but just changing that won't make the game work.
+Casi. La condición de 'comprueba si ganas' no tiene el color correcto, pero solo cambiarlo no hará que el juego funcione.
 
   --- /feedback ---
 
-- (x) Swap the colours in the 'check win' and 'check lose' conditions
+- (x) Intercambiar los colores en las condiciones de 'comprueba si ganas' y 'comprueba si pierdes'
 
   --- feedback ---
 
-Yes. The 'check lose' and 'check win' conditions have the colours the wrong way round! The player will win when they fall in the lava and lose when they reach the golden door! Swapping the conditions will fix this.
+Sí. ¡Las condiciones 'comprueba si pierdes' y 'comprueba si ganas' tienen los colores invertidos! ¡El jugador ganará cuando caiga en la lava y perderá cuando llegue a la puerta dorada! Intercambiar las condiciones solucionará esto.
 
   --- /feedback ---
 
