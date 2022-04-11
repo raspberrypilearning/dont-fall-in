@@ -1,8 +1,8 @@
-## Choose your theme
+## Choisir ton thème
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add a character and backdrop, and create start and end platforms. 
+Dans cette étape, tu vas ajouter un personnage et un arrière-plan, et créer des plateformes de début et de fin. 
 </div>
 <div>
 ![](images/setup-example.png){:width="300px"}
@@ -11,13 +11,13 @@ In this step, you will add a character and backdrop, and create start and end pl
 
 --- task ---
 
-Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"} and delete the cat sprite. Scratch will open in another browser tab.
+Ouvre un [nouveau projet Scratch](http://rpf.io/scratch-new){:target="_blank"} et supprime le sprite chat. Scratch s'ouvrira dans un autre onglet du navigateur.
 
 --- /task ---
 
 --- task ---
 
-Create a solid colour backdrop.
+Crée un arrière-plan de couleur unie.
 
 [[[scratch-paint-single-colour-backdrop]]]
 
@@ -25,7 +25,7 @@ Create a solid colour backdrop.
 
 --- task ---
 
-**Choose:** Will your character move from left to right, or bottom to top?
+**Choisir :** Ton personnage se déplacera-t-il de gauche à droite ou de bas en haut ?
 
 ![](images/direction-examples.png)
 
@@ -33,39 +33,39 @@ Create a solid colour backdrop.
 
 --- task ---
 
-Paint a new **Start** platform sprite.
+Peins un nouveau sprite de plateforme **Départ**.
 
-Start with a simple single coloured shape. You can add more detail later.
+Commence avec une forme simple d'une seule couleur. Tu pourras ajouter plus de détails ultérieurement.
 
-Centre your costume in the Paint editor.
+Centre ton costume dans l'éditeur de peinture.
 
 [[[scratch-crosshair]]]
 
-Position your **Start** platform sprite where you want your character to start the game.
+Positionne ton sprite de plateforme **Départ** à l'endroit où tu souhaites que ton personnage commence la partie.
 
 --- /task ---
 
 --- task ---
 
-Create a simple **End** platform sprite. You can add more detail later.
+Crée un simple sprite de plateforme **Fin**. Tu pourras ajouter plus de détails ultérieurement.
 
-Centre your costume in the Paint editor.
+Centre ton costume dans l'éditeur de peinture.
 
-Position your **End** sprite on the Stage where you want your character to finish the game.
+Positionne ton sprite **Fin** sur la scène où tu veux que ton personnage termine la partie.
 
 --- /task ---
 
 --- task ---
 
-Create a **character** sprite.
+Crée un sprite **personnage**.
 
-**Choose:** Do you want to add or paint a **character** sprite?
+**Choisir :** Veux-tu ajouter ou peindre un sprite **personnage** ?
 
-You might want to add a top-down **character** sprite such as **Tatiana**, **Taylor**, or **Trisha**.
+Tu voudras peut-être ajouter un sprite **personnage** en vue de dessus tel que **Tatiana**, **Taylor** ou **Trisha**.
 
-![Image of the top down sprites available in scratch](images/top-down-sprites.png)
+![Image des sprites de haut en bas disponible dans Scratch](images/top-down-sprites.png)
 
-Or, paint your own **character** sprite. Start with simple shapes and add details later. Centre your costume in the Paint editor.
+Ou, peins ton propre sprite **personnage**. Commence avec des formes simples et ajoute des détails plus tard. Centre ton costume dans l'éditeur de peinture.
 
 [[[generic-scratch3-draw-sprite]]]
 
@@ -73,19 +73,19 @@ Or, paint your own **character** sprite. Start with simple shapes and add detail
 
 --- task ---
 
-Your **character** sprite needs a start script to get everything set up for the beginning of the game.
+Ton sprite **personnage** a besoin d'un script de démarrage pour que tout soit configuré pour le début du jeu.
 
 --- collapse ---
 
 ---
-title: Get your character ready to start
+title: Préparer ton personnage à démarrer
 ---
 
-Make a `variable`{:class="block3variables"} called `landed`, and set it to the size your sprite should be when it has landed and is not jumping.
+Crée une `variable`{:class="block3variables"} appelée `atterri`et régle-la sur la taille que ton sprite devrait avoir lorsqu'il a atterri et ne saute pas.
 
-Get your character to go to the **Start** `when flag clicked`{:class="block3events"}. Add a `go to front layer`{:class="block3looks"} block, so your character is on top of the platforms.
+Demande à ton personnage d'aller au **Départ** `quand le drapeau est cliqué`{:class="block3events"}. Ajoute un bloc `aller à l'avant plan`{:class="block3looks"}, afin que ton personnage soit au-dessus des plateformes.
 
-**Character:**
+**Personnage :**
 
 ```blocks3
 when flag clicked // setup
@@ -97,27 +97,27 @@ show
 broadcast (start v) // start other scripts
 ```
 
-**Tip:** Uncheck the `landed`{:class="block3variables"} variable in the `Variables`{:class="block3variables"} Blocks menu so that it doesn't show on the Stage. The user doesn't need to see this variable.
+**Astuce :** Décoche la variable `atterri`{:class="block3variables"} dans le menu des blocs `Variables`{:class="block3variables"} afin qu'elle ne s'affiche pas sur la scène. L'utilisateur n'a pas besoin de voir cette variable.
 
 --- /collapse ---
 
-**Tip:** It's a good idea to `broadcast`{:class="block3events"} a `start`{:class="block3events"} message at the end of your setup script to let other scripts know when to start, otherwise they might start before everything is ready.
+**Astuce :** C'est une bonne idée d' `envoyer à tous`{:class="block3events"} un message `départ`{:class="block3events"} à la fin de ton script de configuration pour indiquer aux autres scripts quand commencer, sinon ils pourraient commencer avant que tout ne soit prêt.
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**Déboguer :**
 
 --- collapse ---
 
 ---
-title: My sprite is pointing in the wrong direction
+title: Mon sprite pointe dans la mauvaise direction
 ---
 
-The **Direction** property in the Sprite pane can be used to control the direction the sprite is pointing in. Turn the wheel to make a sprite point in the direction you need.
+La propriété **Direction** dans le volet Sprite peut être utilisée pour contrôler la direction dans laquelle pointe le sprite. Tourne la roue pour faire pointer un sprite dans la direction dont tu as besoin.
 
-![The sprite pane with direction property selected. A pop up menu is shown with a direction wheel used for adjusting the direction the sprite is pointing.](images/direction-property.png)
+![Le volet sprite avec la propriété direction sélectionnée. Un menu contextuel s'affiche avec une molette de direction utilisée pour ajuster la direction vers laquelle pointe le sprite.](images/direction-property.png)
 
 --- /collapse ---
 
@@ -125,7 +125,7 @@ The **Direction** property in the Sprite pane can be used to control the directi
 
 --- task ---
 
-Give your project a title that describes your game.
+Donne à ton projet un titre qui décrit ton jeu.
 
 --- /task ---
 
