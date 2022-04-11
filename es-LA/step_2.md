@@ -1,8 +1,8 @@
-## Choose your theme
+## Elige tu tema
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add a character and backdrop, and create start and end platforms. 
+En este paso, agregarás un personaje y un fondo, y crearás la plataforma inicial y la final. 
 </div>
 <div>
 ![](images/setup-example.png){:width="300px"}
@@ -11,13 +11,13 @@ In this step, you will add a character and backdrop, and create start and end pl
 
 --- task ---
 
-Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"} and delete the cat sprite. Scratch will open in another browser tab.
+Abre un [nuevo proyecto de Scratch](http://rpf.io/scratch-new){:target="_blank"} y elimina el objeto gato. Scratch se abrirá en otra pestaña del navegador.
 
 --- /task ---
 
 --- task ---
 
-Create a solid colour backdrop.
+Crea un fondo de color sólido.
 
 [[[scratch-paint-single-colour-backdrop]]]
 
@@ -25,7 +25,7 @@ Create a solid colour backdrop.
 
 --- task ---
 
-**Choose:** Will your character move from left to right, or bottom to top?
+**Elige:** ¿Tu personaje se moverá de izquierda a derecha o de abajo hacia arriba?
 
 ![](images/direction-examples.png)
 
@@ -33,39 +33,39 @@ Create a solid colour backdrop.
 
 --- task ---
 
-Paint a new **Start** platform sprite.
+Dibuja un nuevo objeto como plataforma de **Inicio**.
 
-Start with a simple single coloured shape. You can add more detail later.
+Empieza con una forma simple de un solo color. Puedes agregar más detalles después.
 
-Centre your costume in the Paint editor.
+Centra tu disfraz en el Editor de dibujos.
 
 [[[scratch-crosshair]]]
 
-Position your **Start** platform sprite where you want your character to start the game.
+Coloca tu objeto de plataforma **Inicio** donde quieras que tu personaje comience el juego.
 
 --- /task ---
 
 --- task ---
 
-Create a simple **End** platform sprite. You can add more detail later.
+Crea un objeto de plataforma **Fin**. Puedes agregar más detalles después.
 
-Centre your costume in the Paint editor.
+Centra tu disfraz en el Editor de dibujos.
 
-Position your **End** sprite on the Stage where you want your character to finish the game.
+Coloca tu objeto **Fin** donde quieras que tu personaje termine el juego.
 
 --- /task ---
 
 --- task ---
 
-Create a **character** sprite.
+Crea un objeto **personaje**.
 
-**Choose:** Do you want to add or paint a **character** sprite?
+**Elige:** ¿Quieres añadir o pintar un objeto **personaje**?
 
-You might want to add a top-down **character** sprite such as **Tatiana**, **Taylor**, or **Trisha**.
+Es posible que quieras agregar un objeto **personaje** que se vea en top-down (de arriba hacia abajo), como **Tatiana**, **Taylor** o **Trisha**.
 
-![Image of the top down sprites available in scratch](images/top-down-sprites.png)
+![Imagen de los objetos con vista de arriba hacia abajo disponibles en scratch](images/top-down-sprites.png)
 
-Or, paint your own **character** sprite. Start with simple shapes and add details later. Centre your costume in the Paint editor.
+O dibujar tu propio objeto **personaje**. Comienza con formas simples y agrega detalles más tarde. Centra tu disfraz en el Editor de dibujos.
 
 [[[generic-scratch3-draw-sprite]]]
 
@@ -73,19 +73,19 @@ Or, paint your own **character** sprite. Start with simple shapes and add detail
 
 --- task ---
 
-Your **character** sprite needs a start script to get everything set up for the beginning of the game.
+El objeto **personaje** tiene que tener un script de inicio para configurar todo lo necesario para que empiece el juego.
 
 --- collapse ---
 
 ---
-title: Get your character ready to start
+title: Prepara a tu personaje para empezar
 ---
 
-Make a `variable`{:class="block3variables"} called `landed`, and set it to the size your sprite should be when it has landed and is not jumping.
+Crea una `variable`{:class="block3variables"} llamada `aterrizaje` y configúrala con el tamaño que debería tener tu objeto cuando está apoyado y no está saltando.
 
-Get your character to go to the **Start** `when flag clicked`{:class="block3events"}. Add a `go to front layer`{:class="block3looks"} block, so your character is on top of the platforms.
+Haz que tu personaje vaya al **Inicio** `al presionar la bandera`{:class="block3events"}. Agrega el bloque `ir a la capa de adelante`{:class="block3looks"} para que tu personaje esté encima de las plataformas.
 
-**Character:**
+**Personaje:**
 
 ```blocks3
 when flag clicked // setup
@@ -97,27 +97,27 @@ show
 broadcast (start v) // start other scripts
 ```
 
-**Tip:** Uncheck the `landed`{:class="block3variables"} variable in the `Variables`{:class="block3variables"} Blocks menu so that it doesn't show on the Stage. The user doesn't need to see this variable.
+**Sugerencia:** Desmarca la variable `aterrizaje`{:class="block3variables"} en el menú de Bloques de `Variables`{:class="block3variables"} para que no se muestre en el Escenario. El usuario no necesita ver esta variable.
 
 --- /collapse ---
 
-**Tip:** It's a good idea to `broadcast`{:class="block3events"} a `start`{:class="block3events"} message at the end of your setup script to let other scripts know when to start, otherwise they might start before everything is ready.
+**Sugerencia:** Es una buena idea `enviar`{:class="block3events"} un mensaje de `inicio`{:class="block3events"} al final de tu script de configuración para que otros scripts sepan cuándo empezar, de lo contrario podrían hacerlo antes de que todo esté listo.
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**Depurar:**
 
 --- collapse ---
 
 ---
-title: My sprite is pointing in the wrong direction
+title: Mi objeto va en la dirección equivocada
 ---
 
-The **Direction** property in the Sprite pane can be used to control the direction the sprite is pointing in. Turn the wheel to make a sprite point in the direction you need.
+La propiedad **Dirección** en el panel Objeto se puede usar para controlar la dirección hacia la que va el objeto. Gira la rueda para hacer que un objeto apunte en la dirección que necesites.
 
-![The sprite pane with direction property selected. A pop up menu is shown with a direction wheel used for adjusting the direction the sprite is pointing.](images/direction-property.png)
+![El panel de objetos con la propiedad de dirección seleccionada. Se muestra un menú emergente con una rueda de dirección que se usa para ajustar la dirección hacia la que apunta el objeto.](images/direction-property.png)
 
 --- /collapse ---
 
@@ -125,7 +125,7 @@ The **Direction** property in the Sprite pane can be used to control the directi
 
 --- task ---
 
-Give your project a title that describes your game.
+Dale a tu proyecto un título que describa tu juego.
 
 --- /task ---
 
