@@ -1,10 +1,10 @@
-## Ride on platforms
+## Sube plataformas
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Well that's too easy! 
+Bueno, ¡eso es demasiado fácil! 
 
-In this step, you will add platforms to land on. Jumping on them will avoid falling in. 
+En este paso agregarás plataformas en las que aterrizar. Saltar sobre ellas evitará que te caigas. 
 </div>
 <div>
 ![](images/riding-example.png){:width="300px"}
@@ -13,26 +13,26 @@ In this step, you will add platforms to land on. Jumping on them will avoid fall
 
 --- task ---
 
-Create a **Platform 1** sprite to land on.
+Crea un objeto **Plataforma 1** para aterrizar.
 
-Paint a costume for your **Platform 1** sprite.
+Dibuja un disfraz para tu objeto **Plataforma 1**.
 
-**Tip:** If you want your sprite to `bounce`{:class="block3motion"} without the costume appearing to change direction, you will need a costume that is symmetrical, or set the rotation style to **Don't rotate**.
+**Sugerencia:** Si quieres hacer `rebotar`{:class="block3motion"} a tu objeto sin que parezca que el disfraz cambia de dirección, necesitarás un disfraz que sea simétrico o establecer el estilo de rotación en **No rotar**.
 
-![The direction property pop-up menu in the Sprite pane with the dont rotate icon selected.](images/dont-rotate.png)
+![El menú emergente de propiedades de dirección en el panel de objeto con el icono de no rotar seleccionado.](images/dont-rotate.png)
 
 --- /task ---
 
 --- task ---
 
-Add code to your **Platform 1** sprite to get it moving.
+Agrega código a tu objeto **Plataforma 1** para que se mueva.
 
-You may need your **Platform 1** sprite to `point in direction`{:class="block3motion"} `0` to move up and down the screen.
+Es posible que necesites que el objeto **Plataforma 1** `apunte en dirección`{:class="block3motion"} `0` para que se mueva hacia arriba y hacia abajo en la pantalla.
 
 --- collapse ---
 
 ---
-title: Make your platform move
+title: Haz que tu plataforma se mueva
 ---
 
 ```blocks3
@@ -50,34 +50,34 @@ end
 
 --- task ---
 
-**Test:** Click the green flag and make sure your platform moves correctly.
+**Prueba:** Haz clic en la bandera verde y asegúrate de que tu plataforma se mueva correctamente.
 
 --- /task ---
 
 --- task ---
 
-Duplicate your **Platform 1** sprite and name it **Platform 2** .
+Duplica tu objeto **Plataforma 1** y asígnale el nombre **Plataforma 2**.
 
-**Choose:** If you want to have 3 platforms, duplicate the **Platform 1** sprite again and name it **Platform 3**.
+**Elige:** Si quieres tener 3 plataformas, duplica el objeto **Plataforma 1** nuevamente y dale el nombre de **Plataforma 3**.
 
 [[[scratch3-duplicate-sprite]]]
 
-Experiment with the number of steps and the sprite size to make each platforms easier or harder to jump on.
+Experimenta con la cantidad de pasos y el tamaño de los objetos para hacer que cada plataforma sea más fácil o más difícil de saltar.
 
 --- /task ---
 
-Detect `if`{:class="block3control"} your **character** sprite has landed on a **platform** sprite and is safe, `else`{:class="block3control"} your **character** sprite has fallen in!
+Detecta `si`{:class="block3control"} tu objeto **personaje** ha aterrizado en un objeto **plataforma** y está a salvo, `si no`{:class="block3control"} ¡tu objeto **personaje** se ha caído!
 
 --- task ---
 
-Add code to your **character** sprite to sense `if touching`{:class="block3sensing"} a colour on the **platform** sprites.
+Añade código a tu objeto **personaje** para detectar `si toca`{:class="block3sensing"} un color en los objetos **plataforma**.
 
-**Choose:** If your platform has multiple colours, choose which colour your character needs to land on. You might want them to fall in if they are only on the edge!
+**Elige:** Si tu plataforma tiene varios colores, elige en qué color debe aterrizar tu personaje. ¡Tal vez quieras que se caigan si solo está en el borde!
 
 --- collapse ---
 
 ---
-title: If touching platform
+title: Si toca la plataforma
 ---
 
 ```blocks3
@@ -113,18 +113,18 @@ end
 
 --- task ---
 
-**Test:** Click the green flag and make sure your sprite can ride on the platforms.
+**Prueba:** Haz clic en la bandera verde y asegúrate de que tu objeto pueda subirse a las plataformas.
 
 --- /task ---
 
 --- task ---
 
-Add code to your **character** sprite to sense `if`{:class="block3control"} `touching`{:class="block3sensing"} the backdrop colour, then end the game.
+Agrega código a tu objeto **personaje** para detectar `si`{:class="block3control"} está `tocando`{:class="block3sensing"} el color de fondo, entonces finaliza el juego.
 
 --- collapse ---
 
 ---
-title: Else touching backdrop
+title: Si no toca el fondo
 ---
 
 ```blocks3
@@ -166,13 +166,13 @@ end
 
 --- task ---
 
-**Test:** Play your game and try missing a platform. Make sure you hear the lose sound.
+**Prueba:** Reproduce el juego e intenta no aterrizar en una plataforma. Asegúrate de escuchar el sonido de derrota.
 
 --- /task ---
 
 --- task ---
 
-Add code to your **platform** sprites to stop them moving when the **character** sprite reaches the **End** platform — or falls in!
+Agrega código a tus objetos de **plataforma** para que se dejen de mover cuando el objeto **personaje** llegue a la plataforma **Fin** ¡o se caiga!
 
 ```blocks3
 when I receive [stop v]
@@ -183,41 +183,41 @@ stop [other scripts in sprite v]
 
 --- task ---
 
-**Test:** Play again and make sure the platforms stop when the game ends. The game ends when you reach the **End** platform, or when you fall in.
+**Prueba:** Juega de nuevo y asegúrate de que las plataformas se detengan cuando termine el juego. El juego termina cuando llegas a la plataforma **Fin** o cuando te caes.
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**Depurar:**
 
 --- collapse ---
 
 ---
-title: The game ends too soon
+title: El juego termina demasiado pronto
 ---
 
-Make sure you have the `if`{:class="block3control"} blocks in the correct order inside your `forever`{:class="block3control"} block. Check carefully against the example code.
+Asegúrate de tener los bloques `si`{:class="block3control"} en el orden correcto dentro de tu bloque `por siempre`{:class="block3control"}. Compáralo cuidadosamente con el código de ejemplo.
 
-If you check that the **character** is touching the backdrop before it has had chance to land on a platform, then your game could end unfairly!
+Si compruebas que el **personaje** está tocando el fondo antes de que haya tenido la oportunidad de aterrizar en una plataforma, ¡entonces tu juego podría terminar injustamente!
 
-Make sure your `if`{:class="block3control"} blocks to check game conditions are inside an `if`{:class="block3control"} block that checks the size of the **character** is normal. It's fine for your sprite to be touching the backdrop colour when jumping. It's only a problem if they land in the custard, lava, radio-active goo, or whatever hazard you have chosen.
+Asegúrate de que tus bloques `si`{:class="block3control"} que verifican las condiciones del juego, estén dentro de un bloque `si`{:class="block3control"} que verifica que el tamaño del **personaje** es normal. Está bien que tu objeto toque el color de fondo al saltar. Solo es un problema si cae en la natilla, la lava, la sustancia radioactiva o cualquier peligro que hayas elegido.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The platforms don't stop when I win or lose
+title: Las plataformas no paran cuando gano o pierdo
 ---
 
-Look at your **platform** sprites' `when I receive`{:class="block3events"} script and check the message is `stop`{:class="block3events"}.
+Observa el script de tus objetos **plataforma** que dice `al recibir`{:class="block3events"} y verifica que el mensaje sea `detener`{:class="block3events"}.
 
 ```blocks3
 when I receive [stop v]
 stop [other scripts in sprite v]
 ```
-Check that the `broadcast`{:class="block3events"} block inside the win and lose `if`{:class="block3control"} blocks is `stop`{:class="block3events"}.
+Verifica que el bloque `enviar`{:class="block3events"} dentro de los bloques de ganar y perder `if`{:class="block3control"} sea `detener`{:class="block3events"}.
 
 ```blocks3
 broadcast (stop v)
@@ -228,7 +228,7 @@ broadcast (stop v)
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-There are lots of <span style="color: #0faeb0">platform games</span> including 2D and 3D ones. Platforms are common in obstacle (obby) games and parkour games. Some games have platforms that move, show and hide, or gradually disappear when you jump on them. Can you think of games that you have played that have platforms that you have to jump on? What about games with moving platforms?
+Hay muchos <span style="color: #0faeb0">juegos de plataforma</span> incluidos los 2D y 3D. Las plataformas son comunes en juegos de obstáculos (obby) y juegos de parkour. Algunos juegos tienen plataformas que se mueven, se muestran y ocultan, o desaparecen gradualmente cuando saltas sobre ellas. ¿Puedes pensar en juegos que hayas jugado que tengan plataformas en las que tengas que saltar? ¿Y juegos con plataformas móviles?
 </p>
 
 --- save ----
