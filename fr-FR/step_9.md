@@ -1,23 +1,23 @@
-## Share
+## Partager
 
-If you are in a club, why not share your project with friends?
+Si tu es dans un club, pourquoi ne pas partager ton projet avec des amis ?
 
-You could also show your family how your project works.
+Tu peux également montrer à ta famille comment fonctionne ton projet.
 
-If you have a Scratch account, you can share your project through Scratch. You can send a link to people you know, and the whole Scratch community will be able to find your project and try it out.
+Si tu as un compte Scratch, tu peux partager ton projet via Scratch. Tu peux envoyer un lien à des personnes que tu connais, et toute la communauté Scratch pourra trouver ton projet et l'essayer.
 
 [[[share-scratch]]]
 
-Why not invite your friends to create a project? Let them know how you had fun.
+Pourquoi ne pas inviter tes amis à créer un projet ? Fais-leur savoir combien tu t'es amusé(e).
 
-If you have a Scratch account, and have shared your **Don't fall in** project, keep an eye out for comments that others may make about your creation. Feedback is a great way to reflect on your work. Ignore any comments that are unhelpful or irrelevant.
+Si tu as un compte Scratch et que tu as partagé ton projet **Ne tombe pas dedans**, gardes un œil sur les commentaires que d'autres pourraient faire sur ta création. Les réactions et commentaires te donnent un excellent moyen de réfléchir à ton travail. Ignore les commentaires inutiles ou non pertinents.
 
 [[[comments-feedback-scratch]]]
 
 --- task ---
 
-Inspire the Raspberry Pi Foundation community with your project!
+Inspire la communauté Raspberry Pi Foundation avec ton projet !
 
-To submit your project to our ['Don't fall in - Community'](https://scratch.mit.edu/studios/29601182){:target="_blank"} Scratch studio, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+Pour soumettre ton projet à notre studio Scratch [Ne tombe pas dedans - Communité](https://scratch.mit.edu/studios/29601182){:target="_blank"}, il te suffit de remplir [ce formulaire](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
 
 --- /task ---
