@@ -1,15 +1,15 @@
-## Introduction
+## Introducción
 
-Design and build a top-down view, obstacle or platform, parkour game. Your character will need to jump, hop, glide, bounce, or fly to catch a ride on moving platforms and make it to the end.
+Diseña y construye un juego de parkour con obstáculos o plataformas con vista top-down (de arriba hacia abajo). Tu personaje tendrá que saltar, brincar, deslizarse, rebotar o volar para subirse a plataformas móviles y llegar al final.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Top-down/bird's-eye view games**</span> look down on the game from above. Sometimes the whole game has this view. Other games use top-down views when you enter a design mode. Can you think of any games you play that use top-down view? 
+<span style="color: #0faeb0">**Juegos con vista top-down/vista de pájaro**</span> miras el juego desde arriba. A veces todo el juego tiene esta vista. Otros juegos usan vistas de arriba hacia abajo cuando ingresas a un modo de diseño. ¿Puedes pensar en algún juego de los que usas que utilice la vista top-down (de arriba hacia abajo)? 
 </p>
 
-You will:
-+ Make a game with a goal using an algorithm that checks for important game conditions
-+ Personalise a game to your interests
-+ Adjust the difficulty of a game, so that it’s fun to play
+Vas a:
++ Crear un juego con un objetivo usando un algoritmo que verifica las condiciones importantes del juego
++ Personalizar un juego según tus intereses
++ Ajustar la dificultad de un juego para que sea divertido de jugar
 
 ![](images/example-strip.png)
 
@@ -20,18 +20,18 @@ You will:
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-### Try it 
+### Inténtalo 
 
-Click the space bar or tap the Stage to jump to the next platform. Time your jumps so you don't fall in the custard.
+Haz clic en la barra espaciadora o toca el escenario para saltar a la siguiente plataforma. Calcula bien el tiempo de tus saltos para no caer en la natilla.
 
-+ How does the game create a top-down view? 
-+ How does the character's size change when it flies? 
-+ What happens if you don’t land on a platform? (Go on, do fall in the custard!)
++ ¿Cómo crea el juego una vista top-down (de arriba hacia abajo)? 
++ ¿Cómo cambia el tamaño del personaje cuando vuela? 
++ ¿Qué pasa si no aterrizas en una plataforma? (¡Adelante, cae en la natilla!)
 
 </div>
 
 <div>
-**Don't fall in the custard!**: [See inside](https://scratch.mit.edu/projects/525202210/editor){:target="_blank"}
+**¡No caigas en la natilla!**: [Ver dentro](https://scratch.mit.edu/projects/525202210/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525202210/?autostart=false" frameborder="0"></iframe>
 </div>
@@ -40,25 +40,25 @@ Click the space bar or tap the Stage to jump to the next platform. Time your jum
 
 --- /task ---
 
-### Get inspiration
+### Inspírate
 
-You are going to make some design decisions to make a top-down platform game of your own. You'll choose the theme, colours, character, number of platforms, and the difficulty level.
+Vas a tomar algunas decisiones de diseño para crear tu propio juego de plataformas con vista top-down (de arriba hacia abajo). Elegirás el tema, los colores, el personaje, el número de plataformas y el nivel de dificultad.
 
 --- task ---
 
-Explore these example projects to get more ideas:
+Explora estos proyectos de ejemplo para obtener más ideas:
 
-**Baby bird**: [See inside](https://scratch.mit.edu/projects/525236983/editor){:target="_blank"}
+**Polluelo**: [Ver dentro](https://scratch.mit.edu/projects/525236983/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236983/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**Log hopper**: [See inside](https://scratch.mit.edu/projects/525236345/editor){:target="_blank"}
+**Saltador de troncos**: [Ver dentro](https://scratch.mit.edu/projects/525236345/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236345/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**Planet bounce**: [See inside](https://scratch.mit.edu/projects/525236603/editor){:target="_blank"}
+**Rebote de planetas**: [Ver dentro](https://scratch.mit.edu/projects/525236603/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236603/?autostart=false" frameborder="0"></iframe>
 </div>
@@ -68,11 +68,11 @@ Explore these example projects to get more ideas:
 
 --- print-only ---
 
-### Get inspiration
+### Inspírate
 
-You are going to make some design decisions to make a top-down platform game of your own. You'll choose the theme, colours, character, number of platforms and the difficulty level. See inside example projects in [Scratch 2: Don't fall in - Examples](https://scratch.mit.edu/studios/29599110/){:target="_blank"} Scratch studio.
+Vas a tomar algunas decisiones de diseño para crear tu propio juego de plataformas con vista top-down (de arriba hacia abajo). Elegirás el tema, los colores, el personaje, el número de plataformas y el nivel de dificultad. Ver dentro de los proyectos de ejemplo en el Scratch studio [Scratch 2: No te caigas- Ejemplos](https://scratch.mit.edu/studios/29599110/){:target="_blank"}.
 
-![The Stage from the 'dont fall in the custard' project.](images/custard.png) ![The Stage from the 'baby bird' project.](images/bird.png) ![The Stage from the 'log hopper' project.](images/frog.png) ![The Stage from the 'planet bounce' project.](images/space.png)
+![El escenario del proyecto 'no caigas en la natilla'.](images/custard.png) ![El escenario del proyecto 'polluelo'.](images/bird.png) ![El escenario del proyecto 'saltador de troncos'.](images/frog.png) ![El escenario del proyecto 'rebote de planetas'.](images/space.png)
 
 --- /print-only ---
 
