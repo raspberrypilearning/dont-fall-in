@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Question 2 sur 3
 ---
 
-This is the code for a moving platform:
+Voici le code d'une plateforme mobile :
 
 ```blocks3
 when I receive [start v]
@@ -15,23 +15,23 @@ if on edge, bounce
 end
 ```
 
-The game is too hard, and it's not fun to play. What could you do to make it easier to play?
+Le jeu est trop dur, et ce n'est pas amusant à jouer. Que pourrais-tu faire pour rendre le jeu plus facile ?
 
 --- choices ---
 
-- (x) Change the number in the `move`{:class="block3motion"} block to a **smaller** number
+- (x) Modifier le nombre dans le bloc `avancer`{:class="block3motion"} par un nombre **plus petit**
 
   --- feedback ---
 
-That's right. Making the number smaller will make the platform move a smaller number of steps each time the `forever`{:class="block3control"} loops runs so the platform will move more slowly. That makes it easier to jump on.
+C'est exact. En diminuant le nombre, la plateforme se déplacera d'un plus petit nombre de pas à chaque fois que les boucles `répéter indéfiniment`{:class="block3control"} s'exécuteront, de sorte que la plateforme se déplacera plus lentement. Cela rend le saut plus facile.
 
   --- /feedback ---
 
-- ( ) Change the number in the `move`{:class="block3motion"} block to a **bigger** number
+- ( ) Modifier le nombre dans le bloc `avancer`{:class="block3motion"} en un nombre **plus grand**
 
   --- feedback ---
 
-Making the platform move more steps each time the `forever`{:class="block3control"} loop runs will make it move faster. That will make the platform harder to jump on.
+Faire avancer la plateforme de plus de pas à chaque exécution de la boucle `répéter indéfiniment`{:class="block3control"} la fera avancer plus rapidement. Cela rendra la plateforme plus difficile à sauter.
 
   --- /feedback ---
 
