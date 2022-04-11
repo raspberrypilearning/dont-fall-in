@@ -1,15 +1,15 @@
 ## Introduction
 
-Design and build a top-down view, obstacle or platform, parkour game. Your character will need to jump, hop, glide, bounce, or fly to catch a ride on moving platforms and make it to the end.
+Conçois et construis un jeu de parkour en vue de dessus, avec obstacles ou plateformes. Ton personnage devra sauter, bondir, glisser, rebondir ou voler pour monter sur des plateformes mobiles et arriver à la fin.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Top-down/bird's-eye view games**</span> look down on the game from above. Sometimes the whole game has this view. Other games use top-down views when you enter a design mode. Can you think of any games you play that use top-down view? 
+<span style="color: #0faeb0">**Jeux avec vue de dessus/aérienne**</span> Regarde le jeu d'en haut. Parfois, le jeu entier a cette vue. D'autres jeux utilisent des vues de dessus lorsque tu entres dans un mode de conception. Peux-tu penser à des jeux auxquels tu joues qui utilisent la vue de dessus ? 
 </p>
 
-You will:
-+ Make a game with a goal using an algorithm that checks for important game conditions
-+ Personalise a game to your interests
-+ Adjust the difficulty of a game, so that it’s fun to play
+Tu vas devoir :
++ Créer un jeu avec un objectif en utilisant un algorithme qui vérifie les conditions de jeu importantes
++ Personnaliser un jeu selon tes intérêts
++ Ajuster la difficulté d'un jeu, pour qu'il soit amusant à jouer
 
 ![](images/example-strip.png)
 
@@ -20,18 +20,18 @@ You will:
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-### Try it 
+### Essaye-le 
 
-Click the space bar or tap the Stage to jump to the next platform. Time your jumps so you don't fall in the custard.
+Clique sur la barre d'espace ou appuie sur la scène pour passer à la plateforme suivante. Chronomètre tes sauts pour ne pas tomber dans la crème.
 
-+ How does the game create a top-down view? 
-+ How does the character's size change when it flies? 
-+ What happens if you don’t land on a platform? (Go on, do fall in the custard!)
++ Comment le jeu crée-t-il une vue de dessus ? 
++ Comment la taille du personnage change-t-elle lorsqu'il vole ? 
++ Que se passe-t-il si tu n'atterris pas sur une plateforme ? (Vas-y, tombe dans la crème !)
 
 </div>
 
 <div>
-**Don't fall in the custard!**: [See inside](https://scratch.mit.edu/projects/525202210/editor){:target="_blank"}
+**Ne tombe pas dans la crème !** : [Voir à l'intérieur](https://scratch.mit.edu/projects/525202210/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525202210/?autostart=false" frameborder="0"></iframe>
 </div>
@@ -40,39 +40,38 @@ Click the space bar or tap the Stage to jump to the next platform. Time your jum
 
 --- /task ---
 
-### Get inspiration
+### Trouve l'inspiration
 
-You are going to make some design decisions to make a top-down platform game of your own. You'll choose the theme, colours, character, number of platforms, and the difficulty level.
+Tu vas prendre des décisions de conception pour créer ton propre jeu de plateforme en vue de dessus. Tu choisiras le thème, les couleurs, le personnage, le nombre de plateformes et le niveau de difficulté.
 
 --- task ---
 
-Explore these example projects to get more ideas:
+Explore ces exemples de projets pour obtenir plus d'idées :
 
-**Baby bird**: [See inside](https://scratch.mit.edu/projects/525236983/editor){:target="_blank"}
+**Bébé oiseau** : [Voir à l'intérieur](https://scratch.mit.edu/projects/525236983/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236983/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**Log hopper**: [See inside](https://scratch.mit.edu/projects/525236345/editor){:target="_blank"}
+**Bondir sur des bûches** : [Voir à l'intérieur](https://scratch.mit.edu/projects/525236345/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236345/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**Planet bounce**: [See inside](https://scratch.mit.edu/projects/525236603/editor){:target="_blank"}
+**Rebondir sur des planètes** : [Voir à l'intérieur](https://scratch.mit.edu/projects/525236603/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236603/?autostart=false" frameborder="0"></iframe>
 </div>
---- /task ---
 
 --- /no-print ---
 
 --- print-only ---
 
-### Get inspiration
+### Trouve l'inspiration
 
-You are going to make some design decisions to make a top-down platform game of your own. You'll choose the theme, colours, character, number of platforms and the difficulty level. See inside example projects in [Scratch 2: Don't fall in - Examples](https://scratch.mit.edu/studios/29599110/){:target="_blank"} Scratch studio.
+Tu vas prendre des décisions de conception pour créer ton propre jeu de plateforme en vue de dessus. Tu choisiras le thème, les couleurs, le personnage, le nombre de plateformes et le niveau de difficulté. Voir à l'intérieur des exemples de projets dans [Scratch 2 : Ne tombe pas dedans - Exemples](https://scratch.mit.edu/studios/29599110/){:target="_blank"}Scratch Studio.
 
-![The Stage from the 'dont fall in the custard' project.](images/custard.png) ![The Stage from the 'baby bird' project.](images/bird.png) ![The Stage from the 'log hopper' project.](images/frog.png) ![The Stage from the 'planet bounce' project.](images/space.png)
+![La scène du projet "Ne tombe pas dans la crème".](images/custard.png) ![La scène du projet "Bébé oiseau".](images/bird.png) ![La scène du projet "Bondir sur des bûches".](images/frog.png) ![La scène du projet "Rebondir sur des planètes".](images/space.png)
 
 --- /print-only ---
 
