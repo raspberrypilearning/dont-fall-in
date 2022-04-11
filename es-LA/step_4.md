@@ -1,33 +1,33 @@
-## Winner
+## Ganador
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will detect the player reaching the **End** platform to win the game. 
+En este paso detectarás que jugador llegue a la plataforma **Fin** para ganar el juego. 
 </div>
 <div>
 ![](images/winner-aims.png){:width="300px"}
 </div>
 </div>
 
-You're going to add a `forever`{:class="block3control"} loop that checks if your **character** is at platform level, and if so, `if`{:class="block3control"} it has reached the **End** platform.
+Agregarás un bucle `por siempre`{:class="block3control"} que verifica si tu **personaje** está al nivel de la plataforma y, si es así, `si`{:class="block3control"} ha alcanzado la plataforma **Fin**.
 
 --- task ---
 
-**Choose:** Add a winning sound to your character.
+**Elige:** Agrega un sonido de victoria a tu personaje.
 
 --- /task ---
 
 --- task ---
 
-Add code to detect when your character reaches the **End** platform using `touching color`{:class="block3sensing"}.
+Agrega código para detectar cuándo tu personaje llega a la plataforma **Fin** usando `tocando el color`{: class="block3sensing"}.
 
 --- collapse ---
 
 ---
-title: End the game when touching colour
+title: Termina el juego tocando el color
 ---
 
-**Character**:
+**Personaje**:
 
 ```blocks3
 when I receive [start v]
@@ -44,64 +44,64 @@ end
 end
 ```
 
-It's a good idea to `broadcast`{:class="block3events"} a 'stop' message to let other sprites know the game has ended. The `stop other scripts in sprite`{:class="block3control"} block stops the loop that makes the character jump.
+Es una buena idea `enviar`{:class="block3events"} un mensaje de 'detener' para que otros objetos sepan que el juego ha terminado. El bloque `detener otros programas en el objeto`{:class="block3control"} detiene el bucle que hace que el personaje salte.
 
 --- /collapse ---
 
-You will need to set the colour that is sensed to the colour of your **End** platform.
+Tendrás que establecer que el color que se detecte sea el mismo color de tu plataforma **Fin**.
 
 [[[scratch3-set-block-input-colour-with-eyedropper]]]
 
-**Tip:** It's a good idea to `broadcast`{:class="block3events"} a `stop`{:class="block3events"} message when you detect that your game is finished so that other sprites can stop, but this sprite can do something such as playing a sound before it stops.
+**Sugerencia:** Es una buena idea `enviar`{:class="block3events"} un mensaje de `detener`{:class="block3events"} cuando detectes que tu juego ha terminado para que otros objetos puedan detenerse, pero este objeto puede hacer algo, como reproducir un sonido antes de que se detenga.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click the green flag and then jump your character across the Stage. Make sure you hear the winning sound when you reach the **End** platform.
+**Prueba:** Haz clic en la bandera verde y luego salta con tu personaje por el escenario. Asegúrate que escuches el sonido de victoria cuando llegues a la plataforma **Fin**.
 
-**Tip:** It's really important that you test your project before moving to the next step and adding more code. It's harder to find and fix bugs when you have added more code.
+**Sugerencia:** Es muy importante que pruebes tu proyecto antes de que pases al siguiente paso y agregues más código. Es más difícil encontrar y corregir errores cuando has agregado más código.
 
 --- /task ---
 
 
 --- task ---
 
-**Debug:**
+**Depurar:**
 
 --- collapse ---
 
 ---
-title: My sprite doesn't go to the centre of the End platform
+title: Mi objeto no va al centro de la plataforma de Fin
 ---
 
-You need to make sure all your sprite costumes are centered in the Paint editor.
+Tienes que asegurarte de que todos tus disfraces de objetos estén centrados en el Editor de dibujo.
 
-The `go to (other sprite)`{:class="block3motion"} block moves a sprite so that it's centre is in the same position as the centre of the other sprite. If their centres are in the wrong place, then your **character** won't go to the centre of the platforms.
+El bloque `ir a (otro objeto)`{:class="block3motion"} mueve un objeto para que su centro esté en la misma posición que el centro del otro objeto. Si sus centros están en el lugar equivocado, entonces tu **personaje** no irá al centro de las plataformas.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The game ends too soon
+title: El juego termina demasiado pronto
 ---
 
-Check that your sprite isn't touching the End colour when it's not on the **End** platform — if you use the same colour elsewhere in your project, then your character could die too soon.
+Verifica que tu objeto no esté tocando el color del Fin cuando no está en la plataforma **Fin**; si usas el mismo color en otra parte de tu proyecto, entonces tu personaje podría morir demasiado pronto.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The sound doesn't play when I land on the End platform
+title: El sonido no se reproduce cuando aterrizo en la plataforma Fin
 ---
 
-Click on your **character** sprite and then the 'Sounds' tab. Make sure you have added the End sound to your sprite. Click on the **Play** button to make sure sound is working on your computer.
+Haz clic en tu objeto **personaje** y luego en la pestaña 'Sonidos'. Asegúrate de haber agregado el sonido de Fin a tu objeto. Haz clic en el botón **Reproducir** para asegurarte de que el sonido funcione en tu computadora.
 
-Click on the **Code** tab and check that the correct sound is in the `play sound`{:class="block3sounds"} block that runs when the sprite reaches the **End** platform.
+Haz clic en la pestaña **Código** y verifica que el sonido correcto esté en el bloque `tocar sonido`{:class="block3sounds"} que se ejecuta cuando el objeto llega a la plataforma de **Fin**.
 
-Make sure the colour is correct in the `touching colour`{:class="block3sensing"} block. Select it again if you're not sure. Sometimes colours look similar but aren't the same.
+Asegúrate de que el color sea correcto en el bloque `tocando el color`{:class="block3sensing"}. Selecciónalo de nuevo si no estás seguro. A veces los colores se ven similares pero no son iguales.
 
 ```blocks3
 when I receive [start v]
@@ -119,9 +119,9 @@ end
 
 --- /collapse ---
 
-If you have a bug that we haven't covered here, then let us know in the feedback. If you fixed the bug yourself (well done!), let us know that too.
+Si tienes un error que no hemos incluido aquí, hazlo saber en los comentarios. Si solucionaste el error tú mismo (¡bien hecho!), háznoslo saber también.
 
-**Tip:** If you're stuck, try reading your code out loud or in your head to make sure it says what you think it does. You might find the bug.
+**Sugerencia:** Si te atascaste, intenta leer tu código en voz alta o mentalmente para asegurarte de que dice lo que tú crees. Puede que encuentres el error.
 
 --- /task ---
 
