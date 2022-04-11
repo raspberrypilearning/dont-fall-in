@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: Question 3 sur 3
 ---
 
-Which block should a sprite use to let another sprite know that something has happened?
+Quel bloc un sprite doit-il utiliser pour faire savoir à un autre sprite que quelque chose s'est produit ?
 
 --- choices ---
 
@@ -13,7 +13,7 @@ Which block should a sprite use to let another sprite know that something has ha
 
   --- feedback ---
 
-Not quite, this block is used to get a sprite to do something when it receives a message.
+Pas tout à fait, ce bloc est utilisé pour qu'un sprite fasse quelque chose lorsqu'il reçoit un message.
 
   --- /feedback ---
 
@@ -22,7 +22,7 @@ Not quite, this block is used to get a sprite to do something when it receives a
 
   --- feedback ---
 
-No, this block is used by one sprite to get it to do something when you click on it.
+Non, ce bloc est utilisé par un sprite pour lui faire faire quelque chose lorsque tu cliques dessus.
 
   --- /feedback ---
 
@@ -30,7 +30,7 @@ No, this block is used by one sprite to get it to do something when you click on
 
   --- feedback ---
 
-Yes, this block sends a message that can be used to communicate with other sprites.
+Oui, ce bloc envoie un message qui peut être utilisé pour communiquer avec d'autres sprites.
 
   --- /feedback ---
 
@@ -38,7 +38,7 @@ Yes, this block sends a message that can be used to communicate with other sprit
 
   --- feedback ---
 
-No, `start`{:class="block3events"} can be a message that the block sent, but it is not a block.
+Non, `départ`{:class="block3events"} peut être un message envoyé par le bloc, mais ce n'est pas un bloc.
 
   --- /feedback ---
 
