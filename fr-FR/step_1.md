@@ -63,6 +63,8 @@ Explore ces exemples de projets pour obtenir plus d'idées :
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/674889414/?autostart=false" frameborder="0"></iframe>
 </div>
 
+--- /task ---
+
 --- /no-print ---
 
 --- print-only ---
