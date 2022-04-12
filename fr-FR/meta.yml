@@ -1,0 +1,27 @@
+---
+title: "Ne tombe pas dedans !"
+hero_image: images/banner.png
+description: Concevoir et créer un obstacle en vue de dessus ou un jeu de parcours de plateforme.
+version: 4
+listed: true
+copyedit: false
+last_tested: "2021-03-26"
+steps:
+  - title: Introduction
+  - title: Choisir ton thème
+  - title: Saute, bondis, rebondis ou glisse !
+    completion: engaged
+  - title: Gagnant
+  - title: Monter sur des plateformes
+  - title: Ajuster la difficulté
+    completion: internal
+  - title: Réflexion
+    completion: external
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+  - title: Améliorer ton projet
+  - title: Partager
+  - title: Et ensuite ?
