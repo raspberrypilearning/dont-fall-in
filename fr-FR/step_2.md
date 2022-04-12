@@ -80,7 +80,7 @@ Ton sprite **personnage** a besoin d'un script de démarrage pour que tout soit 
 title: Préparer ton personnage à démarrer
 ---
 
-Crée une `variable`{:class="block3variables"} appelée `atterri`et régle-la sur la taille que ton sprite devrait avoir lorsqu'il a atterri et ne saute pas.
+Crée une `variable`{:class="block3variables"} appelée `atterri` et régle-la sur la taille que ton sprite devrait avoir lorsqu'il a atterri et ne saute pas.
 
 Demande à ton personnage d'aller au **Départ** `quand le drapeau est cliqué`{:class="block3events"}. Ajoute un bloc `aller à l'avant plan`{:class="block3looks"}, afin que ton personnage soit au-dessus des plateformes.
 

@@ -11,7 +11,7 @@ Si tu as le temps, tu peux perfectionner ton projet.
 
 Voici quelques idées que tu pourrais essayer :
 - Ajouter un autre niveau. Lorsque le joueur gagne, `envoyer à tous`{:class="block3events"} un message `niveau2`{:class="block3events"} et modifie la vitesse à laquelle les sprites se déplacent, en utilisant une variable `vitesse`{:class="block3variables"}.
-- Fais apparaître et disparaître des plateformes dans un bloc `répéter indéfiniment`{:class="block3control"} en utilisant `montrer`{:class="block3looks"}, `cacher`{:class="block3looks"} et `attendre`{:classe="block3control"}.
+- Fais apparaître et disparaître des plateformes dans un bloc `répéter indéfiniment`{:class="block3control"} en utilisant `montrer`{:class="block3looks"}, `cacher`{:class="block3looks"} et `attendre`{:class="block3control"}.
 - Ajoute plus de plateformes ou fais apparaître plus de plateformes lorsque tu passes au niveau suivant. Tu dois considérer ce qui doit encore changer, pour que ton jeu fonctionne au deuxième niveau, et réinitialiser correctement au premier niveau `quand le drapeau est cliqué`{:class="block3events"}.
 - Conçois ton propre personnage de haut en bas dans l'éditeur de peinture.
 
