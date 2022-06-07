@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Vraag 2 van 3
 ---
 
-This is the code for a moving platform:
+Dit is de code voor een bewegend platform:
 
 ```blocks3
 when I receive [start v]
@@ -15,23 +15,23 @@ if on edge, bounce
 end
 ```
 
-The game is too hard, and it's not fun to play. What could you do to make it easier to play?
+Het spel is te moeilijk en het is niet leuk om het te spelen. Wat zou je kunnen doen om het spel gemakkelijker te maken?
 
 --- choices ---
 
-- (x) Change the number in the `move`{:class="block3motion"} block to a **smaller** number
+- (x) Verander het getal in het `neem x stappen`{:class="block3motion"} blok in een **kleiner** getal
 
   --- feedback ---
 
-That's right. Making the number smaller will make the platform move a smaller number of steps each time the `forever`{:class="block3control"} loops runs so the platform will move more slowly. That makes it easier to jump on.
+Dat klopt. Door het aantal stappen kleiner te maken, zal het platform een kleiner aantal stappen bewegen elke keer dat de `herhaal`{:class="block3control"} lus loopt, zodat het platform langzamer beweegt. Dat maakt het makkelijker om op het platform te springen.
 
   --- /feedback ---
 
-- ( ) Change the number in the `move`{:class="block3motion"} block to a **bigger** number
+- ( ) Verander het getal in het `neem x stappen`{:class="block3motion"} blok in een **groter** getal
 
   --- feedback ---
 
-Making the platform move more steps each time the `forever`{:class="block3control"} loop runs will make it move faster. That will make the platform harder to jump on.
+Door het platform meer stappen te laten bewegen elke keer dat de `herhaal`{:class="block3control"} lus wordt uitgevoerd, zal het sneller bewegen. Dat maakt moeilijker om op het platform te springen.
 
   --- /feedback ---
 
