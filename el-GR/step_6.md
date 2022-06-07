@@ -1,8 +1,8 @@
-## Adjust the difficulty
+## Προσάρμοσε τη δυσκολία
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Is your game too hard or too easy? In this step, adjust the difficulty to get the gameplay just right. 
+Είναι το παιχνίδι σου πολύ δύσκολο ή πολύ εύκολο; Σε αυτό το βήμα, προσάρμοσε τη δυσκολία για να κάνεις το παιχνίδι όπως το προτιμάς. 
 </div>
 <div>
 ![](images/difficulty-example.png){:width="300px"}
@@ -11,17 +11,17 @@ Is your game too hard or too easy? In this step, adjust the difficulty to get th
 
 --- task ---
 
-Here are some things you can try to experiment with the difficulty:
+Εδώ είναι μερικά πράγματα που μπορείς να δοκιμάσεις για να πειραματιστείς με τη δυσκολία:
 
-+ Change the size of the platforms or character
-+ Change the speed that the platforms move at
-+ Change how long it takes the character to jump to make the timing harder
++ Άλλαξε το μέγεθος των πλατφορμών ή του χαρακτήρα
++ 'Αλλαξε την ταχύτητα με την οποία κινούνται οι πλατφόρμες
++ 'Αλλαξε πόσο χρόνο χρειάζεται ο χαρακτήρας για να πηδήξει για να κάνεις τον συγχρονισμό πιο δύσκολο
 
 --- /task ---
 
 --- task ---
 
-**Play:** Playing your game is part of testing that your game works properly. It's also useful and fun!
+**Παίξε:** Το να παίξεις το παιχνίδι σου αποτελεί μέρος της δοκιμής, ότι το παιχνίδι σου λειτουργεί σωστά. Είναι επίσης χρήσιμο και διασκεδαστικό!
 
 --- /task ---
 
