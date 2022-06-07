@@ -2,43 +2,43 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+القائمة: السؤال 3 من 3
 ---
 
-Which block should a sprite use to let another sprite know that something has happened?
+ما الكتلة التي يجب أن يستخدمها كائن ما لإعلام كائن آخر بحدوث شيء ما؟
 
 --- choices ---
 
-- ( ) `when I receive`{:class="block3events"}
+- ( ) `عندما أتلقى`{:class="block3events"}
 
   --- feedback ---
 
-Not quite, this block is used to get a sprite to do something when it receives a message.
+ليس تمامًا ، يتم استخدام هذه الكتلة لجعل الكائن يقوم بشيء ما عندما يتلقى رسالة.
 
   --- /feedback ---
 
-- ( ) `when this sprite clicked`{:class="block3events"}
+- ( ) `عندما الكائن تم نقر علية`{:class="block3events"}
 
 
   --- feedback ---
 
-No, this block is used by one sprite to get it to do something when you click on it.
+لا ، يتم استخدام هذه الكتلة بواسطة كائن واحد لجعله يفعل شيئًا ما عند النقر فوقه.
 
   --- /feedback ---
 
-- (x) `broadcast`{:class="block3events"}
+- (x) `بث`{:class="block3events"}
 
   --- feedback ---
 
-Yes, this block sends a message that can be used to communicate with other sprites.
+نعم ، هذه الكتلة ترسل رسالة يمكن استخدامها للتواصل مع كائنات أخرى.
 
   --- /feedback ---
 
-- ( ) `start`{:class="block3events"}
+- ( ) `أبدء`{:class="block3events"}
 
   --- feedback ---
 
-No, `start`{:class="block3events"} can be a message that the block sent, but it is not a block.
+لا ، `بدء`{: class = "block3events"} يمكن أن تكون رسالة ترسلها الكتلة البرمجية ولكنها ليست كتلة.
 
   --- /feedback ---
 
