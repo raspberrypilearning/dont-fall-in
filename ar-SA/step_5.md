@@ -1,10 +1,10 @@
-## Ride on platforms
+## ركوب على منصات
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Well that's too easy! 
+حسنًا ، هذا سهل للغاية! 
 
-In this step, you will add platforms to land on. Jumping on them will avoid falling in. 
+في هذه الخطوة ، ستضيف منصات لتهبط عليها. القفز عليها سوف يتجنب الوقوع فيها. 
 </div>
 <div>
 ![](images/riding-example.png){:width="300px"}
@@ -13,26 +13,26 @@ In this step, you will add platforms to land on. Jumping on them will avoid fall
 
 --- task ---
 
-Create a **Platform 1** sprite to land on.
+أنشئ **منصة 1** كائن للهبوط عليه.
 
-Paint a costume for your **Platform 1** sprite.
+ارسم زي الخاص بك **منصة 1** كائن.
 
-**Tip:** If you want your sprite to `bounce`{:class="block3motion"} without the costume appearing to change direction, you will need a costume that is symmetrical, or set the rotation style to **Don't rotate**.
+**نصيحة:** إذا كنت تريد أن يرتد الكائن الخاص بك إلى `ترتد`{:" class = "block3motion} بدون أن يظهر المظهر لتغيير الاتجاه ، فستحتاج إلى زي متماثل ، أو اضبط نمط التدوير على **لا تستدير**.
 
-![The direction property pop-up menu in the Sprite pane with the dont rotate icon selected.](images/dont-rotate.png)
+![القائمة المنبثقة لخاصية الاتجاه في جزء الكائن مع تحديد أيقونة عدم التدوير.](images/dont-rotate.png)
 
 --- /task ---
 
 --- task ---
 
-Add code to your **Platform 1** sprite to get it moving.
+أنشئ التعلياتك البرمجية **منصة 1** كائن للهبوط عليه.
 
-You may need your **Platform 1** sprite to `point in direction`{:class="block3motion"} `0` to move up and down the screen.
+قد تحتاج إلى كائن **منصة 1** إلى `في الاتجاه`{: class = "block3motion"} `0` للتحرك لأعلى ولأسفل الشاشة.
 
 --- collapse ---
 
 ---
-title: Make your platform move
+العنوان: اجعل الكائن الخاص بك يتحرك
 ---
 
 ```blocks3
@@ -50,34 +50,34 @@ end
 
 --- task ---
 
-**Test:** Click the green flag and make sure your platform moves correctly.
+**اختبار:** انقر فوق العلم الأخضر وتأكد من أن الكائن الخاص بك يتحرك بشكل صحيح.
 
 --- /task ---
 
 --- task ---
 
-Duplicate your **Platform 1** sprite and name it **Platform 2** .
+قم بتكرار كائن **منصة 1** الخاص بك وقم بتسميته **منصة 2**.
 
-**Choose:** If you want to have 3 platforms, duplicate the **Platform 1** sprite again and name it **Platform 3**.
+**اختر:** إذا كنت تريد أن يكون لديك 3 منصات ، قم بتكرار **منصة 1** كائن مرة أخرى وقم بتسميتها **منصة 3**.
 
 [[[scratch3-duplicate-sprite]]]
 
-Experiment with the number of steps and the sprite size to make each platforms easier or harder to jump on.
+جرب عدد الخطوات وحجم الرموز لجعل كل منصة أسهل أو يصعب القفز عليها.
 
 --- /task ---
 
-Detect `if`{:class="block3control"} your **character** sprite has landed on a **platform** sprite and is safe, `else`{:class="block3control"} your **character** sprite has fallen in!
+اكتشف `if`{ class = "block3control":} كائنك المكون من **الشخصية** قد هبط على **منصات** وهو آمن ، `else`{: class = "block3control"} الخاص بك **الشخصية** قد سقطت!
 
 --- task ---
 
-Add code to your **character** sprite to sense `if touching`{:class="block3sensing"} a colour on the **platform** sprites.
+أضف التعليمات البرمجية إلى الكائن **الشخصية** الخاص بك إلى الإحساس `if لمست`{: class = "block3sensing"} لون على **منصة** الكائن.
 
-**Choose:** If your platform has multiple colours, choose which colour your character needs to land on. You might want them to fall in if they are only on the edge!
+**اختر:** إذا كانت منصتك تحتوي على ألوان متعددة ، فاختر اللون الذي تريد شخصيتك أن تهبط عليه. قد ترغب في أن يسقطوا إذا كانوا على حافة الهاوية فقط!
 
 --- collapse ---
 
 ---
-title: If touching platform
+title: إذا لمس الكائن
 ---
 
 ```blocks3
@@ -113,18 +113,20 @@ end
 
 --- task ---
 
-**Test:** Click the green flag and make sure your sprite can ride on the platforms.
+**اختبار:** انقر فوق العلم الأخضر وتأكد من أن الكائن الخاص بك يمكنه الركوب على المنصات.
 
 --- /task ---
 
 --- task ---
 
-Add code to your **character** sprite to sense `if`{:class="block3control"} `touching`{:class="block3sensing"} the backdrop colour, then end the game.
+أضف رمزًا إلى الكائن **الشخصية** الخاص بك إلى الإحساس `if`{class="block3control":} 
+`لمس `{:class="block3sensing"} 
+ لون الخلفية ، ثم قم بإنهاء اللعبة.
 
 --- collapse ---
 
 ---
-title: Else touching backdrop
+title: خلفية مؤثرة أخرى
 ---
 
 ```blocks3
@@ -166,13 +168,13 @@ end
 
 --- task ---
 
-**Test:** Play your game and try missing a platform. Make sure you hear the lose sound.
+**اختبار:** العب لعبتك وحاول تفويت منصة. تأكد من سماع صوت الخسارة.
 
 --- /task ---
 
 --- task ---
 
-Add code to your **platform** sprites to stop them moving when the **character** sprite reaches the **End** platform — or falls in!
+أضف تعليمات البرمحية إلى **منصة ** الكائنات الخاص بك منعهم من التحرك عندما **شخصية** الكائن تصل الى **نهاية** المنصة أو يقع فيه!
 
 ```blocks3
 when I receive [stop v]
@@ -183,41 +185,46 @@ stop [other scripts in sprite v]
 
 --- task ---
 
-**Test:** Play again and make sure the platforms stop when the game ends. The game ends when you reach the **End** platform, or when you fall in.
+**اختبار:** العب مرة أخرى وتأكد من توقف المنصات عند انتهاء اللعبة. تنتهي اللعبة عندما تصل إلى منصة **نهاية** ، أو عندما تسقط فيها.
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**التصحيح:**
 
 --- collapse ---
 
 ---
-title: The game ends too soon
+title: تنتهي اللعبة في وقت قريب جدًا
 ---
 
-Make sure you have the `if`{:class="block3control"} blocks in the correct order inside your `forever`{:class="block3control"} block. Check carefully against the example code.
+تأكد من أن لديك `if`{class="block3control":}
+ كتل بالترتيب الصحيح داخل كتلتك `forever`{class="block3control":} block. تحقق بعناية من تعليمات البرمجية المثال.
 
-If you check that the **character** is touching the backdrop before it has had chance to land on a platform, then your game could end unfairly!
+إذا تحققت من أن **الشخصية** يلامس الخلفية قبل أن تتاح له فرصة الهبوط على منصة ، فقد تنتهي لعبتك بشكل غير عادل!
 
-Make sure your `if`{:class="block3control"} blocks to check game conditions are inside an `if`{:class="block3control"} block that checks the size of the **character** is normal. It's fine for your sprite to be touching the backdrop colour when jumping. It's only a problem if they land in the custard, lava, radio-active goo, or whatever hazard you have chosen.
+تأكد من أن `if`{class="block3control":}
+ الكتل تحقق من شروط اللعبة داخل `if`{class="block3control":}
+كتلة التي تتحقق من حجم **الشخصية** هو أمر طبيعي. لا بأس أن يلامس كائنك لون الخلفية عند القفز. إنها مشكلة فقط إذا هبطوا في الكاسترد أو الحمم البركانية أو اللزوجة المشعة أو أي خطر اخترته.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The platforms don't stop when I win or lose
+title: المنصات لا تتوقف عندما أفوز أو أخسر
 ---
 
-Look at your **platform** sprites' `when I receive`{:class="block3events"} script and check the message is `stop`{:class="block3events"}.
+انظر إلى **المنصة** الخاص بك الكائن `عندما أتلقى`{:" class="block3events}
+نص وتحقق من أن الرسالة هي `التوقف`{:" class="block3events}.
 
 ```blocks3
 when I receive [stop v]
 stop [other scripts in sprite v]
 ```
-Check that the `broadcast`{:class="block3events"} block inside the win and lose `if`{:class="block3control"} blocks is `stop`{:class="block3events"}.
+تحقق من أن `البث`{: class = "block3events"} الكتلة داخل الفوز وخسارة `if`{class="block3control":}
+كتل `توقف`{: "class="block3events}.
 
 ```blocks3
 broadcast (stop v)
@@ -228,7 +235,7 @@ broadcast (stop v)
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-There are lots of <span style="color: #0faeb0">platform games</span> including 2D and 3D ones. Platforms are common in obstacle (obby) games and parkour games. Some games have platforms that move, show and hide, or gradually disappear when you jump on them. Can you think of games that you have played that have platforms that you have to jump on? What about games with moving platforms?
+لا يوجد الكثير <span style="color: #0faeb0">منصة ألعاب</span> في ذلك الألعاب ثنائية وثلاثية الأبعاد. المنصات شائعة في ألعاب العوائق (obby) وألعاب الباركور. تحتوي بعض الألعاب على منصات تتحرك وتظهر وتختبئ أو تختفي تدريجيًا عند القفز عليها. هل يمكنك التفكير في الألعاب التي لعبتها والتي تحتوي على منصات يجب عليك القفز عليها؟ ماذا عن الألعاب ذات المنصات المتحركة؟
 </p>
 
 --- save ----
