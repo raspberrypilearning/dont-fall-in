@@ -1,37 +1,40 @@
 ---
-title: "Don't fall in!"
+title: لا تسقط!
 hero_image: images/banner.png
-description: Design and create a top-down view obstacle or platform parkour game.
+description: تصميم وانشاء عرض من أعلى لأسفل ، أو عقبة أو منصة ، لعبة باركور.
 version: 4
 listed: true
 copyedit: false
-last_tested: "2021-03-26"
+last_tested: '2021-03-26'
 steps:
   - 
-    title: Introduction
+    title: المقدمة
   - 
-    title: Choose your theme
+    title: اختر الموضوع الخاص بك
   - 
-    title: Jump, hop, bounce, or glide!
-    completion: engaged
+    title: القفز ، النّط ،الارتداد ،او الانزلاق!
+    completion:
+      - engaged
   - 
-    title: Winner
+    title: الفائز
   - 
-    title: Ride on platforms
+    title: ركوب على منصات
   - 
-    title: Adjust the difficulty
-    completion: internal
+    title: اضبط مستوى الصعوبة
+    completion:
+      - internal
   - 
-    title: Reflection
-    completion: external
+    title: انعكاس
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
-    title: Upgrade your project
+    title: قم بترقية مشروعك
   - 
-    title: Share
+    title: مشاركة
   - 
-    title: What next?
+    title: ماهو التالي؟
