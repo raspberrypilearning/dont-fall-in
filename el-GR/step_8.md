@@ -1,22 +1,22 @@
-## Upgrade your project
+## Αναβάθμισε το έργο σου
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-If you have time, you can upgrade your project. 
+Εάν έχεις χρόνο, μπορείς να αναβαθμίσεις το έργο σου. 
 </div>
 <div>
 ![](images/upgrade-example.png){:width="300px"}
 </div>
 </div>
 
-Here are some ideas you could try:
-- Add another level. When the player wins, `broadcast`{:class="block3events"} a `level2`{:class="block3events"} message and change the speed that the sprites move at, using a `speed`{:class="block3variables"} variable.
-- Make platforms appear and disappear in a `forever`{:class="block3control"} block using `show`{:class="block3looks"}, `hide`{:class="block3looks"}, and `wait`{:class="block3control"}.
-- Add more platforms, or make more platforms appear when you get to the next level. You will need to consider what else needs to change, to make your game work on the second level, and reset correctly to the first level `when flag clicked`{:class="block3events"}.
-- Design your own top-down character in the Paint editor.
+Εδώ είναι μερικές ιδέες που μπορείς να δοκιμάσεις:
+- Πρόσθεσε άλλο ένα επίπεδο. Όταν ο παίκτης κερδίζει, `μετάδωσε`{:class="block3events"} ένα μήνυμα `επίπεδο2`{:class="block3events"} και άλλαξε την ταχύτητα με την οποία κινούνται τα αντικείμκενα, χρησιμοποιώντας μία μεταβλητή `ταχύτητα`{:class="block3variables "}.
+- Κάνε τις πλατφόρμες να εμφανίζονται και να εξαφανίζονται σε ένα μπλοκ `για πάντα`{:class="block3control"} χρησιμοποιώντας `εμφανίσου`{:class="block3looks"}, `εξαφανίσου`{:class="block3looks"} και `περίμενε`{: class="block3control"}.
+- Πρόσθεσε περισσότερες πλατφόρμες ή κάνε περισσότερες πλατφόρμες να εμφανίζονται όταν φτάσεις στο επόμενο επίπεδο. Θα πρέπει να σκεφτείς τι άλλο πρέπει να αλλάξεις, για να κάνεις το παιχνίδι σου να λειτουργεί στο δεύτερο επίπεδο και να επαναφέρεις σωστά το πρώτο επίπεδο `όταν γίνει κλικ στη σημαία`{:class="block3events"}.
+- Σχεδιάσε τον δικό σου χαρακτήρα από ψηλά στο πρόγραμμα επεξεργασίας Ζωγραφική.
 
-Take a look at our [Don't fall in - Examples Scratch studio](https://scratch.mit.edu/studios/29599110){:target="_blank"} each project has a **See Inside** link for you to open the project in Scratch, and look at the code to get ideas and see how they work.
+Ρίξε μια ματιά στο [Scratch studio Μην πέσεις - Παραδείγματα](https://scratch.mit.edu/studios/29599110){:target="_blank"}, κάθε έργο έχει έναν σύνδεσμο **Δείτε μέσα** για να ανοίξεις το έργο στο Scratch και δες τον κώδικα για να πάρεις ιδέες και κοίτα πώς λειτουργούν.
 
-For more inspiration, take a look at the [Don't fall in - Community Scratch studio](https://scratch.mit.edu/studios/29601182){:target="_blank"} to see projects created by community members.
+Για περισσότερη έμπνευση, ρίξε μια ματιά στο [Scratch studio της Κοινότητας - Μην πέσεις](https://scratch.mit.edu/studios/29601182){:target="_blank"} για να δεις έργα που δημιουργούνται από μέλη της κοινότητας.
 
 --- save ---
