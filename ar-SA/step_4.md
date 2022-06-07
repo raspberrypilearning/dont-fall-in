@@ -1,33 +1,35 @@
-## Winner
+## الفائز
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will detect the player reaching the **End** platform to win the game. 
+في هذه الخطوة ، ستكتشف وصول اللاعب إلى المنصة ** النهاية ** للفوز باللعبة. 
 </div>
 <div>
 ![](images/winner-aims.png){:width="300px"}
 </div>
 </div>
 
-You're going to add a `forever`{:class="block3control"} loop that checks if your **character** is at platform level, and if so, `if`{:class="block3control"} it has reached the **End** platform.
+ستضيف `forever`{class="block3control":} 
+حلقة للتحقق مما إذا كان **الشخصية الخاص بك** على مستوى المنصة ، وإذا كان الأمر كذلك ، فإن `if` 
+{:" class = "block3control} قد وصل إلى **نهاية** منصة.
 
 --- task ---
 
-**Choose:** Add a winning sound to your character.
+**اختر:** أضف صوتًا رابحًا إلى شخصيتك.
 
 --- /task ---
 
 --- task ---
 
-Add code to detect when your character reaches the **End** platform using `touching color`{:class="block3sensing"}.
+أضف التعليمات البرمجية لاكتشاف متى تصل شخصيتك إلى **نهاية** المنصة باستخدام `ملامس للون` {:" class = "block3sensing}.
 
 --- collapse ---
 
 ---
-title: End the game when touching colour
+title: قم بإنهاء اللعبة عند لمس اللون
 ---
 
-**Character**:
+**الشخصية**:
 
 ```blocks3
 when I receive [start v]
@@ -44,64 +46,64 @@ end
 end
 ```
 
-It's a good idea to `broadcast`{:class="block3events"} a 'stop' message to let other sprites know the game has ended. The `stop other scripts in sprite`{:class="block3control"} block stops the loop that makes the character jump.
+إنها لفكرة جيدة لـ `بث` {:"class = "block3events} رسالة "إيقاف" لإعلام الكائنات الأخرى بأن اللعبة قد انتهت. `توقف النصية الأخرى في الكائن`{:" class = "block3control} توقف الحلقة التي تجعل الشخصية يقفز.
 
 --- /collapse ---
 
-You will need to set the colour that is sensed to the colour of your **End** platform.
+سوف تحتاج إلى ضبط اللون الذي يتم استشعاره على لون الخاص بك **النهاية** المنصة.
 
 [[[scratch3-set-block-input-colour-with-eyedropper]]]
 
-**Tip:** It's a good idea to `broadcast`{:class="block3events"} a `stop`{:class="block3events"} message when you detect that your game is finished so that other sprites can stop, but this sprite can do something such as playing a sound before it stops.
+**نصيحة:** إنها فكرة جيدة أن تقوم `بالبث` {:" class = "block3events} `توقف` {:" class = "block3events} رسالة عندما تكتشف أن لعبتك قد انتهت بحيث يمكن أن تتوقف الكائنات الحية الأخرى ، ولكن هذا يمكن للكائن أن يفعل شيئًا مثل تشغيل صوت قبل أن يتوقف.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click the green flag and then jump your character across the Stage. Make sure you hear the winning sound when you reach the **End** platform.
+** اختبار: ** انقر فوق العلم الأخضر ثم قفز شخصيتك عبر المنصة. تأكد من سماع الصوت الفائز عندما تصل إلى منصة **النهاية**.
 
-**Tip:** It's really important that you test your project before moving to the next step and adding more code. It's harder to find and fix bugs when you have added more code.
+**نصيحة:** من المهم حقًا أن تختبر مشروعك قبل الانتقال إلى الخطوة التالية وإضافة المزيد من التعليمات البرمجية. من الصعب العثور على الأخطاء وإصلاحها عند إضافة المزيد من التعليمات البرمجية.
 
 --- /task ---
 
 
 --- task ---
 
-**Debug:**
+**التصحيح:**
 
 --- collapse ---
 
 ---
-title: My sprite doesn't go to the centre of the End platform
+title: لا ينتقل الكائن الخاص بي إلى مركز منصة النهاية
 ---
 
-You need to make sure all your sprite costumes are centered in the Paint editor.
+تحتاج إلى التأكد من أن جميع أزياء الرموز الخاصة بك مركزة في محرر الرسام.
 
-The `go to (other sprite)`{:class="block3motion"} block moves a sprite so that it's centre is in the same position as the centre of the other sprite. If their centres are in the wrong place, then your **character** won't go to the centre of the platforms.
+يقوم `إلى (كائن آخر)`{:" class = "block3motion} الكتلة بتحريك الكائن بحيث يكون مركزه في نفس موضع مركز الكائن الآخر. إذا كانت مراكزهم في المكان الخطأ ، فلن ينتقل الطابع **الشخصية** الخاص بك إلى وسط منصات.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The game ends too soon
+title: تنتهي اللعبة في وقت قريب جدًا
 ---
 
-Check that your sprite isn't touching the End colour when it's not on the **End** platform — if you use the same colour elsewhere in your project, then your character could die too soon.
+تأكد من أن الكائن الخاص بك لا يلمس لون النهاية عندما لا يكون على منصة **النهاية** - إذا كنت تستخدم نفس اللون في مكان آخر في مشروعك ، فقد تموت شخصيتك في وقت قريب جدًا.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The sound doesn't play when I land on the End platform
+title: لا يتم تشغيل الصوت عندما أصعد على منصة النهاية
 ---
 
-Click on your **character** sprite and then the 'Sounds' tab. Make sure you have added the End sound to your sprite. Click on the **Play** button to make sure sound is working on your computer.
+انقر على **الشخصية** كائن ثم على علامة التبويب "الأصوات". تأكد من أنك أضفت صوت النهاية إلى كائنك. انقر فوق الزر **تشغيل** للتأكد من عمل الصوت على جهاز الكمبيوتر الخاص بك.
 
-Click on the **Code** tab and check that the correct sound is in the `play sound`{:class="block3sounds"} block that runs when the sprite reaches the **End** platform.
+Click on the **Code** tab and check that the correct sound is in the `play sound`{:class="block3sound"} block that runs when the sprite reaches the **End** platform.
 
-Make sure the colour is correct in the `touching colour`{:class="block3sensing"} block. Select it again if you're not sure. Sometimes colours look similar but aren't the same.
+تأكد من صحة اللون في كتلة اللون `لمس اللون`{:" class = "block3sensing}. حدده مرة أخرى إذا لم تكن متأكدًا. تبدو الألوان أحيانًا متشابهة ولكنها ليست متشابهة.
 
 ```blocks3
 when I receive [start v]
@@ -119,9 +121,9 @@ end
 
 --- /collapse ---
 
-If you have a bug that we haven't covered here, then let us know in the feedback. If you fixed the bug yourself (well done!), let us know that too.
+إذا كان لديك خطأ لم نغطه هنا ، فأخبرنا بذلك في التعليقات. إذا أصلحت الخطأ بنفسك (أحسنت!) ، فأخبرنا بذلك أيضًا.
 
-**Tip:** If you're stuck, try reading your code out loud or in your head to make sure it says what you think it does. You might find the bug.
+**نصيحة:** إذا كنت عالقًا ، فحاول قراءة التعليمات البرمجية الخاص بك بصوت عالٍ أو في رأسك للتأكد من أنه يوضح ما تعتقد أنه يفعله. قد تجد الخطأ.
 
 --- /task ---
 
