@@ -1,27 +1,27 @@
-## Reflection
+## Αναστοχασμός
 
-Well done, you made a game and customised the game play! You learnt some useful ways to combine Scratch blocks to make a game, including:
-+ Using `forever`{:class="block3control"} blocks with `if`{:class="block3control"} statements to detect important **conditions** in your game and take action
-+ Broadcasting a `start`{:class="block3control"} message after setting up your character, so everything is ready when you start the game
-+ Broadcasting a `stop`{:class="block3control"} message when you detect a game end **condition** such as winning or losing, so that other scripts can stop and you can play a sound or do an animation before `stop [all]`{:class="block3control"}
+Μπράβο, έφτιαξες ένα παιχνίδι και προσάρμοσες τον τρόπο που λειτουργεί! Έμαθες μερικούς χρήσιμους τρόπους για να συνδυάσεις μπλοκ Scratch για να δημιουργήσεις ένα παιχνίδι, όπως:
++ Να χρησιμοποιείς μπλοκ `για πάντα`{:class="block3control"} με δηλώσεις `εάν`{:class="block3control"} για να εντοπίσεις σημαντικές **συνθήκες** στο παιχνίδι σου και να αναλάβεις δράση
++ Να μεταδίδεις μήνυμα `έναρξη`{:class="block3control"} μετά την προετοιμασία του χαρακτήρα σου, ώστε όλα να είναι έτοιμα όταν ξεκινήσεις το παιχνίδι
++ Να μεταδίσεις μήνυμα `λήξη`{:class="block3control"} όταν εντοπίσεις μια **συνθήκη ** λήξης παιχνιδιού, όπως νίκη ή ήττα, έτσι ώστε άλλα σενάρια να μπορούν να σταματήσουν και να μπορείς να παίξεις έναν ήχο ή να κάνεις μια κινούμενη εικόνα πριν από το `σταμάτα [all]`{:class="block3control"}
 
-Now it's time to reflect — reflecting is an important part of learning because it helps make new connections in your brain.
+Τώρα, ήρθε η ώρα να εξετάσεις τις νέες γνώσεις- ο αναστοχασμός είναι σημαντικό μέρος της μάθησης, επειδή βοηθά στη δημιουργία νέων συνδέσεων στον εγκέφαλό σου.
 
-Answer the three questions below to reflect on what you've learnt.
+Απάντησε στις τρεις ερωτήσεις παρακάτω για να διαπιστώσεις τι έμαθες.
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Μετά από κάθε ερώτηση, πάτησε Υποβολή. Θα οδηγηθείς στη σωστή απάντηση. Μπορείς να επαναλάβεις αυτήν τη δραστηριότητα όσες φορές θέλεις.
 
-Have fun!
+Καλή διασκέδαση!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Ερώτηση 1 από 3
 ---
 
-![The Stage of a lava-jumping game. The character is on the end platform, a golden door.](images/quiz-lava-stage.png)
+![Η Σκηνή ενός παιχνιδιού άλματος πάνω από λάβα. Ο χαρακτήρας βρίσκεται στην τελική πλατφόρμα, μια χρυσή πόρτα.](images/quiz-lava-stage.png)
 
-You win this game by reaching the golden door, and lose if you land in the lava pit. The game isn't working. How could you fix it?
+Κερδίζεις αυτό το παιχνίδι φτάνοντας στη χρυσή πόρτα και χάνεις αν προσγειωθείς στο λάκκο με τη λάβα. Το παιχνίδι δεν λειτουργεί. Πώς θα μπορούσες να το διορθώσεις;
 
 ```blocks3
 when flag clicked
@@ -47,27 +47,27 @@ end
 
 --- choices ---
 
-- ( ) Change the colour in the 'check lose' condition
+- ( ) Αλλάξε το χρώμα στην συνθήκη 'έλεγξε για ήττα'
 
   --- feedback ---
 
-Close. The 'check lose' condition doesn't have the right colour, but just changing that won't make the game work.
+Κλείσε. Η συνθήκη "έλεγξε για ήττα" δεν έχει το σωστό χρώμα, αλλά και μόνο η αλλαγή αυτού δεν θα κάνει το παιχνίδι να λειτουργήσει.
 
   --- /feedback ---
 
-- ( ) Change the colour in the 'check win' condition
+- ( ) Αλλάξε το χρώμα στη συνθήκη 'έλεγξε για νίκη'
 
   --- feedback ---
 
-Close. The 'check win' condition doesn't have the right colour, but just changing that won't make the game work.
+Κλείσε. Η συνθήκη "άλλαγε για νίκη" δεν έχει το σωστό χρώμα, αλλά και μόνο η αλλαγή δεν θα κάνει το παιχνίδι να λειτουργήσει.
 
   --- /feedback ---
 
-- (x) Swap the colours in the 'check win' and 'check lose' conditions
+- (x) Κάνε εναλλαγή στα χρώματα στις συνθήκες «έλεγξε για νίκη» και «έλεγξε για ήττα»
 
   --- feedback ---
 
-Yes. The 'check lose' and 'check win' conditions have the colours the wrong way round! The player will win when they fall in the lava and lose when they reach the golden door! Swapping the conditions will fix this.
+Ναι. Οι συνθήκες "έλεγξε για ήττα" και "έλεγξε για νίκη" έχουν τα χρώματα ανάποδα! Ο παίκτης θα κερδίσει όταν πέσει στη λάβα και θα χάσει όταν φτάσει στη χρυσή πόρτα! Η εναλλαγή των συνθηκών θα το διορθώσει.
 
   --- /feedback ---
 
