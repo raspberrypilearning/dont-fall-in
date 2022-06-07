@@ -1,45 +1,45 @@
-setup
+التهيئة
 
-size when not jumping
+الحجم عند عدم القفز
 
-not jumping
+لا تقفز
 
-start other scripts
+إبدء نصوص الأخرى
 
-Start
+إبدء
 
-landed
+نزل
 
-not in the air
+ليس في الهواء
 
-at end
+في النهاية
 
-stop other sprites
+اوقف كائن آخر
 
-stop jumping after win
+توقف عن القفز بعد الفوز
 
-stop
+قف
 
-End
+نهاية
 
-add this block for left to right games
+أضف هذه الكتلة للألعاب التي تتطلب اليسار إلى اليمين
 
-try different numbers
+جرب أرقامًا مختلفة
 
-choose a colour on your platform
+اختر لونًا على منصتك
 
-Platform 1
+منصة 1
 
-Platfrom 2
+منصة 2
 
-Platform 3
+منصة 3
 
-choose your backdrop colour
+اختر لون الخلفية الخاصة بك
 
-prevent jumping after losing
+منع القفز بعد الخسارة
 
-add a sound of your choice
+أضف صوتًا من اختيارك
 
-check lose
+تحقق من الخسارة
 
-check win
+تحقق من الفوز
