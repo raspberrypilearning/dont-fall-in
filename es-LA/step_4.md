@@ -99,7 +99,7 @@ title: El sonido no se reproduce cuando aterrizo en la plataforma Fin
 
 Haz clic en tu objeto **personaje** y luego en la pestaña 'Sonidos'. Asegúrate de haber agregado el sonido de Fin a tu objeto. Haz clic en el botón **Reproducir** para asegurarte de que el sonido funcione en tu computadora.
 
-Haz clic en la pestaña **Código** y verifica que el sonido correcto esté en el bloque `tocar sonido`{:class="block3sounds"} que se ejecuta cuando el objeto llega a la plataforma de **Fin**.
+Click on the **Code** tab and check that the correct sound is in the `play sound`{:class="block3sound"} block that runs when the sprite reaches the **End** platform.
 
 Asegúrate de que el color sea correcto en el bloque `tocando el color`{:class="block3sensing"}. Selecciónalo de nuevo si no estás seguro. A veces los colores se ven similares pero no son iguales.
 
