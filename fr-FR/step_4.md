@@ -99,7 +99,7 @@ title: Le son ne joue pas lorsque j'atterris sur la plateforme "Fin"
 
 Clique sur ton sprite **personnage** puis sur l'onglet "Sons". Assure-toi d'avoir ajouté le son de fin à ton sprite. Clique sur le bouton **Lecture** pour t'assurer que le son fonctionne sur ton ordinateur.
 
-Clique sur l'onglet **Code** et vérifie que le bon son se trouve dans le bloc `jouer le son`{:class="block3sounds"} qui s'exécute lorsque le sprite atteint la plateforme **Fin**.
+Click on the **Code** tab and check that the correct sound is in the `play sound`{:class="block3sound"} block that runs when the sprite reaches the **End** platform.
 
 Assure-toi que la couleur est correcte dans le bloc `couleur touchée`{:class="block3sensing"}. Sélectionne-le à nouveau si tu n'es pas sûr. Parfois, les couleurs se ressemblent mais ne sont pas identiques.
 
