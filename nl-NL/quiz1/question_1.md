@@ -1,27 +1,27 @@
-## Reflection
+## Reflectie
 
-Well done, you made a game and customised the game play! You learnt some useful ways to combine Scratch blocks to make a game, including:
-+ Using `forever`{:class="block3control"} blocks with `if`{:class="block3control"} statements to detect important **conditions** in your game and take action
-+ Broadcasting a `start`{:class="block3control"} message after setting up your character, so everything is ready when you start the game
-+ Broadcasting a `stop`{:class="block3control"} message when you detect a game end **condition** such as winning or losing, so that other scripts can stop and you can play a sound or do an animation before `stop [all]`{:class="block3control"}
+Goed gedaan, je hebt een spel gemaakt en de spelregels aangepast! Je hebt een aantal handige manieren geleerd om Scratch-blokken te combineren om een spel te maken, waaronder:
++ Het gebruik van `herhaal`{:class="block3control"} blokken met `als`{:class="block3control"} statements om belangrijke **voorwaarden** in je spel te detecteren en actie te ondernemen
++ Een `start`{:class="block3control"}-bericht uitzenden nadat je je personage hebt ingesteld, zodat alles klaar is wanneer je het spel start
++ Een `stop`{:class="block3control"} bericht uitzenden wanneer je een speleinde-**voorwaarde** zoals winnen of verliezen detecteert, zodat andere scripts kunnen stoppen en je een geluid kunt afspelen of een animatie kunt doen voor `stop [alle]`{:class="block3control"}
 
-Now it's time to reflect — reflecting is an important part of learning because it helps make new connections in your brain.
+Nu is het tijd om te reflecteren - reflecteren is een belangrijk onderdeel van leren, omdat het helpt om nieuwe verbindingen in je hersenen te maken.
 
-Answer the three questions below to reflect on what you've learnt.
+Beantwoord de drie onderstaande vragen om terug te kijken op wat je hebt geleerd.
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Druk na elke vraag op Controleer mijn antwoord. Je wordt naar het juiste antwoord geleid. Je kunt dit zo vaak doen als je wilt.
 
-Have fun!
+Veel plezier!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Vraag 1 van 3
 ---
 
-![The Stage of a lava-jumping game. The character is on the end platform, a golden door.](images/quiz-lava-stage.png)
+![Het speelveld van een lava-springspel. Je hoofdpersoon bevindt zich op het eindplatform, een gouden deur.](images/quiz-lava-stage.png)
 
-You win this game by reaching the golden door, and lose if you land in the lava pit. The game isn't working. How could you fix it?
+Je wint dit spel door de gouden deur te bereiken en verliest als je in de lavaput belandt. Het spel werkt niet. Hoe zou je het kunnen oplossen?
 
 ```blocks3
 when flag clicked
@@ -47,27 +47,27 @@ end
 
 --- choices ---
 
-- ( ) Change the colour in the 'check lose' condition
+- ( ) Verander de kleur in de 'controleer verlies' voorwaarde
 
   --- feedback ---
 
-Close. The 'check lose' condition doesn't have the right colour, but just changing that won't make the game work.
+Bijna. De 'controleer verlies'-conditie heeft niet de juiste kleur, maar als je alleen dat verandert werkt het spel nog niet.
 
   --- /feedback ---
 
-- ( ) Change the colour in the 'check win' condition
+- ( ) Verander de kleur in de 'controleer winnen' voorwaarde
 
   --- feedback ---
 
-Close. The 'check win' condition doesn't have the right colour, but just changing that won't make the game work.
+Bijna. De 'controleer winnen'-voorwaarde heeft niet de juiste kleur, maar als je alleen dat verandert, werkt het spel nog niet.
 
   --- /feedback ---
 
-- (x) Swap the colours in the 'check win' and 'check lose' conditions
+- (x) Wissel de kleuren om in de voorwaarden 'controleer winnen' en 'controleer verlies'
 
   --- feedback ---
 
-Yes. The 'check lose' and 'check win' conditions have the colours the wrong way round! The player will win when they fall in the lava and lose when they reach the golden door! Swapping the conditions will fix this.
+Ja. De voorwaarden 'controleer verliezen' en 'controleer winnen' hebben de verkeerde kleur! De speler wint wanneer hij in de lava valt en verliest wanneer hij de gouden deur bereikt! Het verwisselen van de voorwaarden lost dit op.
 
   --- /feedback ---
 
