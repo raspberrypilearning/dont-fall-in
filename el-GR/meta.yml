@@ -1,37 +1,40 @@
 ---
-title: "Don't fall in!"
+title: Μην πέσεις μέσα!
 hero_image: images/banner.png
-description: Design and create a top-down view obstacle or platform parkour game.
+description: Σχεδίασε και δημιούργησε ένα παιχνίδι parkour με θέα από πάνω προς τα κάτω ή σε πλατφόρμες.
 version: 4
 listed: true
 copyedit: false
-last_tested: "2021-03-26"
+last_tested: '2021-03-26'
 steps:
   - 
-    title: Introduction
+    title: Εισαγωγή
   - 
-    title: Choose your theme
+    title: Επίλεξε το θέμα σου
   - 
-    title: Jump, hop, bounce, or glide!
-    completion: engaged
+    title: Πήδηξε, χοροπήδησε, αναπήδησε ή γλίστρησε!
+    completion:
+      - engaged
   - 
-    title: Winner
+    title: Νικητής
   - 
-    title: Ride on platforms
+    title: Άλματα σε πλατφόρμες
   - 
-    title: Adjust the difficulty
-    completion: internal
+    title: Προσαρμογή δυσκολίας
+    completion:
+      - internal
   - 
-    title: Reflection
-    completion: external
+    title: Αναστοχασμός
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
-    title: Upgrade your project
+    title: Αναβάθμιση του έργου σου
   - 
-    title: Share
+    title: Κοινοποίηση
   - 
-    title: What next?
+    title: Τι υπάρχει στη συνέχεια;
