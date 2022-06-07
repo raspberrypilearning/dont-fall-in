@@ -1,8 +1,8 @@
-## Choose your theme
+## Kies je thema
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add a character and backdrop, and create start and end platforms. 
+In deze stap voeg je een personage en achtergrond toe en maak je start- en eindplatforms. 
 </div>
 <div>
 ![](images/setup-example.png){:width="300px"}
@@ -11,13 +11,13 @@ In this step, you will add a character and backdrop, and create start and end pl
 
 --- task ---
 
-Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"} and delete the cat sprite. Scratch will open in another browser tab.
+Open een [nieuw Scratch-project](http://rpf.io/scratch-new){:target="_blank"} en verwijder de kattensprite. Scratch wordt in een nieuw browsertabblad geopend.
 
 --- /task ---
 
 --- task ---
 
-Create a solid colour backdrop.
+Creëer een effen achtergrondkleur.
 
 [[[scratch-paint-single-colour-backdrop]]]
 
@@ -25,7 +25,7 @@ Create a solid colour backdrop.
 
 --- task ---
 
-**Choose:** Will your character move from left to right, or bottom to top?
+**Maak een keuze:** Beweegt je personage van links naar rechts of van onder naar boven?
 
 ![](images/direction-examples.png)
 
@@ -33,39 +33,39 @@ Create a solid colour backdrop.
 
 --- task ---
 
-Paint a new **Start** platform sprite.
+Teken een nieuwe **Start**-platformsprite.
 
-Start with a simple single coloured shape. You can add more detail later.
+Begin met een eenvoudige vorm die een kleur heeft. Je kunt later nog meer details toevoegen.
 
-Centre your costume in the Paint editor.
+Centreer je kostuum in de Teken-editor.
 
 [[[scratch-crosshair]]]
 
-Position your **Start** platform sprite where you want your character to start the game.
+Plaats je **Start**-platformsprite waar je wilt dat je personage het spel start.
 
 --- /task ---
 
 --- task ---
 
-Create a simple **End** platform sprite. You can add more detail later.
+Maak een eenvoudige **Einde**-platformsprite. Je kunt later meer details toevoegen.
 
-Centre your costume in the Paint editor.
+Centreer je kostuum in de Teken-editor.
 
-Position your **End** sprite on the Stage where you want your character to finish the game.
+Plaats je **Einde**-platformsprite waar je wilt dat je personage het spel start.
 
 --- /task ---
 
 --- task ---
 
-Create a **character** sprite.
+Selecteer de **hoofdpersoon**-sprite.
 
-**Choose:** Do you want to add or paint a **character** sprite?
+**Kies:** Wil je een **hoofdpersoon**-sprite toevoegen of er zelf een tekenen?
 
-You might want to add a top-down **character** sprite such as **Tatiana**, **Taylor**, or **Trisha**.
+Misschien wil je een **hoofdpersoon**-sprite met bovenaanzicht toevoegen, zoals **Tatiana**, **Taylor** of **Trisha**.
 
-![Image of the top down sprites available in scratch](images/top-down-sprites.png)
+![Afbeelding van de bovenaanzicht-sprites die in Scratch beschikbaar zijn](images/top-down-sprites.png)
 
-Or, paint your own **character** sprite. Start with simple shapes and add details later. Centre your costume in the Paint editor.
+Of teken je eigen **hoofdpersoon**-sprite. Begin met eenvoudige vormen en voeg later details toe. Centreer je kostuum in de Teken-editor.
 
 [[[generic-scratch3-draw-sprite]]]
 
@@ -73,19 +73,19 @@ Or, paint your own **character** sprite. Start with simple shapes and add detail
 
 --- task ---
 
-Your **character** sprite needs a start script to get everything set up for the beginning of the game.
+Je **hoofdpersoon**-sprite heeft een startscript nodig om alles in te stellen voor het begin van het spel.
 
 --- collapse ---
 
 ---
-title: Get your character ready to start
+title: Maak je hoofdpersoon klaar om te beginnen
 ---
 
-Make a `variable`{:class="block3variables"} called `landed`, and set it to the size your sprite should be when it has landed and is not jumping.
+Maak een `variabele`{:class="block3variables"} met de naam `geland`, en stel deze in op de grootte die je sprite zou moeten hebben als hij is geland en niet springt.
 
-Get your character to go to the **Start** `when flag clicked`{:class="block3events"}. Add a `go to front layer`{:class="block3looks"} block, so your character is on top of the platforms.
+Laat je hoofdpersoon naar de **Start** gaan `wanneer op de vlag wordt geklikt`{:class="block3events"}. Voeg een `ga naar laag voorgrond`{:class="block3looks"} blok toe, zodat je personage bovenop de platforms staat.
 
-**Character:**
+**Hoofdpersoon:**
 
 ```blocks3
 when flag clicked // setup
@@ -97,27 +97,27 @@ show
 broadcast (start v) // start other scripts
 ```
 
-**Tip:** Uncheck the `landed`{:class="block3variables"} variable in the `Variables`{:class="block3variables"} Blocks menu so that it doesn't show on the Stage. The user doesn't need to see this variable.
+**Tip:** Schakel de variabele `geland`{:class="block3variables"} uit in het menu `Variabelen`{:class="block3variables"} zodat deze niet in het speelveld wordt weergegeven. De gebruiker hoeft deze variabele niet te zien.
 
 --- /collapse ---
 
-**Tip:** It's a good idea to `broadcast`{:class="block3events"} a `start`{:class="block3events"} message at the end of your setup script to let other scripts know when to start, otherwise they might start before everything is ready.
+**Tip:** Het is een goed idee om een `zend signaal`{:class="block3events"} `start`{:class="block3events"}-bericht aan het einde van je installatiescript uit te sturen, om andere scripts te laten weten wanneer ze mogen beginnen, anders zouden ze kunnen beginnen voordat alles klaar is.
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**Fouten oplossen:**
 
 --- collapse ---
 
 ---
-title: My sprite is pointing in the wrong direction
+title: Mijn sprite wijst in de verkeerde richting
 ---
 
-The **Direction** property in the Sprite pane can be used to control the direction the sprite is pointing in. Turn the wheel to make a sprite point in the direction you need.
+De eigenschap **Richting** in het Sprite-paneel kan worden gebruikt om de richting te bepalen waarin de sprite wijst. Draai aan het wiel om een sprite in de gewenste richting te laten wijzen.
 
-![The sprite pane with direction property selected. A pop up menu is shown with a direction wheel used for adjusting the direction the sprite is pointing.](images/direction-property.png)
+![Het sprite-venster met de richtingseigenschap geselecteerd. Er wordt een pop-upmenu weergegeven met een richtingswiel dat wordt gebruikt voor het aanpassen van de richting waarin de sprite wijst.](images/direction-property.png)
 
 --- /collapse ---
 
@@ -125,7 +125,7 @@ The **Direction** property in the Sprite pane can be used to control the directi
 
 --- task ---
 
-Give your project a title that describes your game.
+Geef je project een leuke titel waarin de beschrijving van je spel is opgenomen.
 
 --- /task ---
 
