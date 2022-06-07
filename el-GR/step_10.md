@@ -1,10 +1,10 @@
-## What next?
+## Τι υπάρχει στη συνέχεια;
 
-If you are following the [More Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) path, you can move on to the [This sprite needs you](https://projects.raspberrypi.org/en/projects/this-sprite-needs-you) project. In this project, you will make a virtual pet or simulation that you interact with to help.
+Εάν ακολουθείς το μονοπάτι[Περισσότερο Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch), μπορείς να προχωρήσεις στο έργο [Αυτό το αντικείμενο σε χρειάζεται](https://projects.raspberrypi.org/en/projects/this-sprite-needs-you). Σε αυτό το έργο, θα φτιάξεις ένα εικονικό κατοικίδιο ή μια προσομοίωση με την οποία αλληλεπιδράς για να βοηθήσεις.
 
 --- print-only ---
 
-![This sprite needs you](images/this-sprite-needs-you.png)
+![Αυτό το αντικείμενο σε χρειάζεται](images/this-sprite-needs-you.png)
 
 --- /print-only ---
 
@@ -16,4 +16,4 @@ If you are following the [More Scratch](https://projects.raspberrypi.org/en/rasp
 
 --- /no-print ---
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+Αν θέλεις να διασκεδάσεις περισσότερο εξερευνώντας το Scratch, τότε μπορείς να δοκιμάσεις οποιοδήποτε από [αυτά τα έργα](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
