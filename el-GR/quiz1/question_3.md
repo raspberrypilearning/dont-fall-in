@@ -2,43 +2,43 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: Ερώτηση 3 από 3
 ---
 
-Which block should a sprite use to let another sprite know that something has happened?
+Ποιο μπλοκ πρέπει να χρησιμοποιήσει ένα αντικείμενο για να ενημερώσει ένα άλλο αντικείμενο ότι κάτι έχει συμβεί;
 
 --- choices ---
 
-- ( ) `when I receive`{:class="block3events"}
+- ( ) `όταν λάβω`{:class="block3events"}
 
   --- feedback ---
 
-Not quite, this block is used to get a sprite to do something when it receives a message.
+Όχι ακριβώς, αυτό το μπλοκ χρησιμοποιείται για να κάνει ένα αντικείμενο να κάνει κάτι όταν λάβει ένα μήνυμα.
 
   --- /feedback ---
 
-- ( ) `when this sprite clicked`{:class="block3events"}
+- ( ) `όταν γίνει κλικ σε αυτό το αντικείμενο`{:class="block3events"}
 
 
   --- feedback ---
 
-No, this block is used by one sprite to get it to do something when you click on it.
+Όχι, αυτό το μπλοκ χρησιμοποιείται από ένα αντικείμενο για να κάνει κάτι όταν κάνεις κλικ σε αυτό.
 
   --- /feedback ---
 
-- (x) `broadcast`{:class="block3events"}
+- (x) `μετάδωσε`{:class="block3events"}
 
   --- feedback ---
 
-Yes, this block sends a message that can be used to communicate with other sprites.
+Ναι, αυτό το μπλοκ στέλνει ένα μήνυμα που μπορεί να χρησιμοποιηθεί για την επικοινωνία με άλλα αντικείμενα.
 
   --- /feedback ---
 
-- ( ) `start`{:class="block3events"}
+- ( ) `έναρξη`{:class="block3events"}
 
   --- feedback ---
 
-No, `start`{:class="block3events"} can be a message that the block sent, but it is not a block.
+Όχι, το `έναρξη`{:class="block3events"} μπορεί να είναι ένα μήνυμα που έστειλε το μπλοκ, αλλά δεν είναι μπλοκ.
 
   --- /feedback ---
 
