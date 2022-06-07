@@ -1,8 +1,8 @@
-## Choose your theme
+## اختر الموضوع الخاص بك
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add a character and backdrop, and create start and end platforms. 
+في هذه الخطوة ، ستضيف شخصية وخلفية ، وستنشئ منصات بداية ونهاية. 
 </div>
 <div>
 ![](images/setup-example.png){:width="300px"}
@@ -11,13 +11,13 @@ In this step, you will add a character and backdrop, and create start and end pl
 
 --- task ---
 
-Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"} and delete the cat sprite. Scratch will open in another browser tab.
+افتح [مشروع Scratch جديد](http://rpf.io/scratch-new){: "target = "_ blank} واحذف كائن القط. سيتم فتح Scratch في علامة تبويب متصفح أخرى.
 
 --- /task ---
 
 --- task ---
 
-Create a solid colour backdrop.
+إنشاء خلفية ملونة صلبة.
 
 [[[scratch-paint-single-colour-backdrop]]]
 
@@ -25,7 +25,7 @@ Create a solid colour backdrop.
 
 --- task ---
 
-**Choose:** Will your character move from left to right, or bottom to top?
+** اختر: ** هل ستنتقل شخصيتك من اليسار إلى اليمين, أم من الأسفل إلى الأعلى؟
 
 ![](images/direction-examples.png)
 
@@ -33,39 +33,39 @@ Create a solid colour backdrop.
 
 --- task ---
 
-Paint a new **Start** platform sprite.
+قم برسم ** ابدأ ** كائن منصة جديد .
 
-Start with a simple single coloured shape. You can add more detail later.
+ابدأ بشكل بسيط بلون واحد. يمكنك إضافة المزيد من التفاصيل في وقت لاحق.
 
-Centre your costume in the Paint editor.
+قم بتوسيط المظهر في محرر الرسام.
 
 [[[scratch-crosshair]]]
 
-Position your **Start** platform sprite where you want your character to start the game.
+ضع كائن المنصة **ابدأ ** حيث تريد أن تبدأ شخصيتك اللعبة.
 
 --- /task ---
 
 --- task ---
 
-Create a simple **End** platform sprite. You can add more detail later.
+إنشاء ** النهاية ** كائن منصة بسيط. يمكنك إضافة المزيد من التفاصيل في وقت لاحق.
 
-Centre your costume in the Paint editor.
+قم بتوسيط المظهر في محرر الرسام.
 
-Position your **End** sprite on the Stage where you want your character to finish the game.
+ضع كائنك **النهاية** على المنصة حيث تريد أن تنهي شخصيتك اللعبة.
 
 --- /task ---
 
 --- task ---
 
-Create a **character** sprite.
+أنشئ **شخصية** الكائن.
 
-**Choose:** Do you want to add or paint a **character** sprite?
+**اختر:** هل تريد إضافة أو رسم كائن مكون من **شخصية** الكائن ؟
 
-You might want to add a top-down **character** sprite such as **Tatiana**, **Taylor**, or **Trisha**.
+قد ترغب في إضافة من أعلى لأسفل **شخصية** مثل الكائن **تاتيانا**, **تايلور**, او **تريشا**.
 
-![Image of the top down sprites available in scratch](images/top-down-sprites.png)
+![صورة من أعلى إلى أسفل للكائنات متاحة في scratch](images/top-down-sprites.png)
 
-Or, paint your own **character** sprite. Start with simple shapes and add details later. Centre your costume in the Paint editor.
+أو ارسم كائنًا واحدًا مكونًا من **شخصية** الكائن. ابدأ بأشكال بسيطة وأضف التفاصيل لاحقًا. قم بتوسيط المظهر في محرر الرسام.
 
 [[[generic-scratch3-draw-sprite]]]
 
@@ -73,19 +73,19 @@ Or, paint your own **character** sprite. Start with simple shapes and add detail
 
 --- task ---
 
-Your **character** sprite needs a start script to get everything set up for the beginning of the game.
+يحتاج كائن **شخصيتك** نص بداية لبدء التهيئة لبداية اللعبة.
 
 --- collapse ---
 
 ---
-title: Get your character ready to start
+title: احصل على شخصيتك جاهزة للبدء
 ---
 
-Make a `variable`{:class="block3variables"} called `landed`, and set it to the size your sprite should be when it has landed and is not jumping.
+قم بعمل `variable`{ class = "block3variables":} يسمى `landed`، وقم بتعيينه على الحجم الذي يجب أن يكون عليه الكائن الخاص بك عندما يهبط ولا يقفز.
 
-Get your character to go to the **Start** `when flag clicked`{:class="block3events"}. Add a `go to front layer`{:class="block3looks"} block, so your character is on top of the platforms.
+اجعل شخصيتك تذهب إلى **ابدأ** `عند النقر على العلم`{: class = "block3events"}. أضف `انتقل إلى كتلة الطبقة الأمامية`{:" class = "block3looks} الكتلة، بحيث تكون شخصيتك على اعلى المنصة.
 
-**Character:**
+**الشخصية:**
 
 ```blocks3
 when flag clicked // setup
@@ -97,27 +97,31 @@ show
 broadcast (start v) // start other scripts
 ```
 
-**Tip:** Uncheck the `landed`{:class="block3variables"} variable in the `Variables`{:class="block3variables"} Blocks menu so that it doesn't show on the Stage. The user doesn't need to see this variable.
+**نصيحة:** قم بإلغاء تحديد متغير `landed`{class = "block3variables":} 
+في متغير `المتغيرات`{: class = "block3variables"} 
+قائمة الكتلة بحيث لا تظهر على المسرح. لا يحتاج المستخدم لرؤية هذا المتغير.
 
 --- /collapse ---
 
-**Tip:** It's a good idea to `broadcast`{:class="block3events"} a `start`{:class="block3events"} message at the end of your setup script to let other scripts know when to start, otherwise they might start before everything is ready.
+**نصيحة:** إنها فكرة جيدة أن تقوم `بث`{: "class="block3events} 
+ `بدء`{:" class="block3events} 
+ في نهاية البرنامج النصي للإعداد للسماح للنصوص الأخرى بمعرفة وقت البدء ، وإلا قد يبدأون قبل أن يصبح كل شيء جاهزًا.
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**التصحيح:**
 
 --- collapse ---
 
 ---
-title: My sprite is pointing in the wrong direction
+title: الكائن الخاص بي يشير في الاتجاه الخاطئ
 ---
 
-The **Direction** property in the Sprite pane can be used to control the direction the sprite is pointing in. Turn the wheel to make a sprite point in the direction you need.
+يمكن استخدام خاصية **اتجاه** في جزء الكائن للتحكم في الاتجاه الذي يشير إليه الكائن. لف العجلة لعمل نقطة كائن في الاتجاه الذي تريده.
 
-![The sprite pane with direction property selected. A pop up menu is shown with a direction wheel used for adjusting the direction the sprite is pointing.](images/direction-property.png)
+![جزء الكائن مع تحديد خاصية الاتجاه. تظهر قائمة منبثقة مع عجلة اتجاه تستخدم لضبط الاتجاه الذي يشير إليه الكائن.](images/direction-property.png)
 
 --- /collapse ---
 
@@ -125,7 +129,7 @@ The **Direction** property in the Sprite pane can be used to control the directi
 
 --- task ---
 
-Give your project a title that describes your game.
+امنح مشروعك عنوانًا يصف لعبتك.
 
 --- /task ---
 
