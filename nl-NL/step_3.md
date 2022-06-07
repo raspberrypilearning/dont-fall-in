@@ -1,23 +1,23 @@
-## Jump, hop, bounce, or glide!
+## Spring, huppel, stuiter of glijd!
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will code your character to jump from start to end platforms. 
+In deze stap codeer je jouw hoofdpersoon om van het begin naar het eindplatform te springen. 
 </div>
 <div>
 ![](images/jump-example.png){:width="300px"}
 </div>
 </div>
 
-You're going to make your character jump across the Stage. Don't worry about falling in yet.
+Je gaat je personage over het speelveld laten springen. Het is niet erg als je personage er al in valt.
 
 --- task ---
 
-**Choose:** Add a jumping sound that suits your character.
+**Maak een keuze:** Voeg een springgeluid toe dat bij je hoofdpersoon past.
 
 [[[generic-scratch3-sound-from-library]]]
 
-Now make your character jump across the Stage by pressing the <kbd>space</kbd> bar on a keyboard or tapping the Stage on a tablet.
+Laat je hoofdpersoon nu over het speelveld springen door op de <kbd>spatie</kbd>-balk op een toetsenbord te klikken of op een tablet op het speelveld te tikken.
 
 [[[scratch3-top-down-jumping]]]
 
@@ -25,25 +25,25 @@ Now make your character jump across the Stage by pressing the <kbd>space</kbd> b
 
 --- task ---
 
-**Test:** Tap the <kbd>space</kbd> bar or Stage to make your character jump across the Stage to the **End** platform.
+**Test:** Klik op de <kbd>spatie</kbd>-balk of speelveld om je hoofdpersoon over het speelveld te laten springen naar het **Einde**-platform.
 
-Adjust your code until the character jumps across the Stage in three or four jumps.
+Pas je code aan totdat het personage in drie of vier sprongen over het speelveld springt.
 
 --- /task ---
 
-**Tip:** It's really common for games to have a `forever`{:class="block3control"} block with `if`{:class="block3control"} statements inside it to do something when important conditions become true.
+**Tip:** Het is heel gebruikelijk dat games een `herhaal`{:class="block3control"}-blok hebben met `als`{:class="block3control"}-statements erin om iets te doen wanneer belangrijke voorwaarden juist zijn.
 
 --- task ---
 
-**Debug:**
+**Fouten oplossen:**
 
 --- collapse ---
 
 ---
-title: My sprite doesn't go to the Start platform when I click the green flag
+title: Mijn sprite gaat niet naar het Start-platform als ik op de groene vlag klik
 ---
 
-Check that you have a setup script on your **character** sprite:
+Controleer of je een setup-script hebt op je **hoofdpersoon** sprite:
 
 
 ```blocks3
@@ -56,70 +56,70 @@ show
 broadcast (start v) // start other scripts
 ```
 
-Check that that name in the `go to`{:class="block3motion"} block matches the name of your **Start** sprite.
+Controleer of de naam in het `ga naar`{:class="block3motion"}-blok overeenkomt met de naam van je **Start**-sprite.
 
-Check that you have a `go to front layer`{:class="block3looks"} block. Your sprite might be underneath the Start plaform!
+Controleer of je een `ga naar laag voorgrond`{:class="block3looks"} blok hebt. Je sprite bevindt zich mogelijk onder het Start-platform!
 
-Make sure you haven't hidden your **character** sprite. Add a `show`{:class="block3looks"} block to your setup script if you need to.
+Zorg ervoor dat je jouw **hoofdpersoon**-sprite niet hebt verborgen. Voeg indien nodig een `verschijn`{:class="block3looks"}-blok toe aan je installatiescript.
 
-
---- /collapse ---
-
---- collapse ---
-
----
-title: My sprite doesn't go to the centre of the Start platform
----
-
-You need to make sure all your sprite costumes are centered in the Paint editor.
-
-The `go to`{:class="block3motion"} `other sprite`{:class="block3motion"} block moves a sprite so that its centre is in the same position as the centre of the other sprite. If their centres are in the wrong place, then your **character** won't go to the centre of the platforms.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: My sprite points or jumps in the wrong direction!
+title: Mijn sprite gaat niet naar het midden van het Start-platform
 ---
 
-Add a `point in direction`{:class="block3motion"} block to the **character**'s setup script or change the direction in the sprite pane. You might also need to change the `rotation style`{:class="block3motion"}. You might also need to rotate the **costume** of your sprite so that it faces to the right.
+Je moet ervoor zorgen dat al je sprite-kostuums gecentreerd zijn in de Teken-editor.
+
+Het `ga naar`{:class="block3motion"} `andere sprite`{:class="block3motion"} blok verplaatst een sprite zodanig dat het midden van deze sprite zich op dezelfde positie bevindt als het midden van de andere sprite. Als de middelpunten op verschillende plaatsen zijn, gaat je **-hoofdpersoon** niet naar het midden van een platform.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: My sprite doesn't jump the right distance
+title: Mijn sprite wijst of springt in de verkeerde richting!
 ---
 
-Look at your **character**'s `when I receieve (jump)`{:class="block3events"} script. Try changing the number of steps in the `move`{:class="block3motion"} blocks, or the number of repeats in the `repeat`{:class="block3control"} blocks.
+Voeg een `-richt naar`{:class="block3motion"}-blok toe aan het installatiescript van je **hoofdpersoon** of verander de richting in het sprite-venster. Misschien moet je ook de `maak draaistijl` wijzigen. Misschien moet je ook het **uiterlijk** van je sprite draaien zodat het naar rechts wijst.
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: Mijn sprite springt te ver of niet ver genoeg
+---
+
+Kijk goed naar je **hoofdpersoon**'s `wanneer ik signaal (spring) ontvang`{:class="block3events"}-script. Probeer het aantal stappen in de `neem x stappen`{:class="block3motion"} blokken, of het aantal herhalingen in de `herhaal`{:class="block3control"} blokken te veranderen.
 
 ```blocks3
 +move [5] steps
 ```
 
-Remember, you will need to change the numbers for the up and down parts of the jump.
+Denk er aan dat je de getallen voor het omhoog en omlaag springen moet veranderen.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: My sprite doesn't grow and shrink correctly when it jumps
+title: Mijn hoofdpersoon groeit en krimpt niet op de juiste manier als hij springt
 ---
 
-Make sure you have a `broadcast (start)`{:class="block3events"} block at the end of your **character**'s `when flag clicked`{:class="block3events"} script.
+Zorg ervoor dat je een `zend signaal (start)`{:class="block3events"} blok hebt aan het einde van je **hoofdpersoon**'s `wanneer op de vlag wordt geklikt`{:class="block3events"} script.
 
-Look at your **character**'s `when I receieve (start)`{:class="block3events"} script.
+Kijk goed naar je **hoofdpersoon**'s `wanneer ik signaal (start) ontvang`{:class="block3events"} script.
 
-Make sure that the `change size`{:class="block3looks"} block in the second `repeat`{:class="block3events"} block has a negative number to make the sprite smaller such as `-3`.
+Zorg ervoor dat het `verander grootte met`{:class="block3looks"} blok in het tweede `herhaal`{:class="block3events"} blok een negatief getal heeft om de sprite kleiner te maken, zoals `-3`.
 
 --- /collapse ---
 
-If you have a bug that we haven't covered here, then let us know in the feedback. If you fixed the bug yourself (well done!), let us know that too.
+Als je een fout hebt die we hier niet hebben behandeld, laat het ons dan weten in de feedback. Als je de fout zelf hebt opgelost (goed gedaan!), laat het ons dan ook weten.
 
-**Tip:** If you're stuck, try reading your code out loud or in your head to make sure it says what you think it does. You might find the bug.
+**Tip:** Als je vastzit, probeer dan je code (hardop) voor te lezen om er achter te komen dat de code doet wat je denkt hij moet doen. Misschien vind je op die manier zelf wel de fout.
 
 --- /task ---
 
