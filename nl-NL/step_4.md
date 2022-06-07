@@ -1,33 +1,33 @@
-## Winner
+## Winnaar
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will detect the player reaching the **End** platform to win the game. 
+In deze stap zul je detecteren dat de speler het **Einde**-platform bereikt om het spel te winnen. 
 </div>
 <div>
 ![](images/winner-aims.png){:width="300px"}
 </div>
 </div>
 
-You're going to add a `forever`{:class="block3control"} loop that checks if your **character** is at platform level, and if so, `if`{:class="block3control"} it has reached the **End** platform.
+Je gaat een `herhaal`{:class="block3control"} lus toevoegen die controleert of je **hoofdpersoon** op platformniveau is, en `als`{:class="block3control"} dat zo is of je hoofdpersoon het **Einde**-platform heeft bereikt.
 
 --- task ---
 
-**Choose:** Add a winning sound to your character.
+**Maak een keuze:** Voeg een winnaarsgeluid toe dat bij je hoofdpersoon past.
 
 --- /task ---
 
 --- task ---
 
-Add code to detect when your character reaches the **End** platform using `touching color`{:class="block3sensing"}.
+Voeg code toe om te detecteren wanneer je hoofdpersoon het **Einde**-platform bereikt met `raak ik kleur`{:class="block3sensing"}.
 
 --- collapse ---
 
 ---
-title: End the game when touching colour
+title: Beëindig het spel bij het aanraken van een kleur
 ---
 
-**Character**:
+**Hoofdpersoon**:
 
 ```blocks3
 when I receive [start v]
@@ -44,64 +44,64 @@ end
 end
 ```
 
-It's a good idea to `broadcast`{:class="block3events"} a 'stop' message to let other sprites know the game has ended. The `stop other scripts in sprite`{:class="block3control"} block stops the loop that makes the character jump.
+Het is een goed idee om met `zend signaal`{:class="block3events"} een 'stop'-bericht uit te zenden om andere sprites te laten weten dat het spel is afgelopen. Het `stop andere scripts in sprite`{:class="block3control"} blok stopt de lus die het personage laat springen.
 
 --- /collapse ---
 
-You will need to set the colour that is sensed to the colour of your **End** platform.
+Je moet de kleur die wordt waargenomen instellen op de kleur van je **Einde**-platform.
 
 [[[scratch3-set-block-input-colour-with-eyedropper]]]
 
-**Tip:** It's a good idea to `broadcast`{:class="block3events"} a `stop`{:class="block3events"} message when you detect that your game is finished so that other sprites can stop, but this sprite can do something such as playing a sound before it stops.
+**Tip:** Het is een goed idee om een `zend signaal`{:class="block3events"} `stop`{:class="block3events"}-bericht aan het einde van je spel uit te sturen, om andere sprites te laten stoppen, zodat deze sprite kan nog iets doen zoals bijvoorbeeld een geluid afspelen voor hij stopt.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click the green flag and then jump your character across the Stage. Make sure you hear the winning sound when you reach the **End** platform.
+**Test:** Klik op de groene vlag en spring met je hoofdpersoon over het speelveld. Zorg ervoor dat je het winnende geluid hoort wanneer je het **Einde**-platform bereikt.
 
-**Tip:** It's really important that you test your project before moving to the next step and adding more code. It's harder to find and fix bugs when you have added more code.
+**Tip:** Het is erg belangrijk dat je jouw project test voordat je naar de volgende stap gaat en meer code toevoegt. Het is moeilijker om fouten te vinden en op te lossen als je meer code hebt toegevoegd.
 
 --- /task ---
 
 
 --- task ---
 
-**Debug:**
+**Fouten oplossen:**
 
 --- collapse ---
 
 ---
-title: My sprite doesn't go to the centre of the End platform
+title: Mijn sprite gaat niet naar het midden van het Einde-platform
 ---
 
-You need to make sure all your sprite costumes are centered in the Paint editor.
+Je moet ervoor zorgen dat al je sprite-kostuums gecentreerd zijn in de Teken-editor.
 
-The `go to (other sprite)`{:class="block3motion"} block moves a sprite so that it's centre is in the same position as the centre of the other sprite. If their centres are in the wrong place, then your **character** won't go to the centre of the platforms.
+Het `ga naar (andere sprite)`{:class="block3motion"} blok verplaatst een sprite zodanig dat het midden van deze sprite zich op dezelfde positie bevindt als het midden van de andere sprite. Als de middelpunten op verschillende plaatsen zijn, gaat je **hoofdpersoon** niet naar het midden van een platform.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The game ends too soon
+title: Het spel eindigt te vroeg
 ---
 
-Check that your sprite isn't touching the End colour when it's not on the **End** platform — if you use the same colour elsewhere in your project, then your character could die too soon.
+Controleer of je sprite de Einde-kleur niet raakt als hij niet op het **Einde**-platform staat — als je dezelfde kleur ergens anders in je project gebruikt, kan je personage te snel sterven.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The sound doesn't play when I land on the End platform
+title: Het geluid wordt niet afgespeeld wanneer ik op het Einde-platform beland
 ---
 
-Click on your **character** sprite and then the 'Sounds' tab. Make sure you have added the End sound to your sprite. Click on the **Play** button to make sure sound is working on your computer.
+Klik op je **hoofdpersoon**-sprite en vervolgens op het tabblad 'Geluiden'. Zorg ervoor dat je het Einde-geluid aan je sprite hebt toegevoegd. Klik op de **Spelen**-knop om te controleren of het geluid werkt op je computer.
 
-Click on the **Code** tab and check that the correct sound is in the `play sound`{:class="block3sounds"} block that runs when the sprite reaches the **End** platform.
+Click on the **Code** tab and check that the correct sound is in the `play sound`{:class="block3sound"} block that runs when the sprite reaches the **End** platform.
 
-Make sure the colour is correct in the `touching colour`{:class="block3sensing"} block. Select it again if you're not sure. Sometimes colours look similar but aren't the same.
+Zorg ervoor dat de kleur correct is in het `raak ik kleur`{:class="block3sensing"}-blok. Selecteer het opnieuw als je het niet zeker weet. Soms lijken kleuren op elkaar, maar zijn ze niet hetzelfde.
 
 ```blocks3
 when I receive [start v]
@@ -119,9 +119,9 @@ end
 
 --- /collapse ---
 
-If you have a bug that we haven't covered here, then let us know in the feedback. If you fixed the bug yourself (well done!), let us know that too.
+Als je een fout hebt die we hier niet hebben behandeld, laat het ons dan weten in de feedback. Als je de fout zelf hebt opgelost (goed gedaan!), laat het ons dan ook weten.
 
-**Tip:** If you're stuck, try reading your code out loud or in your head to make sure it says what you think it does. You might find the bug.
+**Tip:** Als je vastzit, probeer dan je code (hardop) voor te lezen om er achter te komen dat de code doet wat je denkt hij moet doen. Misschien vind je op die manier zelf wel de fout.
 
 --- /task ---
 
