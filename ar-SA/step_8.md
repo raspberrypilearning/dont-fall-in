@@ -1,22 +1,27 @@
-## Upgrade your project
+## قم بترقية مشروعك
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-If you have time, you can upgrade your project. 
+إذا كان لديك الوقت ، يمكنك تطوير مشروعك. 
 </div>
 <div>
 ![](images/upgrade-example.png){:width="300px"}
 </div>
 </div>
 
-Here are some ideas you could try:
-- Add another level. When the player wins, `broadcast`{:class="block3events"} a `level2`{:class="block3events"} message and change the speed that the sprites move at, using a `speed`{:class="block3variables"} variable.
-- Make platforms appear and disappear in a `forever`{:class="block3control"} block using `show`{:class="block3looks"}, `hide`{:class="block3looks"}, and `wait`{:class="block3control"}.
-- Add more platforms, or make more platforms appear when you get to the next level. You will need to consider what else needs to change, to make your game work on the second level, and reset correctly to the first level `when flag clicked`{:class="block3events"}.
-- Design your own top-down character in the Paint editor.
+إليك بعض الأفكار لمساعدتك:
+- اضف مستوى اخر. عندما يفوز اللاعب ، `بث`{:" class = "block3events} `مستوى الثاني` {: class = "block3events"} رسالة وتغيير السرعة التي تتحرك بها النقوش المتحركة ، باستخدام `سرعات`{:" class = "block3variables} متغير.
+- اجعل المنصات تظهر وتختفي في `forever`{class="block3control":} 
+ باستخدام كتلة `تظهر`{:" class = "block3looks} ، `إخفاء`{:" class = "block3looks} ، و `انتظر`{:" class="block3control}.
+- أضف المزيد من المنصات ، أو اجعل المزيد من المنصات تظهر عندما تصل إلى المستوى التالي. ستحتاج إلى التفكير في الأشياء الأخرى التي تحتاج إلى تغييرها ، لجعل لعبتك تعمل في المستوى الثاني ، وإعادة التعيين بشكل صحيح إلى المستوى الأول `عند النقر فوق العلم`
+{:" class = "block3events}.
+- صمم شخصيتك من أعلى إلى أسفل في محرر الرسام.
 
-Take a look at our [Don't fall in - Examples Scratch studio](https://scratch.mit.edu/studios/29599110){:target="_blank"} each project has a **See Inside** link for you to open the project in Scratch, and look at the code to get ideas and see how they work.
+ألقِ نظرة على [لا تقع في - أمثلة استوديو Scratch ](https://scratch.mit.edu/studios/29599110)
+{:target="_blank"} 
+ لكل مشروع رابط **القي نظره في داخل** لكي تفتح المشروع في Scratch ، وانظر إلى الكود للحصول على أفكار ونرى كيف يعملون.
 
-For more inspiration, take a look at the [Don't fall in - Community Scratch studio](https://scratch.mit.edu/studios/29601182){:target="_blank"} to see projects created by community members.
+لمزيد من الإلهام,ألق نظرة على [لا تسقط في - مجتمع استوديو Scratch ](https://scratch.mit.edu/studios/29601182)
+{:target="_blank"} لمشاهدة المشروعات التي أنشأها أعضاء المجتمع.
 
 --- save ---
