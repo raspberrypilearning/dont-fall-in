@@ -1,10 +1,10 @@
-## What next?
+## Wat kun je verder nog doen?
 
-If you are following the [More Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) path, you can move on to the [This sprite needs you](https://projects.raspberrypi.org/en/projects/this-sprite-needs-you) project. In this project, you will make a virtual pet or simulation that you interact with to help.
+Als je het [Meer scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch)-pad volgt, kun je doorgaan naar het [Deze sprite heeft je nodig](https://projects.raspberrypi.org/en/projects/this-sprite-needs-you)-project. In dit project maak je een virtueel huisdier waarvoor je kunt zorgen en dat jouw hulp nodig heeft.
 
 --- print-only ---
 
-![This sprite needs you](images/this-sprite-needs-you.png)
+![Deze sprite heeft je nodig](images/this-sprite-needs-you.png)
 
 --- /print-only ---
 
@@ -16,4 +16,4 @@ If you are following the [More Scratch](https://projects.raspberrypi.org/en/rasp
 
 --- /no-print ---
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+Wil je nog meer plezier hebben met het het verkennen van Scratch, dan kun je een van [deze projecten](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201) proberen.
