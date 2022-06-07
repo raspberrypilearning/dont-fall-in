@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Ερώτηση 2 από 3
 ---
 
-This is the code for a moving platform:
+Αυτός είναι ο κώδικας για μια κινούμενη πλατφόρμα:
 
 ```blocks3
 when I receive [start v]
@@ -15,23 +15,23 @@ if on edge, bounce
 end
 ```
 
-The game is too hard, and it's not fun to play. What could you do to make it easier to play?
+Το παιχνίδι είναι πολύ δύσκολο και δεν είναι διασκεδαστικό να παίζεις. Τι θα μπορούσες να κάνεις για να διευκολύνεις το παιχνίδι;
 
 --- choices ---
 
-- (x) Change the number in the `move`{:class="block3motion"} block to a **smaller** number
+- (x) Αλλάξε τον αριθμό στο μπλοκ `κινήσου`{:class="block3motion"} σε έναν **μικρότερο** αριθμό
 
   --- feedback ---
 
-That's right. Making the number smaller will make the platform move a smaller number of steps each time the `forever`{:class="block3control"} loops runs so the platform will move more slowly. That makes it easier to jump on.
+Σωστά. Η μείωση του αριθμού θα κάνει την πλατφόρμα να μετακινείται μικρότερο αριθμό βημάτων κάθε φορά που εκτελούνται οι βρόχοι `για πάντα`{:class="block3control"}, ώστε η πλατφόρμα να κινείται πιο αργά. Αυτό διευκολύνει το άλμα.
 
   --- /feedback ---
 
-- ( ) Change the number in the `move`{:class="block3motion"} block to a **bigger** number
+- ( ) Αλλάξε τον αριθμό στο μπλοκ `κινήσου`{:class="block3motion"} σε έναν **μεγαλύτερο** αριθμό
 
   --- feedback ---
 
-Making the platform move more steps each time the `forever`{:class="block3control"} loop runs will make it move faster. That will make the platform harder to jump on.
+Κάνοντας την πλατφόρμα να κινείται περισσότερα βήματα κάθε φορά που εκτελείται ο βρόχος `για πάντα`{:class="block3control"} θα την κάνει να κινείται πιο γρήγορα. Αυτό θα κάνει την πλατφόρμα πιο δύσκολη στο άλμα.
 
   --- /feedback ---
 
