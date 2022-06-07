@@ -1,23 +1,23 @@
-## Jump, hop, bounce, or glide!
+## القفز ، النّط ،الارتداد ،او الانزلاق!
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will code your character to jump from start to end platforms. 
+في هذه الخطوة ، ستقوم ببرمجة شخصيتك للقفز من منصات البداية إلى النهاية. 
 </div>
 <div>
 ![](images/jump-example.png){:width="300px"}
 </div>
 </div>
 
-You're going to make your character jump across the Stage. Don't worry about falling in yet.
+ستجعل شخصيتك تقفز عبر المسرح. لا تقلق بشأن الوقوع في الداخل بعد.
 
 --- task ---
 
-**Choose:** Add a jumping sound that suits your character.
+**اختر:** أضف صوت القفز الذي يناسب شخصيتك.
 
 [[[generic-scratch3-sound-from-library]]]
 
-Now make your character jump across the Stage by pressing the <kbd>space</kbd> bar on a keyboard or tapping the Stage on a tablet.
+الآن اجعل شخصيتك تقفز عبر المنصة بالضغط على شريط <kbd>مسافة</kbd> على لوحة المفاتيح أو النقر على المنصة على جهاز لوحي.
 
 [[[scratch3-top-down-jumping]]]
 
@@ -25,25 +25,25 @@ Now make your character jump across the Stage by pressing the <kbd>space</kbd> b
 
 --- task ---
 
-**Test:** Tap the <kbd>space</kbd> bar or Stage to make your character jump across the Stage to the **End** platform.
+**اختبار:** اضغط على شريط <kbd>مسافة</kbd> أو على خشبة المسرح لتجعل شخصيتك تقفز عبر المنصة إلى منصة **نهاية**.
 
-Adjust your code until the character jumps across the Stage in three or four jumps.
+اضبط التعليمات البرمجية الخاص بك حتى يقفز الحرف عبر المرحلة في ثلاث أو أربع قفزات.
 
 --- /task ---
 
-**Tip:** It's really common for games to have a `forever`{:class="block3control"} block with `if`{:class="block3control"} statements inside it to do something when important conditions become true.
+**نصيحة:** من الشائع حقًا أن تحتوي الألعاب على كتلة `كرر باستمرار`{:class="block3control"} مع عبارة `اذا`{:class="block3control"} داخلها لفعل شيء ما عندما تصبح الشروط المهمة صحيحة.
 
 --- task ---
 
-**Debug:**
+**تصحيح:**
 
 --- collapse ---
 
 ---
-title: My sprite doesn't go to the Start platform when I click the green flag
+title: لا ينتقل الكائن الخاص بي إلى منصة ابدأ عندما أنقر فوق العلم الأخضر
 ---
 
-Check that you have a setup script on your **character** sprite:
+تأكد من أن لديك نص الإعداد على **الشخصية**الكائن:
 
 
 ```blocks3
@@ -56,70 +56,77 @@ show
 broadcast (start v) // start other scripts
 ```
 
-Check that that name in the `go to`{:class="block3motion"} block matches the name of your **Start** sprite.
+تأكد من أن هذا الاسم الموجود في `انتقل إلى`{:" class="block3motion}
+كتلة يطابق اسم الخاص بك **بدء** للكائن.
 
-Check that you have a `go to front layer`{:class="block3looks"} block. Your sprite might be underneath the Start plaform!
+تأكد من أن لديك `انتقل إلى الطبقة الأمامية`
+{:" class = "block3looks} كتلة. قد يكون الكائن الخاص بك تحت منصة البداية!
 
-Make sure you haven't hidden your **character** sprite. Add a `show`{:class="block3looks"} block to your setup script if you need to.
+تأكد من أنك لم تقم بإخفاء **شخصية** الكائنك. أضف `اظهر`{:class="block3looks"} 
+ الكائن إلى النص للإعداد إذا كنت بحاجة إلى ذلك.
 
-
---- /collapse ---
-
---- collapse ---
-
----
-title: My sprite doesn't go to the centre of the Start platform
----
-
-You need to make sure all your sprite costumes are centered in the Paint editor.
-
-The `go to`{:class="block3motion"} `other sprite`{:class="block3motion"} block moves a sprite so that its centre is in the same position as the centre of the other sprite. If their centres are in the wrong place, then your **character** won't go to the centre of the platforms.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: My sprite points or jumps in the wrong direction!
+title: لا ينتقل الكائن الخاص بي إلى مركز منصة البداية
 ---
 
-Add a `point in direction`{:class="block3motion"} block to the **character**'s setup script or change the direction in the sprite pane. You might also need to change the `rotation style`{:class="block3motion"}. You might also need to rotate the **costume** of your sprite so that it faces to the right.
+تحتاج إلى التأكد من أن جميع أزياء الرموز الخاصة بك مركزة في محرر الرسام.
+
+يقوم `انتقل إلى`{: "class = "block3motion} 
+`كائن آخر`{:" class = "block3motion} يحرك كتلة الكائن بحيث يكون مركزه في نفس موضع مركز الكائن الآخر. إذا كانت مراكزهم في المكان الخطأ ، فلن ينتقل الطابع **الشخصية** الخاص بك إلى وسط منصات.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: My sprite doesn't jump the right distance
+title: كائن الخاص بي يشير أو يقفز في الاتجاه الخاطئ!
 ---
 
-Look at your **character**'s `when I receieve (jump)`{:class="block3events"} script. Try changing the number of steps in the `move`{:class="block3motion"} blocks, or the number of repeats in the `repeat`{:class="block3control"} blocks.
+أضف `أشر في الاتجاه`{:class="block3motion"} الكتلة إلى اعداد نص **شخصياتك** او قم بتغيير الاتجاه في جزء الكائن المتحركة. قد تحتاج أيضًا إلى تغيير ` نمط التدوير `{:" class = "block3motion}. قد تحتاج أيضًا إلى تدوير المظهر **شخصية** للكائن الخاص بك بحيث يواجه جهة اليمين.
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: الكائن لا تقفز المسافة الصحيحة
+---
+
+انظر إلى **شخصياتك** `عندما أتلقى (قفزة)`{:" class="block3events}
+ نص. حاول تغيير عدد الخطوات في `تحرك`{:"class="block3motion} الكتلة, أو عدد التكرارات في ` التكرار ` {:" class = "block3control} الكتلة.
 
 ```blocks3
 +move [5] steps
 ```
 
-Remember, you will need to change the numbers for the up and down parts of the jump.
+تذكر أنك ستحتاج إلى تغيير الأرقام لأعلى ولأسفل من القفزة.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: My sprite doesn't grow and shrink correctly when it jumps
+title: كائن لا تنمو وتتقلص بشكل صحيح عندما يقفز
 ---
 
-Make sure you have a `broadcast (start)`{:class="block3events"} block at the end of your **character**'s `when flag clicked`{:class="block3events"} script.
+تأكد من أن لديك `البث (البداية)`{:" class = "block3events} كتلة في نهاية الخاص بك **شخصيـ**ات `عندما ينقر العلم`
+{:" class="block3events} نص.
 
-Look at your **character**'s `when I receieve (start)`{:class="block3events"} script.
+انظر إلى **شخصياتك** `عندما أتلقى (بدء)`{:" class="block3events}
+ نص.
 
-Make sure that the `change size`{:class="block3looks"} block in the second `repeat`{:class="block3events"} block has a negative number to make the sprite smaller such as `-3`.
+تأكد من أن `تغيير الحجم`{:" class = "block3looks} الكتلة في الثانية `تكرار`{:" class = "block3events} الكتلة تحتوي على رقم سالب لجعل الكائن أصغر مثل `-3`.
 
 --- /collapse ---
 
-If you have a bug that we haven't covered here, then let us know in the feedback. If you fixed the bug yourself (well done!), let us know that too.
+إذا كان لديك خطأ لم نغطه هنا ، فأخبرنا بذلك في التعليقات. إذا أصلحت الخطأ بنفسك (أحسنت!) ، فأخبرنا بذلك أيضًا.
 
-**Tip:** If you're stuck, try reading your code out loud or in your head to make sure it says what you think it does. You might find the bug.
+**نصيحة:** إذا كنت عالقًا ، فحاول قراءة التعليمات البرمجية الخاص بك بصوت عالٍ أو في رأسك للتأكد من أنه يوضح ما تعتقد أنه يفعله. قد تجد الخطأ.
 
 --- /task ---
 
