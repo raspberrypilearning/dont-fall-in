@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+القائمة: السؤال 2 من 3
 ---
 
-This is the code for a moving platform:
+هذا هو التعليات البرمجية تنقلك للمنصة:
 
 ```blocks3
 when I receive [start v]
@@ -15,23 +15,27 @@ if on edge, bounce
 end
 ```
 
-The game is too hard, and it's not fun to play. What could you do to make it easier to play?
+اللعبة صعبة للغاية وليست ممتعة. ماذا يمكنك أن تفعل لجعل اللعب أسهل؟
 
 --- choices ---
 
-- (x) Change the number in the `move`{:class="block3motion"} block to a **smaller** number
+- (x) قم بتغيير الرقم الموجود `move`{:class="block3motion"}
+في كتلة إلى رقم **أصغر**
 
   --- feedback ---
 
-That's right. Making the number smaller will make the platform move a smaller number of steps each time the `forever`{:class="block3control"} loops runs so the platform will move more slowly. That makes it easier to jump on.
+هذا صحيح. سيؤدي تقليل الرقم إلى جعل المنصة يتحرك عددًا أقل من الخطوات في كل مرة يتم تشغيل الحلقات `forever`{:class="block3control"}
+بحيث تتحرك المنصة بشكل أبطأ. هذا يجعل من السهل القفز.
 
   --- /feedback ---
 
-- ( ) Change the number in the `move`{:class="block3motion"} block to a **bigger** number
+- (x) قم بتغيير الرقم الموجود `move`{:class="block3motion"}
+في كتلة إلى رقم **أكبر**
 
   --- feedback ---
 
-Making the platform move more steps each time the `forever`{:class="block3control"} loop runs will make it move faster. That will make the platform harder to jump on.
+جعل المنصة يتحرك بخطوات أكثر في كل مرة سيجعل تشغيل الحلقة `forever`{:class="block3control"}
+ من التحرك بشكل أسرع. سيؤدي ذلك إلى زيادة صعوبة القفز على المنصة.
 
   --- /feedback ---
 
