@@ -83,7 +83,7 @@ Het `ga naar`{:class="block3motion"} `andere sprite`{:class="block3motion"} blok
 title: Mijn sprite wijst of springt in de verkeerde richting!
 ---
 
-Voeg een `-richt naar`{:class="block3motion"}-blok toe aan het installatiescript van je **hoofdpersoon** of verander de richting in het sprite-venster. Misschien moet je ook de `maak draaistijl` wijzigen. Misschien moet je ook het **uiterlijk** van je sprite draaien zodat het naar rechts wijst.
+Voeg een `-richt naar`{:class="block3motion"}-blok toe aan het installatiescript van je **hoofdpersoon** of verander de richting in het sprite-venster. Misschien moet je ook de `maak draaistijl`{:class="block3motion"} wijzigen. Misschien moet je ook het **uiterlijk** van je sprite draaien zodat het naar rechts wijst.
 
 --- /collapse ---
 

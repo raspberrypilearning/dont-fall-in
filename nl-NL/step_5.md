@@ -119,7 +119,7 @@ end
 
 --- task ---
 
-Voeg code to aan je **hoofdpersoon** om waar te nemen `als`{:class="block3control"} het hoofdpersoon de achtergrondkleur raakt en het spel dan eindigt. Dit doe je door een blok `raak ik kleur`{:class="block3sensing} toe te voegen aan je personage met de exacte kleur van het speelveld.
+Voeg code to aan je **hoofdpersoon** om waar te nemen `als`{:class="block3control"} het hoofdpersoon de achtergrondkleur raakt en het spel dan eindigt. Dit doe je door een blok `raak ik kleur`{:class="block3sensing"} toe te voegen aan je personage met de exacte kleur van het speelveld.
 
 --- collapse ---
 

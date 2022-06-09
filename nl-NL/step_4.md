@@ -99,7 +99,7 @@ title: Het geluid wordt niet afgespeeld wanneer ik op het Einde-platform beland
 
 Klik op je **hoofdpersoon**-sprite en vervolgens op het tabblad 'Geluiden'. Zorg ervoor dat je het Einde-geluid aan je sprite hebt toegevoegd. Klik op de **Spelen**-knop om te controleren of het geluid werkt op je computer.
 
-Click on the **Code** tab and check that the correct sound is in the `play sound`{:class="block3sound"} block that runs when the sprite reaches the **End** platform.
+Klik op het tabblad **Code** en controleer of het juiste geluid in het `start geluid`{:class="block3sound"}-blok zit dat wordt uitgevoerd wanneer de sprite het **Einde**-platform bereikt.
 
 Zorg ervoor dat de kleur correct is in het `raak ik kleur`{:class="block3sensing"}-blok. Selecteer het opnieuw als je het niet zeker weet. Soms lijken kleuren op elkaar, maar zijn ze niet hetzelfde.
 
