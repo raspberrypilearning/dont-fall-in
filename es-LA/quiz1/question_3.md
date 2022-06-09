@@ -9,7 +9,7 @@ legend: Pregunta 3 de 3
 
 --- choices ---
 
-- ( ) `when I receive`{:class="block3events"}
+- ( ) `al recibir`{:class="block3events"}
 
   --- feedback ---
 
@@ -17,7 +17,7 @@ No del todo, este bloque se usa para que un objeto haga algo cuando recibe un me
 
   --- /feedback ---
 
-- ( ) `when this sprite clicked`{:class="block3events"}
+- ( ) `al hacer clic en este objeto`{:class="block3events"}
 
 
   --- feedback ---
@@ -26,7 +26,7 @@ No, este bloque lo usa un objeto para que haga algo cuando haces clic en él.
 
   --- /feedback ---
 
-- (x) `broadcast`{:class="block3events"}
+- (x) `enviar`{:class="block3events"}
 
   --- feedback ---
 
@@ -34,7 +34,7 @@ Sí, este bloque envía un mensaje que se puede usar para comunicarse con otros 
 
   --- /feedback ---
 
-- ( ) `start`{:class="block3events"}
+- ( ) `inicio`{:class="block3events"}
 
   --- feedback ---
 
