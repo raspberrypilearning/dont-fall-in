@@ -220,7 +220,7 @@ stop [other scripts in sprite v]
 Verifica que el bloque `enviar`{:class="block3events"} dentro de los bloques de ganar y perder `si`{:class="block3control"} sea `detener`{:class="block3events"}.
 
 ```blocks3
-broadcast (stop v)
+broadcast (detener v)
 ```
 
 --- /collapse ---

@@ -106,7 +106,7 @@ Recuerda que tendrás que cambiar el número para los saltos hacia arriba y los 
 --- collapse ---
 
 ---
-title: Mi sprite no crece ni se encoge correctamente cuando salta
+title: Mi objeto no crece ni se encoge correctamente cuando salta
 ---
 
 Asegúrate de tener un bloque `enviar (comenzar)`{:class="block3events"} al final del script del **personaje** que dice `al presionar la bandera verde`{:class="block3events"}.
