@@ -14,7 +14,7 @@ steps:
       - engaged
   - title: Νικητής
   - title: Άλματα σε πλατφόρμες
-  - title: Προσαρμογή δυσκολίας
+  - title: Προσάρμοσε τη δυσκολία
     completion:
       - internal
   - title: Αναστοχασμός
