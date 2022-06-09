@@ -1,0 +1,30 @@
+---
+title: Μην πέσεις μέσα!
+hero_image: images/banner.png
+description: Σχεδίασε και δημιούργησε ένα παιχνίδι parkour με θέα από πάνω προς τα κάτω ή σε πλατφόρμες.
+version: 4
+listed: true
+copyedit: false
+last_tested: '2021-03-26'
+steps:
+  - title: Εισαγωγή
+  - title: Επίλεξε το θέμα σου
+  - title: Πήδηξε, χοροπήδησε, αναπήδησε ή γλίστρησε!
+    completion:
+      - engaged
+  - title: Νικητής
+  - title: Άλματα σε πλατφόρμες
+  - title: Προσαρμογή δυσκολίας
+    completion:
+      - internal
+  - title: Αναστοχασμός
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Αναβάθμιση του έργου σου
+  - title: Κοινοποίηση
+  - title: Τι υπάρχει στη συνέχεια;

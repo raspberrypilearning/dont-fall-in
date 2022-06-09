@@ -1,0 +1,30 @@
+---
+title: '¡No te caigas!'
+hero_image: images/banner.png
+description: Diseña y crea un juego de parkour con obstáculos o plataformas con vista de arriba hacia abajo.
+version: 4
+listed: true
+copyedit: false
+last_tested: '2021-03-26'
+steps:
+  - title: Introducción
+  - title: Elige tu tema
+  - title: '¡Salta, brinca, rebota o deslízate!'
+    completion:
+      - engaged
+  - title: Ganador
+  - title: Sube plataformas
+  - title: Ajusta la dificultad
+    completion:
+      - internal
+  - title: Reflexión
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Mejora tu proyecto
+  - title: Comparte
+  - title: '¿Qué sigue?'
