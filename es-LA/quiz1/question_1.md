@@ -3,7 +3,7 @@
 ¡Bien hecho, creaste un juego y lo personalizaste! Aprendiste maneras útiles de combinar bloques de Scratch para crear un juego, que incluyen:
 + Usar bloques `por siempre`{:class="block3control"} con sentencias `si`{:class="block3control"} para detectar **condiciones** importantes en tu juego y pasar a la acción
 + Enviar un mensaje de `comenzar`{:class="block3control"} después de configurar tu personaje, para que todo esté listo cuando empieces el juego
-+ Enviar un mensaje de `detener`{:class="block3control"} cuando detectas una **condición** de fin del juego, como ganar o perder, para que otros scripts puedan detenerse y puedas reproducir un sonido o hacer una animación antes de `detener [todos]`{:clase="bloque3control"}
++ Enviar un mensaje de `detener`{:class="block3control"} cuando detectas una **condición** de fin del juego, como ganar o perder, para que otros scripts puedan detenerse y puedas reproducir un sonido o hacer una animación antes de `detener [todos]`{:class="block3control"}
 
 Ahora es momento de reflexionar: esta es una parte importante del aprendizaje porque te ayuda a establecer nuevas conexiones en tu cerebro.
 
