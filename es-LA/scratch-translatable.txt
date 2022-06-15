@@ -1,45 +1,13 @@
-configuración
-
-tamaño cuando no está saltando
-
-no está saltando
-
-hace empezar otros scripts
-
 Inicio
 
 aterrizaje
 
-no está en el aire
-
-en el final
-
-detiene otros objetos
-
-deja de saltar cuando gana
-
 detener
 
 Fin
-
-agrega este bloque para juegos de izquierda a derecha
-
-prueba diferentes números
-
-elige un color en tu plataforma
 
 Plataforma 1
 
 Plataforma 2
 
 Plataforma 3
-
-elige tu color de fondo
-
-evita saltar después de perder
-
-agrega un sonido de tu elección
-
-comprueba si pierdes
-
-comprueba si ganas
