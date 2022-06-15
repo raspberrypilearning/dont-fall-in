@@ -1,45 +1,13 @@
-configuration
-
-taille lorsqu'il ne saute pas
-
-ne pas sauter
-
-lancer d'autres scripts
-
 Départ
 
 atterri
 
-pas dans les airs
-
-à la fin
-
-arrêter les autres sprites
-
-arrêter de sauter après la victoire
-
 arrêter
 
 Fin
-
-ajouter ce bloc pour les jeux de gauche à droite
-
-essaye différents nombres
-
-choisir une couleur sur ta plateforme
 
 Plateforme 1
 
 Plateforme 2
 
 Plateforme 3
-
-choisir ta couleur d'arrière-plan
-
-éviter de sauter après avoir perdu
-
-ajouter un son de ton choix
-
-test perdu
-
-test gagné
