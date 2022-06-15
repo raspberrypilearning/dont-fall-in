@@ -1,31 +1,31 @@
-setup
+instellen
 
-size when not jumping
+grootte als je niet springt
 
-not jumping
+niet springen
 
-start other scripts
+andere scripts starten
 
-not in the air
+niet in de lucht
 
-at end
+aan het einde
 
-stop other sprites
+stop andere sprites
 
-stop jumping after win
+stop met springen na overwinning
 
-add this block for left to right games
+voeg dit blok toe voor games van links naar rechts
 
-try different numbers
+probeer verschillende getallen
 
-choose a colour on your platform
+kies een kleur voor je platform
 
-choose your backdrop colour
+kies je achtergrondkleur
 
-prevent jumping after losing
+voorkomt dat je personage blijft springen na verlies
 
-add a sound of your choice
+voeg een geluid naar keuze toe
 
-check lose
+controleer op verliezen
 
-check win
+controleer op winnen
