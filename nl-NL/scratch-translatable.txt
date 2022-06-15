@@ -1,45 +1,13 @@
-instellen
-
-grootte als je niet springt
-
-niet springen
-
-andere scripts starten
-
 Start
 
 geland
 
-niet in de lucht
-
-aan het einde
-
-stop andere sprites
-
-stop met springen na overwinning
-
 stop
 
 Einde
-
-voeg dit blok toe voor games van links naar rechts
-
-probeer verschillende getallen
-
-kies een kleur voor je platform
 
 Platform 1
 
 Platform 2
 
 Platform 3
-
-kies je achtergrondkleur
-
-voorkomt dat je personage blijft springen na verlies
-
-voeg een geluid naar keuze toe
-
-controleer op verliezen
-
-controleer op winnen
