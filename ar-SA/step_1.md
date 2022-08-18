@@ -31,7 +31,7 @@
 </div>
 
 <div>
-**لا تقع في الكسترد!**: [اطلع على البرنامج] (https://scratch.mit.edu/projects/525202210/editor){:target="_blank"}
+**لا تقع في الكسترد!**: [اطلع على البرنامج](https://scratch.mit.edu/projects/525202210/editor){:target="_blank"} 
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525202210/?autostart=false" frameborder="0"></iframe>
 </div>
@@ -59,6 +59,11 @@
 </div>
 
 **ارتداد الكوكب**: [اطلع على البرنامج](https://scratch.mit.edu/projects/525236603/editor){:target="_blank"}
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236345/?autostart=false" frameborder="0"></iframe>
+</div>
+
+--- /task ---
 
 --- /no-print ---
 
