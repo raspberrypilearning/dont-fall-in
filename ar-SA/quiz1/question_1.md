@@ -25,20 +25,20 @@ legend: السؤال 1 من 3
 
 ```blocks3
 when flag clicked
-go to (Start v)
-broadcast (start v)
+go to (إبدء v)
+broadcast (إبدء v)
 ```
 
 ```blocks3
-when I receive [start v]
+when I receive [إبدء v]
 forever
-if <touching color (#fff700) ?> then // check lose
-broadcast (stop v) // stop other sprites
+if <touching color (#fff700) ?> then // تحقق من الخسارة
+broadcast (قف v) // اوقف كائن آخر
 play sound (Lose v) until done
 stop [all v]
 end
-if <touching color (#ff0000) ?> then // check win
-broadcast (stop v) // stop other sprites
+if <touching color (#ff0000) ?> then // تحقق من الفوز
+broadcast (قف v) // اوقف كائن آخر
 play sound (Win v) until done
 stop [all v]
 end

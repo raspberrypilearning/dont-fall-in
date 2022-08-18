@@ -36,10 +36,10 @@ title: اجعل الكائن الخاص بك يتحرك
 ---
 
 ```blocks3
-when I receive [start v]
-point in direction (0) // add this block for left to right games
+when I receive [إبدء v]
+point in direction (0) // أضف هذه الكتلة للألعاب التي تتطلب اليسار إلى اليمين
 forever
-move (4) steps // try different numbers
+move (4) steps // جرب أرقامًا مختلفة
 if on edge, bounce
 end
 ```
@@ -81,25 +81,25 @@ title: إذا لمس الكائن
 ---
 
 ```blocks3
-when I receive [start v]
+when I receive [إبدء v]
 forever
-if <(size) = (landed) > then // not in the air
-if <touching color (#b89d2f) ?> then // at end
-broadcast (stop v) // stop other sprites
+if <(size) = (نزل) > then // ليس في الهواء
+if <touching color (#b89d2f) ?> then // في النهاية
+broadcast (قف v) // اوقف كائن آخر
 stop [other scripts in sprite v]
-go to (End v)
+go to (نهاية v)
 play sound (Win v) until done
 stop [all v]
 end
-+ if <touching color (#762356) ?> then // choose a colour on your platform
-if <touching (Platform 1 v)> then
-go to (Platform 1 v)
++ if <touching color (#762356) ?> then // اختر لونًا على منصتك
+if <touching (منصة 1 v)> then
+go to (منصة 1 v)
 end
-if <touching (Platform 2 v)> then
-go to (Platform 2 v)
+if <touching (منصة 2 v)> then
+go to (منصة 2 v)
 end
-if <touching (Platform 3 v)> then
-go to (Platform 3 v)
+if <touching (منصة 3 v)> then
+go to (منصة 3 v)
 end
 else
 end
@@ -128,32 +128,32 @@ title: خلفية مؤثرة أخرى
 ---
 
 ```blocks3
-when I receive [start v]
+when I receive [إبدء v]
 forever
-if <(size) = (landed)> then // not in the air
-if <touching color (#b89d2f) ?> then // at end
-broadcast (stop v) // stop other sprites
+if <(size) = (نزل)> then // ليس في الهواء
+if <touching color (#b89d2f) ?> then // في النهاية
+broadcast (قف v) // اوقف كائن آخر
 stop [other scripts in sprite v] 
-go to (End v)
+go to (نهاية v)
 play sound (Win v) until done
 stop [all v]
 end
-if <touching color (#762356) ?> then // choose a colour on your platform
-if <touching (Platform 1 v)> then
-go to (Platform 1 v)
+if <touching color (#762356) ?> then // اختر لونًا على منصتك
+if <touching (منصة 1 v)> then
+go to (منصة 1 v)
 end
-if <touching (Platform 2 v)> then
-go to (Platform 2 v)
+if <touching (منصة 2 v)> then
+go to (منصة 2 v)
 end
-if <touching (Platform 3 v)> then
-go to (Platform 3 v)
+if <touching (منصة 3 v)> then
+go to (منصة 3 v)
 end
 else
-+ if <touching color (#37ab37) ?> then // choose your backdrop colour
-broadcast (stop v)
-stop [other scripts in sprite v] // prevent jumping after losing
++ if <touching color (#37ab37) ?> then // اختر لون الخلفية الخاصة بك
+broadcast (قف v)
+stop [other scripts in sprite v] // منع القفز بعد الخسارة
 hide
-play sound (lose v) until done // add a sound of your choice
+play sound (lose v) until done // أضف صوتًا من اختيارك
 stop [all v]
 end
 end
@@ -175,7 +175,7 @@ end
 أضف تعليمات البرمحية إلى **منصة** الكائنات الخاص بك منعهم من التحرك عندما **شخصية** الكائن تصل الى **نهاية** المنصة أو يقع فيه!
 
 ```blocks3
-when I receive [stop v]
+when I receive [قف v]
 stop [other scripts in sprite v]
 ```
 
@@ -214,13 +214,13 @@ title: المنصات لا تتوقف عندما أفوز أو أخسر
 انظر إلى **المنصة** الخاص بك الكائن `عندما أتلقى`{:class="block3events"} نص وتحقق من أن الرسالة هي `التوقف`{:class="block3events"}.
 
 ```blocks3
-when I receive [stop v]
+when I receive [قف v]
 stop [other scripts in sprite v]
 ```
 تحقق من أن كتلة `البث`{:class="block3events"} داخل كتلة `اذا`{:class="block3control"} للفوز والخسارة هي `توقف`{:class="block3events"}.
 
 ```blocks3
-broadcast (stop v)
+broadcast (قف v)
 ```
 
 --- /collapse ---

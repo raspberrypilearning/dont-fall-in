@@ -8,7 +8,7 @@ legend: السؤال 2 من 3
 هذا هو التعليات البرمجية تنقلك للمنصة:
 
 ```blocks3
-when I receive [start v]
+when I receive [إبدء v]
 forever
 move [20] steps
 if on edge, bounce

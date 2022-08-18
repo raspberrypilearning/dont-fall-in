@@ -47,13 +47,13 @@ title: لا ينتقل الكائن الخاص بي إلى منصة ابدأ ع�
 
 
 ```blocks3
-when flag clicked // setup
-+go to (Start v)
-set [landed v] to [0]
-set size to (landed) %
+when flag clicked // التهيئة
++go to (إبدء v)
+set [نزل v] to [0]
+set size to (نزل) %
 +go to [front v] layer
 show
-broadcast (start v) // start other scripts
+broadcast (إبدء v) // إبدء نصوص الأخرى
 ```
 
 تأكد من أن هذا الاسم الموجود في `انتقل إلى`{:class="block3motion"} كتلة يطابق اسم الخاص بك **بدء** للكائن.

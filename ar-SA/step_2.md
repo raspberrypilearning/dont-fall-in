@@ -88,13 +88,13 @@ title: احصل على شخصيتك جاهزة للبدء
 **الشخصية:**
 
 ```blocks3
-when flag clicked // setup
-go to (Start v)
-set [landed v] to [40] // size when not jumping
-set size to (landed) % // not jumping
+when flag clicked // التهيئة
+go to (إبدء v)
+set [نزل v] to [40] // الحجم عند عدم القفز
+set size to (نزل) % // لا تقفز
 go to [front v] layer
 show
-broadcast (start v) // start other scripts
+broadcast (إبدء v) // إبدء نصوص الأخرى
 ```
 
 **نصيحة:** قم بإلغاء تحديد متغير `نزل`{:class="block3variables"} في قائمة كتل `المتغيرات`{:class="block3variables"} حتى لا تظهر على المسرح. لا يحتاج المستخدم لرؤية هذا المتغير.

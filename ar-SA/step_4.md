@@ -30,13 +30,13 @@ title: قم بإنهاء اللعبة عند لمس اللون
 **الشخصية**:
 
 ```blocks3
-when I receive [start v]
+when I receive [إبدء v]
 forever
-if <(size) = (landed)> then // not in the air
-if <touching color (#b89d2f) ?> then // at end
-broadcast (stop v) // stop other sprites
-stop [other scripts in sprite v] // stop jumping after win
-go to (End v)
+if <(size) = (نزل)> then // ليس في الهواء
+if <touching color (#b89d2f) ?> then // في النهاية
+broadcast (قف v) // اوقف كائن آخر
+stop [other scripts in sprite v] // توقف عن القفز بعد الفوز
+go to (نهاية v)
 play sound (Win v) until done
 stop [all v]
 end
@@ -104,12 +104,12 @@ title: لا يتم تشغيل الصوت عندما أصعد على منصة ا�
 تأكد من صحة اللون في كتلة اللون `لمس اللون`{:class="block3sensing"}. حدده مرة أخرى إذا لم تكن متأكدًا. تبدو الألوان أحيانًا متشابهة ولكنها ليست متشابهة.
 
 ```blocks3
-when I receive [start v]
+when I receive [إبدء v]
 forever
-if < (size) = (landed) > then // not in the air
-+if <touching color (#b89d2f) ?> then // at end
-broadcast (stop v) // stop other sprites
-go to (End v)
+if < (size) = (نزل) > then // ليس في الهواء
++if <touching color (#b89d2f) ?> then // في النهاية
+broadcast (قف v) // اوقف كائن آخر
+go to (نهاية v)
 +play sound (Win v) until done
 stop [all v]
 end
