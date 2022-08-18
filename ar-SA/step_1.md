@@ -31,9 +31,9 @@
 </div>
 
 <div>
-**لا تقع في الكسترد!**: [اطلع على البرنامج](https://scratch.mit.edu/projects/525202210/editor){:target="_blank"} 
+**لا تقع في الكسترد!**: [اطلع على البرنامج](https://scratch.mit.edu/projects/722859258/editor){:target="_blank"} 
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525202210/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/722859258/?autostart=false" frameborder="0"></iframe>
 </div>
 
 </div>
@@ -48,19 +48,19 @@
 
 استكشف هذه المشاريع النموذجية للحصول على مزيد من الأفكار:
 
-**طائر صغير**: [اطلع على البرنامج](https://scratch.mit.edu/projects/525236983/editor){:target="_blank"}
+**طائر صغير**: [اطلع على البرنامج](https://scratch.mit.edu/projects/722923532/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236983/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/722923532/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**قفز هوبر**: [اطلع على البرنامج](https://scratch.mit.edu/projects/525236345/editor){:target="_blank"}
+**قفز هوبر**: [اطلع على البرنامج](https://scratch.mit.edu/projects/722923654/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236345/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/722923654/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**ارتداد الكوكب**: [اطلع على البرنامج](https://scratch.mit.edu/projects/525236603/editor){:target="_blank"}
+**ارتداد الكوكب**: [اطلع على البرنامج](https://scratch.mit.edu/projects/722923763/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236345/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/722923763/?autostart=false" frameborder="0"></iframe>
 </div>
 
 --- /task ---
