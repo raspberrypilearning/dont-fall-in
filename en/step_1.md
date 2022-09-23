@@ -1,4 +1,4 @@
-## Introduction
+## You will make
 
 Design and build a top-down view, obstacle or platform, parkour game. Your character will need to jump, hop, glide, bounce, or fly to catch a ride on moving platforms and make it to the end.
 
@@ -20,7 +20,7 @@ You will:
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-### Try it 
+### Play ▶️ 
 
 Click the space bar or tap the Stage to jump to the next platform. Time your jumps so you don't fall in the custard.
 
@@ -40,7 +40,7 @@ Click the space bar or tap the Stage to jump to the next platform. Time your jum
 
 --- /task ---
 
-### Get inspiration 
+### Get ideas 💭
 
 You are going to make some design decisions to make a top-down platform game of your own. You'll choose the theme, colours, character, number of platforms, and the difficulty level.
 
@@ -68,7 +68,7 @@ Explore these example projects to get more ideas:
 
 --- print-only ---
 
-### Get inspiration 
+### Get ideas 💭 
 
 You are going to make some design decisions to make a top-down platform game of your own. You'll choose the theme, colours, character, number of platforms and the difficulty level. See inside example projects in [Scratch 2: Don't fall in - Examples](https://scratch.mit.edu/studios/29599110/){:target="_blank"} Scratch studio.
 
