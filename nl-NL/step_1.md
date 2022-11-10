@@ -1,4 +1,4 @@
-## Inleiding
+## You will make
 
 Ontwerp en maak een hindernis- of platformparkour-spel met bovenaanzicht. Je personage moet springen, huppelen, glijden, stuiteren of vliegen om een ritje te maken op bewegende platforms en het einde te halen.
 
@@ -20,9 +20,9 @@ Je gaat:
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-### Probeer het 
+### Play ▶️ 
 
-Klik op de spatiebalk of tik op het speelveld om naar het volgende platform te springen. Denk goed na over de timing van je sprongen zodat je niet in de vla valt.
+Click the space bar or tap the Stage to jump to the next platform. Denk goed na over de timing van je sprongen zodat je niet in de vla valt.
 
 + Hoe creëert het spel een bovenaanzicht? 
 + Hoe verandert de grootte van het personage als het vliegt? 
@@ -40,7 +40,7 @@ Klik op de spatiebalk of tik op het speelveld om naar het volgende platform te s
 
 --- /task ---
 
-### Doe inspiratie op
+### Get ideas 💭
 
 Je gaat een aantal ontwerpbeslissingen nemen om je eigen platformgame met bovenaanzicht te maken. Je kiest het thema, de kleuren, het personage, het aantal platforms en de moeilijkheidsgraad.
 
@@ -68,7 +68,7 @@ Bekijk deze voorbeeldprojecten om meer ideeën op te doen:
 
 --- print-only ---
 
-### Doe inspiratie op
+### Get ideas 💭
 
 Je gaat een aantal ontwerpbeslissingen nemen om je eigen platformgame met bovenaanzicht te maken. Je kiest het thema, de kleuren, het personage, het aantal platforms en de moeilijkheidsgraad. Bekijk voorbeeldprojecten in [Scratch 2: Val er niet in - Voorbeelden](https://scratch.mit.edu/studios/29599110/){:target="_blank"} Scratch studio.
 
