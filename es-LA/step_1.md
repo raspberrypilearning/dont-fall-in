@@ -1,4 +1,4 @@
-## Introducción
+## You will make
 
 Diseña y construye un juego de parkour con obstáculos o plataformas con vista top-down (de arriba hacia abajo). Tu personaje tendrá que saltar, brincar, deslizarse, rebotar o volar para subirse a plataformas móviles y llegar al final.
 
@@ -20,9 +20,9 @@ Vas a:
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-### Inténtalo 
+### Play ▶️ 
 
-Haz clic en la barra espaciadora o toca el escenario para saltar a la siguiente plataforma. Calcula bien el tiempo de tus saltos para no caer en la natilla.
+Click the space bar or tap the Stage to jump to the next platform. Calcula bien el tiempo de tus saltos para no caer en la natilla.
 
 + ¿Cómo crea el juego una vista top-down (de arriba hacia abajo)? 
 + ¿Cómo cambia el tamaño del personaje cuando vuela? 
@@ -40,7 +40,7 @@ Haz clic en la barra espaciadora o toca el escenario para saltar a la siguiente 
 
 --- /task ---
 
-### Inspírate
+### Get ideas 💭
 
 Vas a tomar algunas decisiones de diseño para crear tu propio juego de plataformas con vista top-down (de arriba hacia abajo). Elegirás el tema, los colores, el personaje, el número de plataformas y el nivel de dificultad.
 
@@ -68,7 +68,7 @@ Explora estos proyectos de ejemplo para obtener más ideas:
 
 --- print-only ---
 
-### Inspírate
+### Get ideas 💭
 
 Vas a tomar algunas decisiones de diseño para crear tu propio juego de plataformas con vista top-down (de arriba hacia abajo). Elegirás el tema, los colores, el personaje, el número de plataformas y el nivel de dificultad. Ver dentro de los proyectos de ejemplo en el Scratch studio [Scratch 2: No te caigas- Ejemplos](https://scratch.mit.edu/studios/29599110/){:target="_blank"}.
 
