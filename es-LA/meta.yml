@@ -5,10 +5,10 @@ description: Diseña y crea un juego de parkour con obstáculos o plataformas co
 version: 4
 listed: true
 copyedit: false
-last_tested: '2021-03-26'
+last_tested: "2021-03-26"
 steps:
   - 
-    title: Introducción
+    title: You will make
   - 
     title: Elige tu tema
   - 
@@ -24,7 +24,7 @@ steps:
     completion:
       - internal
   - 
-    title: Reflexión
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
