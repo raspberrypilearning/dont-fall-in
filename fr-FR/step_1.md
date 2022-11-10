@@ -1,4 +1,4 @@
-## Introduction
+## You will make
 
 Conçois et construis un jeu de parkour en vue de dessus, avec obstacles ou plateformes. Ton personnage devra sauter, bondir, glisser, rebondir ou voler pour monter sur des plateformes mobiles et arriver à la fin.
 
@@ -20,9 +20,9 @@ Tu vas devoir :
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-### Essaye-le 
+### Play ▶️ 
 
-Clique sur la barre d'espace ou appuie sur la scène pour passer à la plateforme suivante. Chronomètre tes sauts pour ne pas tomber dans la crème.
+Click the space bar or tap the Stage to jump to the next platform. Chronomètre tes sauts pour ne pas tomber dans la crème.
 
 + Comment le jeu crée-t-il une vue de dessus ? 
 + Comment la taille du personnage change-t-elle lorsqu'il vole ? 
@@ -40,7 +40,7 @@ Clique sur la barre d'espace ou appuie sur la scène pour passer à la plateform
 
 --- /task ---
 
-### Trouve l'inspiration
+### Get ideas 💭
 
 Tu vas prendre des décisions de conception pour créer ton propre jeu de plateforme en vue de dessus. Tu choisiras le thème, les couleurs, le personnage, le nombre de plateformes et le niveau de difficulté.
 
@@ -67,7 +67,7 @@ Explore ces exemples de projets pour obtenir plus d'idées :
 
 --- print-only ---
 
-### Trouve l'inspiration
+### Get ideas 💭
 
 Tu vas prendre des décisions de conception pour créer ton propre jeu de plateforme en vue de dessus. Tu choisiras le thème, les couleurs, le personnage, le nombre de plateformes et le niveau de difficulté. Voir à l'intérieur des exemples de projets dans [Scratch 2 : Ne tombe pas dedans - Exemples](https://scratch.mit.edu/studios/29599110/){:target="_blank"}Scratch Studio.
 
