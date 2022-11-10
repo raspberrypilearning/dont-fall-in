@@ -1,17 +1,10 @@
-## Reflexión
+## Quick quiz
 
-¡Bien hecho, creaste un juego y lo personalizaste! Aprendiste maneras útiles de combinar bloques de Scratch para crear un juego, que incluyen:
-+ Usar bloques `por siempre`{:class="block3control"} con sentencias `si`{:class="block3control"} para detectar **condiciones** importantes en tu juego y pasar a la acción
-+ Enviar un mensaje de `comenzar`{:class="block3control"} después de configurar tu personaje, para que todo esté listo cuando empieces el juego
-+ Enviar un mensaje de `detener`{:class="block3control"} cuando detectas una ** condición ** de fin del juego, como ganar o perder, para que otros scripts puedan detenerse y puedas reproducir un sonido o hacer una animación antes de `detener [todos]`{:clase="bloque3control"}
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Ahora es momento de reflexionar: esta es una parte importante del aprendizaje porque te ayuda a establecer nuevas conexiones en tu cerebro.
+When you have answered each question, click on **Check my answer**.
 
-Responde las siguientes tres preguntas para reflexionar sobre lo que has aprendido.
-
-Después de cada pregunta presiona enviar. Vamos a guiarte hacia la respuesta correcta. Puedes realizar esta actividad tantas veces como quieras.
-
-¡Qué te diviertas!
+Have fun!
 
 --- question ---
 
@@ -19,9 +12,9 @@ Después de cada pregunta presiona enviar. Vamos a guiarte hacia la respuesta co
 legend: Pregunta 1 de 3
 ---
 
-![El Escenario de un juego de saltar la lava. El personaje está en la plataforma final, una puerta dorada.](images/quiz-lava-stage.png)
+![The Stage of a lava-jumping game. The character is on the end platform, a golden door.](images/quiz-lava-stage.png)
 
-Ganas este juego al llegar a la puerta dorada y pierdes si aterrizas en el pozo de lava. El juego no funciona. ¿Cómo podrías arreglarlo?
+You win this game by reaching the golden door, and lose if you land in the lava pit. The game isn't working. How could you fix it?
 
 ```blocks3
 when flag clicked
@@ -47,27 +40,27 @@ end
 
 --- choices ---
 
-- ( ) Cambiando el color en la condición 'comprueba si pierdes'
+- ( ) Change the colour in the 'check lose' condition
 
   --- feedback ---
 
-Casi. La condición de 'comprueba si pierdes' no tiene el color correcto, pero solo cambiarlo no hará que el juego funcione.
+Close. The 'check lose' condition doesn't have the right colour, but just changing that won't make the game work.
 
   --- /feedback ---
 
-- ( ) Cambiando el color en la condición 'comprueba si ganas'
+- ( ) Change the colour in the 'check win' condition
 
   --- feedback ---
 
-Casi. La condición de 'comprueba si ganas' no tiene el color correcto, pero solo cambiarlo no hará que el juego funcione.
+Casi. The 'check win' condition doesn't have the right colour, but just changing that won't make the game work.
 
   --- /feedback ---
 
-- (x) Intercambiar los colores en las condiciones de 'comprueba si ganas' y 'comprueba si pierdes'
+- (x) Swap the colours in the 'check win' and 'check lose' conditions
 
   --- feedback ---
 
-Sí. ¡Las condiciones 'comprueba si pierdes' y 'comprueba si ganas' tienen los colores invertidos! ¡El jugador ganará cuando caiga en la lava y perderá cuando llegue a la puerta dorada! Intercambiar las condiciones solucionará esto.
+Yes. The 'check lose' and 'check win' conditions have the colours the wrong way round! The player will win when they fall in the lava and lose when they reach the golden door! Swapping the conditions will fix this.
 
   --- /feedback ---
 
