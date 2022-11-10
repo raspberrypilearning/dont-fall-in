@@ -1,15 +1,8 @@
-## Reflection
+## Quick quiz
 
-Well done, you made a game and customised the game play! You learnt some useful ways to combine Scratch blocks to make a game, including:
-+ Using `forever`{:class="block3control"} blocks with `if`{:class="block3control"} statements to detect important **conditions** in your game and take action
-+ Broadcasting a `start`{:class="block3control"} message after setting up your character, so everything is ready when you start the game
-+ Broadcasting a `stop`{:class="block3control"} message when you detect a game end **condition** such as winning or losing, so that other scripts can stop and you can play a sound or do an animation before `stop [all]`{:class="block3control"}
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Now it's time to reflect — reflecting is an important part of learning because it helps make new connections in your brain.
-
-Answer the three questions below to reflect on what you've learnt.
-
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+When you have answered each question, click on **Check my answer**.
 
 Have fun!
 
