@@ -1,17 +1,10 @@
-## تفكير
+## Quick quiz
 
-أحسنت, صنع لعبة وخصصت طريقة اللعب! لقد تعلمت بعض الطرق المفيدة لدمج كتل Scratch لصنع لعبة ، بما في ذلك:
-+ استخدم كتلة `كرر باستمرار`{:class="block3control"} مع عبارة `اذا`{:class="block3control"} لاكتشاف **الشروط ** المهمة في لعبتك واتخاذ الإجراءات اللازمة
-+ يتم بث رسالة `إبدء`{:class="block3control"} بعد تهيئة شخصيتك، وبذلك يصبح كل شيء جاهزًا عند بَدْء اللعبة
-+ يتم بث رسالة `قف`{:class="block3control"} عند تحسس **شرط** نهاية اللعبة مثل الفوز أو الخسارة، بحيث تتوقف البرامج النصية الأخرى ويمكنك تشغيل صوت أو عمل رسم متحرك قبل `اوقف[all]`{:class="block3control"}
+Answer the three questions. There are hints to guide you to the correct answer.
 
-الآن ، حان وقت التفكير - التفكير جزء مهم من التعلم ، لأنه يساعد في إنشاء روابط جديدة في عقلك.
+When you have answered each question, click on **Check my answer**.
 
-أجب عن الأسئلة الثلاثة أدناه للتفكر فيما تعلمته.
-
-بعد كل سؤال، اضغط على إرسال. سيتم توجيهك نحو الإجابة الصحيحة. يمكنك القيام بهذا النشاط عدة مرات كما تريد.
-
-إستمتع!
+Have fun!
 
 --- question ---
 
@@ -19,9 +12,9 @@
 legend: السؤال 1 من 3
 ---
 
-![مرحلة لعبة القفز على الحمم البركانية. الشخصية على منصة النهاية ، باب ذهبي.](images/quiz-lava-stage.png)
+![The Stage of a lava-jumping game. The character is on the end platform, a golden door.](images/quiz-lava-stage.png)
 
-تكسب هذه اللعبة من خلال الوصول إلى الباب الذهبي ، وتخسر إذا هبطت في حفرة الحمم البركانية. اللعبة لا تعمل. كيف يمكنك اصلاحها؟
+You win this game by reaching the golden door, and lose if you land in the lava pit. The game isn't working. How could you fix it?
 
 ```blocks3
 when flag clicked
@@ -47,27 +40,27 @@ end
 
 --- choices ---
 
-- ( ) قم بتغيير اللون في حالة "تحقق الخسارة"
+- ( ) Change the colour in the 'check lose' condition
 
   --- feedback ---
 
-قريب. لا تحتوي حالة "الاختيار الخاسر" على اللون الصحيح ، ولكن مجرد تغيير ذلك لن يجعل اللعبة تعمل.
+Close. The 'check lose' condition doesn't have the right colour, but just changing that won't make the game work.
 
   --- /feedback ---
 
-- ( ) قم بتغيير اللون في حالة "تحقق الفوز"
+- ( ) Change the colour in the 'check win' condition
 
   --- feedback ---
 
-قريب. لا تحتوي حالة "الاختيار الفوز" على اللون الصحيح ، ولكن مجرد تغيير ذلك لن يجعل اللعبة تعمل.
+قريب. The 'check win' condition doesn't have the right colour, but just changing that won't make the game work.
 
   --- /feedback ---
 
-- (x) قم بتبديل الألوان في شروط "اختبار الفوز" و "اختبار الخسارة"
+- (x) Swap the colours in the 'check win' and 'check lose' conditions
 
   --- feedback ---
 
-نعم. شروط "الاختيار خسارة" و "تحقق الفوز" لها الألوان بطريقة خاطئة! سيفوز اللاعب عندما يسقط في الحمم ويخسر عندما يصل إلى الباب الذهبي! تبديل الشروط سيصلح هذا.
+Yes. The 'check lose' and 'check win' conditions have the colours the wrong way round! The player will win when they fall in the lava and lose when they reach the golden door! Swapping the conditions will fix this.
 
   --- /feedback ---
 
