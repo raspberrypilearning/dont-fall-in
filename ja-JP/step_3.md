@@ -1,23 +1,23 @@
-## Jump, hop, bounce, or glide!
+## 跳んで、跳びまわって、跳びはねて、滑空する！
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will code your character to jump from start to end platforms. 
+このステップでは、スタートからゴールのプラットフォームへジャンプするキャラクターの動きをコーディングします。 
 </div>
 <div>
 ![](images/jump-example.png){:width="300px"}
 </div>
 </div>
 
-You're going to make your character jump across the Stage. Don't worry about falling in yet.
+キャラクターをステージ上でジャンプさせます。 まだ落ちる心配はありません。
 
 --- task ---
 
-**Choose:** Add a jumping sound that suits your character.
+**選択：** キャラクターに合ったジャンプ音を追加します。
 
 [[[generic-scratch3-sound-from-library]]]
 
-Now make your character jump across the Stage by pressing the <kbd>space</kbd> bar on a keyboard or tapping the Stage on a tablet.
+次に、キャラクターがステージを飛び越えるように、キーボードの<kbd>スペース</kbd>バーを押すか、タブレットのステージをタップします。
 
 [[[scratch3-top-down-jumping]]]
 
@@ -25,25 +25,25 @@ Now make your character jump across the Stage by pressing the <kbd>space</kbd> b
 
 --- task ---
 
-**Test:** Tap the <kbd>space</kbd> bar or Stage to make your character jump across the Stage to the **End** platform.
+**テスト：** <kbd>スペース</kbd>バーまたはステージをタップして、キャラクターがステージを飛び越えて**ゴール**のプラットフォームまでジャンプさせます。
 
-Adjust your code until the character jumps across the Stage in three or four jumps.
+キャラクターが3〜4回のジャンプでステージを飛び越えるまで、コードを調整します。
 
 --- /task ---
 
-**Tip:** It's really common for games to have a `forever`{:class="block3control"} block with `if`{:class="block3control"} statements inside it to do something when important conditions become true.
+**ヒント：** ゲームに`ずっと`{:class="block3control"}ブロックを持たせて、その内部の`もし`{:class="block3control"}条件文で重要な条件が真になったら何かを行うことはとても一般的です。
 
 --- task ---
 
-**Debug:**
+**デバッグ:**
 
 --- collapse ---
 
 ---
-title: My sprite doesn't go to the Start platform when I click the green flag
+title: 緑色の旗をクリックしても、スプライトがスタートのプラットフォームに移動しません
 ---
 
-Check that you have a setup script on your **character** sprite:
+**キャラクター**のスプライトにセットアップスクリプトがあることを確認します。
 
 
 ```blocks3
@@ -56,70 +56,70 @@ show
 broadcast (start v) // start other scripts
 ```
 
-Check that that name in the `go to`{:class="block3motion"} block matches the name of your **Start** sprite.
+`行く`{:class="block3motion"}ブロックの中の名前が、**スタート**スプライトの名前と一致していることを確認します。
 
-Check that you have a `go to front layer`{:class="block3looks"} block. Your sprite might be underneath the Start plaform!
+`最前面へ移動する`{:class="block3looks"}ブロックがあることを確認します。 スプライトがスタートのプラットフォームの下にある可能性があります。
 
-Make sure you haven't hidden your **character** sprite. Add a `show`{:class="block3looks"} block to your setup script if you need to.
+**キャラクター**のスプライトを隠していないことを確認します。 必要ならば、セットアップスクリプトに`表示する`{:class="block3looks"}ブロックを追加します。
 
-
---- /collapse ---
-
---- collapse ---
-
----
-title: My sprite doesn't go to the centre of the Start platform
----
-
-You need to make sure all your sprite costumes are centered in the Paint editor.
-
-The `go to`{:class="block3motion"} `other sprite`{:class="block3motion"} block moves a sprite so that its centre is in the same position as the centre of the other sprite. If their centres are in the wrong place, then your **character** won't go to the centre of the platforms.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: My sprite points or jumps in the wrong direction!
+title: スプライトがスタートのプラットフォームの中央に移動しません
 ---
 
-Add a `point in direction`{:class="block3motion"} block to the **character**'s setup script or change the direction in the sprite pane. You might also need to change the `rotation style`{:class="block3motion"}. You might also need to rotate the **costume** of your sprite so that it faces to the right.
+ペイントエディタで、スプライトのすべてのコスチュームが中央に配置されていることを確認します。
+
+`他のスプライト`{:class="block3motion"}`へ行く`{:class="block3motion"}ブロックは、その中心が他のスプライトの中心と同じ位置になるようにスプライトを移動させます。 中心が間違ったところに設定されている場合、**キャラクター**はプラットフォームの中心に行きません。
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: My sprite doesn't jump the right distance
+title: スプライトの向きやジャンプの方向が間違っています！
 ---
 
-Look at your **character**'s `when I receieve (jump)`{:class="block3events"} script. Try changing the number of steps in the `move`{:class="block3motion"} blocks, or the number of repeats in the `repeat`{:class="block3control"} blocks.
+`度に向ける`{:class="block3motion"}ブロックを**キャラクター**のセットアップスクリプトに追加するか、スプライトペインで方向を変更します。 `回転方法`{:class="block3motion"}も変更する必要があるかもしれません。 また、スプライトの**コスチューム**が右を向くように回転することも必要かもしれません。
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: スプライトが正しい距離をジャンプしません
+---
+
+**キャラクター**の`(ジャンプ)を受け取った`{:class="block3events"}スクリプトを見てください。 `動かす`{:class="block3motion"}ブロックの歩数、または`繰り返す`{:class="block3control"}ブロックの繰り返し数を変更してみてください。
 
 ```blocks3
 +move [5] steps
 ```
 
-Remember, you will need to change the numbers for the up and down parts of the jump.
+上下ジャンプの数を変更する必要があることを忘れないでください。
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: My sprite doesn't grow and shrink correctly when it jumps
+title: スプライトがジャンプするときに正しく拡大・縮小しません
 ---
 
-Make sure you have a `broadcast (start)`{:class="block3events"} block at the end of your **character**'s `when flag clicked`{:class="block3events"} script.
+**キャラクター**にある`旗が押されたとき`{:class="block3events"}スクリプトの最後に、`(開始)メッセージを送る`{:class="block3events"}ブロックを入れてください。
 
-Look at your **character**'s `when I receieve (start)`{:class="block3events"} script.
+**キャラクター**の`(開始)メッセージを受け取った`{:class="block3events"}スクリプトを見てください。
 
-Make sure that the `change size`{:class="block3looks"} block in the second `repeat`{:class="block3events"} block has a negative number to make the sprite smaller such as `-3`.
+2番目の`繰り返す`{:class="block3events"}ブロックの中の`大きさを変える`{:class="block3looks"}ブロックは、スプライトを小さくするために負の数（`-3`など）であることを確認します。
 
 --- /collapse ---
 
-If you have a bug that we haven't covered here, then let us know in the feedback. If you fixed the bug yourself (well done!), let us know that too.
+ここで取り上げていないバグがある場合は、フィードバックでお知らせください。 自分でバグを修正した場合でも（よくできました！）お知らせください。
 
-**Tip:** If you're stuck, try reading your code out loud or in your head to make sure it says what you think it does. You might find the bug.
+**ヒント：** 行き詰まった場合は、コードを声に出したり頭の中で読んだりして、それが行うだろうと自分が思うことと言っていることが同じか確認します。 バグが見つかるかもしれません。
 
 --- /task ---
 
