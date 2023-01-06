@@ -1,10 +1,10 @@
-## Ride on platforms
+## Reidio ar blatfformiau
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Well that's too easy! 
+Wel mae hynny'n rhy hawdd! 
 
-In this step, you will add platforms to land on. Jumping on them will avoid falling in. 
+Yn y cam yma, byddi di'n ychwanegu mwy o blatfformiau i lanio arnyn nhw. Bydd neidio arnyn nhw'n osgoi disgyn i mewn. 
 </div>
 <div>
 ![](images/riding-example.png){:width="300px"}
@@ -13,26 +13,26 @@ In this step, you will add platforms to land on. Jumping on them will avoid fall
 
 --- task ---
 
-Create a **Platform 1** sprite to land on.
+Crea gorlun **Platfform 1** i lanio arno.
 
-Paint a costume for your **Platform 1** sprite.
+Paentia wisg ar gyfer dy gorlun **Platfform 1**.
 
-**Tip:** If you want your sprite to `bounce`{:class="block3motion"} without the costume appearing to change direction, you will need a costume that is symmetrical, or set the rotation style to **Don't rotate**.
+**Awgrym:** Os wyt ti am i dy gorlun `fowndio`{:class="block3motion"} heb i'r wisg ymddangos ei bod yn newid cyfeiriad, bydd angen gwisg sy'n gymesur, neu bydd angen gosod yr arddull cylchdroi i **Peidio troi**.
 
-![The direction property pop-up menu in the Sprite pane with the dont rotate icon selected.](images/dont-rotate.png)
+![Neidlen y briodwedd cyfeiriad yn y cwarel Sprite gyda'r eicon peidiwch troi wedi'i dewis.](images/dont-rotate.png)
 
 --- /task ---
 
 --- task ---
 
-Add code to your **Platform 1** sprite to get it moving.
+Ychwanega god at dy gorlun **Platform 1** i wneud iddo symud.
 
-You may need your **Platform 1** sprite to `point in direction`{:class="block3motion"} `0` to move up and down the screen.
+Efallai bydd angen i dy gorlun **Platfform 1** `bwyntio i gyfeiriad`{:class="block3motion"} `0` er mwyn symud i fyny ac i lawr y sgrin.
 
 --- collapse ---
 
 ---
-title: Make your platform move
+title: Gwneud i dy blatfform symud
 ---
 
 ```blocks3
@@ -50,34 +50,34 @@ end
 
 --- task ---
 
-**Test:** Click the green flag and make sure your platform moves correctly.
+**Prawf:** Clicia'r faner werdd a gwneud yn siŵr bod dy blatfform yn symud yn gywir.
 
 --- /task ---
 
 --- task ---
 
-Duplicate your **Platform 1** sprite and name it **Platform 2** .
+Dyblyga dy gorlun **Platfform 1** corlun a'i enwi yn **Platfform 2**.
 
-**Choose:** If you want to have 3 platforms, duplicate the **Platform 1** sprite again and name it **Platform 3**.
+**Dewis:** Os wyt ti am gael 3 phlatfform, dyblyga'r corlun **Platfform 1** eto a'i enwi yn **Platfform 3**.
 
 [[[scratch3-duplicate-sprite]]]
 
-Experiment with the number of steps and the sprite size to make each platforms easier or harder to jump on.
+Arbrofa gyda nifer y camau a maint y corlun i wneud pob platfform yn haws neu'n anoddach neidio arno.
 
 --- /task ---
 
-Detect `if`{:class="block3control"} your **character** sprite has landed on a **platform** sprite and is safe, `else`{:class="block3control"} your **character** sprite has fallen in!
+Synhwyra `os`{:class="block3control"} mae dy gorlun **cymeriad** wedi glanio ar gorlun **platfform** a'i fod yn ddiogel, neu `fel arall`{:class="block3control"} mae dy gorlun **cymeriad** wedi disgyn i mewn!
 
 --- task ---
 
-Add code to your **character** sprite to sense `if touching`{:class="block3sensing"} a colour on the **platform** sprites.
+Ychwanega god at dy gorlun **cymeriad** i synhwyro `os yn cyffwrdd`{:class="block3sensing"} lliw ar y corluniau **platfform**.
 
-**Choose:** If your platform has multiple colours, choose which colour your character needs to land on. You might want them to fall in if they are only on the edge!
+**Dewis:** Os oes gan dy blatfform sawl lliw, dewisa ba liw y mae angen i dy gymeriad lanio arno. Efallai byddi di am iddo syrthio i mewn hyd yn oed os yw ar ymyl y platfform!
 
 --- collapse ---
 
 ---
-title: If touching platform
+title: Os yw'n cyffwrdd â'r platfform
 ---
 
 ```blocks3
@@ -113,18 +113,18 @@ end
 
 --- task ---
 
-**Test:** Click the green flag and make sure your sprite can ride on the platforms.
+**Prawf:** Clicia'r faner werdd a gwneud yn siŵr bod dy gorlun yn gallu reidio ar y platfformau.
 
 --- /task ---
 
 --- task ---
 
-Add code to your **character** sprite to sense `if`{:class="block3control"} `touching`{:class="block3sensing"} the backdrop colour, then end the game.
+Ychwanega god at dy gorlun **cymeriad** i synhwyro `os`{:class="block3control"} `yn cyffwrdd`{:class="block3sensing"} lliw'r cefndir, yna mae angen gorffen y gêm.
 
 --- collapse ---
 
 ---
-title: Else touching backdrop
+title: Fel arall os yw'n cyffwrdd â'r gefnlen
 ---
 
 ```blocks3
@@ -166,13 +166,13 @@ end
 
 --- task ---
 
-**Test:** Play your game and try missing a platform. Make sure you hear the lose sound.
+**Prawf:** Chwarea dy gêm a cheisio methu'r platfform yn fwriadol. Gwna'n siŵr dy fod yn clywed y sain colli.
 
 --- /task ---
 
 --- task ---
 
-Add code to your **platform** sprites to stop them moving when the **character** sprite reaches the **End** platform — or falls in!
+Ychwanega god at dy gorluniau **platfform** i'w stopio rhag symud pan fydd y corlun **cymeriad** yn cyrraedd y platfform **Diwedd** — neu'n disgyn i mewn!
 
 ```blocks3
 when I receive [stop v]
@@ -183,41 +183,41 @@ stop [other scripts in sprite v]
 
 --- task ---
 
-**Test:** Play again and make sure the platforms stop when the game ends. The game ends when you reach the **End** platform, or when you fall in.
+**Profi:** Chwarea eto a gwna'n siŵr bod y platfformiau'n stopio pan ddaw'r gêm i ben. Daw'r gêm i ben pan fyddi di'n cyrraedd y platfform **Diwedd**, neu pan fyddi di'n disgyn i mewn.
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**Difa chwilod:**
 
 --- collapse ---
 
 ---
-title: The game ends too soon
+title: Mae'r gêm yn dod i ben yn rhy fuan
 ---
 
-Make sure you have the `if`{:class="block3control"} blocks in the correct order inside your `forever`{:class="block3control"} block. Check carefully against the example code.
+Gwna'n siŵr fod gen ti y blociau `os`{:class="block3control"} yn y drefn gywir y tu mewn i dy floc `am byth`{:class="block3control"}. Gwiria hyn yn ofalus yn erbyn y cod enghreifftiol.
 
-If you check that the **character** is touching the backdrop before it has had chance to land on a platform, then your game could end unfairly!
+Os wyt ti'n gwneud yn siŵr fod y **cymeriad** yn cyffwrdd â'r cefndir cyn iddo gael cyfle i lanio ar blatfform, yna fe allai dy gêm ddod i ben mewn ffordd annheg!
 
-Make sure your `if`{:class="block3control"} blocks to check game conditions are inside an `if`{:class="block3control"} block that checks the size of the **character** is normal. It's fine for your sprite to be touching the backdrop colour when jumping. It's only a problem if they land in the custard, lava, radio-active goo, or whatever hazard you have chosen.
+Gwna'n siŵr fod dy flociau `os`{:class="block3control"} ar gyfer gwirio amodau'r gêm y tu mewn i floc `os`{:class="block3control"} sy'n gwirio a ydy maint y **cymeriad** yn normal. Mae'n iawn os ydy dy gorlun yn cyffwrdd â lliw'r cefndir wrth neidio. Dim ond os bydd dy gymeriad yn glanio yn y cwstard, y lafa, y slwtsh ymbelydrol, neu ba bynnag berygl rwyt ti wedi'i ddewis, mae problem.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The platforms don't stop when I win or lose
+title: Dydy'r platfformau ddim yn stopio pan fydda i'n ennill neu'n colli
 ---
 
-Look at your **platform** sprites' `when I receive`{:class="block3events"} script and check the message is `stop`{:class="block3events"}.
+Edrycha ar sgript `pan rwy'n derbyn`{:class="block3events"}</strong> dy gorluniau **platfform** a gwneud yn siŵr mai `stop` ydy'r neges.
 
 ```blocks3
 when I receive [stop v]
 stop [other scripts in sprite v]
 ```
-Check that the `broadcast`{:class="block3events"} block inside the win and lose `if`{:class="block3control"} blocks is `stop`{:class="block3events"}.
+Gwna'n siŵr fod y bloc `darlledu`{:class="3events"} y tu mewn i'r blociau `os`{:class="block3control"} ennill a cholli yn dweud `stop`{:class="block3events"}.
 
 ```blocks3
 broadcast (stop v)
@@ -228,7 +228,7 @@ broadcast (stop v)
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-There are lots of <span style="color: #0faeb0">platform games</span> including 2D and 3D ones. Platforms are common in obstacle (obby) games and parkour games. Some games have platforms that move, show and hide, or gradually disappear when you jump on them. Can you think of games that you have played that have platforms that you have to jump on? What about games with moving platforms?
+Mae yna lawer o <span style="color: #0faeb0">gemau platfformio</span> gan gynnwys rhai 2D a 3D. Mae platfformiau yn gyffredin mewn gemau rhwystrau (obby) a gemau parkour. Mae gan rai gemau blatfformiau sy'n symud, sy'n ymddangos ac yn cuddio, neu'n sy'n diflannu'n raddol pan fydd di'n neidio arnyn nhw. Allwi di feddwl am gemau rwyt ti wedi'u chwarae sydd â phlatfformiau mae'n rhaid i ti neidio arnyn nhw? Beth am gemau gyda phlatfformiau sy'n symud?
 </p>
 
 --- save ----
