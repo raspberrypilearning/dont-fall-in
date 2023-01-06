@@ -1,8 +1,8 @@
-## Choose your theme
+## Dewis dy thema
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add a character and backdrop, and create start and end platforms. 
+Yn y cam yma, byddi di'n ychwanegu cymeriad a chefnlen, ac yn creu platfformau dechrau a diwedd. 
 </div>
 <div>
 ![](images/setup-example.png){:width="300px"}
@@ -11,13 +11,13 @@ In this step, you will add a character and backdrop, and create start and end pl
 
 --- task ---
 
-Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"} and delete the cat sprite. Scratch will open in another browser tab.
+Agora [brosiect Scratch newydd](http://rpf.io/scratch-new){:target="_blank"} a dileu corlun y gath. Bydd Scratch yn agor mewn tab arall ar y porwr.
 
 --- /task ---
 
 --- task ---
 
-Create a solid colour backdrop.
+Crea gefndir lliw solet.
 
 [[[scratch-paint-single-colour-backdrop]]]
 
@@ -25,7 +25,7 @@ Create a solid colour backdrop.
 
 --- task ---
 
-**Choose:** Will your character move from left to right, or bottom to top?
+**Dewis:** Fydd dy gymeriad yn symud o'r chwith i'r dde, neu o'r gwaelod i'r brig?
 
 ![](images/direction-examples.png)
 
@@ -33,39 +33,39 @@ Create a solid colour backdrop.
 
 --- task ---
 
-Paint a new **Start** platform sprite.
+Paentia gorlun platfform **Dechrau** newydd.
 
-Start with a simple single coloured shape. You can add more detail later.
+Dechreua gyda siâp un lliw syml. Galli di ychwanegu mwy o fanylion nes ymlaen.
 
-Centre your costume in the Paint editor.
+Canola dy wisg yn y Golygydd paent.
 
 [[[scratch-crosshair]]]
 
-Position your **Start** platform sprite where you want your character to start the game.
+Gosoda dy gorlun platfform **Dechrau** lle rwyt ti am i dy gymeriad ddechrau'r gêm.
 
 --- /task ---
 
 --- task ---
 
-Create a simple **End** platform sprite. You can add more detail later.
+Crea gorlun platfform **Diwedd** syml. Galli di ychwanegu rhagor o fanylion nes ymlaen.
 
-Centre your costume in the Paint editor.
+Canola dy wisg yn y Golygydd paent.
 
-Position your **End** sprite on the Stage where you want your character to finish the game.
+Gosoda dy gorlun platfform **Diwedd** lle rwyt ti am i dy gymeriad orffen y gêm.
 
 --- /task ---
 
 --- task ---
 
-Create a **character** sprite.
+Crea gorlun **cymeriad**.
 
-**Choose:** Do you want to add or paint a **character** sprite?
+**Dewis:** Wyt ti am ychwanegu neu beintio corlun **cymeriad**?
 
-You might want to add a top-down **character** sprite such as **Tatiana**, **Taylor**, or **Trisha**.
+Efallai hoffet ti ychwanegu corlun **cymeriad** o'r brig i lawr fel **Tatiana**, **Taylor**, neu **Trisha**.
 
-![Image of the top down sprites available in scratch](images/top-down-sprites.png)
+![Delwedd o'r corluniau o'r brig i lawr sydd ar gael yn Scratch](images/top-down-sprites.png)
 
-Or, paint your own **character** sprite. Start with simple shapes and add details later. Centre your costume in the Paint editor.
+Neu, gallet ti beintio dy gorlun **cymeriad** dy hun. Dechreua gyda siapiau syml ac ychwanega'r manylion yn ddiweddarach. Creua dy wisg newydd yn y Golygydd Paent.
 
 [[[generic-scratch3-draw-sprite]]]
 
@@ -73,19 +73,19 @@ Or, paint your own **character** sprite. Start with simple shapes and add detail
 
 --- task ---
 
-Your **character** sprite needs a start script to get everything set up for the beginning of the game.
+Mae angen sgript dechrau ar dy gorlun **cymeriad** er mwyn rhoi popeth yn ei le ar gyfer dechrau'r gêm.
 
 --- collapse ---
 
 ---
-title: Get your character ready to start
+title: Paratoi dy gymeriad i ddechrau
 ---
 
-Make a `variable`{:class="block3variables"} called `landed`, and set it to the size your sprite should be when it has landed and is not jumping.
+Crea `newidyn`{:class="block3variables"} o'r enw `glanio`, a'i osod i'r maint y dylai dy gorlun fod pan fydd wedi glanio a heb fod yn neidio.
 
-Get your character to go to the **Start** `when flag clicked`{:class="block3events"}. Add a `go to front layer`{:class="block3looks"} block, so your character is on top of the platforms.
+Dywed i dy gymeriad fynd i'r **Dechrau** `pan fydd y faner wedi'i chlicio`{:class="block3events"}. Ychwanega floc `mynd i'r haen flaen`{:class="block3looks"}, fel bod dy gymeriad ar ben y platfformau.
 
-**Character:**
+**Cymeriad:**
 
 ```blocks3
 when flag clicked // setup
@@ -97,27 +97,27 @@ show
 broadcast (start v) // start other scripts
 ```
 
-**Tip:** Uncheck the `landed`{:class="block3variables"} variable in the `Variables`{:class="block3variables"} Blocks menu so that it doesn't show on the Stage. The user doesn't need to see this variable.
+**Awgrym:** Dad-dicia'r newidyn `glanio`{:class="block3variables"} yn y ddewislen `Newidynnau`{:class="block3variables"} fel nad yw'n ymdddangos ar y Llwyfan. Does dim angen i'r defnyddiwr weld y newidyn yma.
 
 --- /collapse ---
 
-**Tip:** It's a good idea to `broadcast`{:class="block3events"} a `start`{:class="block3events"} message at the end of your setup script to let other scripts know when to start, otherwise they might start before everything is ready.
+**Awgrym:** Mae'n syniad `darlledu`{:class="block3events"} neges `dechrau`{:class="block3events"} ar ddiwedd dy sgript gosod i roi gwybod i sgriptiau eraill pryd i ddechrau, fel arall efallai byddan nhw'n dechrau cyn bod popeth yn barod.
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**Difa chwilod:**
 
 --- collapse ---
 
 ---
-title: My sprite is pointing in the wrong direction
+title: Mae fy nghorlun yn pwyntio i'r cyfeiriad anghywir
 ---
 
-The **Direction** property in the Sprite pane can be used to control the direction the sprite is pointing in. Turn the wheel to make a sprite point in the direction you need.
+Galli di ddefnyddio'r briodwedd **Cyfeiriad** yn y cwarel Sprite i reoli'r cyfeiriad mae'r corlun yn pwyntio iddo. Tro'r olwyn i wneud i'r corlun bwyntio i'r cyfeiriad sydd ei angen arnat.
 
-![The sprite pane with direction property selected. A pop up menu is shown with a direction wheel used for adjusting the direction the sprite is pointing.](images/direction-property.png)
+![Y cwarel corluniau gyda'r briodwedd cyfeiriad wedi'i dewis. Neidlen gydag olwyn gyfeirio sy'n cael ei defnyddio i addasu'r cyfeiriad y mae'r corlun yn pwyntio iddo.](images/direction-property.png)
 
 --- /collapse ---
 
@@ -125,7 +125,7 @@ The **Direction** property in the Sprite pane can be used to control the directi
 
 --- task ---
 
-Give your project a title that describes your game.
+Rho deitl i dy brosiect sy'n disgrifio dy gêm.
 
 --- /task ---
 
