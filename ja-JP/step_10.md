@@ -1,10 +1,10 @@
-## What next?
+## 次は何をしますか？
 
-If you are following the [More Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) path, you can move on to the [This sprite needs you](https://projects.raspberrypi.org/en/projects/this-sprite-needs-you) project. In this project, you will make a virtual pet or simulation that you interact with to help.
+[Scratch続編](https://projects.raspberrypi.org/en/raspberrypi/more-scratch)パスをたどっている場合は、 [このスプライトにはあなたが必要だ](https://projects.raspberrypi.org/en/projects/this-sprite-needs-you)プロジェクトに進むことができます。 このプロジェクトは、あなたが操作して役立つ仮想ペットまたはシミュレーションを作成します。
 
 --- print-only ---
 
-![This sprite needs you](images/this-sprite-needs-you.png)
+![このスプライトにはあなたが必要だ](images/this-sprite-needs-you.png)
 
 --- /print-only ---
 
@@ -16,4 +16,4 @@ If you are following the [More Scratch](https://projects.raspberrypi.org/en/rasp
 
 --- /no-print ---
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+Scratchをもっと調べて楽しみたい場合は[これらのプロジェクト](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201)を試してみてください。
