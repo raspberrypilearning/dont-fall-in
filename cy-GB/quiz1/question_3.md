@@ -2,43 +2,43 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: Cwestiwn 3 o 3
 ---
 
-Which block should a sprite use to let another sprite know that something has happened?
+Pa floc ddylai corlun ei ddefnyddio i roi gwybod i gorlun arall fod rhywbeth wedi digwydd?
 
 --- choices ---
 
-- ( ) `when I receive`{:class="block3events"}
+- ( ) `pan fyddaf yn derbyn`{:class="block3events"}
 
   --- feedback ---
 
-Not quite, this block is used to get a sprite to do something when it receives a message.
+Na, mae'r bloc hwn yn cael ei ddefnyddio i gael corlun i wneud rhywbeth pan fydd yn derbyn neges.
 
   --- /feedback ---
 
-- ( ) `when this sprite clicked`{:class="block3events"}
+- ( ) `pan gaiff y ciplun yma ei glicio`{:class="block3events"}
 
 
   --- feedback ---
 
-No, this block is used by one sprite to get it to do something when you click on it.
+Na, mae'r bloc yma yn cael ei ddefnyddio gan un corlun i'w gael i wneud rhywbeth pan fyddi di'n clicio arno.
 
   --- /feedback ---
 
-- (x) `broadcast`{:class="block3events"}
+- (x) `darlledu`{:class="block3events"}
 
   --- feedback ---
 
-Yes, this block sends a message that can be used to communicate with other sprites.
+Cywir, mae'r bloc yma yn anfon neges y gellir ei defnyddio i gyfathrebu â chorluniau eraill.
 
   --- /feedback ---
 
-- ( ) `start`{:class="block3events"}
+- ( ) `cychwyn`{:class="block3events"}
 
   --- feedback ---
 
-No, `start`{:class="block3events"} can be a message that the block sent, but it is not a block.
+Na, gall `cychwyn`{:class="block3events"} fod yn neges sy'n cael ei hanfon gan y bloc, ond nid yw'n floc.
 
   --- /feedback ---
 
