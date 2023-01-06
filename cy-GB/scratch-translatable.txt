@@ -1,13 +1,13 @@
-Start
+Cychwyn
 
-landed
+wedi glanio
 
-stop
+stopio
 
-End
+Diwedd
 
-Platform 1
+Platfform 1
 
-Platfrom 2
+Platfform 2
 
-Platform 3
+Platfform 3
