@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Cwestiwn 2 o 3
 ---
 
-This is the code for a moving platform:
+Dyma'r cod ar gyfer platfform sy'n symud:
 
 ```blocks3
 when I receive [start v]
@@ -15,23 +15,23 @@ if on edge, bounce
 end
 ```
 
-The game is too hard, and it's not fun to play. What could you do to make it easier to play?
+Mae'r gêm yn rhy anodd, a dydy hi ddim hwyl i'w chwarae. Beth allet ti ei wneud i'w gwneud yn haws i chwarae?
 
 --- choices ---
 
-- (x) Change the number in the `move`{:class="block3motion"} block to a **smaller** number
+- (x) Newid y rhif yn y bloc `symud`{:class="block3motion"} i rif **llai**
 
   --- feedback ---
 
-That's right. Making the number smaller will make the platform move a smaller number of steps each time the `forever`{:class="block3control"} loops runs so the platform will move more slowly. That makes it easier to jump on.
+Cywir. Bydd gwneud y rhif yn llai yn gwneud i'r platfform symud nifer llai o gamau bob tro mae'r dolenni `am byth`{:class="block3control"} yn rhedeg, felly bydd y platfform yn symud yn arafach. Mae hynny'n ei gwneud hi'n haws neidio arno.
 
   --- /feedback ---
 
-- ( ) Change the number in the `move`{:class="block3motion"} block to a **bigger** number
+- ( ) Newid y rhif yn y bloc `symud`{:class="block3motion"} i rif **mwy**
 
   --- feedback ---
 
-Making the platform move more steps each time the `forever`{:class="block3control"} loop runs will make it move faster. That will make the platform harder to jump on.
+Bydd gwneud i'r platfform symud mwy o gamau bob tro mae'r ddolen `am byth`{:class="block3control"} yn rhedeg yn gwneud iddo symud yn gyflymach. Bydd hynny'n gwneud y platfform yn anoddach i neidio arno.
 
   --- /feedback ---
 
