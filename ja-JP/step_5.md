@@ -1,10 +1,10 @@
-## Ride on platforms
+## プラットフォームに乗る
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Well that's too easy! 
+うーん、これでは簡単すぎる！ 
 
-In this step, you will add platforms to land on. Jumping on them will avoid falling in. 
+このステップでは、着地するプラットフォームを追加します。 その上にジャンプすれば落下を防げます。 
 </div>
 <div>
 ![](images/riding-example.png){:width="300px"}
@@ -13,26 +13,26 @@ In this step, you will add platforms to land on. Jumping on them will avoid fall
 
 --- task ---
 
-Create a **Platform 1** sprite to land on.
+着地する**プラットフォーム1**のスプライトを作成します。
 
-Paint a costume for your **Platform 1** sprite.
+**プラットフォーム1**のスプライトのコスチュームを描きます。
 
-**Tip:** If you want your sprite to `bounce`{:class="block3motion"} without the costume appearing to change direction, you will need a costume that is symmetrical, or set the rotation style to **Don't rotate**.
+**ヒント：** スプライトがコスチュームの方向を変えず`跳ね返る`{:class="block3motion"}ようにしたい場合は、コスチュームを対照的なものにするか、回転方法を**回転しない**に設定する必要があります。
 
-![The direction property pop-up menu in the Sprite pane with the dont rotate icon selected.](images/dont-rotate.png)
+![回転しないアイコンが選択されたスプライトペインの方向プロパティポップアップメニュー。](images/dont-rotate.png)
 
 --- /task ---
 
 --- task ---
 
-Add code to your **Platform 1** sprite to get it moving.
+**プラットフォーム1**のスプライトにそれを動かすコードを追加します。
 
-You may need your **Platform 1** sprite to `point in direction`{:class="block3motion"} `0` to move up and down the screen.
+画面を上下に移動するには、**プラットフォーム1**のスプライトを`0``度に向ける`{:class="block3motion"}必要があるかもしれません。
 
 --- collapse ---
 
 ---
-title: Make your platform move
+title: プラットフォームを動かす
 ---
 
 ```blocks3
@@ -50,34 +50,34 @@ end
 
 --- task ---
 
-**Test:** Click the green flag and make sure your platform moves correctly.
+**テスト：** 緑色の旗をクリックして、プラットフォームが正しく動くことを確認します。
 
 --- /task ---
 
 --- task ---
 
-Duplicate your **Platform 1** sprite and name it **Platform 2** .
+**プラットフォーム1**のスプライトを複製し**プラットフォーム2**という名前を付けます。
 
-**Choose:** If you want to have 3 platforms, duplicate the **Platform 1** sprite again and name it **Platform 3**.
+**選択：** プラットフォームが3つほしいなら、 **プラットフォーム1**のスプライトをもう一度複製し**プラットフォーム3**という名前を付けます。
 
 [[[scratch3-duplicate-sprite]]]
 
-Experiment with the number of steps and the sprite size to make each platforms easier or harder to jump on.
+歩数とスプライトのサイズを調整し、各プラットフォームへのジャンプを優しくしたり、難しくしたりします。
 
 --- /task ---
 
-Detect `if`{:class="block3control"} your **character** sprite has landed on a **platform** sprite and is safe, `else`{:class="block3control"} your **character** sprite has fallen in!
+もし</code>{:class="block3control"}で**キャラクター**のスプライトが**プラットフォーム**のスプライトに安全に着地したかを検出します。`でなければ`{:class="block3control"}**キャラクター**のスプライトは落ちてしまっています！
 
 --- task ---
 
-Add code to your **character** sprite to sense `if touching`{:class="block3sensing"} a colour on the **platform** sprites.
+**キャラクター**のスプライトに、**プラットフォーム**のスプライトの色に`触れた`{:class="block3sensing"}ことを検出するコードを追加します。
 
-**Choose:** If your platform has multiple colours, choose which colour your character needs to land on. You might want them to fall in if they are only on the edge!
+**選択：** プラットフォームに複数の色がある場合、キャラクターが着地する必要のある色を選択します。 端に乗っかっているだけならば、落としてしまってもよいかもしれません！
 
 --- collapse ---
 
 ---
-title: If touching platform
+title: プラットフォームに触れたら
 ---
 
 ```blocks3
@@ -113,18 +113,18 @@ end
 
 --- task ---
 
-**Test:** Click the green flag and make sure your sprite can ride on the platforms.
+**テスト：** 緑色の旗をクリックして、スプライトがプラットフォームに乗れることを確認します。
 
 --- /task ---
 
 --- task ---
 
-Add code to your **character** sprite to sense `if`{:class="block3control"} `touching`{:class="block3sensing"} the backdrop colour, then end the game.
+`もし`{:class="block3control"}で背景色に`触れた`{:class="block3sensing"}ことを感知して、ゲームを終了させるように**キャラクター**のスプライトにコードを追加します。
 
 --- collapse ---
 
 ---
-title: Else touching backdrop
+title: あるいは背景に触れたら
 ---
 
 ```blocks3
@@ -166,13 +166,13 @@ end
 
 --- task ---
 
-**Test:** Play your game and try missing a platform. Make sure you hear the lose sound.
+**テスト：** ゲームをプレイして、プラットフォームに乗り損ねてみてください。 負けの音が聞こえることを確認します。
 
 --- /task ---
 
 --- task ---
 
-Add code to your **platform** sprites to stop them moving when the **character** sprite reaches the **End** platform — or falls in!
+**キャラクター**のスプライトが**ゴール**のプラットフォームに到達するか、落ちてしまったときに、**プラットフォーム**のスプライトが停止するようにスプライトへコードを追加します。
 
 ```blocks3
 when I receive [stop v]
@@ -183,41 +183,41 @@ stop [other scripts in sprite v]
 
 --- task ---
 
-**Test:** Play again and make sure the platforms stop when the game ends. The game ends when you reach the **End** platform, or when you fall in.
+**テスト：** もう一度プレイし、ゲームが終了したときにプラットフォームが停止することを確認します。 **ゴール**のプラットフォームに到達したとき、または落ちたときにゲームは終了します。
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**デバッグ:**
 
 --- collapse ---
 
 ---
-title: The game ends too soon
+title: ゲームがすぐ終了してしまいます
 ---
 
-Make sure you have the `if`{:class="block3control"} blocks in the correct order inside your `forever`{:class="block3control"} block. Check carefully against the example code.
+`ずっと`{:class="block3control"}ブロックの中の`もし`{:class="block3control"}ブロックの順序が正しいことを確認します。 サンプルコードを注意深く確認します。
 
-If you check that the **character** is touching the backdrop before it has had chance to land on a platform, then your game could end unfairly!
+プラットフォームに着地する前に**キャラクター**が背景に触れていることを確認していると、ゲームが不当に終了する可能性があります。
 
-Make sure your `if`{:class="block3control"} blocks to check game conditions are inside an `if`{:class="block3control"} block that checks the size of the **character** is normal. It's fine for your sprite to be touching the backdrop colour when jumping. It's only a problem if they land in the custard, lava, radio-active goo, or whatever hazard you have chosen.
+ゲームの状態をチェックする`もし`{:class="block3control"}ブロックが、**キャラクター**のサイズをチェックする`もし`{:class="block3control"}ブロックの中にあることを確認します。 ジャンプするときにスプライトが背景色に触れていても問題ありません。 彼らがカスタード、溶岩、放射性グー、またはあなたが選んだ危険物に着陸した場合にのみ問題になります。
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The platforms don't stop when I win or lose
+title: 勝っても負けてもプラットフォームが止まらない
 ---
 
-Look at your **platform** sprites' `when I receive`{:class="block3events"} script and check the message is `stop`{:class="block3events"}.
+**プラットフォーム**のスプライトの`メッセージを受け取った`{:class="block3events"}スクリプトを見て、メッセージが`停止`{:class="block3events"}であることを確認してください。
 
 ```blocks3
 when I receive [stop v]
 stop [other scripts in sprite v]
 ```
-Check that the `broadcast`{:class="block3events"} block inside the win and lose `if`{:class="block3control"} blocks is `stop`{:class="block3events"}.
+勝ち負けの`もし`{:class="block3control"}ブロックの中で、`停止`の{:class="block3events"}`メッセージを送る`{:class="block3events"}としていることを確認します。
 
 ```blocks3
 broadcast (stop v)
@@ -228,7 +228,7 @@ broadcast (stop v)
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-There are lots of <span style="color: #0faeb0">platform games</span> including 2D and 3D ones. Platforms are common in obstacle (obby) games and parkour games. Some games have platforms that move, show and hide, or gradually disappear when you jump on them. Can you think of games that you have played that have platforms that you have to jump on? What about games with moving platforms?
+2Dと3Dのものを含めて<span style="color: #0faeb0">プラットフォームゲーム</span>がたくさんあります。 通常、障害物（オビー）ゲームやパルクールゲームにはプラットフォームがあります。 中には、ジャンプするときに移動したり、表示されたり隠れたり、徐々に消えたりするプラットフォームもあります。 プラットフォームにジャンプするゲームをプレイしたことはありますか？ プラットフォームが移動するゲームはどうですか？
 </p>
 
 --- save ----
