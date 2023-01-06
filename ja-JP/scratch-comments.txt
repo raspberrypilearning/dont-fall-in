@@ -1,31 +1,31 @@
-setup
+セットアップ
 
-size when not jumping
+ジャンプしていないときのサイズ
 
-not jumping
+ジャンプしていない
 
-start other scripts
+他のスクリプトを開始する
 
-not in the air
+空中ではない
 
-at end
+ゴールに着いた
 
-stop other sprites
+他のスプライトを停止する
 
-stop jumping after win
+勝った後ジャンプを止める
 
-add this block for left to right games
+左から右のゲーム用にはこのブロックを追加する
 
-try different numbers
+違う数を試してください
 
-choose a colour on your platform
+プラットフォームの色を選びます
 
-choose your backdrop colour
+背景の色を選びます
 
-prevent jumping after losing
+負けた後のジャンプを防ぐ
 
-add a sound of your choice
+好きな音を追加します
 
-check lose
+負けをチェックする
 
-check win
+勝ちをチェックする
