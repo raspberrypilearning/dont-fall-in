@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: 質問2/3
 ---
 
-This is the code for a moving platform:
+以下は移動するプラットフォームのコードです。
 
 ```blocks3
 when I receive [start v]
@@ -15,23 +15,23 @@ if on edge, bounce
 end
 ```
 
-The game is too hard, and it's not fun to play. What could you do to make it easier to play?
+ゲームが難しすぎて楽しくありません。 何をしたらプレイしやすくなるでしょう？
 
 --- choices ---
 
-- (x) Change the number in the `move`{:class="block3motion"} block to a **smaller** number
+- (x) `動かす`{:class="block3motion"}ブロックの数字を**小さい**数字に変更する
 
   --- feedback ---
 
-That's right. Making the number smaller will make the platform move a smaller number of steps each time the `forever`{:class="block3control"} loops runs so the platform will move more slowly. That makes it easier to jump on.
+その通りです。 数字を小さくすると、`ずっと`{:class="block3control"}ループが実行されるたびにプラットフォームが移動する歩数が少なくなるため、プラットフォームの移動が遅くなります。 これで着地しやすくなります。
 
   --- /feedback ---
 
-- ( ) Change the number in the `move`{:class="block3motion"} block to a **bigger** number
+- ( ) `動かす`{:class="block3motion"}ブロックの数字を**大きい**数字に変更する
 
   --- feedback ---
 
-Making the platform move more steps each time the `forever`{:class="block3control"} loop runs will make it move faster. That will make the platform harder to jump on.
+`ずっと`{:class="block3control"}ループが実行されるたびにより多くの歩数を移動させると、プラットフォームの移動が速くなります。 これでフォームが着地しにくくなります。
 
   --- /feedback ---
 
