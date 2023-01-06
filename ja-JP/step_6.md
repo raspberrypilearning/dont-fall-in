@@ -1,8 +1,8 @@
-## Adjust the difficulty
+## 難易度を調整する
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Is your game too hard or too easy? In this step, adjust the difficulty to get the gameplay just right. 
+あなたのゲームは難しすぎますか、それとも簡単すぎますか？ このステップでは、ゲームプレイを最適にするために難易度を調整します。 
 </div>
 <div>
 ![](images/difficulty-example.png){:width="300px"}
@@ -11,17 +11,17 @@ Is your game too hard or too easy? In this step, adjust the difficulty to get th
 
 --- task ---
 
-Here are some things you can try to experiment with the difficulty:
+難易度についていくつか試してみることがあります。
 
-+ Change the size of the platforms or character
-+ Change the speed that the platforms move at
-+ Change how long it takes the character to jump to make the timing harder
++ プラットフォームまたはキャラクターのサイズを変更する
++ プラットフォームの移動速度を変更する
++ キャラクターがジャンプするのにかかる時間を変えてタイミングを難しくする
 
 --- /task ---
 
 --- task ---
 
-**Play:** Playing your game is part of testing that your game works properly. It's also useful and fun!
+**プレイ：** ゲームをプレイすることは、ゲームが正しく動作することをテストする一部です。 ついでに役に立ち、楽しいです！
 
 --- /task ---
 
