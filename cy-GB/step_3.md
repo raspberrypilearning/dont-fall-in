@@ -1,23 +1,23 @@
-## Jump, hop, bounce, or glide!
+## Neidio, hopian, bownsio, neu gleidio!
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will code your character to jump from start to end platforms. 
+Yn y cam yma, byddi di'n codio dy gymeriad i neidio o'r platfformau dechrau i'r platfformau diwedd. 
 </div>
 <div>
 ![](images/jump-example.png){:width="300px"}
 </div>
 </div>
 
-You're going to make your character jump across the Stage. Don't worry about falling in yet.
+Rwyt ti'n mynd i wneud i dy gymeriad neidio ar draws y Llwyfan. Paid â phoeni am syrthio i mewn eto.
 
 --- task ---
 
-**Choose:** Add a jumping sound that suits your character.
+**Dewis:** Ychwanega sain neidio sy'n addas i dy gymeriad.
 
 [[[generic-scratch3-sound-from-library]]]
 
-Now make your character jump across the Stage by pressing the <kbd>space</kbd> bar on a keyboard or tapping the Stage on a tablet.
+Gwna i dy gymeriad neidio ar draws y Llwyfan drwy wasgu'r botwm <kbd>space</kbd> ar fysellfwrdd neu dapio'r Llwyfan ar dabled.
 
 [[[scratch3-top-down-jumping]]]
 
@@ -25,25 +25,25 @@ Now make your character jump across the Stage by pressing the <kbd>space</kbd> b
 
 --- task ---
 
-**Test:** Tap the <kbd>space</kbd> bar or Stage to make your character jump across the Stage to the **End** platform.
+**Prawf:** Tapia'r botwm <kbd>space</kbd> neu'r Llwyfan i wneud i dy gymeriad neidio ar draws y Llwyfan i'r platfform **Diwedd**.
 
-Adjust your code until the character jumps across the Stage in three or four jumps.
+Addasa dy god nes bod y cymeriad yn neidio ar draws y Llwyfan mewn tair neu bedair naid.
 
 --- /task ---
 
-**Tip:** It's really common for games to have a `forever`{:class="block3control"} block with `if`{:class="block3control"} statements inside it to do something when important conditions become true.
+**Awgrym:** Mae'n arferol cael bloc `am byth`{:class="block3control"} mewn gêm gyda datganiadau `if`{:class="block3control"} y tu mewn iddo er mwyn gwneud rhywbeth pan ddaw amodau pwysig yn wir.
 
 --- task ---
 
-**Debug:**
+**Difa chwilod:**
 
 --- collapse ---
 
 ---
-title: My sprite doesn't go to the Start platform when I click the green flag
+title: Dydy fy nghorlun ddim yn mynd i'r platfform Dechrau pan fydda i'n clicio ar y faner werdd
 ---
 
-Check that you have a setup script on your **character** sprite:
+Gwna'n siŵr fod gen ti sgript gosod ar dy gorlun **cymeriad**:
 
 
 ```blocks3
@@ -56,70 +56,70 @@ show
 broadcast (start v) // start other scripts
 ```
 
-Check that that name in the `go to`{:class="block3motion"} block matches the name of your **Start** sprite.
+Gwna'n siŵr fod yr enw yn y bloc `mynd i`{:class="block3motion"} yn cyfateb i enw dy gorlun **Dechrau**.
 
-Check that you have a `go to front layer`{:class="block3looks"} block. Your sprite might be underneath the Start plaform!
+Gwna'n siŵr fod gen ti floc `mynd i'r haen flaen`{:class="block3looks"}. Efallai fod dy gorlun o dan y platfform Dechrau!
 
-Make sure you haven't hidden your **character** sprite. Add a `show`{:class="block3looks"} block to your setup script if you need to.
+Gwna'n siŵr nad wyt ti wedi cuddio dy gorlun **cymeriad**. Ychwanega floc `dangos`{:class="block3looks"} i dy sgript gosod os oes angen.
 
-
---- /collapse ---
-
---- collapse ---
-
----
-title: My sprite doesn't go to the centre of the Start platform
----
-
-You need to make sure all your sprite costumes are centered in the Paint editor.
-
-The `go to`{:class="block3motion"} `other sprite`{:class="block3motion"} block moves a sprite so that its centre is in the same position as the centre of the other sprite. If their centres are in the wrong place, then your **character** won't go to the centre of the platforms.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: My sprite points or jumps in the wrong direction!
+title: Dydy fy nghorlun ddim yn mynd i ganol y platfform Dechrau
 ---
 
-Add a `point in direction`{:class="block3motion"} block to the **character**'s setup script or change the direction in the sprite pane. You might also need to change the `rotation style`{:class="block3motion"}. You might also need to rotate the **costume** of your sprite so that it faces to the right.
+Mae angen sicrhau bod dy holl wisgoedd corlun wedi'u canoli yn y golygydd Paent.
+
+Mae'r bloc `mynd i`{:class="block3motion"} `gorlun arall`{:class="block3motion"} yn symud corlun fel bod ei ganol yn yr un safle â chanol y corlun arall. Os ydy eu canolau yn y lle anghywir, yna fydd dy **gymeriad** ddim yn mynd i ganol y platfformau.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: My sprite doesn't jump the right distance
+title: Mae fy nghorlun yn pwyntio neu'n neidio i'r cyfeiriad anghywir!
 ---
 
-Look at your **character**'s `when I receieve (jump)`{:class="block3events"} script. Try changing the number of steps in the `move`{:class="block3motion"} blocks, or the number of repeats in the `repeat`{:class="block3control"} blocks.
+Ychwanega floc `pwyntio i gyfeiriad`{:class="block3motion"} i sgript gosod y **cymeriad**neu newid y cyfeiriad yn y cwarel corlun. Efallai bydd angen i ti hefyd newid yr `arddull cylchdroi`{:class="block3motion"}. Efallai bydd angen i ti hefyd gylchdroi **gwisg** dy gorlun fel ei fod yn wynebu i'r dde.
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: Dydy fy nghorlun ddim yn neidio'r pellter cywir
+---
+
+Edrycha ar sgript `pan rwy'n derbyn (naid)`{:class="block3events"} dy **gymeriad**. Rho gynnig ar newid nifer y camau yn y blociau `symud`{:class="block3motion"}, neu nifer yr ailadroddiadau yn y bloc `ailadrodd`{:class="block3control"}.
 
 ```blocks3
 +move [5] steps
 ```
 
-Remember, you will need to change the numbers for the up and down parts of the jump.
+Cofia, bydd angen i ti newid y rhifau ar gyfer rhannau i fyny ac i lawr y naid.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: My sprite doesn't grow and shrink correctly when it jumps
+title: Dydy fy nghorlun ddim yn tyfu nac yn crebachu'n gywir pan mae'n neidio
 ---
 
-Make sure you have a `broadcast (start)`{:class="block3events"} block at the end of your **character**'s `when flag clicked`{:class="block3events"} script.
+Gwna'n siŵr fod gen ti floc `darlledu (dechrau)`{:class="block3events"} ar ddiwedd sgript `pan fydd y fflag wedi'i chlicio`{:class="block3events"} dy **gymeriad**.
 
-Look at your **character**'s `when I receieve (start)`{:class="block3events"} script.
+Edrycha ar sgript `pan rwy'n derbyn (dechrau)`{:class="block3events"} dy **gorlun**.
 
-Make sure that the `change size`{:class="block3looks"} block in the second `repeat`{:class="block3events"} block has a negative number to make the sprite smaller such as `-3`.
+Gwna'n siŵr fod gan y bloc `newid maint`{:class="block3looks"} yn yr ail floc `ailadrodd`{:class="block3events"} rif negatif i wneud y corlun yn llai, megis `-3`.
 
 --- /collapse ---
 
-If you have a bug that we haven't covered here, then let us know in the feedback. If you fixed the bug yourself (well done!), let us know that too.
+Os oes gen ti chwilen nad ydyn ni wedi ymdrin â hi yma, rho wybod i ni yn yr adborth. Os wnes di drwsio'r chwilen dy hun (da iawn!), rho wybod i ni am hynny hefyd.
 
-**Tip:** If you're stuck, try reading your code out loud or in your head to make sure it says what you think it does. You might find the bug.
+**Awgrym:** Os wyt it methu datrys dy broblem, rho gynnig ar ddarllen dy god yn uchel neu yn dy ben i wneud yn siŵr ei fod yn dweud beth rwyt ti'n meddwl. Efallai byddi di'n dod o hyd i'r chwilen.
 
 --- /task ---
 
