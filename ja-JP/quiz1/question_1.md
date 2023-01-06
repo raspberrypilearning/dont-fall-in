@@ -1,20 +1,20 @@
-## Quick quiz
+## ふりかえり
 
-Answer the three questions. There are hints to guide you to the correct answer.
+3つの質問に答えてください。 あなたを正解に導くヒントがあります。
 
-When you have answered each question, click on **Check my answer**.
+各質問に回答したら、**答えを確認する**をクリックしてください。
 
-Have fun!
+お楽しみください！
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: 質問1/3
 ---
 
-![The Stage of a lava-jumping game. The character is on the end platform, a golden door.](images/quiz-lava-stage.png)
+![溶岩ジャンプゲームのステージ。 キャラクターがゴールのプラットフォームである黄金の扉にいる。](images/quiz-lava-stage.png)
 
-You win this game by reaching the golden door, and lose if you land in the lava pit. The game isn't working. How could you fix it?
+黄金の扉に到達するとこのゲームに勝ち、溶岩ピットに着地すると負けとなります。 このゲームはうまく動きません。 どう修正したらよいでしょう？
 
 ```blocks3
 when flag clicked
@@ -40,27 +40,27 @@ end
 
 --- choices ---
 
-- ( ) Change the colour in the 'check lose' condition
+- ( ) 「負けをチェックする」条件の色を変更する
 
   --- feedback ---
 
-Close. The 'check lose' condition doesn't have the right colour, but just changing that won't make the game work.
+惜しい！ 「負けをチェックする」条件は正しい色ではありませんが、それを変更するだけではゲームはうまく動きません。
 
   --- /feedback ---
 
-- ( ) Change the colour in the 'check win' condition
+- ( ) 「勝ちをチェックする」条件の色を変更する
 
   --- feedback ---
 
-Close. The 'check win' condition doesn't have the right colour, but just changing that won't make the game work.
+惜しい！ 「勝ちをチェックする」条件は正しい色ではありませんが、それを変更するだけではゲームはうまく動きません。
 
   --- /feedback ---
 
-- (x) Swap the colours in the 'check win' and 'check lose' conditions
+- (x) 「勝ちをチェックする」と「負けをチェックする」条件の色を入れ替える
 
   --- feedback ---
 
-Yes. The 'check lose' and 'check win' conditions have the colours the wrong way round! The player will win when they fall in the lava and lose when they reach the golden door! Swapping the conditions will fix this.
+正解！ 「勝ちをチェックする」と「負けをチェックする」条件の色が入れ替わっています。 プレイヤーは溶岩に落ちたときに勝ち、黄金の扉に到達したときに負けてしまいます！ 条件を交換してこれを修正します。
 
   --- /feedback ---
 
