@@ -1,33 +1,33 @@
-## Winner
+## Enillydd
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will detect the player reaching the **End** platform to win the game. 
+Yn y cam yma, byddi di'n canfod y chwaraewr yn cyrraedd y platfform **Diwedd** i ennill y gêm. 
 </div>
 <div>
 ![](images/winner-aims.png){:width="300px"}
 </div>
 </div>
 
-You're going to add a `forever`{:class="block3control"} loop that checks if your **character** is at platform level, and if so, `if`{:class="block3control"} it has reached the **End** platform.
+Rwyt ti'n mynd i ychwanegu dolen `am byth`{:class="block3control"} sy'n gwirio a ydy dy **gymeriad** ar lefel y platfform, ac os felly, `os`{:class="block3control"} yw wedi cyrraedd y platfform **Diwedd**.
 
 --- task ---
 
-**Choose:** Add a winning sound to your character.
+**Dewis:** Ychwanega sain ennill i dy gymeriad.
 
 --- /task ---
 
 --- task ---
 
-Add code to detect when your character reaches the **End** platform using `touching color`{:class="block3sensing"}.
+Ychwanega god i ganfod pan fydd dy gymeriad yn cyrraedd y platfform **Diwedd** gan ddefnyddio `cyffwrdd lliw`{:class="block3sensing"}.
 
 --- collapse ---
 
 ---
-title: End the game when touching colour
+title: Gorffen y gêm wrth gyffwrdd lliw
 ---
 
-**Character**:
+**Cymeriad**:
 
 ```blocks3
 when I receive [start v]
@@ -44,64 +44,64 @@ end
 end
 ```
 
-It's a good idea to `broadcast`{:class="block3events"} a 'stop' message to let other sprites know the game has ended. The `stop other scripts in sprite`{:class="block3control"} block stops the loop that makes the character jump.
+Mae'n syniad `darlledu`{:class="block3events"} neges 'stop' i roi gwybod i gorluniau eraill fod y gêm wedi dod i ben. Mae'r bloc `aros sgriptiau eraill yn y ciplun`{:class="block3control"} yn stopio'r ddolen sy'n gwneud i'r cymeriad neidio.
 
 --- /collapse ---
 
-You will need to set the colour that is sensed to the colour of your **End** platform.
+Bydd angen i ti osod y lliw sy'n cael ei synhwyro i liw dy blatfform **Diwedd**.
 
 [[[scratch3-set-block-input-colour-with-eyedropper]]]
 
-**Tip:** It's a good idea to `broadcast`{:class="block3events"} a `stop`{:class="block3events"} message when you detect that your game is finished so that other sprites can stop, but this sprite can do something such as playing a sound before it stops.
+**Awgrym:** Mae'n syniad da `darlledu`{:class="block3events"} neges `dechrau`{:class="block3events"} ar ddiwedd dy sgript gosod i roi gwybod i sgriptiau eraill pryd i ddechrau, fel arall efallai byddan nhw'n dechrau cyn bod popeth yn barod.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click the green flag and then jump your character across the Stage. Make sure you hear the winning sound when you reach the **End** platform.
+**Prawf:** Clicia'r faner werdd ac wedyn neidio dy gymeriad ar draws y Llwyfan. Gwna'n siŵr dy fod ti'n clywed y sain ennill pan fyddi di'n cyrraedd y platfform **Diwedd**.
 
-**Tip:** It's really important that you test your project before moving to the next step and adding more code. It's harder to find and fix bugs when you have added more code.
+**Awgrym:** Mae'n bwysig iawn dy fod yn profi dy brosiect cyn symud i'r cam nesaf ac ychwanegu mwy o god. Mae'n anoddach dod o hyd i chwilod a'u trwsio pan fyddi di wedi ychwanegu mwy o god.
 
 --- /task ---
 
 
 --- task ---
 
-**Debug:**
+**Difa chwilod:**
 
 --- collapse ---
 
 ---
-title: My sprite doesn't go to the centre of the End platform
+title: Dydy fy nghorlun ddim yn mynd i ganol y platfform Diwedd
 ---
 
-You need to make sure all your sprite costumes are centered in the Paint editor.
+Mae angen sicrhau bod dy holl wisgoedd corlun wedi'u canoli yn y golygydd Paent.
 
-The `go to (other sprite)`{:class="block3motion"} block moves a sprite so that it's centre is in the same position as the centre of the other sprite. If their centres are in the wrong place, then your **character** won't go to the centre of the platforms.
+Mae'r bloc `mynd i (corlun arall)`{:class="block3motion"}{:class="block3motion"} yn symud corlun fel bod ei ganol yn yr un safle â chanol y corlun arall. Os ydy eu canolau yn y lle anghywir, yna fydd dy **gymeriad** ddim yn mynd i ganol y platfformau.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The game ends too soon
+title: Mae'r gêm yn dod i ben yn rhy fuan
 ---
 
-Check that your sprite isn't touching the End colour when it's not on the **End** platform — if you use the same colour elsewhere in your project, then your character could die too soon.
+Gwna'n siŵr nad ydy dy gorlun yn cyffwrdd â'r lliw Diwedd pan nad yw ar y platfform **Diwedd** - os wyt ti'n defnyddio'r un lliw mewn man arall yn dy brosiect, yna gallai dy gymeriad farw'n rhy fuan.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The sound doesn't play when I land on the End platform
+title: Dydy'r sain ddim yn chwarae pan fydda i'n glanio ar y platfform End
 ---
 
-Click on your **character** sprite and then the 'Sounds' tab. Make sure you have added the End sound to your sprite. Click on the **Play** button to make sure sound is working on your computer.
+Clicia ar dy gorlun **cymeriad** ac yna'r tab 'Seiniau'. Gwna'n siŵr dy fod wedi ychwanegu'r sain Diwedd at dy gorlun. Clicia'r botwm **Chwarae** i sicrhau bod y sain yn gweithio ar dy gyfrifiadur.
 
-Click on the **Code** tab and check that the correct sound is in the `play sound`{:class="block3sound"} block that runs when the sprite reaches the **End** platform.
+Clicia'r tab **Cod** a gwirio fod y sain gywir yn y bloc `chwarae sain`{:class="block3sound"} sy'n rhedeg pan fydd y corlun yn cyrraedd y platfform **Diwedd**.
 
-Make sure the colour is correct in the `touching colour`{:class="block3sensing"} block. Select it again if you're not sure. Sometimes colours look similar but aren't the same.
+Gwna'n siŵr fod y lliw yn gywir yn y bloc `cyffwrdd lliw`{:class="block3sensing"}. Dewisa'r lliw eto os nad wyt ti'n siŵr. Weithiau mae lliwiau'n edrych yn debyg ond dydyn nhw ddim yr un fath.
 
 ```blocks3
 when I receive [start v]
@@ -119,9 +119,9 @@ end
 
 --- /collapse ---
 
-If you have a bug that we haven't covered here, then let us know in the feedback. If you fixed the bug yourself (well done!), let us know that too.
+Os oes gen ti chwilen nad ydyn ni wedi ymdrin â hi yma, rho wybod i ni yn yr adborth. Os wnes di drwsio'r chwilen dy hun (da iawn!), rho wybod am hynny i ni hefyd.
 
-**Tip:** If you're stuck, try reading your code out loud or in your head to make sure it says what you think it does. You might find the bug.
+**Awgrym:** Os wyt ti methu datrys dy broblem, rho gynnig ar ddarllen dy god yn uchel neu yn dy ben i wneud yn siŵr ei fod yn dweud yr hyn rwyt ti'n meddwl. Efallai byddi di'n dod o hyd i'r chwilen.
 
 --- /task ---
 
