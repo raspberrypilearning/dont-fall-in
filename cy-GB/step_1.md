@@ -1,15 +1,15 @@
-## You will make
+## Byddi di'n creu
 
-Design and build a top-down view, obstacle or platform, parkour game. Your character will need to jump, hop, glide, bounce, or fly to catch a ride on moving platforms and make it to the end.
+Dylunio a chreu gêm persbectif o'r brig, gêm rwystrau neu gêm blatfformiau parkour. Bydd angen i dy gymeriad neidio, hopian, gleidio, bownsio, neu hedfan i ddal reid ar blatfformiau symudol a chyrraedd y diwedd.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Top-down/bird's-eye view games**</span> look down on the game from above. Sometimes the whole game has this view. Other games use top-down views when you enter a design mode. Can you think of any games you play that use top-down view? 
+Mae <span style="color: #0faeb0">**Gemau o'r brig i lawr/golwg llygad aderyn**</span> yn edrych i lawr ar y gêm oddi uchod. Weithiau mae'r gêm gyfan yn digwydd o'r perspectif yma. Mae gemau eraill yn defnyddio golygfeydd o'r brig i lawr pan fydd y chwaraewr yn mynd i mewn i'r modd dylunio. Alli di feddwl am unrhyw gemau rwyt ti'n eu chwarae sy'n defnyddio golwg o'r brig i lawr? 
 </p>
 
-You will:
-+ Make a game with a goal using an algorithm that checks for important game conditions
-+ Personalise a game to your interests
-+ Adjust the difficulty of a game, so that it’s fun to play
+Byddi di'n:
++ Creu gêm gyda nod gan ddefnyddio algorithm sy'n gwirio am amodau sy'n bwysig i'r gêm
++ Personoli gêm yn ôl dy ddiddordebau di
++ Addasu lefel anhawster gêm, fel ei bod hi'n hwyl i'w chwarae
 
 ![](images/example-strip.png)
 
@@ -20,18 +20,18 @@ You will:
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-### Play ▶️ 
+### Chwarae ▶️ 
 
-Click the space bar or tap the Stage to jump to the next platform. Time your jumps so you don't fall in the custard.
+Clicia'r botwm Space neu daro'r Llwyfan i neidio i'r platfform nesaf. Amsera bob naid fel nad wyt ti'n disgyn i mewn i'r cwstard.
 
-+ How does the game create a top-down view? 
-+ How does the character's size change when it flies? 
-+ What happens if you don’t land on a platform? (Go on, do fall in the custard!)
++ Sut mae'r gêm yn creu golygfa o'r brig i lawr? 
++ Sut mae maint y cymeriad yn newid pan fydd yn hedfan? 
++ Beth sy'n digwydd os nad wyt ti'n glanio ar blatfform? (Paid bod ofn, neidia i mewn i'r cwstard!)
 
 </div>
 
 <div>
-**Don't fall in the custard!**: [See inside](https://scratch.mit.edu/projects/525202210/editor){:target="_blank"}
+**Paid disgyn i mewn i'r cwstard!**: [Gweld tu mewn](https://scratch.mit.edu/projects/525202210/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525202210/?autostart=false" frameborder="0"></iframe>
 </div>
@@ -40,25 +40,25 @@ Click the space bar or tap the Stage to jump to the next platform. Time your jum
 
 --- /task ---
 
-### Get ideas 💭
+### Cael ysbrydoliaeth 💭
 
-You are going to make some design decisions to make a top-down platform game of your own. You'll choose the theme, colours, character, number of platforms, and the difficulty level.
+Rwyt ti'n mynd i wneud rhai penderfyniadau dylunio i wneud dy gêm blatfformau o'r brig i lawr dy hun. Byddi di'n yn dewis y thema, y lliwiau, y cymeriad, nifer y platfformau, a lefel yr anhawster.
 
 --- task ---
 
-Explore these example projects to get more ideas:
+Cymer olwg ar y prosiectau enghreifftiol hyn i gael mwy o syniadau:
 
-**Baby bird**: [See inside](https://scratch.mit.edu/projects/525236983/editor){:target="_blank"}
+**Aderyn bach**: [Gweld tu mewn](https://scratch.mit.edu/projects/525236983/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236983/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**Log hopper**: [See inside](https://scratch.mit.edu/projects/525236345/editor){:target="_blank"}
+**Neidiwr logiau**: [Gweld tu mewn](https://scratch.mit.edu/projects/525236345/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236345/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**Planet bounce**: [See inside](https://scratch.mit.edu/projects/525236603/editor){:target="_blank"}
+**Bownsio ar blanedau**: [Gweld tu mewn](https://scratch.mit.edu/projects/525236603/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236603/?autostart=false" frameborder="0"></iframe>
 </div>
@@ -68,11 +68,11 @@ Explore these example projects to get more ideas:
 
 --- print-only ---
 
-### Get ideas 💭
+### Cael ysbrydoliaeth 💭
 
-You are going to make some design decisions to make a top-down platform game of your own. You'll choose the theme, colours, character, number of platforms and the difficulty level. See inside example projects in [Scratch 2: Don't fall in - Examples](https://scratch.mit.edu/studios/29599110/){:target="_blank"} Scratch studio.
+Rwyt ti'n mynd i wneud rhai penderfyniadau dylunio i wneud dy gêm blatfformau o'r brig i lawr dy hun. Byddi di'n dewis y thema, y lliwiau, y cymeriad, nifer y platfformau a lefel yr anhawster. Cymer olwg dros brosiectau sy'n bodoli yn Stiwdio Scratch [Scratch 2: Paid disgyn i mewn - Enghreifftiau](https://scratch.mit.edu/studios/29599110/){:target="_blank"}.
 
-![The Stage from the 'dont fall in the custard' project.](images/custard.png) ![The Stage from the 'baby bird' project.](images/bird.png) ![The Stage from the 'log hopper' project.](images/frog.png) ![The Stage from the 'planet bounce' project.](images/space.png)
+![Y Llwyfan o'r prosiect 'paid disgyn i mewn i'r cwstard'.](images/custard.png) ![Y Llwyfan o'r prosiect 'aderyn bach'.](images/bird.png) ![Y Llwyfan o'r prosiect 'neidio logiau'.](images/frog.png) ![Y Llwyfan o'r prosiect 'bownsio ar blanedau'.](images/space.png)
 
 --- /print-only ---
 
