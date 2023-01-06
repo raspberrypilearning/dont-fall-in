@@ -1,8 +1,8 @@
-## Adjust the difficulty
+## Addasu lefel yr anhawster
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Is your game too hard or too easy? In this step, adjust the difficulty to get the gameplay just right. 
+Ydy dy gêm yn rhy galed neu'n rhy hawdd? Yn y cam yma, addasa lefel yr anhawster i wella'r profiad chwarae. 
 </div>
 <div>
 ![](images/difficulty-example.png){:width="300px"}
@@ -11,17 +11,17 @@ Is your game too hard or too easy? In this step, adjust the difficulty to get th
 
 --- task ---
 
-Here are some things you can try to experiment with the difficulty:
+Dyma rai pethau y gallu di roi cynnig arnyn nhw i arbrofi gyda lefel yr anhawster:
 
-+ Change the size of the platforms or character
-+ Change the speed that the platforms move at
-+ Change how long it takes the character to jump to make the timing harder
++ Newid maint y platfformau neu'r cymeriad
++ Newid y cyflymder mae'r platfformau symud
++ Newid faint o amser mae'n ei gymryd i'r cymeriad neidio i wneud yr amseru'n anoddach
 
 --- /task ---
 
 --- task ---
 
-**Play:** Playing your game is part of testing that your game works properly. It's also useful and fun!
+**Chwarae:** Mae chwarae dy gêm yn rhan o brofi bod y gêm yn gweithio'n iawn. Mae hefyd yn ddefnyddiol ac yn hwyl!
 
 --- /task ---
 
