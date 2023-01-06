@@ -1,20 +1,20 @@
-## Quick quiz
+## Cwis cyflym
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Ateba'r tri chwestiwn. Mae awgrymiadau ar gael i dy arwain at yr ateb cywir.
 
-When you have answered each question, click on **Check my answer**.
+Ar ôl i ti ateb pob cwestiwn, clicia ar **Gwirio fy ateb**.
 
-Have fun!
+Mwynha!
 
---- question ---
+--- cwestiwn ---
 
 ---
-legend: Question 1 of 3
+legend: Cwestiwn 1 o 3
 ---
 
-![The Stage of a lava-jumping game. The character is on the end platform, a golden door.](images/quiz-lava-stage.png)
+![Y Llwyfan mewn gêm neidio lafa. Mae'r cymeriad ar y llwyfan diwedd, drws euraidd.](images/quiz-lava-stage.png)
 
-You win this game by reaching the golden door, and lose if you land in the lava pit. The game isn't working. How could you fix it?
+Rwyt ti'n ennill y gêm hon drwy gyrraedd y drws aur, ac yn colli os byddi di'n glanio yn y pwll lafa. Dydy'r gêm ddim yn gweithio. Sut allet ti ei thrwsio?
 
 ```blocks3
 when flag clicked
@@ -38,32 +38,32 @@ end
 ```
 
 
---- choices ---
+--- dewisiadau ---
 
-- ( ) Change the colour in the 'check lose' condition
+- ( ) Newidi y lliw yn yr amod 'gwirio colli'
 
-  --- feedback ---
+  --- adborth ---
 
-Close. The 'check lose' condition doesn't have the right colour, but just changing that won't make the game work.
+Agos. Does gan yr amod 'gwirio colli' ddim y lliw cywir, ond fydd newid dim ond hyn ddim yn gwneud i'r gêm weithio.
 
-  --- /feedback ---
+  --- /adborth ---
 
-- ( ) Change the colour in the 'check win' condition
-
-  --- feedback ---
-
-Close. The 'check win' condition doesn't have the right colour, but just changing that won't make the game work.
-
-  --- /feedback ---
-
-- (x) Swap the colours in the 'check win' and 'check lose' conditions
+- ( ) Newid y lliw yn yr amod 'gwirio ennill'
 
   --- feedback ---
 
-Yes. The 'check lose' and 'check win' conditions have the colours the wrong way round! The player will win when they fall in the lava and lose when they reach the golden door! Swapping the conditions will fix this.
+Agos. Does gan yr amod 'gwirio ennill' ddim y lliw cywir, ond fydd newid dim ond hyn ddim yn gwneud i'r gêm weithio.
 
   --- /feedback ---
 
---- /choices ---
+- (x) Cyfnewidiwch y lliwiau yn yr amodau 'gwirio ennill' a 'gwirio colli'
 
---- /question ---
+  --- feedback ---
+
+Cywir. Mae'r lliwiau yn yr amodau 'gwirio colli' a 'gwirio ennill' yn y drefn anghywir! Bydd y chwaraewr yn ennill pan fydd yn disgyn yn y lafa ac yn colli pan fydd yn cyrraedd y drws aur! Bydd cyfnewid yr amodau yn trwsio hyn.
+
+  --- /feedback ---
+
+--- /dewisiadau ---
+
+--- /cwestiwn ---
