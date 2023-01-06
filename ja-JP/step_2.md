@@ -1,8 +1,8 @@
-## Choose your theme
+## テーマを決める
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add a character and backdrop, and create start and end platforms. 
+このステップでは、キャラクターと背景を追加し、スタートとゴールのプラットフォームを作成します。 
 </div>
 <div>
 ![](images/setup-example.png){:width="300px"}
@@ -11,13 +11,13 @@ In this step, you will add a character and backdrop, and create start and end pl
 
 --- task ---
 
-Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"} and delete the cat sprite. Scratch will open in another browser tab.
+[新しいScratchプロジェクト](http://rpf.io/scratch-new){:target="_blank"}を開きます。 Scratchはブラウザの別のタブで開きます。
 
 --- /task ---
 
 --- task ---
 
-Create a solid colour backdrop.
+単色の背景を作成します。
 
 [[[scratch-paint-single-colour-backdrop]]]
 
@@ -25,7 +25,7 @@ Create a solid colour backdrop.
 
 --- task ---
 
-**Choose:** Will your character move from left to right, or bottom to top?
+**選択：** あなたのキャラクターは左から右、それとも下から上に移動しますか？
 
 ![](images/direction-examples.png)
 
@@ -33,39 +33,39 @@ Create a solid colour backdrop.
 
 --- task ---
 
-Paint a new **Start** platform sprite.
+新しい**スタート**のプラットフォームのスプライトを描きます。
 
-Start with a simple single coloured shape. You can add more detail later.
+最初は単純に単色の形から始めてください。 後で詳細を追加できます。
 
-Centre your costume in the Paint editor.
+ペイントエディターでコスチュームを中央に配置します。
 
 [[[scratch-crosshair]]]
 
-Position your **Start** platform sprite where you want your character to start the game.
+ゲーム開始時にキャラクターがいてほしい場所に**スタート**プラットフォームを配置します。
 
 --- /task ---
 
 --- task ---
 
-Create a simple **End** platform sprite. You can add more detail later.
+シンプルな**ゴール**のプラットフォームのスプライトを作ります。 後で詳細を追加できます。
 
-Centre your costume in the Paint editor.
+ペイントエディターでコスチュームを中央に配置します。
 
-Position your **End** sprite on the Stage where you want your character to finish the game.
+ゲーム終了時にキャラクターがいてほしい場所に**ゴール**のプラットフォームを配置します。
 
 --- /task ---
 
 --- task ---
 
-Create a **character** sprite.
+**キャラクター**のスプライトを作成します。
 
-**Choose:** Do you want to add or paint a **character** sprite?
+**選択：** **キャラクター**のスプライトを追加しますか、それとも描きたいですか？
 
-You might want to add a top-down **character** sprite such as **Tatiana**, **Taylor**, or **Trisha**.
+**Tatiana**、**Taylor**、または **Trisha**のようなトップダウン**キャラクター**のスプライトを追加することをお勧めします。
 
-![Image of the top down sprites available in scratch](images/top-down-sprites.png)
+![Scratchで利用できるトップダウンスプライトの画像](images/top-down-sprites.png)
 
-Or, paint your own **character** sprite. Start with simple shapes and add details later. Centre your costume in the Paint editor.
+もしくは、自分で**キャラクター**のスプライトを描きます。 単純な形状から始めて、詳細は後で追加しましょう。 ペイントエディターでコスチュームを中央に配置します。
 
 [[[generic-scratch3-draw-sprite]]]
 
@@ -73,19 +73,19 @@ Or, paint your own **character** sprite. Start with simple shapes and add detail
 
 --- task ---
 
-Your **character** sprite needs a start script to get everything set up for the beginning of the game.
+**キャラクター**スプライトには、ゲームの初めにすべてをセットアップするための開始スクリプトが必要です。
 
 --- collapse ---
 
 ---
-title: Get your character ready to start
+title: キャラクターの準備を始めましょう
 ---
 
-Make a `variable`{:class="block3variables"} called `landed`, and set it to the size your sprite should be when it has landed and is not jumping.
+`着地`という`変数`{:class="block3variables"}を作成し、スプライトが着地していてジャンプしていないときの大きさに設定します。
 
-Get your character to go to the **Start** `when flag clicked`{:class="block3events"}. Add a `go to front layer`{:class="block3looks"} block, so your character is on top of the platforms.
+`旗がクリックされた`{:class="block3events"}ときにキャラクターを**スタート**へ移動させます。 キャラクターがプラットフォームの上にくるように、`最前面へ移動`{:class="block3looks"}ブロックを追加します。
 
-**Character:**
+**キャラクター：**
 
 ```blocks3
 when flag clicked // setup
@@ -97,27 +97,27 @@ show
 broadcast (start v) // start other scripts
 ```
 
-**Tip:** Uncheck the `landed`{:class="block3variables"} variable in the `Variables`{:class="block3variables"} Blocks menu so that it doesn't show on the Stage. The user doesn't need to see this variable.
+**ヒント：** 変数がステージに表示されないように、`変数`{:class="block3variables"}ブロックメニューの`着地`{:class="block3variables"}変数のチェックを外します。 ユーザーがこの変数を見る必要はないからです。
 
 --- /collapse ---
 
-**Tip:** It's a good idea to `broadcast`{:class="block3events"} a `start`{:class="block3events"} message at the end of your setup script to let other scripts know when to start, otherwise they might start before everything is ready.
+**ヒント：** 他のスクリプトが始まるタイミングがわかるように、セットアップスクリプトの最後で`開始`{:class="block3events"}`メッセージを送信`{:class="block3events"}するのはよいアイデアです。そうしないと、準備がすべて整う前に他のスクリプトが始まってしまいます。
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**デバッグ:**
 
 --- collapse ---
 
 ---
-title: My sprite is pointing in the wrong direction
+title: 私のスプライトが間違った方向を向いています
 ---
 
-The **Direction** property in the Sprite pane can be used to control the direction the sprite is pointing in. Turn the wheel to make a sprite point in the direction you need.
+スプライトペインの**向き**プロパティを使用して、スプライトが指している方向を制御できます。 ホイールを回して、意図した方向にスプライトを向かせます。
 
-![The sprite pane with direction property selected. A pop up menu is shown with a direction wheel used for adjusting the direction the sprite is pointing.](images/direction-property.png)
+![向きプロパティが選択されたスプライトペイン。 スプライトの向きを調整するのに使う方向ホイールのポップアップメニューが表示されます。](images/direction-property.png)
 
 --- /collapse ---
 
@@ -125,7 +125,7 @@ The **Direction** property in the Sprite pane can be used to control the directi
 
 --- task ---
 
-Give your project a title that describes your game.
+プロジェクトにゲームを説明するタイトルを付けましょう。
 
 --- /task ---
 
