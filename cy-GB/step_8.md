@@ -1,22 +1,22 @@
-## Upgrade your project
+## Uwchraddio dy brosiect
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-If you have time, you can upgrade your project. 
+Os oes gen ti amser, galli di uwchraddio dy brosiect. 
 </div>
 <div>
 ![](images/upgrade-example.png){:width="300px"}
 </div>
 </div>
 
-Here are some ideas you could try:
-- Add another level. When the player wins, `broadcast`{:class="block3events"} a `level2`{:class="block3events"} message and change the speed that the sprites move at, using a `speed`{:class="block3variables"} variable.
-- Make platforms appear and disappear in a `forever`{:class="block3control"} block using `show`{:class="block3looks"}, `hide`{:class="block3looks"}, and `wait`{:class="block3control"}.
-- Add more platforms, or make more platforms appear when you get to the next level. You will need to consider what else needs to change, to make your game work on the second level, and reset correctly to the first level `when flag clicked`{:class="block3events"}.
-- Design your own top-down character in the Paint editor.
+Dyma rai syniadau gallet ti roi cynnig arnyn nhw:
+- Ychwanegu lefel arall. Pan fydd y chwaraewr yn ennill, galli di `ddarlledu`{:class="3events"} neges `lefel2`{:class="block3events"} a newid y cyflymder y mae'r sprites yn symud, gan ddefnyddio newidyn `cyflymder`{:class="block3variables"}.
+- Gwneud i blatfformau ymddangos a diflannu mewn bloc `am byth`{:class="block3control"} gan ddefnyddio `dangos`{:class="block3looks"}, `cuddio`{:class="block3looks"}, ac `aros`{: class="block3control"}.
+- Ychwanegu rhagor o blatfformau, neu gwneud i fwy o blatfformau ymddangos pan fyddi di'n cyrraedd y lefel nesaf. Bydd angen i ti ystyried beth arall sydd angen ei newid, i wneud i dy gêm weithio ar yr ail lefel, ac i wneud iddi ailosod yn gywir i'r lefel gyntaf `pan fydd y faner wedi'i chlicio`{:class="block3events"}.
+- Dylunio dy gymeriad brig i lawr dy hun yn y golygydd Paent.
 
-Take a look at our [Don't fall in - Examples Scratch studio](https://scratch.mit.edu/studios/29599110){:target="_blank"} each project has a **See Inside** link for you to open the project in Scratch, and look at the code to get ideas and see how they work.
+Cymer olwg ar ein [stiwdio scratch 'Paid disgyn i mewn — Enghreifftiau'](https://scratch.mit.edu/studios/29599110){:target="_blank"}. Mae gan bob prosiect ddolen **Gweld tu mewn**, y galli di ei defnyddio i agor y prosiect yn Scratch a tharo golwg ar y cod i gael syniadau a gweld sut mae'r prosiect yn gweithio.
 
-For more inspiration, take a look at the [Don't fall in - Community Scratch studio](https://scratch.mit.edu/studios/29601182){:target="_blank"} to see projects created by community members.
+Am fwy o ysbrydoliaeth, cymer olwg ar y [Stiwdio Cymuned Scratch](https://scratch.mit.edu/studios/29601182){:target = " _blank "} i weld prosiectau a grëwyd gan aelodau'r gymuned.
 
 --- save ---
