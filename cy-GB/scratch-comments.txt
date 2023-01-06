@@ -1,31 +1,31 @@
-setup
+gosod
 
-size when not jumping
+maint pan nad yw'n neidio
 
-not jumping
+pan nad yw'n neidio
 
-start other scripts
+dechrau sgriptiau eraill
 
-not in the air
+pan nad yw yn yr awyr
 
-at end
+ar y diwedd
 
-stop other sprites
+rhwystro corluniau eraill
 
-stop jumping after win
+rhoi'r gorau i neidio ar ôl ennill
 
-add this block for left to right games
+ychwanega'r bloc yma ar gyfer gemau o'r chwith i'r dde
 
-try different numbers
+rho gynnig ar wahanol rifau
 
-choose a colour on your platform
+dewiswa liw ar dy blatfform
 
-choose your backdrop colour
+dewisa liw dy gefnlen
 
-prevent jumping after losing
+rhwystro neidio ar ôl colli
 
-add a sound of your choice
+ychwanega sain o dy ddewis
 
-check lose
+gwirio colli
 
-check win
+gwirio ennill
