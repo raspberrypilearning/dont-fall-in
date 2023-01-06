@@ -1,13 +1,13 @@
-Start
+スタート
 
-landed
+着地
 
-stop
+停止
 
-End
+ゴール
 
-Platform 1
+プラットフォーム１
 
-Platfrom 2
+プラットフォーム２
 
-Platform 3
+プラットフォーム３
