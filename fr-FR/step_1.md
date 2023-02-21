@@ -1,6 +1,6 @@
-## You will make
+## Ce que tu vas faire
 
-Conçois et construis un jeu de parkour en vue de dessus, avec obstacles ou plateformes. Ton personnage devra sauter, bondir, glisser, rebondir ou voler pour monter sur des plateformes mobiles et arriver à la fin.
+Conçois et construis un jeu de parcours en vue de dessus, avec obstacles ou plateformes. Ton personnage devra sauter, bondir, glisser, rebondir ou voler pour monter sur des plateformes mobiles et arriver à la fin.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**Jeux avec vue de dessus/aérienne**</span> Regarde le jeu d'en haut. Parfois, le jeu entier a cette vue. D'autres jeux utilisent des vues de dessus lorsque tu entres dans un mode de conception. Peux-tu penser à des jeux auxquels tu joues qui utilisent la vue de dessus ? 
@@ -20,9 +20,9 @@ Tu vas devoir :
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-### Play ▶️ 
+### Joue ▶️ 
 
-Click the space bar or tap the Stage to jump to the next platform. Chronomètre tes sauts pour ne pas tomber dans la crème.
+Clique sur la barre d'espace ou appuie sur la scène pour passer à la plate-forme suivante. Chronomètre tes sauts pour ne pas tomber dans la crème.
 
 + Comment le jeu crée-t-il une vue de dessus ? 
 + Comment la taille du personnage change-t-elle lorsqu'il vole ? 
@@ -40,7 +40,7 @@ Click the space bar or tap the Stage to jump to the next platform. Chronomètre 
 
 --- /task ---
 
-### Get ideas 💭
+### Trouve l'inspiration
 
 Tu vas prendre des décisions de conception pour créer ton propre jeu de plateforme en vue de dessus. Tu choisiras le thème, les couleurs, le personnage, le nombre de plateformes et le niveau de difficulté.
 
@@ -67,7 +67,7 @@ Explore ces exemples de projets pour obtenir plus d'idées :
 
 --- print-only ---
 
-### Get ideas 💭
+### Trouve l'inspiration
 
 Tu vas prendre des décisions de conception pour créer ton propre jeu de plateforme en vue de dessus. Tu choisiras le thème, les couleurs, le personnage, le nombre de plateformes et le niveau de difficulté. Voir à l'intérieur des exemples de projets dans [Scratch 2 : Ne tombe pas dedans - Exemples](https://scratch.mit.edu/studios/29599110/){:target="_blank"}Scratch Studio.
 
