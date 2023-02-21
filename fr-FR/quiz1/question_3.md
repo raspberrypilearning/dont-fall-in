@@ -9,7 +9,7 @@ Quel bloc un sprite doit-il utiliser pour faire savoir à un autre sprite que qu
 
 --- choices ---
 
-- ( ) `when I receive`{:class="block3events"}
+- ( ) `quand je reçois`{:class="block3events"}
 
   --- feedback ---
 
@@ -17,7 +17,7 @@ Pas tout à fait, ce bloc est utilisé pour qu'un sprite fasse quelque chose lor
 
   --- /feedback ---
 
-- ( ) `when this sprite clicked`{:class="block3events"}
+- ( ) `quand ce sprite est cliqué`{:class="block3events"}
 
 
   --- feedback ---
@@ -26,7 +26,7 @@ Non, ce bloc est utilisé par un sprite pour lui faire faire quelque chose lorsq
 
   --- /feedback ---
 
-- (x) `broadcast`{:class="block3events"}
+- (x) `envoyer à tous`{:class="block3events"}
 
   --- feedback ---
 
@@ -34,7 +34,7 @@ Oui, ce bloc envoie un message qui peut être utilisé pour communiquer avec d'a
 
   --- /feedback ---
 
-- ( ) `start`{:class="block3events"}
+- ( ) `départ`{:class="block3events"}
 
   --- feedback ---
 
