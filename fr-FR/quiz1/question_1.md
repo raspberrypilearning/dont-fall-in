@@ -1,10 +1,10 @@
-## Quick quiz
+## Questionnaire rapide
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Réponds aux trois questions. Il y a des indices pour te guider vers la bonne réponse.
 
-When you have answered each question, click on **Check my answer**.
+Lorsque tu as répondu à chaque question, clique sur **Vérifier ma réponse**.
 
-Have fun!
+Amuse-toi bien !
 
 --- question ---
 
@@ -12,9 +12,9 @@ Have fun!
 legend: Question 1 sur 3
 ---
 
-![The Stage of a lava-jumping game. The character is on the end platform, a golden door.](images/quiz-lava-stage.png)
+![La scène d'un jeu de saut de lave. Le personnage est sur la plateforme de fin, une porte dorée.](images/quiz-lava-stage.png)
 
-You win this game by reaching the golden door, and lose if you land in the lava pit. The game isn't working. How could you fix it?
+Tu gagnes ce jeu en atteignant la porte dorée et tu perds si tu atterris dans la fosse de lave. Le jeu ne fonctionne pas. Comment pourrais-tu résoudre ce problème ?
 
 ```blocks3
 when flag clicked
@@ -40,27 +40,27 @@ end
 
 --- choices ---
 
-- ( ) Change the colour in the 'check lose' condition
+- ( ) Changer la couleur dans la condition "test perdu"
 
   --- feedback ---
 
-Close. The 'check lose' condition doesn't have the right colour, but just changing that won't make the game work.
+Fermer. La condition "test perdu" n'a pas la bonne couleur, mais le simple fait de changer cela ne fera pas fonctionner le jeu.
 
   --- /feedback ---
 
-- ( ) Change the colour in the 'check win' condition
+- ( ) Changer la couleur dans la condition "test gagné"
 
   --- feedback ---
 
-Fermer. The 'check win' condition doesn't have the right colour, but just changing that won't make the game work.
+Fermer. La condition "test gagné" n'a pas la bonne couleur, mais le simple fait de changer cela ne fera pas fonctionner le jeu.
 
   --- /feedback ---
 
-- (x) Swap the colours in the 'check win' and 'check lose' conditions
+- (x) Échanger les couleurs dans les conditions "test gagné" et "test perdu"
 
   --- feedback ---
 
-Yes. The 'check lose' and 'check win' conditions have the colours the wrong way round! The player will win when they fall in the lava and lose when they reach the golden door! Swapping the conditions will fix this.
+Oui. Les conditions "test perdu" et "test gagné" ont les couleurs inversées ! Le joueur gagnera lorsqu'il tombera dans la lave et perdra lorsqu'il atteindra la porte dorée ! Échanger les conditions résoudra ce problème.
 
   --- /feedback ---
 
