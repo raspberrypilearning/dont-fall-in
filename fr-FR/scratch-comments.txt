@@ -1,31 +1,31 @@
-setup
+configuration
 
-size when not jumping
+taille lorsqu'il ne saute pas
 
-not jumping
+ne pas sauter
 
-start other scripts
+lancer d'autres scripts
 
-not in the air
+pas dans les airs
 
-at end
+à la fin
 
-stop other sprites
+arrêter les autres sprites
 
-stop jumping after win
+arrêter de sauter après la victoire
 
-add this block for left to right games
+ajouter ce bloc pour les jeux de gauche à droite
 
-try different numbers
+essaye différents nombres
 
-choose a colour on your platform
+choisir une couleur sur ta plateforme
 
-choose your backdrop colour
+choisir ta couleur d'arrière-plan
 
-prevent jumping after losing
+éviter de sauter après avoir perdu
 
-add a sound of your choice
+ajouter un son de ton choix
 
-check lose
+test perdu
 
-check win
+test gagné
