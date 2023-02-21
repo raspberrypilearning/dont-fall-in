@@ -109,7 +109,7 @@ N'oublie pas que tu devras modifier les nombres pour les parties montantes et de
 title: Mon sprite ne grandit pas et ne rétrécit pas correctement lorsqu'il saute
 ---
 
-Assure-toi d'avoir un bloc `envoyer à tous (départ)`{:class="block3events"} à la fin de ton script du **personnage**'s `quand le drapeau a cliqué`{:class="block3events"}.
+Assure-toi d'avoir un bloc `envoyer à tous (départ)`{:class="block3events"} à la fin de ton script du **personnage** `quand le drapeau est cliqué`{:class="block3events"}.
 
 Regarde le script de ton **personnage** `quand je reçois (départ)` {:class="block3events"}.
 
