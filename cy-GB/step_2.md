@@ -81,7 +81,7 @@ Mae angen sgript dechrau ar dy gorlun **cymeriad** er mwyn rhoi popeth yn ei le 
 title: Paratoi dy gymeriad i ddechrau
 ---
 
-Crea `newidyn`{:class="block3variables"} o'r enw `glanio`, a'i osod i'r maint y dylai dy gorlun fod pan fydd wedi glanio a heb fod yn neidio.
+Crea `newidyn`{:class="block3variables"} o'r enw `wedi glanio`, a'i osod i'r maint y dylai dy gorlun fod pan fydd wedi glanio a heb fod yn neidio.
 
 Dywed i dy gymeriad fynd i'r **Dechrau** `pan fydd y faner wedi'i chlicio`{:class="block3events"}. Ychwanega floc `mynd i'r haen flaen`{:class="block3looks"}, fel bod dy gymeriad ar ben y platfformau.
 
@@ -97,7 +97,7 @@ show
 broadcast (start v) // start other scripts
 ```
 
-**Awgrym:** Dad-dicia'r newidyn `glanio`{:class="block3variables"} yn y ddewislen `Newidynnau`{:class="block3variables"} fel nad yw'n ymdddangos ar y Llwyfan. Does dim angen i'r defnyddiwr weld y newidyn yma.
+**Awgrym:** Dad-dicia'r newidyn `wedi glanio`{:class="block3variables"} yn y ddewislen `Newidynnau`{:class="block3variables"} fel nad yw'n ymdddangos ar y Llwyfan. Does dim angen i'r defnyddiwr weld y newidyn yma.
 
 --- /collapse ---
 
