@@ -36,7 +36,7 @@ title: Gwneud i dy blatfform symud
 ---
 
 ```blocks3
-when I receive [cychwyn v]
+when I receive [dechrau v]
 point in direction (0) // ychwanega'r bloc yma ar gyfer gemau o'r chwith i'r dde
 forever
 move (4) steps // rho gynnig ar wahanol rifau
@@ -81,7 +81,7 @@ title: Os yw'n cyffwrdd â'r platfform
 ---
 
 ```blocks3
-when I receive [cychwyn v]
+when I receive [dechrau v]
 forever
 if <(size) = (wedi glanio) > then // pan nad yw yn yr awyr
 if <touching color (#b89d2f) ?> then // ar y diwedd
@@ -128,7 +128,7 @@ title: Fel arall os yw'n cyffwrdd â'r gefnlen
 ---
 
 ```blocks3
-when I receive [cychwyn v]
+when I receive [dechrau v]
 forever
 if <(size) = (wedi glanio)> then // pan nad yw yn yr awyr
 if <touching color (#b89d2f) ?> then // ar y diwedd
@@ -211,13 +211,13 @@ Gwna'n siŵr fod dy flociau `os`{:class="block3control"} ar gyfer gwirio amodau'
 title: Dydy'r platfformau ddim yn stopio pan fydda i'n ennill neu'n colli
 ---
 
-Edrycha ar sgript `pan rwy'n derbyn`{:class="block3events"} dy gorluniau **platfform** a gwneud yn siŵr mai `stopio` ydy'r neges.
+Edrycha ar sgript `pan rwy'n derbyn`{:class="block3events"} dy gorluniau **platfform** a gwneud yn siŵr mai `stopio`{:class="block3events"} ydy'r neges.
 
 ```blocks3
 when I receive [stopio v]
 stop [other scripts in sprite v]
 ```
-Gwna'n siŵr fod y bloc `darlledu`{:class="3events"} y tu mewn i'r blociau `os`{:class="block3control"} ennill a cholli yn dweud `stopio`{:class="block3events"}.
+Gwna'n siŵr fod y bloc `darlledu`{:class="block3events"} y tu mewn i'r blociau `os`{:class="block3control"} ennill a cholli yn dweud `stopio`{:class="block3events"}.
 
 ```blocks3
 broadcast (stopio v)

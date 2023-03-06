@@ -30,7 +30,7 @@ title: Gorffen y gêm wrth gyffwrdd lliw
 **Cymeriad**:
 
 ```blocks3
-when I receive [start v]
+when I receive [dechrau v]
 forever
 if <(size) = (wedi glanio)> then // pan nad yw yn yr awyr
 if <touching color (#b89d2f) ?> then // ar y diwedd
@@ -104,7 +104,7 @@ Clicia'r tab **Cod** a gwirio fod y sain gywir yn y bloc `chwarae sain`{:class="
 Gwna'n siŵr fod y lliw yn gywir yn y bloc `cyffwrdd lliw`{:class="block3sensing"}. Dewisa'r lliw eto os nad wyt ti'n siŵr. Weithiau mae lliwiau'n edrych yn debyg ond dydyn nhw ddim yr un fath.
 
 ```blocks3
-when I receive [start v]
+when I receive [dechrau v]
 forever
 if < (size) = (wedi glanio) > then // pan nad yw yn yr awyr
 +if <touching color (#b89d2f) ?> then // ar y diwedd

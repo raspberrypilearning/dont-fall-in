@@ -48,12 +48,12 @@ Gwna'n siŵr fod gen ti sgript gosod ar dy gorlun **cymeriad**:
 
 ```blocks3
 when flag clicked // gosod
-+go to (Cychwyn v)
++go to (Dechrau v)
 set [wedi glanio v] to [0]
 set size to (wedi glanio) %
 +go to [front v] layer
 show
-broadcast (cychwyn v) // dechrau sgriptiau eraill
+broadcast (dechrau v) // dechrau sgriptiau eraill
 ```
 
 Gwna'n siŵr fod yr enw yn y bloc `mynd i`{:class="block3motion"} yn cyfateb i enw dy gorlun **Dechrau**.
@@ -83,7 +83,7 @@ Mae'r bloc `mynd i`{:class="block3motion"} `gorlun arall`{:class="block3motion"}
 title: Mae fy nghorlun yn pwyntio neu'n neidio i'r cyfeiriad anghywir!
 ---
 
-Ychwanega floc `pwyntio i gyfeiriad`{:class="block3motion"} i sgript gosod y **cymeriad**neu newid y cyfeiriad yn y cwarel corlun. Efallai bydd angen i ti hefyd newid yr `arddull cylchdroi`{:class="block3motion"}. Efallai bydd angen i ti hefyd gylchdroi **gwisg** dy gorlun fel ei fod yn wynebu i'r dde.
+Ychwanega floc `pwyntio i gyfeiriad`{:class="block3motion"} i sgript gosod y **cymeriad** neu newid y cyfeiriad yn y cwarel corlun. Efallai bydd angen i ti hefyd newid yr `arddull cylchdroi`{:class="block3motion"}. Efallai bydd angen i ti hefyd gylchdroi **gwisg** dy gorlun fel ei fod yn wynebu i'r dde.
 
 --- /collapse ---
 

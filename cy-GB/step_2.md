@@ -81,7 +81,7 @@ Mae angen sgript dechrau ar dy gorlun **cymeriad** er mwyn rhoi popeth yn ei le 
 title: Paratoi dy gymeriad i ddechrau
 ---
 
-Crea `newidyn`{:class="block3variables"} o'r enw `glanio`, a'i osod i'r maint y dylai dy gorlun fod pan fydd wedi glanio a heb fod yn neidio.
+Crea `newidyn`{:class="block3variables"} o'r enw `wedi glanio`, a'i osod i'r maint y dylai dy gorlun fod pan fydd wedi glanio a heb fod yn neidio.
 
 Dywed i dy gymeriad fynd i'r **Dechrau** `pan fydd y faner wedi'i chlicio`{:class="block3events"}. Ychwanega floc `mynd i'r haen flaen`{:class="block3looks"}, fel bod dy gymeriad ar ben y platfformau.
 
@@ -89,15 +89,15 @@ Dywed i dy gymeriad fynd i'r **Dechrau** `pan fydd y faner wedi'i chlicio`{:clas
 
 ```blocks3
 when flag clicked // gosod
-go to (Cychwyn v)
+go to (Dechrau v)
 set [wedi glanio v] to [40] // maint pan nad yw'n neidio
 set size to (wedi glanio) % // pan nad yw'n neidio
 go to [front v] layer
 show
-broadcast (cychwyn v) // dechrau sgriptiau eraill
+broadcast (dechrau v) // dechrau sgriptiau eraill
 ```
 
-**Awgrym:** Dad-dicia'r newidyn `glanio`{:class="block3variables"} yn y ddewislen `Newidynnau`{:class="block3variables"} fel nad yw'n ymdddangos ar y Llwyfan. Does dim angen i'r defnyddiwr weld y newidyn yma.
+**Awgrym:** Dad-dicia'r newidyn `wedi glanio`{:class="block3variables"} yn y ddewislen `Newidynnau`{:class="block3variables"} fel nad yw'n ymdddangos ar y Llwyfan. Does dim angen i'r defnyddiwr weld y newidyn yma.
 
 --- /collapse ---
 
