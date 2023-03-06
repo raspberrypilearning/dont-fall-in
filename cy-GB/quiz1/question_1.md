@@ -18,12 +18,12 @@ Rwyt ti'n ennill y gêm hon drwy gyrraedd y drws aur, ac yn colli os byddi di'n 
 
 ```blocks3
 when flag clicked
-go to (Start v)
-broadcast (start v)
+go to (Dechrau v)
+broadcast (dechrau v)
 ```
 
 ```blocks3
-when I receive [start v]
+when I receive [dechrau v]
 forever
 if <touching color (#fff700) ?> then // gwirio colli
 broadcast (stopio v) // rhwystro corluniau eraill
@@ -42,11 +42,11 @@ end
 
 - ( ) Newidi y lliw yn yr amod 'gwirio colli'
 
-  --- adborth ---
+  --- feedback ---
 
 Agos. Does gan yr amod 'gwirio colli' ddim y lliw cywir, ond fydd newid dim ond hyn ddim yn gwneud i'r gêm weithio.
 
-  --- /adborth ---
+  --- /feedback ---
 
 - ( ) Newid y lliw yn yr amod 'gwirio ennill'
 
