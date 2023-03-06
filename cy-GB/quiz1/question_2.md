@@ -8,7 +8,7 @@ legend: Cwestiwn 2 o 3
 Dyma'r cod ar gyfer platfform sy'n symud:
 
 ```blocks3
-when I receive [cychwyn v]
+when I receive [dechrau v]
 forever
 move [20] steps
 if on edge, bounce
