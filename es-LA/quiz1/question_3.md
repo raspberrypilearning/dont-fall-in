@@ -5,7 +5,7 @@
 legend: Pregunta 3 de 3
 ---
 
-¿Qué bloque debería usar un objeto para que otro objeto sepa que algo ha sucedido?
+¿Qué bloque debería usar un objeto para que otro sepa que algo ha sucedido?
 
 --- choices ---
 
@@ -38,7 +38,7 @@ Sí, este bloque envía un mensaje que se puede usar para comunicarse con otros 
 
   --- feedback ---
 
-No, `comenzar`{:class="block3events"} puede ser un mensaje que envió el bloque, pero no es un bloque.
+No, `inicio`{:class="block3events"} puede ser un mensaje enviador por el bloque, pero no es un bloque.
 
   --- /feedback ---
 
