@@ -17,7 +17,7 @@ Crea un objeto **Plataforma 1** para aterrizar.
 
 Dibuja un disfraz para tu objeto **Plataforma 1**.
 
-**Sugerencia:** Si quieres hacer `rebotar`{:class="block3motion"} a tu objeto sin que parezca que el disfraz cambia de dirección, necesitarás un disfraz que sea simétrico o establecer el estilo de rotación en **No rotar**.
+**Consejo:** Si quieres hacer `rebotar`{:class="block3motion"} a tu objeto sin que parezca que el disfraz cambia de dirección, necesitarás un disfraz que sea simétrico o establecer el estilo de rotación en **No rotar**.
 
 ![El menú emergente de propiedades de dirección en el panel de objeto con el icono de no rotar seleccionado.](images/dont-rotate.png)
 
@@ -172,7 +172,7 @@ end
 
 --- task ---
 
-Agrega código a tus objetos de **plataforma** para que se dejen de mover cuando el objeto **personaje** llegue a la plataforma **Fin** ¡o se caiga!
+Agrega código a tus objetos de **plataforma** para que se dejen de mover cuando el **personaje** llegue a la plataforma **Fin** ¡o se caiga!
 
 ```blocks3
 when I receive [stop v]
@@ -189,7 +189,7 @@ stop [other scripts in sprite v]
 
 --- task ---
 
-**Depurar:**
+**Debug:**
 
 --- collapse ---
 
@@ -201,7 +201,7 @@ Asegúrate de tener los bloques `si`{:class="block3control"} en el orden correct
 
 Si compruebas que el **personaje** está tocando el fondo antes de que haya tenido la oportunidad de aterrizar en una plataforma, ¡entonces tu juego podría terminar injustamente!
 
-Asegúrate de que tus bloques `si`{:class="block3control"} que verifican las condiciones del juego, estén dentro de un bloque `si`{:class="block3control"} que verifica que el tamaño del **personaje** es normal. Está bien que tu objeto toque el color de fondo al saltar. Solo es un problema si cae en la natilla, la lava, la sustancia radioactiva o cualquier peligro que hayas elegido.
+Asegúrate de que tus bloques `si`{:class="block3control"} que verifican las condiciones del juego, estén dentro de un bloque `si`{:class="block3control"} que verifica que el tamaño del **personaje** es normal. Está bien que tu objeto toque el color de fondo al saltar. Solo es un problema si cae en la crema, la lava, la sustancia radioactiva o cualquier peligro que hayas elegido.
 
 --- /collapse ---
 
@@ -228,7 +228,7 @@ broadcast (stop v)
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Hay muchos <span style="color: #0faeb0">juegos de plataforma</span> incluidos los 2D y 3D. Las plataformas son comunes en juegos de obstáculos (obby) y juegos de parkour. Algunos juegos tienen plataformas que se mueven, se muestran y ocultan, o desaparecen gradualmente cuando saltas sobre ellas. ¿Puedes pensar en juegos que hayas jugado que tengan plataformas en las que tengas que saltar? ¿Y juegos con plataformas móviles?
+Hay muchos <span style="color: #0faeb0">juegos de plataforma</span> incluidos los 2D y 3D. Las plataformas son comunes en juegos de obstáculos (obby) y juegos de parkour. Algunos juegos tienen algunas que se mueven, se muestran y ocultan, o desaparecen gradualmente cuando saltas sobre ellas. ¿Puedes pensar en juegos que hayas jugado que tengan plataformas en las que tengas que saltar? ¿Y juegos con plataformas móviles?
 </p>
 
 --- save ----
