@@ -1,10 +1,10 @@
-## Quick quiz
+## Examen rápido
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Contesta las tres preguntas. Hay pistas para guiarte hacia la respuesta correcta.
 
-When you have answered each question, click on **Check my answer**.
+Cuando hayas respondido a cada pregunta, haz clic en **Revisar mi respuesta**.
 
-Have fun!
+¡Qué te diviertas!
 
 --- question ---
 
@@ -12,9 +12,9 @@ Have fun!
 legend: Pregunta 1 de 3
 ---
 
-![The Stage of a lava-jumping game. The character is on the end platform, a golden door.](images/quiz-lava-stage.png)
+![El Escenario de un juego de saltar la lava. El personaje está en la plataforma final, una puerta dorada.](images/quiz-lava-stage.png)
 
-You win this game by reaching the golden door, and lose if you land in the lava pit. The game isn't working. How could you fix it?
+Ganas este juego al llegar a la puerta dorada y pierdes si aterrizas en el pozo de lava. El juego no funciona. ¿Cómo podrías arreglarlo?
 
 ```blocks3
 when flag clicked
@@ -40,27 +40,27 @@ end
 
 --- choices ---
 
-- ( ) Change the colour in the 'check lose' condition
+- (x) Intercambiar los colores en las condiciones de 'comprueba si pierdes'
 
   --- feedback ---
 
-Close. The 'check lose' condition doesn't have the right colour, but just changing that won't make the game work.
+Casi. La condición de 'comprueba si pierdes' no tiene el color correcto, pero solo cambiarlo no hará que el juego funcione.
 
   --- /feedback ---
 
-- ( ) Change the colour in the 'check win' condition
+- ( ) Cambiando el color en la condición 'comprueba si ganas'
 
   --- feedback ---
 
-Casi. The 'check win' condition doesn't have the right colour, but just changing that won't make the game work.
+Casi. La condición de 'comprueba si ganas' no tiene el color correcto, pero solo cambiarlo no hará que el juego funcione.
 
   --- /feedback ---
 
-- (x) Swap the colours in the 'check win' and 'check lose' conditions
+- (x) Intercambiar los colores en las condiciones de 'comprueba si ganas' y 'comprueba si pierdes'
 
   --- feedback ---
 
-Yes. The 'check lose' and 'check win' conditions have the colours the wrong way round! The player will win when they fall in the lava and lose when they reach the golden door! Swapping the conditions will fix this.
+Sí. ¡Las condiciones 'comprueba si pierdes' y 'comprueba si ganas' tienen los colores invertidos! ¡El jugador ganará cuando caiga en la lava y perderá cuando llegue a la puerta dorada! Intercambiar las condiciones solucionará esto.
 
   --- /feedback ---
 
