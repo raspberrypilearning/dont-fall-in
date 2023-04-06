@@ -31,11 +31,11 @@ Ajusta tu código hasta que el personaje salte por el escenario en tres o cuatro
 
 --- /task ---
 
-**Sugerencia:** Es muy común que los juegos tengan un bloque `por siempre`{:class="block3control"} con sentencias `si`{:class="block3control"} dentro para hacer algo cuando condiciones importantes se vuelven verdaderas.
+**Consejo:** Es muy común que los juegos tengan un bloque `por siempre`{:class="block3control"} con enunciados `si`{:class="block3control"} dentro para hacer algo cuando las condiciones importantes se vuelven verdaderas.
 
 --- task ---
 
-**Depurar:**
+**Debug:**
 
 --- collapse ---
 
@@ -73,14 +73,14 @@ title: Mi objeto no va al centro de la plataforma de Inicio
 
 Tienes que asegurarte de que todos tus disfraces de objetos estén centrados en el Editor de dibujo.
 
-El bloque `ir a`{:class="block3motion"} `otro objeto`{:class="block3motion"} mueve un objeto para que su centro esté en la misma posición que el centro del otro objeto. Si sus centros están en el lugar equivocado, entonces tu **personaje** no irá al centro de las plataformas.
+El bloque `ir a`{:class="block3motion"} `otro objeto`{:class="block3motion"} mueve un objeto para que su centro esté en la misma posición que el centro de otro. Si sus centros están en el lugar equivocado, entonces tu **personaje** no irá al centro de las plataformas.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: ¡Mi objeto mira o salta hacia la dirección equivocada!
+title: ¡Mi objeto mira o salta en la dirección equivocada!
 ---
 
 Agrega un bloque `apuntar en dirección`{:class="block3motion"} al script de configuración de **personaje** o cambia la dirección en el panel de objetos. Es posible que también debas cambiar el `estilo de rotación`{:class="block3motion"}. También es posible que tengas que rotar el **disfraz** de tu objeto para que mire hacia la derecha.
@@ -106,7 +106,7 @@ Recuerda que tendrás que cambiar el número para los saltos hacia arriba y los 
 --- collapse ---
 
 ---
-title: Mi sprite no crece ni se encoge correctamente cuando salta
+title: Mi objeto no crece ni se encoge correctamente cuando salta
 ---
 
 Asegúrate de tener un bloque `enviar (comenzar)`{:class="block3events"} al final del script del **personaje** que dice `al presionar la bandera verde`{:class="block3events"}.
@@ -117,9 +117,9 @@ Asegúrate de que el bloque `cambiar tamaño`{:class="block3looks"}, en el segun
 
 --- /collapse ---
 
-Si tienes un error que no hemos incluido aquí, hazlo saber en los comentarios. Si solucionaste el error tú mismo (¡bien hecho!), háznoslo saber también.
+Si tienes un error que no hemos incluido aquí, háznoslo saber en los comentarios. Si solucionaste el error tú mismo (¡bien hecho!), háznoslo saber también.
 
-**Sugerencia:** Si te atascaste, intenta leer tu código en voz alta o mentalmente para asegurarte de que dice lo que tú crees. Puede que encuentres el error.
+**Consejo:** Si te atascaste, intenta leer tu código en voz alta o mentalmente para asegurarte de que dice lo que tú crees. Puede que encuentres el error.
 
 --- /task ---
 
