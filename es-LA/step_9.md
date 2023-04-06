@@ -4,7 +4,7 @@ Si estás en un club, ¿por qué no compartes tu proyecto con tus amigos?
 
 También podrías mostrarle a tu familia cómo funciona tu proyecto.
 
-Si tienes una cuenta de Scratch, puedes compartir tu proyecto a través de Scratch. Puedes enviar un enlace a las personas que conoces y toda la comunidad de Scratch podrá encontrar tu proyecto y probarlo.
+Si tienes una cuenta, puedes compartirlo a través de Scratch. Puedes enviar un enlace a las personas que conoces y toda la comunidad de Scratch podrá encontrarlo y probarlo.
 
 [[[share-scratch]]]
 
