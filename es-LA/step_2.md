@@ -11,7 +11,7 @@ En este paso, agregarás un personaje y un fondo, y crearás la plataforma inici
 
 --- task ---
 
-Abre un [nuevo proyecto de Scratch](http://rpf.io/scratch-new){:target="_blank"} y elimina el objeto gato. Scratch se abrirá en otra pestaña del navegador.
+Abre un [nuevo proyecto de Scratch](http://rpf.io/scratch-new){:target="_blank"} y elimina el objeto del gato. Scratch se abrirá en otra pestaña del navegador.
 
 --- /task ---
 
@@ -61,9 +61,9 @@ Crea un objeto **personaje**.
 
 **Elige:** ¿Quieres añadir o pintar un objeto **personaje**?
 
-Es posible que quieras agregar un objeto **personaje** que se vea en top-down (de arriba hacia abajo), como **Tatiana**, **Taylor** o **Trisha**.
+Es posible que quieras agregar un objeto **personaje** que se vea de arriba abajo, como **Tatiana**, **Taylor** o **Trisha**.
 
-![Imagen de los objetos con vista de arriba hacia abajo disponibles en scratch](images/top-down-sprites.png)
+![Imagen de los objetos con vista de arriba abajo disponibles en scratch](images/top-down-sprites.png)
 
 O dibujar tu propio objeto **personaje**. Comienza con formas simples y agrega detalles más tarde. Centra tu disfraz en el Editor de dibujos.
 
@@ -97,17 +97,17 @@ show
 broadcast (start v) // start other scripts
 ```
 
-**Sugerencia:** Desmarca la variable `aterrizaje`{:class="block3variables"} en el menú de Bloques de `Variables`{:class="block3variables"} para que no se muestre en el Escenario. El usuario no necesita ver esta variable.
+**Consejo:** Desmarca la variable `aterrizaje`{:class="block3variables"} en el menú de Bloques de `Variables`{:class="block3variables"} para que no se muestre en el Escenario. El usuario no necesita ver esta variable.
 
 --- /collapse ---
 
-**Sugerencia:** Es una buena idea `enviar`{:class="block3events"} un mensaje de `inicio`{:class="block3events"} al final de tu script de configuración para que otros scripts sepan cuándo empezar, de lo contrario podrían hacerlo antes de que todo esté listo.
+**Consejo:** Es una buena idea `enviar`{:class="block3events"} un mensaje de `inicio`{:class="block3events"} al final de tu script de configuración para que otros scripts sepan cuándo empezar, de lo contrario podrían hacerlo antes de que todo esté listo.
 
 --- /task ---
 
 --- task ---
 
-**Depurar:**
+**Debug:**
 
 --- collapse ---
 
@@ -117,7 +117,7 @@ title: Mi objeto va en la dirección equivocada
 
 La propiedad **Dirección** en el panel Objeto se puede usar para controlar la dirección hacia la que va el objeto. Gira la rueda para hacer que un objeto apunte en la dirección que necesites.
 
-![El panel de objetos con la propiedad de dirección seleccionada. Se muestra un menú emergente con una rueda de dirección que se usa para ajustar la dirección hacia la que apunta el objeto.](images/direction-property.png)
+![El panel de objetos con la propiedad de dirección seleccionada. Se muestra un menú emergente con una rueda de dirección que se usa para ajustar hacia donde apunta el objeto.](images/direction-property.png)
 
 --- /collapse ---
 
