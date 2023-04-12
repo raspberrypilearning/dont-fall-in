@@ -5,7 +5,7 @@
 時間があればプロジェクトをアップグレードできます。 
 </div>
 <div>
-![](images/upgrade-example.png){:width="300px"}
+![](images/xy-example.png){:width="300px"}
 </div>
 </div>
 
