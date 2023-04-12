@@ -217,7 +217,7 @@ title: 勝っても負けてもプラットフォームが止まらない
 when I receive [停止 v]
 stop [other scripts in sprite v]
 ```
-勝ち負けの`もし`{:class="block3control"}ブロックの中で、`停止`の{:class="block3events"}`メッセージを送る`{:class="block3events"}としていることを確認します。
+勝ち負けの`もし`{:class="block3control"}ブロックの中で、`停止`{:class="block3events"}の`メッセージを送る`{:class="block3events"}としていることを確認します。
 
 ```blocks3
 broadcast (停止 v)
