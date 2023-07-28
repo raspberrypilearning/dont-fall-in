@@ -1,10 +1,10 @@
-## Quick quiz
+## Snelle quiz
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Beantwoord de drie vragen. Je wordt naar het juiste antwoord geleid.
 
-When you have answered each question, click on **Check my answer**.
+Klik na het beantwoorden van elke vraag op **Controleer mijn antwoord**.
 
-Have fun!
+Veel plezier!
 
 --- question ---
 
@@ -12,9 +12,9 @@ Have fun!
 legend: Vraag 1 van 3
 ---
 
-![The Stage of a lava-jumping game. The character is on the end platform, a golden door.](images/quiz-lava-stage.png)
+![Het speelveld van een lava-springspel. Je hoofdpersoon bevindt zich op het eindplatform, een gouden deur.](images/quiz-lava-stage.png)
 
-You win this game by reaching the golden door, and lose if you land in the lava pit. The game isn't working. How could you fix it?
+Je wint dit spel door de gouden deur te bereiken en verliest als je in de lavaput belandt. Het spel werkt niet. Hoe zou je het kunnen oplossen?
 
 ```blocks3
 when flag clicked
@@ -40,27 +40,27 @@ end
 
 --- choices ---
 
-- ( ) Change the colour in the 'check lose' condition
+- (x) Wissel de kleuren om in de voorwaarden 'controleer winnen' en 'controleer verlies'
 
   --- feedback ---
 
-Close. The 'check lose' condition doesn't have the right colour, but just changing that won't make the game work.
+Bijna. De 'controleer verlies'-conditie heeft niet de juiste kleur, maar als je alleen dat verandert werkt het spel nog niet.
 
   --- /feedback ---
 
-- ( ) Change the colour in the 'check win' condition
+- ( ) Verander de kleur in de 'controleer verlies' voorwaarde
 
   --- feedback ---
 
-Bijna. The 'check win' condition doesn't have the right colour, but just changing that won't make the game work.
+Bijna. De 'controleer winnen'-voorwaarde heeft niet de juiste kleur, maar als je alleen dat verandert, werkt het spel nog niet.
 
   --- /feedback ---
 
-- (x) Swap the colours in the 'check win' and 'check lose' conditions
+- (x) Verander de kleur in de 'controleer winnen' voorwaarde
 
   --- feedback ---
 
-Yes. The 'check lose' and 'check win' conditions have the colours the wrong way round! The player will win when they fall in the lava and lose when they reach the golden door! Swapping the conditions will fix this.
+Ja. Ja. De voorwaarden 'controleer verliezen' en 'controleer winnen' hebben de verkeerde kleur! De speler wint wanneer hij in de lava valt en verliest wanneer hij de gouden deur bereikt! Het verwisselen van de voorwaarden lost dit op.
 
   --- /feedback ---
 
