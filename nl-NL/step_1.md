@@ -1,4 +1,4 @@
-## You will make
+## Wat ga je maken
 
 Ontwerp en maak een hindernis- of platformparkour-spel met bovenaanzicht. Je personage moet springen, huppelen, glijden, stuiteren of vliegen om een ritje te maken op bewegende platforms en het einde te halen.
 
@@ -20,9 +20,9 @@ Je gaat:
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-### Play ▶️ 
+### Speel ▶️ 
 
-Click the space bar or tap the Stage to jump to the next platform. Denk goed na over de timing van je sprongen zodat je niet in de vla valt.
+Klik op de spatiebalk of tik op het speelveld om naar het volgende platform te springen. Denk goed na over de timing van je sprongen zodat je niet in de vla valt.
 
 + Hoe creëert het spel een bovenaanzicht? 
 + Hoe verandert de grootte van het personage als het vliegt? 
@@ -31,44 +31,35 @@ Click the space bar or tap the Stage to jump to the next platform. Denk goed na 
 </div>
 
 <div>
-**Val niet in de vla!**: [Bekijk van binnen](https://scratch.mit.edu/projects/525202210/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525202210/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
 
 </div>
 
 --- /task ---
 
-### Get ideas 💭
+### Doe inspiratie op 💭
 
 Je gaat een aantal ontwerpbeslissingen nemen om je eigen platformgame met bovenaanzicht te maken. Je kiest het thema, de kleuren, het personage, het aantal platforms en de moeilijkheidsgraad.
 
 --- task ---
 
 Bekijk deze voorbeeldprojecten om meer ideeën op te doen:
-
-**Babyvogel**: [Bekijk van binnen](https://scratch.mit.edu/projects/525236983/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236983/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
-
-**Boomstammen springen**: [Bekijk van binnen](https://scratch.mit.edu/projects/525236345/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236345/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
-
-**Springen naar planeten**: [Bekijk van binnen](https://scratch.mit.edu/projects/525236603/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236603/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
---- /task ---
-
 --- /no-print ---
 
 --- print-only ---
 
-### Get ideas 💭
+### Doe inspiratie op 💭
 
 Je gaat een aantal ontwerpbeslissingen nemen om je eigen platformgame met bovenaanzicht te maken. Je kiest het thema, de kleuren, het personage, het aantal platforms en de moeilijkheidsgraad. Bekijk voorbeeldprojecten in [Scratch 2: Val er niet in - Voorbeelden](https://scratch.mit.edu/studios/29599110/){:target="_blank"} Scratch studio.
 
