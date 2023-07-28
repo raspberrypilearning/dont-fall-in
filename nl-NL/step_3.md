@@ -51,7 +51,7 @@ when flag clicked // instellen
 +go to (Start v)
 set [geland v] to [0]
 set size to (geland) %
-+go to [front v] layer
++go to [voorgrond v] layer
 show
 broadcast (start v) // andere scripts starten
 ```

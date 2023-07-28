@@ -5,7 +5,7 @@
 In deze stap voeg je een personage en achtergrond toe en maak je start- en eindplatforms. 
 </div>
 <div>
-![](images/instellen-example.png){:width="300px"}
+![](images/setup-example.png){:width="300px"}
 </div>
 </div>
 
