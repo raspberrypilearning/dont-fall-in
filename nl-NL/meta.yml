@@ -2,13 +2,15 @@
 title: Val er niet in!
 hero_image: images/banner.png
 description: Ontwerp en maak een hindernis- of platformparkour-spel met bovenaanzicht.
+meta_title: Scratch-programmeerprojecten voor kinderen en tieners | Val er niet in
+meta_description: Leer Scratch met de programmeerprojecten van de Raspberry Pi Foundation voor kinderen en tieners. Maak een parkour-spel en springen, huppelen, glijden, stuiteren of vliegen om een ritje te maken.
 version: 4
 listed: true
 copyedit: false
 last_tested: "2021-03-26"
 steps:
   - 
-    title: You will make
+    title: Wat ga je maken
   - 
     title: Kies je thema
   - 
@@ -24,7 +26,7 @@ steps:
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Snelle quiz
     knowledge_quiz:
       path: quiz1
       version: 1
