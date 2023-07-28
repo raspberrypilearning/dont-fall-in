@@ -1,4 +1,4 @@
-## Quick quiz
+## Snelle quiz
 
 
 
