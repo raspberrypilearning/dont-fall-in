@@ -31,9 +31,8 @@ Click the space bar or tap the Stage to jump to the next platform. حان وقت
 </div>
 
 <div>
-** لا تقع في الكسترد! **: [اطلع على البرنامج] (https://scratch.mit.edu/projects/525202210/editor) {: target = "_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525202210/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
 
 </div>
@@ -47,19 +46,15 @@ Click the space bar or tap the Stage to jump to the next platform. حان وقت
 --- task ---
 
 استكشف هذه المشاريع النموذجية للحصول على مزيد من الأفكار:
-
-**طائر صغير**: [اطلع على البرنامج](https://scratch.mit.edu/projects/525236983/editor){: target = "_ blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236983/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
-
-**قفز هوبر **: [اطلع على البرنامج](https://scratch.mit.edu/projects/525236345/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236345/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
-
-**ارتداد الكوكب **: [اطلع على البرنامج](https://scratch.mit.edu/projects/525236603/editor){:target="_blank"}
-
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+</div>
 --- /no-print ---
 
 --- print-only ---
