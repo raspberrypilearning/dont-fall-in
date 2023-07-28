@@ -31,9 +31,8 @@ Clicia'r botwm Space neu daro'r Llwyfan i neidio i'r platfform nesaf. Amsera bob
 </div>
 
 <div>
-**Paid disgyn i mewn i'r cwstard!**: [Gweld tu mewn](https://scratch.mit.edu/projects/525202210/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525202210/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
 
 </div>
@@ -47,23 +46,15 @@ Rwyt ti'n mynd i wneud rhai penderfyniadau dylunio i wneud dy gêm blatfformau o
 --- task ---
 
 Cymer olwg ar y prosiectau enghreifftiol hyn i gael mwy o syniadau:
-
-**Aderyn bach**: [Gweld tu mewn](https://scratch.mit.edu/projects/525236983/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236983/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
-
-**Neidiwr logiau**: [Gweld tu mewn](https://scratch.mit.edu/projects/525236345/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236345/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
-
-**Bownsio ar blanedau**: [Gweld tu mewn](https://scratch.mit.edu/projects/525236603/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236603/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
---- /task ---
-
 --- /no-print ---
 
 --- print-only ---
