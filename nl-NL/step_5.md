@@ -66,7 +66,7 @@ Experimenteer met het aantal stappen en de sprite-grootte om elk platform gemakk
 
 --- /task ---
 
-Detecteer `als`{:class="block3control"} je **hoofdpersoon** is geland op een **platform**-sprite en dus veilig is, `anders`{:class="block3control"} is je **hoofdpersoon**gevallen!
+Detecteer `als`{:class="block3control"} je **hoofdpersoon** is geland op een **platform**-sprite en dus veilig is, `anders`{:class="block3control"} is je **hoofdpersoon** gevallen!
 
 --- task ---
 
@@ -86,10 +86,10 @@ forever
 if <(size) = (geland) > then // niet in de lucht
 if <touching color (#b89d2f) ?> then // aan het einde
 broadcast (stop v) // stop andere sprites
-stop [other scripts in sprite v]
+stop [andere scripts in sprite v]
 go to (Einde v)
 play sound (Win v) until done
-stop [all v]
+stop [alle v]
 end
 + if <touching color (#762356) ?> then // kies een kleur voor je platform
 if <touching (Platform 1 v)> then
@@ -133,10 +133,10 @@ forever
 if <(size) = (geland)> then // niet in de lucht
 if <touching color (#b89d2f) ?> then // aan het einde
 broadcast (stop v) // stop andere sprites
-stop [other scripts in sprite v] 
+stop [andere scripts in sprite v] 
 go to (Einde v)
 play sound (Win v) until done
-stop [all v]
+stop [alle v]
 end
 if <touching color (#762356) ?> then // kies een kleur voor je platform
 if <touching (Platform 1 v)> then
@@ -151,10 +151,10 @@ end
 else
 + if <touching color (#37ab37) ?> then // kies je achtergrondkleur
 broadcast (stop v)
-stop [other scripts in sprite v] // voorkomt dat je personage blijft springen na verlies
+stop [andere scripts in sprite v] // voorkomt dat je personage blijft springen na verlies
 hide
 play sound (Lose v) until done // voeg een geluid naar keuze toe
-stop [all v]
+stop [alle v]
 end
 end
 end
@@ -176,7 +176,7 @@ Voeg code toe aan je **platform**-sprites om te voorkomen dat ze blijven bewegen
 
 ```blocks3
 when I receive [stop v]
-stop [other scripts in sprite v]
+stop [andere scripts in sprite v]
 ```
 
 --- /task ---
@@ -215,7 +215,7 @@ Kijk naar je **platform** sprites' `wanneer ik signaal ontvang`{:class="block3ev
 
 ```blocks3
 when I receive [stop v]
-stop [other scripts in sprite v]
+stop [andere scripts in sprite v]
 ```
 Controleer of het `zend signaal`{:class="block3events"} bericht in de winst en verlies `als`{:class="block3control"}-blokken `stop`{:class="block3events"} is.
 

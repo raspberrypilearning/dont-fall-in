@@ -35,10 +35,10 @@ forever
 if <(size) = (geland)> then // niet in de lucht
 if <touching color (#b89d2f) ?> then // aan het einde
 broadcast (stop v) // stop andere sprites
-stop [other scripts in sprite v] // stop met springen na overwinning
+stop [andere scripts in sprite v] // stop met springen na overwinning
 go to (Einde v)
 play sound (Win v) until done
-stop [all v]
+stop [alle v]
 end
 end
 end
@@ -111,7 +111,7 @@ if < (size) = (geland) > then // niet in de lucht
 broadcast (stop v) // stop andere sprites
 go to (Einde v)
 +play sound (Win v) until done
-stop [all v]
+stop [alle v]
 end
 end
 end

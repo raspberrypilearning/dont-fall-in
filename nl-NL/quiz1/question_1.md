@@ -1,15 +1,8 @@
-## Reflectie
+## Snelle quiz
 
-Goed gedaan, je hebt een spel gemaakt en de spelregels aangepast! Je hebt een aantal handige manieren geleerd om Scratch-blokken te combineren om een spel te maken, waaronder:
-+ Het gebruik van `herhaal`{:class="block3control"} blokken met `als`{:class="block3control"} statements om belangrijke **voorwaarden** in je spel te detecteren en actie te ondernemen
-+ Een `start`{:class="block3control"}-bericht uitzenden nadat je je personage hebt ingesteld, zodat alles klaar is wanneer je het spel start
-+ Een `stop`{:class="block3control"} bericht uitzenden wanneer je een speleinde-**voorwaarde** zoals winnen of verliezen detecteert, zodat andere scripts kunnen stoppen en je een geluid kunt afspelen of een animatie kunt doen voor `stop [alle]`{:class="block3control"}
+Beantwoord de drie vragen. Je wordt naar het juiste antwoord geleid.
 
-Nu is het tijd om te reflecteren - reflecteren is een belangrijk onderdeel van leren, omdat het helpt om nieuwe verbindingen in je hersenen te maken.
-
-Beantwoord de drie onderstaande vragen om terug te kijken op wat je hebt geleerd.
-
-Druk na elke vraag op Controleer mijn antwoord. Je wordt naar het juiste antwoord geleid. Je kunt dit zo vaak doen als je wilt.
+Klik na het beantwoorden van elke vraag op **Controleer mijn antwoord**.
 
 Veel plezier!
 
@@ -35,12 +28,12 @@ forever
 if <touching color (#fff700) ?> then // controleer op verliezen
 broadcast (stop v) // stop andere sprites
 play sound (Lose v) until done
-stop [all v]
+stop [alle v]
 end
 if <touching color (#ff0000) ?> then // controleer op winnen
 broadcast (stop v) // stop andere sprites
 play sound (Win v) until done
-stop [all v]
+stop [alle v]
 end
 ```
 
