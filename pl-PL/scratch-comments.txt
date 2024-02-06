@@ -1,31 +1,31 @@
-setup
+ustawienia początkowe
 
-size when not jumping
+rozmiar, gdy nie skaczesz
 
-not jumping
+nie-skakanie
 
-start other scripts
+uruchom inne skrypty
 
-not in the air
+nie w powietrzu
 
-at end
+na koniec
 
-stop other sprites
+zatrzymaj inne duszki
 
-stop jumping after win
+przestań skakać po zwycięstwie
 
-add this block for left to right games
+dodaj ten blok dla gier "od lewej do prawej"
 
-try different numbers
+wypróbuj różne liczby
 
-choose a colour on your platform
+wybierz kolor na swojej platformie
 
-choose your backdrop colour
+wybierz kolor tła
 
-prevent jumping after losing
+zapobieganie skakaniu po przegranej
 
-add a sound of your choice
+dodaj wybrany dźwięk
 
-check lose
+sprawdź czy przegrano
 
-check win
+sprawdź czy wygrano
