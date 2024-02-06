@@ -1,15 +1,15 @@
-## You will make
+## Co będziesz robić
 
-Design and build a top-down view, obstacle or platform, parkour game. Your character will need to jump, hop, glide, bounce, or fly to catch a ride on moving platforms and make it to the end.
+Zaprojektujesz i zbudujesz grę parkour z widokiem z góry, z przeszkodą lub platformą. Twoja postać będzie musiała skakać, podskakiwać, szybować, odbijać się lub latać, aby poruszać się na ruchomych platformach i dotrzeć do końca.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Top-down/bird's-eye view games**</span> look down on the game from above. Sometimes the whole game has this view. Other games use top-down views when you enter a design mode. Can you think of any games you play that use top-down view? 
+<span style="color: #0faeb0">**Gry z widokiem z góry**</span> to gry, w których kamera znajduje się ponad rozgrywką. Czasami cała gra jest w takim widoku. Inne gry korzystają z widoku z góry tylko po wejściu do trybu projektowania. Czy przychodzą Ci na myśl jakieś gry, w które grasz, a które korzystają z widoku z góry? 
 </p>
 
-You will:
-+ Make a game with a goal using an algorithm that checks for important game conditions
-+ Personalise a game to your interests
-+ Adjust the difficulty of a game, so that it’s fun to play
+Co będziesz robił:
++ Stworzysz grę z algorytmem, który będzie sprawdzał ważne warunki gry
++ Dostosujesz grę do swoich zainteresowań
++ Dostosujesz poziom trudności gry, tak aby była przyjemna
 
 ![](images/example-strip.png)
 
@@ -20,13 +20,13 @@ You will:
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-### Play ▶️ 
+### Graj ▶️ 
 
-Click the space bar or tap the Stage to jump to the next platform. Time your jumps so you don't fall in the custard.
+Kliknij spację lub dotknij Sceny, aby wskoczyć na następną platformę. Skocz w odpowiednim momencie, tak aby nie wpaść do kremu.
 
-+ How does the game create a top-down view? 
-+ How does the character's size change when it flies? 
-+ What happens if you don’t land on a platform? (Go on, do fall in the custard!)
++ W jaki sposób gra tworzy widok z góry? 
++ Jak zmienia się rozmiar postaci podczas lotu? 
++ Co się stanie, jeśli nie wylądujesz na platformie? (No dalej, wpadnij do kremu!)
 
 </div>
 
@@ -39,13 +39,13 @@ Click the space bar or tap the Stage to jump to the next platform. Time your jum
 
 --- /task ---
 
-### Get ideas 💭
+### Jaki masz pomysł? 💭
 
-You are going to make some design decisions to make a top-down platform game of your own. You'll choose the theme, colours, character, number of platforms, and the difficulty level.
+Musisz podjąć pewne decyzje projektowe, aby stworzyć własną grę platformową z widokiem z góry. Ty wybierasz motyw, kolory, charakter, liczbę platform i poziom trudności.
 
 --- task ---
 
-Explore these example projects to get more ideas:
+Zapoznaj się z tymi przykładowymi projektami, aby poznać więcej pomysłów:
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
@@ -59,11 +59,11 @@ Explore these example projects to get more ideas:
 
 --- print-only ---
 
-### Get ideas 💭
+### Zdobądź pomysły 💭
 
-You are going to make some design decisions to make a top-down platform game of your own. You'll choose the theme, colours, character, number of platforms and the difficulty level. See inside example projects in [Scratch 2: Don't fall in - Examples](https://scratch.mit.edu/studios/29599110/){:target="_blank"} Scratch studio.
+Musisz podjąć pewne decyzje projektowe, aby stworzyć własną grę platformową z widokiem z góry. Ty wybierasz motyw, kolory, charakter, liczbę platform i poziom trudności. Zobacz przykładowe projekty w [Scratch 2: Nie wpadnij - Przykłady](https://scratch.mit.edu/studios/29599110/){:target="_blank"} Studio Scratch.
 
-![The Stage from the 'dont fall in the custard' project.](images/custard.png) ![The Stage from the 'baby bird' project.](images/bird.png) ![The Stage from the 'log hopper' project.](images/frog.png) ![The Stage from the 'planet bounce' project.](images/space.png)
+![Scena z projektu „Nie wpadnij do kremu”.](images/custard.png) ![Scena z projektu „Ptaszek”.](images/bird.png) ![Scena z projektu „Drewno-skoczek”.](images/frog.png) ![Scena z projektu „Odbijana Planeta”.](images/space.png)
 
 --- /print-only ---
 
