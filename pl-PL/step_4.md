@@ -1,33 +1,33 @@
-## Winner
+## Zwycięzca
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will detect the player reaching the **End** platform to win the game. 
+Na tym etapie wykryjesz, że gracz dotarł do platformy **Koniec**, aby wygrać grę. 
 </div>
 <div>
 ![](images/winner-aims.png){:width="300px"}
 </div>
 </div>
 
-You're going to add a `forever`{:class="block3control"} loop that checks if your **character** is at platform level, and if so, `if`{:class="block3control"} it has reached the **End** platform.
+Dodasz pętlę `zawsze`{:class="block3control"}, która sprawdza, czy Twoja **postać** jest na poziomie platformy, a jeśli tak, `, jeżeli`{:class="block3control"} osiągnęła poziom platformy **Koniec**.
 
 --- task ---
 
-**Choose:** Add a winning sound to your character.
+**Wybierz:** Dodaj dźwięk zwycięstwa do swojej postaci.
 
 --- /task ---
 
 --- task ---
 
-Add code to detect when your character reaches the **End** platform using `touching color`{:class="block3sensing"}.
+Dodaj kod, aby wykryć, kiedy Twoja postać dotrze do platformy **Koniec**, używając `dotyka koloru`{:class="block3sensing"}.
 
 --- collapse ---
 
 ---
-title: End the game when touching colour
+title: Zakończ grę, gdy gracz dotknie koloru
 ---
 
-**Character**:
+**Postać**:
 
 ```blocks3
 when I receive [start v]
@@ -44,64 +44,64 @@ end
 end
 ```
 
-It's a good idea to `broadcast`{:class="block3events"} a 'stop' message to let other sprites know the game has ended. The `stop other scripts in sprite`{:class="block3control"} block stops the loop that makes the character jump.
+Dobrym pomysłem jest `nadanie`{:class="block3events"} komunikatu „zatrzymaj”, aby inne duszki wiedziały, że gra się zakończyła. Blok `zatrzymaj inne skrypty duszka`{:class="block3control"} zatrzymuje pętlę powodującą przeskok postaci.
 
 --- /collapse ---
 
-You will need to set the colour that is sensed to the colour of your **End** platform.
+Będziesz musiał ustawić wykrywany kolor na kolor platformy **Koniec**.
 
 [[[scratch3-set-block-input-colour-with-eyedropper]]]
 
-**Tip:** It's a good idea to `broadcast`{:class="block3events"} a `stop`{:class="block3events"} message when you detect that your game is finished so that other sprites can stop, but this sprite can do something such as playing a sound before it stops.
+**Wskazówka:** Dobrym pomysłem jest `nadawanie`{:class="block3events"} komunikatu `-stop`{:class="block3events"}, gdy wykryjesz, że gra się zakończyła, aby inne duszki mogły się zatrzymać. Dany duszek może np. odtworzyć dźwięk, zanim się zatrzyma.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click the green flag and then jump your character across the Stage. Make sure you hear the winning sound when you reach the **End** platform.
+**Test:** Kliknij zieloną flagę, a następnie przeskocz swoją postacią przez scenę. Upewnij się, że usłyszysz zwycięski dźwięk, gdy dotrzesz do platformy **Koniec**.
 
-**Tip:** It's really important that you test your project before moving to the next step and adding more code. It's harder to find and fix bugs when you have added more code.
+**Wskazówka:** Bardzo ważne jest przetestowanie swojego projektu przed przejściem do następnego kroku i dodaniem kolejnego kodu. Trudniej będzie Ci znaleźć i naprawić błędy, gdy dodasz więcej kodu.
 
 --- /task ---
 
 
 --- task ---
 
-**Debug:**
+**Debugowanie:**
 
 --- collapse ---
 
 ---
-title: My sprite doesn't go to the centre of the End platform
+title: Mój duszek nie trafia na środek platformy Koniec
 ---
 
-You need to make sure all your sprite costumes are centered in the Paint editor.
+Musisz się upewnić, że wszystkie kostiumy duszków są wyśrodkowane w edytorze Paint.
 
-The `go to (other sprite)`{:class="block3motion"} block moves a sprite so that it's centre is in the same position as the centre of the other sprite. If their centres are in the wrong place, then your **character** won't go to the centre of the platforms.
+Blok `idź do (innego duszka)`{:class="block3motion"} przesuwa duszka tak, że jego środek znajduje się w tej samej pozycji, co środek drugiego duszka. Jeśli ich środki znajdują się w niewłaściwym miejscu, twoja **postać** nie trafi na środek platformy.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The game ends too soon
+title: Gra kończy się zbyt szybko
 ---
 
-Check that your sprite isn't touching the End colour when it's not on the **End** platform — if you use the same colour elsewhere in your project, then your character could die too soon.
+Sprawdź, czy duszek nie dotyka koloru Koniec, gdy nie znajduje się na platformie **Koniec** — jeśli użyjesz tego samego koloru w innym miejscu projektu, Twoja postać może umrzeć zbyt wcześnie.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The sound doesn't play when I land on the End platform
+title: Dźwięk nie jest odtwarzany, gdy ląduję na platformie Koniec
 ---
 
-Click on your **character** sprite and then the 'Sounds' tab. Make sure you have added the End sound to your sprite. Click on the **Play** button to make sure sound is working on your computer.
+Kliknij duszka **postaci**, a następnie zakładkę „Dźwięki”. Upewnij się, że do duszka dodano dźwięk Koniec. Kliknij przycisk **Odtwórz**, aby upewnić się, że dźwięk odtwarza się na Twoim komputerze.
 
-Click on the **Code** tab and check that the correct sound is in the `play sound`{:class="block3sound"} block that runs when the sprite reaches the **End** platform.
+Kliknij zakładkę **Skrypt** i sprawdź, czy poprawny dźwięk znajduje się w bloku `Graj dźwięk`{:class="block3sound"}, który jest uruchamiany, gdy duszek dotrze na platformę **Koniec**.
 
-Make sure the colour is correct in the `touching colour`{:class="block3sensing"} block. Select it again if you're not sure. Sometimes colours look similar but aren't the same.
+Upewnij się, że kolor w bloku `dotyka koloru`{:class="block3sensing"} jest prawidłowy. Wybierz kolor ponownie, jeśli nie jesteś pewien. Czasami kolory wyglądają podobnie, ale nie są takie same.
 
 ```blocks3
 when I receive [start v]
@@ -119,9 +119,9 @@ end
 
 --- /collapse ---
 
-If you have a bug that we haven't covered here, then let us know in the feedback. If you fixed the bug yourself (well done!), let us know that too.
+Jeśli masz błąd, którego tutaj nie omówiliśmy, daj nam znać w komentarzu. Jeśli sam naprawiłeś błąd (brawo!), daj nam znać.
 
-**Tip:** If you're stuck, try reading your code out loud or in your head to make sure it says what you think it does. You might find the bug.
+**Wskazówka:** Jeśli utkniesz, spróbuj przeczytać kod na głos lub w myślach, aby upewnić się, że robi to, co myślisz. Być może wtedy znajdziesz błąd.
 
 --- /task ---
 
