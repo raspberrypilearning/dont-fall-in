@@ -2,35 +2,35 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: Pytanie 3 z 3
 ---
 
-Which block should a sprite use to let another sprite know that something has happened?
+Którego bloku powinien użyć duszek, aby powiadomić innego duszka, że coś się wydarzyło?
 
 --- choices ---
 
-- ( ) `when I receive`{:class="block3events"}
+- ( ) `kiedy otrzymam`{:class="block3events"}
 
   --- feedback ---
 
-Not quite, this block is used to get a sprite to do something when it receives a message.
+Niezupełnie, ten blok jest używany do tego, aby duszek zrobił coś po odebraniu wiadomości.
 
   --- /feedback ---
 
-- ( ) `when this sprite clicked`{:class="block3events"}
+- ( ) `kiedy ten duszek został kliknięty`{:class="block3events"}
 
 
   --- feedback ---
 
-No, this block is used by one sprite to get it to do something when you click on it.
+Nie, ten blok jest używany przez jednego duszka, aby po kliknięciu na niego wykonał jakąś czynność.
 
   --- /feedback ---
 
-- (x) `broadcast`{:class="block3events"}
+- (x) `nadaj komunikat`{:class="block3events"}
 
   --- feedback ---
 
-Yes, this block sends a message that can be used to communicate with other sprites.
+Tak, ten blok wysyła wiadomość, którą można wykorzystać do komunikacji z innymi duszkami.
 
   --- /feedback ---
 
@@ -38,7 +38,7 @@ Yes, this block sends a message that can be used to communicate with other sprit
 
   --- feedback ---
 
-No, `start`{:class="block3events"} can be a message that the block sent, but it is not a block.
+Nie, `start`{:class="block3events"} może być wiadomością wysłaną przez blok, ale nie jest blokiem.
 
   --- /feedback ---
 
