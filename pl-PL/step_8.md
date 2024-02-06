@@ -1,22 +1,22 @@
-## Upgrade your project
+## Ulepsz swój projekt
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-If you have time, you can upgrade your project. 
+Jeśli masz czas, możesz ulepszyć swój projekt. 
 </div>
 <div>
 ![](images/upgrade-example.png){:width="300px"}
 </div>
 </div>
 
-Here are some ideas you could try:
-- Add another level. When the player wins, `broadcast`{:class="block3events"} a `level2`{:class="block3events"} message and change the speed that the sprites move at, using a `speed`{:class="block3variables"} variable.
-- Make platforms appear and disappear in a `forever`{:class="block3control"} block using `show`{:class="block3looks"}, `hide`{:class="block3looks"}, and `wait`{:class="block3control"}.
-- Add more platforms, or make more platforms appear when you get to the next level. You will need to consider what else needs to change, to make your game work on the second level, and reset correctly to the first level `when flag clicked`{:class="block3events"}.
-- Design your own top-down character in the Paint editor.
+Oto kilka pomysłów, które możesz wypróbować:
+- Dodaj kolejny poziom. Kiedy gracz wygra, `nadaj`{:class="block3events"} komunikat `poziomu 2`{:class="block3events"} i zmień prędkość, z jaką poruszają się duszki, używając zmiennej `prędkości`{:class="block3variables "}.
+- Spraw, aby platformy pojawiały się i znikały w bloku `zawsze`{:class="block3control"} za pomocą `pokaż`{:class="block3looks"}, `ukryj`{:class="block3looks"} i `czekaj`{: class="block3control"}.
+- Dodaj więcej platform lub spraw, aby pojawiło się ich więcej, gdy przejdziesz na następny poziom. Będziesz musiał rozważyć, co jeszcze należy zmienić, aby Twoja gra działała na drugim poziomie i poprawnie resetowała się do pierwszego poziomu `kiedy kliknięto flagę`{:class="block3events"}.
+- Zaprojektuj własną postać z widokiem z góry na dół w edytorze Paint.
 
-Take a look at our [Don't fall in - Examples Scratch studio](https://scratch.mit.edu/studios/29599110){:target="_blank"} each project has a **See Inside** link for you to open the project in Scratch, and look at the code to get ideas and see how they work.
+Spójrz na nasze [Don't fall in - Examples Scratch studio](https://scratch.mit.edu/studios/29599110){:target="_blank"} każdy projekt ma link **Zajrzyj do środka** aby otworzyć projekt w Scratchu i spojrzeć na kod w celu uzyskania kolejnych pomysłów i sprawdzenia jak działają.
 
-For more inspiration, take a look at the [Don't fall in - Community Scratch studio](https://scratch.mit.edu/studios/29601182){:target="_blank"} to see projects created by community members.
+Spójrz na nasze studio [Don't fall in - Community Scratch](https://scratch.mit.edu/studios/29601182){:target="_blank"}, aby zobaczyć projekty stworzone przez członków społeczności.
 
 --- save ---
