@@ -1,8 +1,8 @@
-## Choose your theme
+## Wybierz swój motyw
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add a character and backdrop, and create start and end platforms. 
+W tym kroku dodasz postać i tło oraz stworzysz platformę początkową i końcową. 
 </div>
 <div>
 ![](images/setup-example.png){:width="300px"}
@@ -11,13 +11,13 @@ In this step, you will add a character and backdrop, and create start and end pl
 
 --- task ---
 
-Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"} and delete the cat sprite. Scratch will open in another browser tab.
+Otwórz [nowy projekt Scratch](http://rpf.io/scratch-new){:target="_blank"} i usuń duszka kota. Scratch otworzy się w nowej karcie przeglądarki.
 
 --- /task ---
 
 --- task ---
 
-Create a solid colour backdrop.
+Utwórz tło w jednolitym kolorze.
 
 [[[scratch-paint-single-colour-backdrop]]]
 
@@ -25,7 +25,7 @@ Create a solid colour backdrop.
 
 --- task ---
 
-**Choose:** Will your character move from left to right, or bottom to top?
+**Wybierz:** Czy Twoja postać będzie poruszać się od lewej do prawej, czy od dołu do góry?
 
 ![](images/direction-examples.png)
 
@@ -33,39 +33,39 @@ Create a solid colour backdrop.
 
 --- task ---
 
-Paint a new **Start** platform sprite.
+Namaluj nowego duszka platformy **Start**.
 
-Start with a simple single coloured shape. You can add more detail later.
+Zacznij od prostego, jednokolorowego kształtu. Możesz dodać więcej szczegółów później.
 
-Centre your costume in the Paint editor.
+Wyśrodkuj swój kostium w edytorze Paint.
 
 [[[scratch-crosshair]]]
 
-Position your **Start** platform sprite where you want your character to start the game.
+Ustaw duszka platformy **Start** w miejscu, w którym chcesz, aby Twoja postać rozpoczęła grę.
 
 --- /task ---
 
 --- task ---
 
-Create a simple **End** platform sprite. You can add more detail later.
+Utwórz prostego duszka platformy **Koniec**. Możesz dodać więcej szczegółów później.
 
-Centre your costume in the Paint editor.
+Wyśrodkuj swój kostium w edytorze Paint.
 
-Position your **End** sprite on the Stage where you want your character to finish the game.
+Umieść swojego duszka **Koniec** w miejscu, w którym chcesz, aby twoja postać zakończyła grę.
 
 --- /task ---
 
 --- task ---
 
-Create a **character** sprite.
+Stwórz duszka **Postaci**.
 
-**Choose:** Do you want to add or paint a **character** sprite?
+**Wybierz:** Czy chcesz dodać czy namalować duszka **postaci**?
 
-You might want to add a top-down **character** sprite such as **Tatiana**, **Taylor**, or **Trisha**.
+Możesz dodać duszka **postaci** z widokiem z góry, takiego jak **Tatiana**, **Taylor** lub **Trisha**.
 
-![Image of the top down sprites available in scratch](images/top-down-sprites.png)
+![Obraz duszków widocznych z góry dostępnych w Scratch](images/top-down-sprites.png)
 
-Or, paint your own **character** sprite. Start with simple shapes and add details later. Centre your costume in the Paint editor.
+Lub namaluj własnego duszka **postaci**. Zacznij od prostych kształtów i dodawaj szczegóły później. Wyśrodkuj swój kostium w edytorze Paint.
 
 [[[generic-scratch3-draw-sprite]]]
 
@@ -73,19 +73,19 @@ Or, paint your own **character** sprite. Start with simple shapes and add detail
 
 --- task ---
 
-Your **character** sprite needs a start script to get everything set up for the beginning of the game.
+Twój duszek **postaci** potrzebuje skryptu początkowego, aby przygotować wszystko na rozpoczęcie gry.
 
 --- collapse ---
 
 ---
-title: Get your character ready to start
+title: Przygotuj swoją postać do startu
 ---
 
-Make a `variable`{:class="block3variables"} called `landed`, and set it to the size your sprite should be when it has landed and is not jumping.
+Utwórz `zmienną`{:class="block3variables"} o nazwie `wylądował` i ustaw ją na rozmiar, jaki powinien mieć duszek, gdy wyląduje i nie skacze.
 
-Get your character to go to the **Start** `when flag clicked`{:class="block3events"}. Add a `go to front layer`{:class="block3looks"} block, so your character is on top of the platforms.
+Spraw, aby Twoja postać udała się do **Start** `po kliknięciu flagi`{:class="block3events"}. Dodaj blok `przesuń na wierzch`{:class="block3looks"}, aby Twoja postać znajdowała się na górze platform.
 
-**Character:**
+**Postać:**
 
 ```blocks3
 when flag clicked // setup
@@ -97,27 +97,27 @@ show
 broadcast (start v) // start other scripts
 ```
 
-**Tip:** Uncheck the `landed`{:class="block3variables"} variable in the `Variables`{:class="block3variables"} Blocks menu so that it doesn't show on the Stage. The user doesn't need to see this variable.
+**Wskazówka:** Odznacz zmienną `wylądował`{:class="block3variables"} w menu bloków `Zmienne`{:class="block3variables"}, aby nie była wyświetlana na scenie. Użytkownik nie musi widzieć tej zmiennej.
 
 --- /collapse ---
 
-**Tip:** It's a good idea to `broadcast`{:class="block3events"} a `start`{:class="block3events"} message at the end of your setup script to let other scripts know when to start, otherwise they might start before everything is ready.
+**Wskazówka:** Dobrym pomysłem jest `nadanie`{:class="block3events"} komunikatu `start`{:class="block3events"} na końcu skryptu instalacyjnego, aby inne skrypty wiedziały, kiedy wystartować. W przeciwnym razie mogą się uruchomić, zanim wszystko będzie gotowe.
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**Debugowanie:**
 
 --- collapse ---
 
 ---
-title: My sprite is pointing in the wrong direction
+title: Mój duszek wskazuje w złym kierunku
 ---
 
-The **Direction** property in the Sprite pane can be used to control the direction the sprite is pointing in. Turn the wheel to make a sprite point in the direction you need.
+Właściwość **Kierunek** w panelu duszka może być użyta do kontrolowania kierunku, w którym wskazuje duszek. Obróć kółko, aby ustawić duszka w żądanym kierunku.
 
-![The sprite pane with direction property selected. A pop up menu is shown with a direction wheel used for adjusting the direction the sprite is pointing.](images/direction-property.png)
+![Panel duszka z wybraną właściwością kierunku. Wyświetlone zostaje wyskakujące menu z pokrętłem kierunku używanym do regulacji kierunku, w którym wskazuje duszek.](images/direction-property.png)
 
 --- /collapse ---
 
@@ -125,7 +125,7 @@ The **Direction** property in the Sprite pane can be used to control the directi
 
 --- task ---
 
-Give your project a title that describes your game.
+Nadaj swojemu projektowi tytuł opisujący Twoją grę.
 
 --- /task ---
 
