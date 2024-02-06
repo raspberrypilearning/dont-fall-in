@@ -1,20 +1,20 @@
-## Quick quiz
+## Szybki quiz
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Odpowiedz na trzy pytania. Podpowiedzi naprowadzą Cię na właściwą odpowiedź.
 
-When you have answered each question, click on **Check my answer**.
+Po udzieleniu odpowiedzi na każde pytanie kliknij przycisk **Sprawdź moją odpowiedź**.
 
-Have fun!
+Miłej zabawy!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Pytanie 1 z 3
 ---
 
-![The Stage of a lava-jumping game. The character is on the end platform, a golden door.](images/quiz-lava-stage.png)
+![Scena gry w skoki przez lawę. Postać znajduje się na końcowej platformie, przy złotych drzwiach.](images/quiz-lava-stage.png)
 
-You win this game by reaching the golden door, and lose if you land in the lava pit. The game isn't working. How could you fix it?
+Wygrywasz tę grę docierając do złotych drzwi. Przegrywasz natomiast, jeśli wylądujesz w jeziorze pełnym lawy. Niestety, gra nie działa. Jak możesz to naprawić?
 
 ```blocks3
 when flag clicked
@@ -40,27 +40,27 @@ end
 
 --- choices ---
 
-- ( ) Change the colour in the 'check lose' condition
+- ( ) Zmień kolor w warunku 'sprawdź przegraną'
 
   --- feedback ---
 
-Close. The 'check lose' condition doesn't have the right colour, but just changing that won't make the game work.
+Blisko. Warunek 'sprawdź przegraną' nie ma odpowiedniego koloru, ale sama jego zmiana nie sprawi, że gra będzie działać.
 
   --- /feedback ---
 
-- ( ) Change the colour in the 'check win' condition
+- ( ) Zmień kolor w warunku 'sprawdź wygraną'
 
   --- feedback ---
 
-Close. The 'check win' condition doesn't have the right colour, but just changing that won't make the game work.
+Blisko. Warunek 'sprawdź wygraną' nie ma odpowiedniego koloru, ale sama jego zmiana nie sprawi, że gra będzie działać.
 
   --- /feedback ---
 
-- (x) Swap the colours in the 'check win' and 'check lose' conditions
+- (x) Zamień kolory w warunkach 'sprawdź wygraną' i 'sprawdź przegraną'
 
   --- feedback ---
 
-Yes. The 'check lose' and 'check win' conditions have the colours the wrong way round! The player will win when they fall in the lava and lose when they reach the golden door! Swapping the conditions will fix this.
+Tak. Kolory warunków "sprawdź przegraną" i "sprawdź wygraną" są odwrócone! Gracz wygra, gdy wpadnie do lawy i przegra, gdy dotrze do złotych drzwi! Zamiana warunków rozwiąże ten problem.
 
   --- /feedback ---
 
