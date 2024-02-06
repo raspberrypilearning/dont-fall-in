@@ -1,23 +1,23 @@
-## Jump, hop, bounce, or glide!
+## Skacz, podskakuj, odbijaj się lub szybuj!
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will code your character to jump from start to end platforms. 
+W tym kroku zakodujesz swoją postać tak, aby przeskakiwała z platformy początkowej na końcową. 
 </div>
 <div>
 ![](images/jump-example.png){:width="300px"}
 </div>
 </div>
 
-You're going to make your character jump across the Stage. Don't worry about falling in yet.
+Sprawisz, że Twoja postać będzie skakać po scenie. Nie martw się jeszcze wpadaniem.
 
 --- task ---
 
-**Choose:** Add a jumping sound that suits your character.
+**Wybierz:** Dodaj dźwięk skoku pasujący do Twojej postaci.
 
 [[[generic-scratch3-sound-from-library]]]
 
-Now make your character jump across the Stage by pressing the <kbd>space</kbd> bar on a keyboard or tapping the Stage on a tablet.
+Teraz spraw, by Twoja postać przeskoczyła przez scenę, naciskając klawisz <kbd>spacja</kbd> na klawiaturze lub dotykając sceny, jeśli używasz tabletu.
 
 [[[scratch3-top-down-jumping]]]
 
@@ -25,25 +25,25 @@ Now make your character jump across the Stage by pressing the <kbd>space</kbd> b
 
 --- task ---
 
-**Test:** Tap the <kbd>space</kbd> bar or Stage to make your character jump across the Stage to the **End** platform.
+**Test:** Naciśnij klawisz <kbd>spacja</kbd> lub dotknij Scenę, aby Twoja postać przeskoczyła przez Scenę na platformę **End**.
 
-Adjust your code until the character jumps across the Stage in three or four jumps.
+Dostosuj swój kod, aż postać przeskoczy scenę w trzech lub czterech skokach.
 
 --- /task ---
 
-**Tip:** It's really common for games to have a `forever`{:class="block3control"} block with `if`{:class="block3control"} statements inside it to do something when important conditions become true.
+**Wskazówka:** Bardzo często w grach występuje blok `zawsze`{:class="block3control"} zawierający instrukcje `jezeli`{:class="block3control"} w środku, które służą do wykonania określonej czynności, gdy spełnione zostaną ważne warunki.
 
 --- task ---
 
-**Debug:**
+**Debugowanie:**
 
 --- collapse ---
 
 ---
-title: My sprite doesn't go to the Start platform when I click the green flag
+title: Mój duszek nie przechodzi na platformę Start po kliknięciu zielonej flagi
 ---
 
-Check that you have a setup script on your **character** sprite:
+Sprawdź, czy masz skrypt początkowy na duszku **postaci**:
 
 
 ```blocks3
@@ -56,70 +56,70 @@ show
 broadcast (start v) // start other scripts
 ```
 
-Check that that name in the `go to`{:class="block3motion"} block matches the name of your **Start** sprite.
+Sprawdź, czy nazwa w bloku `idź do`{:class="block3motion"} odpowiada nazwie duszka **Start**.
 
-Check that you have a `go to front layer`{:class="block3looks"} block. Your sprite might be underneath the Start plaform!
+Sprawdź, czy masz blok `przesuń na wierzch`” {:class="block3looks"}. Twój duszek może znajdować się pod platformą Start!
 
-Make sure you haven't hidden your **character** sprite. Add a `show`{:class="block3looks"} block to your setup script if you need to.
+Upewnij się, że nie ukryłeś duszka **postaci**. Jeśli zajdzie taka potrzeba, dodaj blok `pokaż`{:class="block3looks"} do skryptu początkowego.
 
-
---- /collapse ---
-
---- collapse ---
-
----
-title: My sprite doesn't go to the centre of the Start platform
----
-
-You need to make sure all your sprite costumes are centered in the Paint editor.
-
-The `go to`{:class="block3motion"} `other sprite`{:class="block3motion"} block moves a sprite so that its centre is in the same position as the centre of the other sprite. If their centres are in the wrong place, then your **character** won't go to the centre of the platforms.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: My sprite points or jumps in the wrong direction!
+title: Mój duszek nie trafia na środek platformy Start
 ---
 
-Add a `point in direction`{:class="block3motion"} block to the **character**'s setup script or change the direction in the sprite pane. You might also need to change the `rotation style`{:class="block3motion"}. You might also need to rotate the **costume** of your sprite so that it faces to the right.
+Musisz się upewnić, że wszystkie kostiumy duszków są wyśrodkowane w edytorze Paint.
+
+Blok `idź do`{:class="block3motion"} `innego duszka`{:class="block3motion"} przesuwa duszka tak, że jego środek znajduje się w tej samej pozycji, co środek drugiego duszka. Jeśli ich środki znajdują się w niewłaściwym miejscu, twoja **postać** nie trafi na środek platformy.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: My sprite doesn't jump the right distance
+title: Mój duszek wskazuje lub skacze w złym kierunku!
 ---
 
-Look at your **character**'s `when I receieve (jump)`{:class="block3events"} script. Try changing the number of steps in the `move`{:class="block3motion"} blocks, or the number of repeats in the `repeat`{:class="block3control"} blocks.
+Dodaj blok `ustaw kierunek`{:class="block3motion"} do skryptu początkowego **postaci** lub zmień kierunek w panelu duszka. Może być także konieczna zmiana `stylu obrotu`{:class="block3motion"}. Być może będziesz musiał też obrócić **kostium** swojego duszka tak, aby był skierowany w prawo.
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: Mój duszek nie skacze na odpowiednią odległość
+---
+
+Spójrz na blok **kiedy otrzymam (skok)**{:class="block3events"} w skrypcie swojego duszka`postaci`. Spróbuj zmienić liczbę kroków w blokach `idź`{:class="block3motion"} lub liczbę powtórzeń w blokach `powtórzeń`{:class="block3control"}.
 
 ```blocks3
 +move [5] steps
 ```
 
-Remember, you will need to change the numbers for the up and down parts of the jump.
+Pamiętaj, że będziesz musiał zmienić wartości liczb dla skoku w górę i w dół.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: My sprite doesn't grow and shrink correctly when it jumps
+title: Mój duszek nie rośnie i nie kurczy się prawidłowo podczas skoku
 ---
 
-Make sure you have a `broadcast (start)`{:class="block3events"} block at the end of your **character**'s `when flag clicked`{:class="block3events"} script.
+Upewnij się, że masz `nadaj komunikat (start)`{:class="block3events"} na końcu skryptu **postaci**i `, gdy flaga jest kliknięta.`{:class="block3events"}.
 
-Look at your **character**'s `when I receieve (start)`{:class="block3events"} script.
+Spójrz na blok **kiedy otrzymam (skok)**{:class="block3events"} w skrypcie swojego duszka `postaci`.
 
-Make sure that the `change size`{:class="block3looks"} block in the second `repeat`{:class="block3events"} block has a negative number to make the sprite smaller such as `-3`.
+Upewnij się, że blok `zmień rozmiar`{:class="block3looks"} w drugim `powtórz`{:class="block3events"} ma liczbę ujemną, aby zmniejszyć duszka, na przykład `-3`.
 
 --- /collapse ---
 
-If you have a bug that we haven't covered here, then let us know in the feedback. If you fixed the bug yourself (well done!), let us know that too.
+Jeśli masz błąd, którego tutaj nie omówiliśmy, daj nam znać w komentarzu. Jeśli sam naprawiłeś błąd (brawo!), daj nam znać.
 
-**Tip:** If you're stuck, try reading your code out loud or in your head to make sure it says what you think it does. You might find the bug.
+**Wskazówka:** Jeśli utkniesz, spróbuj przeczytać kod na głos lub w myślach, aby upewnić się, że robi to, co myślisz. Być może wtedy znajdziesz błąd.
 
 --- /task ---
 
