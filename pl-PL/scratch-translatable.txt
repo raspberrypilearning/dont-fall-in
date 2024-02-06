@@ -1,13 +1,13 @@
 Start
 
-landed
+wylądował
 
 stop
 
-End
+Koniec
 
-Platform 1
+Platforma 1
 
-Platfrom 2
+Platforma 2
 
-Platform 3
+Platforma 3
