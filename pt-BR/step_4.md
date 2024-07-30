@@ -67,7 +67,7 @@ You will need to set the colour that is sensed to the colour of your **End** pla
 
 --- task ---
 
-**Debug:**
+**Depurar:**
 
 --- collapse ---
 
