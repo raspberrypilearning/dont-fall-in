@@ -1,32 +1,32 @@
 ---
-title: Don't fall in!
+title: Não caia!
 hero_image: images/banner.png
-description: Design and create a top-down view obstacle or platform parkour game.
-meta_title: Scratch coding projects for kids and teens | Don't fall in
-meta_description: Learn Scratch with the Raspberry Pi Foundation’s coding projects for kids and teens. Make a Scratch parkour game then jump, hop, or fly to catch a ride.
+description: Projete e crie um obstáculo com visão de cima para baixo ou um jogo de parkour de plataforma.
+meta_title: Projetos de codificação Scratch para crianças e adolescentes | Não caia
+meta_description: Aprenda Scratch com os projetos de codificação da Raspberry Pi Foundation para crianças e adolescentes. Faça um jogo de parkour Scratch e depois pule, salte ou voe para pegar uma carona.
 version: 4
 listed: true
 copyedit: false
 last_tested: "2021-03-26"
 steps:
   - 
-    title: You will make
+    title: Você vai fazer
   - 
-    title: Choose your theme
+    title: Escolha um tema
   - 
-    title: Jump, hop, bounce, or glide!
+    title: Pule, salte, quique ou deslize!
     completion:
       - engaged
   - 
-    title: Winner
+    title: Ganhador
   - 
-    title: Ride on platforms
+    title: Ande em plataformas
   - 
-    title: Adjust the difficulty
+    title: Ajuste a dificuldade
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Teste rápido
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -35,8 +35,8 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Atualize seu projeto
   - 
-    title: Share
+    title: Compartilhar
   - 
-    title: What next?
+    title: O que vem depois?
