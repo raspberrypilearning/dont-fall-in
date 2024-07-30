@@ -1,23 +1,23 @@
-## Jump, hop, bounce, or glide!
+## Pule, salte, quique ou deslize!
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will code your character to jump from start to end platforms. 
+Nesta etapa, você codificará seu personagem para pular das plataformas do início ao fim. 
 </div>
 <div>
 ![](images/jump-example.png){:width="300px"}
 </div>
 </div>
 
-You're going to make your character jump across the Stage. Don't worry about falling in yet.
+Você fará seu personagem pular pelo palco. Não se preocupe em cair ainda.
 
 --- task ---
 
-**Choose:** Add a jumping sound that suits your character.
+**Escolha:** Adicione um som de salto adequado ao seu personagem.
 
 [[[generic-scratch3-sound-from-library]]]
 
-Now make your character jump across the Stage by pressing the <kbd>space</kbd> bar on a keyboard or tapping the Stage on a tablet.
+Agora faça seu personagem pular pelo palco pressionando a barra de <kbd>espaço</kbd> em um teclado ou tocando no palco em um tablet.
 
 [[[scratch3-top-down-jumping]]]
 
@@ -25,25 +25,25 @@ Now make your character jump across the Stage by pressing the <kbd>space</kbd> b
 
 --- task ---
 
-**Test:** Tap the <kbd>space</kbd> bar or Stage to make your character jump across the Stage to the **End** platform.
+**Teste:** Toque na barra de <kbd>espaço</kbd> ou no Palco para fazer seu personagem pular pelo Palco até a plataforma **Fim**.
 
-Adjust your code until the character jumps across the Stage in three or four jumps.
+Ajuste seu código até que o personagem salte pelo palco em três ou quatro saltos.
 
 --- /task ---
 
-**Tip:** It's really common for games to have a `forever`{:class="block3control"} block with `if`{:class="block3control"} statements inside it to do something when important conditions become true.
+**Dica:** é muito comum que os jogos tenham um bloco `para sempre`{:class="block3control"} com condições `se`{:class="block3control"} dentro dele para fazer algo quando condições importantes se tornarem verdadeiras.
 
 --- task ---
 
-**Debug:**
+**Depurar:**
 
 --- collapse ---
 
 ---
-title: My sprite doesn't go to the Start platform when I click the green flag
+titulo: Meu sprite não vai para a plataforma Iniciar quando clico na bandeira verde
 ---
 
-Check that you have a setup script on your **character** sprite:
+Verifique se você tem um script de configuração em seu sprite **personagem** :
 
 
 ```blocks3
@@ -56,70 +56,70 @@ show
 broadcast (start v) // start other scripts
 ```
 
-Check that that name in the `go to`{:class="block3motion"} block matches the name of your **Start** sprite.
+Verifique se o nome no bloco `ir para`{:class="block3motion"} corresponde ao nome do seu sprite **Iniciar**.
 
-Check that you have a `go to front layer`{:class="block3looks"} block. Your sprite might be underneath the Start plaform!
+Verifique se você tem um bloco `vá para a camada frontal`{:class="block3looks"}. Seu sprite pode estar abaixo da plataforma Iniciar!
 
-Make sure you haven't hidden your **character** sprite. Add a `show`{:class="block3looks"} block to your setup script if you need to.
+Certifique-se de não ter escondido seu sprite **personagem**. Adicione um bloco `exibir`{:class="block3looks"} ao seu script de configuração, se necessário.
 
-
---- /collapse ---
-
---- collapse ---
-
----
-title: My sprite doesn't go to the centre of the Start platform
----
-
-You need to make sure all your sprite costumes are centered in the Paint editor.
-
-The `go to`{:class="block3motion"} `other sprite`{:class="block3motion"} block moves a sprite so that its centre is in the same position as the centre of the other sprite. If their centres are in the wrong place, then your **character** won't go to the centre of the platforms.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: My sprite points or jumps in the wrong direction!
+título: Meu sprite não vai para o centro da plataforma Iniciar
 ---
 
-Add a `point in direction`{:class="block3motion"} block to the **character**'s setup script or change the direction in the sprite pane. You might also need to change the `rotation style`{:class="block3motion"}. You might also need to rotate the **costume** of your sprite so that it faces to the right.
+Você precisa ter certeza de que todas as suas fantasias de sprite estão centralizadas no editor Paint.
+
+O bloco `vá para`{:class="block3motion"} `outro sprite`{:class="block3motion"} move um sprite para que seu centro fique na mesma posição que o centro do outro sprite. Se os centros deles estiverem no lugar errado, então seu **personagem** não irá para o centro das plataformas.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: My sprite doesn't jump the right distance
+título: Meu sprite está apontando na direção errada!
 ---
 
-Look at your **character**'s `when I receieve (jump)`{:class="block3events"} script. Try changing the number of steps in the `move`{:class="block3motion"} blocks, or the number of repeats in the `repeat`{:class="block3control"} blocks.
+Adicione um ponto `na direção`{:class="block3motion"} bloco ao script de configuração do **personagem**ou altere a direção no painel sprite. Você também pode precisar alterar o `estilo de rotação`{:class="block3motion"}. Você também pode precisar girar o **traje** do seu sprite para que ele fique voltado para a direita.
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+título: Meu sprite não salta a distância certa
+---
+
+Veja o script **do seu personagem** `quando eu recebo (pulo)`{:class="block3events"} script. Tente alterar o número de etapas nos blocos `move`{:class="block3motion"} ou o número de repetições nos blocos `repetir`{:class ="block3control"}.
 
 ```blocks3
 +move [5] steps
 ```
 
-Remember, you will need to change the numbers for the up and down parts of the jump.
+Lembre-se, você precisará alterar os números das partes para cima e para baixo do salto.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: My sprite doesn't grow and shrink correctly when it jumps
+título: Meu sprite não cresce e encolhe corretamente quando salta
 ---
 
-Make sure you have a `broadcast (start)`{:class="block3events"} block at the end of your **character**'s `when flag clicked`{:class="block3events"} script.
+Certifique-se de ter um bloco `broadcast (start)`{:class="block3events"} no final da bandeira `quando clicado` do seu **personagem** {:class="block3events"} script.
 
-Look at your **character**'s `when I receieve (start)`{:class="block3events"} script.
+Olhe para o seu **personagem** `quando eu receber (iniciar)`{:class="block3events"} script.
 
-Make sure that the `change size`{:class="block3looks"} block in the second `repeat`{:class="block3events"} block has a negative number to make the sprite smaller such as `-3`.
+Certifique-se de que o bloco `alterar tamanho`{:class="block3looks"} no segundo bloco `repita`{:class="block3events"} tenha um número negativo para tornar o sprite menor, como `-3`.
 
 --- /collapse ---
 
-If you have a bug that we haven't covered here, then let us know in the feedback. If you fixed the bug yourself (well done!), let us know that too.
+Se você tiver um bug que não abordamos aqui, informe-nos nos comentários. Se você mesmo corrigiu o bug (muito bem!), informe-nos também.
 
-**Tip:** If you're stuck, try reading your code out loud or in your head to make sure it says what you think it does. You might find the bug.
+**Dica:** Se você estiver travado, tente ler seu código em voz alta ou mentalmente para ter certeza de que ele diz o que você pensa. Você pode encontrar o bug.
 
 --- /task ---
 
