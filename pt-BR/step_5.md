@@ -189,7 +189,7 @@ stop [other scripts in sprite v]
 
 --- task ---
 
-**Debug:**
+**Depurar:**
 
 --- collapse ---
 
