@@ -1,20 +1,20 @@
-## Quick quiz
+## Teste rápido
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Responda às três perguntas. Existem dicas para guiá-lo para a resposta correta.
 
-When you have answered each question, click on **Check my answer**.
+Após responder cada pergunta, clique em **Ver minha resposta**.
 
-Have fun!
+Divirta-se!
 
---- question ---
+--- pergunta ---
 
 ---
-legend: Question 1 of 3
+legenda: Pergunta 1 de 3
 ---
 
-![The Stage of a lava-jumping game. The character is on the end platform, a golden door.](images/quiz-lava-stage.png)
+![O palco de um jogo de salto na lava. O personagem está na plataforma final, uma porta dourada.](images/quiz-lava-stage.png)
 
-You win this game by reaching the golden door, and lose if you land in the lava pit. The game isn't working. How could you fix it?
+Você ganha este jogo ao alcançar a porta dourada e perde se cair no poço de lava. O jogo não está funcionando. Como você poderia consertar isso?
 
 ```blocks3
 when flag clicked
@@ -38,32 +38,32 @@ end
 ```
 
 
---- choices ---
+--- escolhas ---
 
-- ( ) Change the colour in the 'check lose' condition
+- ( ) Alterar a cor na condição ‘escolha perder’
+
+  --- comentários ---
+
+Fechar. A condição 'escolher e perder' não tem a cor certa, mas apenas mudar isso não fará o jogo funcionar.
+
+  --- /comentários ---
+
+- () Alterar a cor na condição 'checar vitória'
 
   --- feedback ---
 
-Close. The 'check lose' condition doesn't have the right colour, but just changing that won't make the game work.
+Fechar. A condição 'checar vitória' não tem a cor certa, mas apenas mudar isso não fará o jogo funcionar.
 
   --- /feedback ---
 
-- ( ) Change the colour in the 'check win' condition
+- (x) Trocar as cores nas condições 'checar vitória' e 'checar perder'
 
   --- feedback ---
 
-Close. The 'check win' condition doesn't have the right colour, but just changing that won't make the game work.
-
-  --- /feedback ---
-
-- (x) Swap the colours in the 'check win' and 'check lose' conditions
-
-  --- feedback ---
-
-Yes. The 'check lose' and 'check win' conditions have the colours the wrong way round! The player will win when they fall in the lava and lose when they reach the golden door! Swapping the conditions will fix this.
+Sim. As condições 'checar perder' e 'checar vitória' têm as cores ao contrário! O jogador vencerá quando cair na lava e perderá quando chegar à porta dourada! Trocar as condições ira resolver isso.
 
   --- /feedback ---
 
 --- /choices ---
 
---- /question ---
+--- /questão ---
