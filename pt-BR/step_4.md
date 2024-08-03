@@ -87,21 +87,21 @@ O bloco `vá para (outro sprite)`{:class="block3motion"} outro sprite move um sp
 título: O jogo termina muito cedo
 ---
 
-Check that your sprite isn't touching the End colour when it's not on the **End** platform — if you use the same colour elsewhere in your project, then your character could die too soon.
+Verifique se seu sprite não está tocando a cor final quando não estiver na plataforma **Fim** — se você usar a mesma cor em outro lugar do seu projeto, seu personagem poderá morrer muito cedo.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The sound doesn't play when I land on the End platform
+título: O som não toca quando eu pouso na plataforma Fim
 ---
 
-Click on your **character** sprite and then the 'Sounds' tab. Make sure you have added the End sound to your sprite. Click on the **Play** button to make sure sound is working on your computer.
+Clique no seu sprite **personagem** e depois na aba 'Sons'. Certifique-se de ter adicionado o som final ao seu sprite. Clique no botão **Jogar** para garantir que o som esteja funcionando no seu computador.
 
-Click on the **Code** tab and check that the correct sound is in the `play sound`{:class="block3sound"} block that runs when the sprite reaches the **End** platform.
+Clique na aba **Código** e verifique se o som correto está no bloco `tocar som`{:class="block3sound"} que é executado quando o sprite atinge a plataforma **Fim**.
 
-Make sure the colour is correct in the `touching colour`{:class="block3sensing"} block. Select it again if you're not sure. Sometimes colours look similar but aren't the same.
+Certifique-se de que a cor esteja correta no bloco `tocar cores`{:class="block3sensing"}. Selecione-o novamente se não tiver certeza. Às vezes, as cores parecem semelhantes, mas não são iguais.
 
 ```blocks3
 when I receive [start v]
@@ -119,9 +119,9 @@ end
 
 --- /collapse ---
 
-If you have a bug that we haven't covered here, then let us know in the feedback. If you fixed the bug yourself (well done!), let us know that too.
+Se você tiver um bug que não abordamos aqui, informe-nos nos comentários. Se você mesmo corrigiu o bug (muito bem!), informe-nos também.
 
-**Tip:** If you're stuck, try reading your code out loud or in your head to make sure it says what you think it does. You might find the bug.
+**Dica:** Se você estiver travado, tente ler seu código em voz alta ou mentalmente para ter certeza de que ele diz o que você pensa. Você pode encontrar o bug.
 
 --- /task ---
 
