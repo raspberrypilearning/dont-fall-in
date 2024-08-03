@@ -1,33 +1,33 @@
-## Winner
+## Ganhador
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will detect the player reaching the **End** platform to win the game. 
+Nesta etapa, você detectará o jogador chegando à plataforma **Fim** para vencer o jogo. 
 </div>
 <div>
 ![](images/winner-aims.png){:width="300px"}
 </div>
 </div>
 
-You're going to add a `forever`{:class="block3control"} loop that checks if your **character** is at platform level, and if so, `if`{:class="block3control"} it has reached the **End** platform.
+Você adicionará um laço `forever`{:class="block3control"} que verifica se seu **personagem** está no nível da plataforma e, em caso afirmativo, `se`{:class="block3control"} atingiu a plataforma **Fim**.
 
 --- task ---
 
-**Choose:** Add a winning sound to your character.
+**Escolha:** Adicione um som vencedor ao seu personagem.
 
 --- /task ---
 
 --- task ---
 
-Add code to detect when your character reaches the **End** platform using `touching color`{:class="block3sensing"}.
+Adicione código para detectar quando seu personagem atinge a plataforma **Fim** usando `tocando a cor`{:class="block3sensing"}.
 
 --- collapse ---
 
 ---
-title: End the game when touching colour
+título: Termine o jogo ao tocar na cor
 ---
 
-**Character**:
+**Personagem**:
 
 ```blocks3
 when I receive [start v]
@@ -44,23 +44,23 @@ end
 end
 ```
 
-It's a good idea to `broadcast`{:class="block3events"} a 'stop' message to let other sprites know the game has ended. The `stop other scripts in sprite`{:class="block3control"} block stops the loop that makes the character jump.
+É uma boa ideia `transmitir`{:class="block3events"} uma mensagem de 'parar' para que outros sprites saibam que o jogo terminou. O bloco `parar outros scripts no sprite`{:class="block3control"} interrompe o laço que faz o personagem pular.
 
 --- /collapse ---
 
-You will need to set the colour that is sensed to the colour of your **End** platform.
+Você precisará definir a cor detectada para a cor da sua plataforma **Fim**.
 
 [[[scratch3-set-block-input-colour-with-eyedropper]]]
 
-**Tip:** It's a good idea to `broadcast`{:class="block3events"} a `stop`{:class="block3events"} message when you detect that your game is finished so that other sprites can stop, but this sprite can do something such as playing a sound before it stops.
+**Dica:** É uma boa ideia `transmitir`{:class="block3events"} uma `parar`{: class="block3events"} quando você detecta que seu jogo terminou para que outros sprites possam parar, mas esse sprite pode fazer algo como reproduzir um som antes de parar.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click the green flag and then jump your character across the Stage. Make sure you hear the winning sound when you reach the **End** platform.
+**Teste:** Clique na bandeira verde e pule seu personagem pelo palco. Certifique-se de ouvir o som vencedor quando chegar à plataforma **Fim**.
 
-**Tip:** It's really important that you test your project before moving to the next step and adding more code. It's harder to find and fix bugs when you have added more code.
+**Dica:** É muito importante que você teste seu projeto antes de passar para a próxima etapa e adicionar mais código. É mais difícil encontrar e corrigir bugs quando você adiciona mais código.
 
 --- /task ---
 
@@ -72,19 +72,19 @@ You will need to set the colour that is sensed to the colour of your **End** pla
 --- collapse ---
 
 ---
-title: My sprite doesn't go to the centre of the End platform
+título: Meu sprite não vai para o centro da plataforma Fim
 ---
 
-You need to make sure all your sprite costumes are centered in the Paint editor.
+Você precisa ter certeza de que todas as suas fantasias de sprite estão centralizadas no editor Paint.
 
-The `go to (other sprite)`{:class="block3motion"} block moves a sprite so that it's centre is in the same position as the centre of the other sprite. If their centres are in the wrong place, then your **character** won't go to the centre of the platforms.
+O bloco `vá para (outro sprite)`{:class="block3motion"} outro sprite move um sprite para que seu centro fique na mesma posição que o centro do outro sprite. Se os centros deles estiverem no lugar errado, então seu **personagem** não irá para o centro das plataformas.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The game ends too soon
+título: O jogo termina muito cedo
 ---
 
 Check that your sprite isn't touching the End colour when it's not on the **End** platform — if you use the same colour elsewhere in your project, then your character could die too soon.
