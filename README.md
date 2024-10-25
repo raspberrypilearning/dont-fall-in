@@ -1,11 +1,11 @@
-# Don't fall in
+# design-project-template
 
-![A game character jumps across pillars above a lava field](en/images/banner.png)
+![design-project-template](banner.png)
 
-Find the project online at [projects.raspberrypi.org/en/projects/dont-fall-in](https://projects.raspberrypi.org/en/projects/dont-fall-in)
+Find the project online at [projects.raspberrypi.org/en/projects/design-project-template](https://projects.raspberrypi.org/en/projects/design-project-template)
 
 ## Resources
-For project solutions, see [en/solutions](https://github.com/raspberrypilearning/dont-fall-in/tree/master/en/solutions).
+For project materials and solutions, see [en/resources](https://github.com/raspberrypilearning/design-project-template/tree/master/en/resources) and [en/solutions](https://github.com/raspberrypilearning/design-project-template/tree/master/en/solutions).
 
 ## Contributing
 See [CONTRIBUTING.md](CONTRIBUTING.md)
