@@ -124,7 +124,7 @@ Adicione código ao seu **personagem** sprite para detectar `if`{:class="block3c
 --- collapse ---
 
 ---
-título: Se tocado pano de fundo
+title: Se tocado pano de fundo
 ---
 
 ```blocks3

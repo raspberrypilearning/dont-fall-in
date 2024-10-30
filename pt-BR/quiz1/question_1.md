@@ -42,11 +42,11 @@ end
 
 - ( ) Alterar a cor na condição ‘escolha perder’
 
-  --- comentários ---
+  --- feedback ---
 
 Fechar. A condição 'escolher e perder' não tem a cor certa, mas apenas mudar isso não fará o jogo funcionar.
 
-  --- /comentários ---
+  --- /feedback ---
 
 - ( ) Alterar a cor na condição 'checar vitória'
 
