@@ -1,0 +1,32 @@
+---
+title: Não caia!
+hero_image: images/banner.png
+description: Projete e crie um obstáculo com visão de cima para baixo ou um jogo de parkour de plataforma.
+meta_title: Projetos de codificação Scratch para crianças e adolescentes | Não caia
+meta_description: Aprenda Scratch com os projetos de codificação da Raspberry Pi Foundation para crianças e adolescentes. Faça um jogo de parkour Scratch e depois pule, salte ou voe para pegar uma carona.
+version: 4
+listed: true
+copyedit: false
+last_tested: "2021-03-26"
+steps:
+  - title: Você vai fazer
+  - title: Escolha um tema
+  - title: Pule, salte, quique ou deslize!
+    completion:
+      - engaged
+  - title: Ganhador
+  - title: Ande em plataformas
+  - title: Ajuste a dificuldade
+    completion:
+      - internal
+  - title: Teste rápido
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Atualize seu projeto
+  - title: Compartilhar
+  - title: O que vem depois?
