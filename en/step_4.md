@@ -9,7 +9,6 @@ In this step, you will detect the player reaching the **End** platform to win th
 </div>
 </div>
 
-
 You're going to add a `forever`{:class="block3control"} loop that checks if your **character** is at platform level, and if so, `if`{:class="block3control"} it has reached the **End** platform.
 
 --- task ---
@@ -18,17 +17,12 @@ You're going to add a `forever`{:class="block3control"} loop that checks if your
 
 --- /task ---
 
+### End the game when touching a coloured platform
+
 --- task ---
 
-Add code to detect when your character reaches the **End** platform using `touching color`{:class="block3sensing"}.
+Use a `touching color`{:class="block3sensing"} block to detect when your character sprite reaches the **End** platform.
 
---- collapse ---
-
----
-title: End the game when touching colour
----
-
-**Character**:
 
 ```blocks3
 when I receive [start v]
@@ -45,15 +39,29 @@ end
 end
 ```
 
-It's a good idea to `broadcast`{:class="block3events"} a 'stop' message to let other sprites know the game has ended. The `stop other scripts in sprite`{:class="block3control"} block stops the loop that makes the character jump.
+The `stop other scripts in sprite`{:class="block3control"} block stops the loop that makes the character jump.
 
---- /collapse ---
+A `broadcast (stop v)`{:class="block3events"} message is used when your game is finished so that other sprites can stop, but this sprite can do something such as playing a sound before it stops.
 
-You will need to set the colour that is sensed to the colour of your **End** platform.
+--- /task ---
 
-[[[scratch3-set-block-input-colour-with-eyedropper]]]
+Use the eyedropper to pick the colour of your **End** platform
 
-**Tip:** It's a good idea to `broadcast`{:class="block3events"} a `stop`{:class="block3events"} message when you detect that your game is finished so that other sprites can stop, but this sprite can do something such as playing a sound before it stops.
+--- task ---
+
+```blocks3
+<touching color (#20f73b) ?>
+
+```
+Click on the colour input to open the colour picker and then click on the eyedropper at the bottom.
+
+![](images/eye-dropper-tool.png)
+
+Move the mouse pointer over to the End platform on the Stage and click to select the colour.
+
+![](images/eye-dropper-stage.png)
+
+The colour in the block input will change to match the colour you chose. Click in the Code area to close the colour picker.
 
 --- /task ---
 

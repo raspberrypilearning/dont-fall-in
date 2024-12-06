@@ -1,0 +1,31 @@
+configurar
+
+tamanho quando não estiver pulando
+
+não pulando
+
+iniciar outros scripts
+
+não no ar
+
+no final
+
+pare outros sprites
+
+pare de pular depois da vitória
+
+adicione este bloco para jogos da esquerda para a direita
+
+tente diferentes números
+
+escolha uma cor na sua plataforma
+
+escolha a cor do seu cenário
+
+evitar pular depois de perder
+
+adicione um som de sua escolha
+
+verificar perder
+
+verifique a vitória

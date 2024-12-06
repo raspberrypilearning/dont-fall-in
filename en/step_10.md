@@ -4,7 +4,7 @@ If you are following the [More Scratch](https://projects.raspberrypi.org/en/rasp
 
 --- print-only ---
 
-![This sprite needs you](images/this-sprite-needs-you.png)
+![This sprite needs you](images/this-sprite-needs-you-project.png)
 
 --- /print-only ---
 

@@ -1,4 +1,4 @@
-## You will make
+## What you will make
 
 Design and build a top-down view, obstacle or platform, parkour game. Your character will need to jump, hop, glide, bounce, or fly to catch a ride on moving platforms and make it to the end.
 
@@ -6,21 +6,12 @@ Design and build a top-down view, obstacle or platform, parkour game. Your chara
 <span style="color: #0faeb0">**Top-down/bird's-eye view games**</span> look down on the game from above. Sometimes the whole game has this view. Other games use top-down views when you enter a design mode. Can you think of any games you play that use top-down view? 
 </p>
 
-You will:
-+ Make a game with a goal using an algorithm that checks for important game conditions
-+ Personalise a game to your interests
-+ Adjust the difficulty of a game, so that it’s fun to play
-
-![](images/example-strip.png)
-
 --- no-print ---
-
---- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-### Play ▶️ 
+### Play
 
 Click the space bar or tap the Stage to jump to the next platform. Time your jumps so you don't fall in the custard.
 
@@ -37,8 +28,6 @@ Click the space bar or tap the Stage to jump to the next platform. Time your jum
 </div>
 
 </div>
-
---- /task ---
 
 ### Get ideas 💭
 
