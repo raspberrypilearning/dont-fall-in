@@ -6,11 +6,7 @@ Design and build a top-down view, obstacle or platform, parkour game. Your chara
 <span style="color: #0faeb0">**Top-down/bird's-eye view games**</span> look down on the game from above. Sometimes the whole game has this view. Other games use top-down views when you enter a design mode. Can you think of any games you play that use top-down view? 
 </p>
 
-![](images/example-strip.png)
-
 --- no-print ---
-
---- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
@@ -32,8 +28,6 @@ Click the space bar or tap the Stage to jump to the next platform. Time your jum
 </div>
 
 </div>
-
---- /task ---
 
 ### Get ideas 💭
 

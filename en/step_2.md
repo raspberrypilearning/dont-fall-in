@@ -35,7 +35,11 @@ Create a solid colour backdrop.
 
 Paint a new **Start** platform sprite. 
 
-Start with a simple single coloured shape. You can add more detail later. 
+Start with a simple single coloured shape. You can turn the outline off by choosing the red diagonal line.
+
+![](images/no-outline.png)
+
+You can add more detail later. 
 
 Centre your costume in the Paint editor.
 
@@ -75,12 +79,6 @@ Or, paint your own **character** sprite. Start with simple shapes and add detail
 
 Your **character** sprite needs a start script to get everything set up for the beginning of the game.
 
---- collapse ---
-
----
-title: Get your character ready to start
----
-
 Make a `variable`{:class="block3variables"} called `landed`, and set it to the size your sprite should be when it has landed and is not jumping.
 
 Get your character to go to the **Start** `when flag clicked`{:class="block3events"}. Add a `go to front layer`{:class="block3looks"} block, so your character is on top of the platforms. 
@@ -98,8 +96,6 @@ broadcast (start v) // start other scripts
 ```
 
 **Tip:** Uncheck the `landed`{:class="block3variables"} variable in the `Variables`{:class="block3variables"} Blocks menu so that it doesn't show on the Stage. The user doesn't need to see this variable.
-
---- /collapse ---
 
 **Tip:** It's a good idea to `broadcast`{:class="block3events"} a `start`{:class="block3events"} message at the end of your setup script to let other scripts know when to start, otherwise they might start before everything is ready.
 
