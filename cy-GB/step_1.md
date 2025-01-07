@@ -1,4 +1,4 @@
-## Byddi di'n creu
+## What you will make
 
 Dylunio a chreu gêm persbectif o'r brig, gêm rwystrau neu gêm blatfformiau parkour. Bydd angen i dy gymeriad neidio, hopian, gleidio, bownsio, neu hedfan i ddal reid ar blatfformiau symudol a chyrraedd y diwedd.
 
@@ -6,23 +6,14 @@ Dylunio a chreu gêm persbectif o'r brig, gêm rwystrau neu gêm blatfformiau pa
 Mae <span style="color: #0faeb0">**Gemau o'r brig i lawr/golwg llygad aderyn**</span> yn edrych i lawr ar y gêm oddi uchod. Weithiau mae'r gêm gyfan yn digwydd o'r perspectif yma. Mae gemau eraill yn defnyddio golygfeydd o'r brig i lawr pan fydd y chwaraewr yn mynd i mewn i'r modd dylunio. Alli di feddwl am unrhyw gemau rwyt ti'n eu chwarae sy'n defnyddio golwg o'r brig i lawr? 
 </p>
 
-Byddi di'n:
-+ Creu gêm gyda nod gan ddefnyddio algorithm sy'n gwirio am amodau sy'n bwysig i'r gêm
-+ Personoli gêm yn ôl dy ddiddordebau di
-+ Addasu lefel anhawster gêm, fel ei bod hi'n hwyl i'w chwarae
-
-![](images/example-strip.png)
-
 --- no-print ---
-
---- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-### Chwarae ▶️ 
+### Play
 
-Clicia'r botwm Space neu daro'r Llwyfan i neidio i'r platfform nesaf. Amsera bob naid fel nad wyt ti'n disgyn i mewn i'r cwstard.
+Click the space bar or tap the Stage to jump to the next platform. Amsera bob naid fel nad wyt ti'n disgyn i mewn i'r cwstard.
 
 + Sut mae'r gêm yn creu golygfa o'r brig i lawr? 
 + Sut mae maint y cymeriad yn newid pan fydd yn hedfan? 
@@ -31,13 +22,12 @@ Clicia'r botwm Space neu daro'r Llwyfan i neidio i'r platfform nesaf. Amsera bob
 </div>
 
 <div>
+**Don't fall in the custard!**: [See inside](https://scratch.mit.edu/projects/525202210/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525202210/?autostart=false" frameborder="0"></iframe>
 </div>
 
 </div>
-
---- /task ---
 
 ### Cael ysbrydoliaeth 💭
 
@@ -46,15 +36,23 @@ Rwyt ti'n mynd i wneud rhai penderfyniadau dylunio i wneud dy gêm blatfformau o
 --- task ---
 
 Cymer olwg ar y prosiectau enghreifftiol hyn i gael mwy o syniadau:
+
+**Baby bird**: [See inside](https://scratch.mit.edu/projects/525236983/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236983/?autostart=false" frameborder="0"></iframe>
 </div>
+
+**Log hopper**: [See inside](https://scratch.mit.edu/projects/525236345/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236345/?autostart=false" frameborder="0"></iframe>
 </div>
+
+**Planet bounce**: [See inside](https://scratch.mit.edu/projects/525236603/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236603/?autostart=false" frameborder="0"></iframe>
 </div>
+--- /task ---
+
 --- /no-print ---
 
 --- print-only ---
