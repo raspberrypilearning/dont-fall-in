@@ -4,7 +4,7 @@ Si tu suis le parcours [Plus de Scratch](https://projects.raspberrypi.org/en/ras
 
 --- print-only ---
 
-![Ce sprite a besoin de toi](images/this-sprite-needs-you.png)
+![Ce sprite a besoin de toi](images/this-sprite-needs-you-project.png)
 
 --- /print-only ---
 
