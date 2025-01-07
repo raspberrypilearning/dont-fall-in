@@ -4,7 +4,7 @@
 
 --- print-only ---
 
-![Αυτό το αντικείμενο σε χρειάζεται](images/this-sprite-needs-you.png)
+![Αυτό το αντικείμενο σε χρειάζεται](images/this-sprite-needs-you-project.png)
 
 --- /print-only ---
 
