@@ -4,7 +4,7 @@
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 Cóż, to zbyt proste! 
 
-W tym kroku dodasz platformy, na których będziesz mógł wylądować. Wskakując na nie, unikniesz upadku. 
+W tym kroku dodasz platformy, na których będziesz mógł wylądować. Jumping on them will stop your sprite falling in. 
 </div>
 <div>
 ![](images/riding-example.png){:width="300px"}
@@ -227,8 +227,4 @@ broadcast (stop v)
 
 --- /task ---
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Istnieje wiele <span style="color: #0faeb0">gier platformowych</span> w tym gry 2D i 3D. Platformy są powszechne w grach z przeszkodami obby (od ang. "obstacle" oznaczającego przeszkodę) i grach parkour. Niektóre gry mają platformy, które się poruszają, pokazują i chowają lub stopniowo znikają, gdy po nich skaczesz. Czy przychodzą Ci do głowy gry, w które grałeś, mające platformy, po których musisz wskakiwać? A co z grami z ruchomymi platformami?
-</p>
-
---- save ----
+--- save ---
