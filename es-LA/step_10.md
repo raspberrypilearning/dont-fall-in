@@ -4,7 +4,7 @@ Si estás siguiendo la ruta [Más Scratch](https://projects.raspberrypi.org/en/r
 
 --- print-only ---
 
-![Este objeto te necesita](images/this-sprite-needs-you.png)
+![Este objeto te necesita](images/this-sprite-needs-you-project.png)
 
 --- /print-only ---
 
