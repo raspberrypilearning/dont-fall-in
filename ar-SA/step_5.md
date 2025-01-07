@@ -4,7 +4,7 @@
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 حسنًا ، هذا سهل للغاية! 
 
-في هذه الخطوة ، ستضيف منصات لتهبط عليها. القفز عليها سوف يتجنب الوقوع فيها. 
+في هذه الخطوة ، ستضيف منصات لتهبط عليها. Jumping on them will stop your sprite falling in. 
 </div>
 <div>
 ![](images/riding-example.png){:width="300px"}
@@ -229,8 +229,4 @@ broadcast (stop v)
 
 --- /task ---
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-لا يوجد الكثير <span style="color: #0faeb0">منصة ألعاب</span> في ذلك الألعاب ثنائية وثلاثية الأبعاد. المنصات شائعة في ألعاب العوائق (obby) وألعاب الباركور. تحتوي بعض الألعاب على منصات تتحرك وتظهر وتختبئ أو تختفي تدريجيًا عند القفز عليها. هل يمكنك التفكير في الألعاب التي لعبتها والتي تحتوي على منصات يجب عليك القفز عليها؟ ماذا عن الألعاب ذات المنصات المتحركة؟
-</p>
-
---- save ----
+--- save ---
