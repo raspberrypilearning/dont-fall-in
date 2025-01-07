@@ -4,7 +4,7 @@ Os wyt ti'n dilyn y llwybr [Mwy o Scratch](https://projects.raspberrypi.org/en/r
 
 --- print-only ---
 
-![Mae'r corlun hwn dy angen di](images/this-sprite-needs-you.png)
+![Mae'r corlun hwn dy angen di](images/this-sprite-needs-you-project.png)
 
 --- /print-only ---
 
