@@ -6,11 +6,11 @@ meta_title: Projekty programistyczne Scratcha dla dzieci i młodzieży | Nie wpa
 meta_description: Naucz się języka Scratch dzięki projektom programistycznym Fundacji Raspberry Pi dla dzieci i młodzieży. Stwórz grę parkour w Scratchu, a następnie skacz, podskakuj lub lataj, aby złapać przejażdżkę.
 version: 4
 listed: true
-copyedit: false
+copyedit: true
 last_tested: "2021-03-26"
 steps:
   - 
-    title: Co będziesz robić
+    title: What you will make
   - 
     title: Wybierz swój motyw
   - 
@@ -35,7 +35,8 @@ steps:
     completion:
       - external
   - 
-    title: Ulepsz swój projekt
+    title: Challenge
+    challenge: true
   - 
     title: Udostępnij
   - 
