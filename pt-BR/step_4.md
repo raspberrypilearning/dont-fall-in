@@ -17,17 +17,12 @@ Você adicionará um laço `forever`{:class="block3control"} que verifica se seu
 
 --- /task ---
 
+###  End the game when touching a coloured platform
+
 --- task ---
 
-Adicione código para detectar quando seu personagem atinge a plataforma **Fim** usando `tocando a cor`{:class="block3sensing"}.
+Use a `touching color`{:class="block3sensing"} block to detect when your character sprite reaches the **End** platform.
 
---- collapse ---
-
----
-título: Termine o jogo ao tocar na cor
----
-
-**Personagem**:
 
 ```blocks3
 when I receive [start v]
@@ -44,15 +39,29 @@ end
 end
 ```
 
-É uma boa ideia `transmitir`{:class="block3events"} uma mensagem de 'parar' para que outros sprites saibam que o jogo terminou. O bloco `parar outros scripts no sprite`{:class="block3control"} interrompe o laço que faz o personagem pular.
+O bloco `parar outros scripts no sprite`{:class="block3control"} interrompe o laço que faz o personagem pular.
 
---- /collapse ---
+A `broadcast (stop v)`{:class="block3events"} message is used when your game is finished so that other sprites can stop, but this sprite can do something such as playing a sound before it stops.
 
-Você precisará definir a cor detectada para a cor da sua plataforma **Fim**.
+--- /task ---
 
-[[[scratch3-set-block-input-colour-with-eyedropper]]]
+Use the eyedropper to pick the colour of your **End** platform
 
-**Dica:** É uma boa ideia `transmitir`{:class="block3events"} uma `parar`{: class="block3events"} quando você detecta que seu jogo terminou para que outros sprites possam parar, mas esse sprite pode fazer algo como reproduzir um som antes de parar.
+--- task ---
+
+```blocks3
+<touching color (#20f73b) ?>
+
+```
+Click on the colour input to open the colour picker and then click on the eyedropper at the bottom.
+
+![](images/eye-dropper-tool.png)
+
+Move the mouse pointer over to the End platform on the Stage and click to select the colour.
+
+![](images/eye-dropper-stage.png)
+
+The colour in the block input will change to match the colour you chose. Click in the Code area to close the colour picker.
 
 --- /task ---
 
