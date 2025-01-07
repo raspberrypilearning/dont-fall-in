@@ -35,7 +35,11 @@ Crie um cenário de cor sólida.
 
 Pinte um novo sprite de plataforma **Iniciar**.
 
-Comece com uma forma simples de cor única. Você pode adicionar mais detalhes posteriormente.
+Comece com uma forma simples de cor única. You can turn the outline off by choosing the red diagonal line.
+
+![](images/no-outline.png)
+
+Você pode adicionar mais detalhes posteriormente.
 
 Centralize sua fantasia no editor Paint.
 
@@ -75,17 +79,11 @@ Ou pinte seu próprio sprite **personagem**. Comece com formas simples e adicion
 
 Seu sprite **personagem** precisa de um script inicial para ter tudo configurado para o início do jogo.
 
---- collapse ---
+Make a `variable`{:class="block3variables"} called `landed`, and set it to the size your sprite should be when it has landed and is not jumping.
 
----
-título: Prepare seu personagem para começar
----
+Get your character to go to the **Start** `when flag clicked`{:class="block3events"}. Add a `go to front layer`{:class="block3looks"} block, so your character is on top of the platforms.
 
-Faça uma `variável`{:class="block3variables"} chamada `pousou`e defina-a com o tamanho que seu sprite deve ter quando pousar e for não pulando.
-
-Faça seu personagem ir para **Iniciar** `quando a bandeira for clicada`{:class="block3events"}. Adicione um bloco `vá para a camada frontal`{:class="block3looks"}, para que seu personagem fique no topo das plataformas.
-
-**Personagem:**
+**Character:**
 
 ```blocks3
 when flag clicked // setup
@@ -97,9 +95,7 @@ show
 broadcast (start v) // start other scripts
 ```
 
-**Dica:** Desmarque a variável `pouso`{:class="block3variables"} em `Variáveis`{:class ="block3variables"} Bloqueia o menu para que ele não apareça no Palco. O usuário não precisa ver esta variável.
-
---- /collapse ---
+**Tip:** Uncheck the `landed`{:class="block3variables"} variable in the `Variables`{:class="block3variables"} Blocks menu so that it doesn't show on the Stage. The user doesn't need to see this variable.
 
 **Dica:** É uma boa ideia `transmitir`{:class="block3events"} um `iniciar`{: class="block3events"} no final do seu script de configuração para que outros scripts saibam quando começar, caso contrário, eles poderão começar antes que tudo esteja pronto.
 
