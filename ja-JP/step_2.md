@@ -35,7 +35,11 @@
 
 新しい**スタート**のプラットフォームのスプライトを描きます。
 
-最初は単純に単色の形から始めてください。 後で詳細を追加できます。
+最初は単純に単色の形から始めてください。 You can turn the outline off by choosing the red diagonal line.
+
+![](images/no-outline.png)
+
+後で詳細を追加できます。
 
 ペイントエディターでコスチュームを中央に配置します。
 
@@ -75,17 +79,11 @@
 
 **キャラクター**スプライトには、ゲームの初めにすべてをセットアップするための開始スクリプトが必要です。
 
---- collapse ---
+Make a `variable`{:class="block3variables"} called `landed`, and set it to the size your sprite should be when it has landed and is not jumping.
 
----
-title: キャラクターの準備を始めましょう
----
+Get your character to go to the **Start** `when flag clicked`{:class="block3events"}. Add a `go to front layer`{:class="block3looks"} block, so your character is on top of the platforms.
 
-`着地`という`変数`{:class="block3variables"}を作成し、スプライトが着地していてジャンプしていないときの大きさに設定します。
-
-`旗がクリックされた`{:class="block3events"}ときにキャラクターを**スタート**へ移動させます。 キャラクターがプラットフォームの上にくるように、`最前面へ移動`{:class="block3looks"}ブロックを追加します。
-
-**キャラクター：**
+**Character:**
 
 ```blocks3
 when flag clicked // setup
@@ -97,9 +95,7 @@ show
 broadcast (start v) // start other scripts
 ```
 
-**ヒント：** 変数がステージに表示されないように、`変数`{:class="block3variables"}ブロックメニューの`着地`{:class="block3variables"}変数のチェックを外します。 ユーザーがこの変数を見る必要はないからです。
-
---- /collapse ---
+**Tip:** Uncheck the `landed`{:class="block3variables"} variable in the `Variables`{:class="block3variables"} Blocks menu so that it doesn't show on the Stage. The user doesn't need to see this variable.
 
 **ヒント：** 他のスクリプトが始まるタイミングがわかるように、セットアップスクリプトの最後で`開始`{:class="block3events"}`メッセージを送信`{:class="block3events"}するのはよいアイデアです。そうしないと、準備がすべて整う前に他のスクリプトが始まってしまいます。
 
