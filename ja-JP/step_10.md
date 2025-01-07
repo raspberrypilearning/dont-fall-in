@@ -4,7 +4,7 @@
 
 --- print-only ---
 
-![このスプライトにはあなたが必要だ](images/this-sprite-needs-you.png)
+![このスプライトにはあなたが必要だ](images/this-sprite-needs-you-project.png)
 
 --- /print-only ---
 
