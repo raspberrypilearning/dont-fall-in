@@ -35,7 +35,11 @@ Crée un arrière-plan de couleur unie.
 
 Peins un nouveau sprite de plateforme **Départ**.
 
-Commence avec une forme simple d'une seule couleur. Tu pourras ajouter plus de détails ultérieurement.
+Commence avec une forme simple d'une seule couleur. You can turn the outline off by choosing the red diagonal line.
+
+![](images/no-outline.png)
+
+Tu pourras ajouter plus de détails ultérieurement.
 
 Centre ton costume dans l'éditeur de peinture.
 
@@ -75,17 +79,11 @@ Ou, peins ton propre sprite **personnage**. Commence avec des formes simples et 
 
 Ton sprite **personnage** a besoin d'un script de démarrage pour que tout soit configuré pour le début du jeu.
 
---- collapse ---
+Make a `variable`{:class="block3variables"} called `landed`, and set it to the size your sprite should be when it has landed and is not jumping.
 
----
-title: Préparer ton personnage à démarrer
----
+Get your character to go to the **Start** `when flag clicked`{:class="block3events"}. Add a `go to front layer`{:class="block3looks"} block, so your character is on top of the platforms.
 
-Crée une `variable`{:class="block3variables"} appelée `atterri`et régle-la sur la taille que ton sprite devrait avoir lorsqu'il a atterri et ne saute pas.
-
-Demande à ton personnage d'aller au **Départ** `quand le drapeau est cliqué`{:class="block3events"}. Ajoute un bloc `aller à l'avant plan`{:class="block3looks"}, afin que ton personnage soit au-dessus des plateformes.
-
-**Personnage :**
+**Character:**
 
 ```blocks3
 when flag clicked // setup
@@ -97,9 +95,7 @@ show
 broadcast (start v) // start other scripts
 ```
 
-**Astuce :** Décoche la variable `atterri`{:class="block3variables"} dans le menu des blocs `Variables`{:class="block3variables"} afin qu'elle ne s'affiche pas sur la scène. L'utilisateur n'a pas besoin de voir cette variable.
-
---- /collapse ---
+**Tip:** Uncheck the `landed`{:class="block3variables"} variable in the `Variables`{:class="block3variables"} Blocks menu so that it doesn't show on the Stage. The user doesn't need to see this variable.
 
 **Astuce :** C'est une bonne idée d' `envoyer à tous`{:class="block3events"} un message `départ`{:class="block3events"} à la fin de ton script de configuration pour indiquer aux autres scripts quand commencer, sinon ils pourraient commencer avant que tout ne soit prêt.
 
