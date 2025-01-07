@@ -6,11 +6,11 @@ meta_title: Scratch-programmeerprojecten voor kinderen en tieners | Val er niet 
 meta_description: Leer Scratch met de programmeerprojecten van de Raspberry Pi Foundation voor kinderen en tieners. Maak een parkour-spel en springen, huppelen, glijden, stuiteren of vliegen om een ritje te maken.
 version: 4
 listed: true
-copyedit: false
+copyedit: true
 last_tested: "2021-03-26"
 steps:
   - 
-    title: Wat ga je maken
+    title: What you will make
   - 
     title: Kies je thema
   - 
@@ -35,7 +35,8 @@ steps:
     completion:
       - external
   - 
-    title: Verbeter je project
+    title: Challenge
+    challenge: true
   - 
     title: Deel
   - 
