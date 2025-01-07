@@ -35,7 +35,11 @@ Creëer een effen achtergrondkleur.
 
 Teken een nieuwe **Start**-platformsprite.
 
-Begin met een eenvoudige vorm die een kleur heeft. Je kunt later nog meer details toevoegen.
+Begin met een eenvoudige vorm die een kleur heeft. You can turn the outline off by choosing the red diagonal line.
+
+![](images/no-outline.png)
+
+Je kunt later nog meer details toevoegen.
 
 Centreer je kostuum in de Teken-editor.
 
@@ -75,17 +79,11 @@ Of teken je eigen **hoofdpersoon**-sprite. Begin met eenvoudige vormen en voeg l
 
 Je **hoofdpersoon**-sprite heeft een startscript nodig om alles in te stellen voor het begin van het spel.
 
---- collapse ---
+Make a `variable`{:class="block3variables"} called `landed`, and set it to the size your sprite should be when it has landed and is not jumping.
 
----
-title: Maak je hoofdpersoon klaar om te beginnen
----
+Get your character to go to the **Start** `when flag clicked`{:class="block3events"}. Add a `go to front layer`{:class="block3looks"} block, so your character is on top of the platforms.
 
-Maak een `variabele`{:class="block3variables"} met de naam `geland`, en stel deze in op de grootte die je sprite zou moeten hebben als hij is geland en niet springt.
-
-Laat je hoofdpersoon naar de **Start** gaan `wanneer op de vlag wordt geklikt`{:class="block3events"}. Voeg een `ga naar laag voorgrond`{:class="block3looks"} blok toe, zodat je personage bovenop de platforms staat.
-
-**Hoofdpersoon:**
+**Character:**
 
 ```blocks3
 when flag clicked // setup
@@ -97,9 +95,7 @@ show
 broadcast (start v) // start other scripts
 ```
 
-**Tip:** Schakel de variabele `geland`{:class="block3variables"} uit in het menu `Variabelen`{:class="block3variables"} zodat deze niet in het speelveld wordt weergegeven. De gebruiker hoeft deze variabele niet te zien.
-
---- /collapse ---
+**Tip:** Uncheck the `landed`{:class="block3variables"} variable in the `Variables`{:class="block3variables"} Blocks menu so that it doesn't show on the Stage. The user doesn't need to see this variable.
 
 **Tip:** Het is een goed idee om een `zend signaal`{:class="block3events"} `start`{:class="block3events"}-bericht aan het einde van je installatiescript uit te sturen, om andere scripts te laten weten wanneer ze mogen beginnen, anders zouden ze kunnen beginnen voordat alles klaar is.
 
