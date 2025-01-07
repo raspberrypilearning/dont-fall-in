@@ -4,7 +4,7 @@
 
 --- print-only ---
 
-![هذا الكائن يحتاجك](images/this-sprite-needs-you.png)
+![هذا الكائن يحتاجك](images/this-sprite-needs-you-project.png)
 
 --- /print-only ---
 
