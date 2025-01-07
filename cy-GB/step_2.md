@@ -35,7 +35,11 @@ Crea gefndir lliw solet.
 
 Paentia gorlun platfform **Dechrau** newydd.
 
-Dechreua gyda siâp un lliw syml. Galli di ychwanegu mwy o fanylion nes ymlaen.
+Dechreua gyda siâp un lliw syml. You can turn the outline off by choosing the red diagonal line.
+
+![](images/no-outline.png)
+
+Galli di ychwanegu mwy o fanylion nes ymlaen.
 
 Canola dy wisg yn y Golygydd paent.
 
@@ -75,17 +79,11 @@ Neu, gallet ti beintio dy gorlun **cymeriad** dy hun. Dechreua gyda siapiau syml
 
 Mae angen sgript dechrau ar dy gorlun **cymeriad** er mwyn rhoi popeth yn ei le ar gyfer dechrau'r gêm.
 
---- collapse ---
+Make a `variable`{:class="block3variables"} called `landed`, and set it to the size your sprite should be when it has landed and is not jumping.
 
----
-title: Paratoi dy gymeriad i ddechrau
----
+Get your character to go to the **Start** `when flag clicked`{:class="block3events"}. Add a `go to front layer`{:class="block3looks"} block, so your character is on top of the platforms.
 
-Crea `newidyn`{:class="block3variables"} o'r enw `wedi glanio`, a'i osod i'r maint y dylai dy gorlun fod pan fydd wedi glanio a heb fod yn neidio.
-
-Dywed i dy gymeriad fynd i'r **Dechrau** `pan fydd y faner wedi'i chlicio`{:class="block3events"}. Ychwanega floc `mynd i'r haen flaen`{:class="block3looks"}, fel bod dy gymeriad ar ben y platfformau.
-
-**Cymeriad:**
+**Character:**
 
 ```blocks3
 when flag clicked // setup
@@ -97,9 +95,7 @@ show
 broadcast (start v) // start other scripts
 ```
 
-**Awgrym:** Dad-dicia'r newidyn `wedi glanio`{:class="block3variables"} yn y ddewislen `Newidynnau`{:class="block3variables"} fel nad yw'n ymdddangos ar y Llwyfan. Does dim angen i'r defnyddiwr weld y newidyn yma.
-
---- /collapse ---
+**Tip:** Uncheck the `landed`{:class="block3variables"} variable in the `Variables`{:class="block3variables"} Blocks menu so that it doesn't show on the Stage. The user doesn't need to see this variable.
 
 **Awgrym:** Mae'n syniad `darlledu`{:class="block3events"} neges `dechrau`{:class="block3events"} ar ddiwedd dy sgript gosod i roi gwybod i sgriptiau eraill pryd i ddechrau, fel arall efallai byddan nhw'n dechrau cyn bod popeth yn barod.
 
