@@ -35,7 +35,11 @@ Utwórz tło w jednolitym kolorze.
 
 Namaluj nowego duszka platformy **Start**.
 
-Zacznij od prostego, jednokolorowego kształtu. Możesz dodać więcej szczegółów później.
+Zacznij od prostego, jednokolorowego kształtu. You can turn the outline off by choosing the red diagonal line.
+
+![](images/no-outline.png)
+
+Możesz dodać więcej szczegółów później.
 
 Wyśrodkuj swój kostium w edytorze Paint.
 
@@ -75,17 +79,11 @@ Lub namaluj własnego duszka **postaci**. Zacznij od prostych kształtów i doda
 
 Twój duszek **postaci** potrzebuje skryptu początkowego, aby przygotować wszystko na rozpoczęcie gry.
 
---- collapse ---
+Make a `variable`{:class="block3variables"} called `landed`, and set it to the size your sprite should be when it has landed and is not jumping.
 
----
-title: Przygotuj swoją postać do startu
----
+Get your character to go to the **Start** `when flag clicked`{:class="block3events"}. Add a `go to front layer`{:class="block3looks"} block, so your character is on top of the platforms.
 
-Utwórz `zmienną`{:class="block3variables"} o nazwie `wylądował` i ustaw ją na rozmiar, jaki powinien mieć duszek, gdy wyląduje i nie skacze.
-
-Spraw, aby Twoja postać udała się do **Start** `po kliknięciu flagi`{:class="block3events"}. Dodaj blok `przesuń na wierzch`{:class="block3looks"}, aby Twoja postać znajdowała się na górze platform.
-
-**Postać:**
+**Character:**
 
 ```blocks3
 when flag clicked // setup
@@ -97,9 +95,7 @@ show
 broadcast (start v) // start other scripts
 ```
 
-**Wskazówka:** Odznacz zmienną `wylądował`{:class="block3variables"} w menu bloków `Zmienne`{:class="block3variables"}, aby nie była wyświetlana na scenie. Użytkownik nie musi widzieć tej zmiennej.
-
---- /collapse ---
+**Tip:** Uncheck the `landed`{:class="block3variables"} variable in the `Variables`{:class="block3variables"} Blocks menu so that it doesn't show on the Stage. The user doesn't need to see this variable.
 
 **Wskazówka:** Dobrym pomysłem jest `nadanie`{:class="block3events"} komunikatu `start`{:class="block3events"} na końcu skryptu instalacyjnego, aby inne skrypty wiedziały, kiedy wystartować. W przeciwnym razie mogą się uruchomić, zanim wszystko będzie gotowe.
 
