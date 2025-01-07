@@ -1,4 +1,4 @@
-## You will make
+## What you will make
 
 Σχεδίασε και δημιούργησε ένα παιχνίδι parkour με θέα από πάνω προς τα κάτω ή σε πλατφόρμες. Ο χαρακτήρας σας θα χρειαστεί να πηδήξει, να πηδήξει, να γλιστρήσει, να αναπηδήσει ή να πετάξει για να κινηθεί ανάμεσα σε κινούμενες πλατφόρμες και να φτάσει στο τέλος.
 
@@ -6,21 +6,12 @@
 <span style="color: #0faeb0">**Παιχνίδια με οπτική γωνία από ψηλά**</span> κοίταξε το παιχνίδι από ψηλά. Μερικές φορές όλο το παιχνίδι έχει αυτή την οπτική γωνία. Άλλα παιχνίδια χρησιμοποιούν οπτική γωνία από ψηλά όταν μπαίνεις σε λειτουργία σχεδίασης. Μπορείς να σκεφτείς παιχνίδια που παίζεις, που χρησιμοποιούν οπτική γωνία από ψηλά; 
 </p>
 
-Θα χρειαστεί να:
-+ Δημιουργήσεις ένα παιχνίδι με ένα στόχο χρησιμοποιώντας έναν αλγόριθμο που ελέγχει αν τηρούνται σημαντικές συνθήκες του παιχνιδιού
-+ Εξατομικεύσεις ένα παιχνίδι σύμφωνα με τα ενδιαφέροντά σου
-+ Προσαρμόσεις τη δυσκολία ενός παιχνιδιού, έτσι ώστε να είναι διασκεδαστικό όταν παίζεις
-
-![](images/example-strip.png)
-
 --- no-print ---
-
---- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-### Play ▶️ 
+### Play
 
 Click the space bar or tap the Stage to jump to the next platform. Υπολόγισε σωστά τη στιγμή που πηδάς για να μην πέσεις στην κρέμα custard.
 
@@ -31,13 +22,12 @@ Click the space bar or tap the Stage to jump to the next platform. Υπολόγ�
 </div>
 
 <div>
+**Don't fall in the custard!**: [See inside](https://scratch.mit.edu/projects/525202210/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525202210/?autostart=false" frameborder="0"></iframe>
 </div>
 
 </div>
-
---- /task ---
 
 ### Get ideas 💭
 
@@ -46,15 +36,23 @@ Click the space bar or tap the Stage to jump to the next platform. Υπολόγ�
 --- task ---
 
 Μελέτησε τα παρακάτω παραδείγματα έργων για να πάρεις ιδέες:
+
+**Baby bird**: [See inside](https://scratch.mit.edu/projects/525236983/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236983/?autostart=false" frameborder="0"></iframe>
 </div>
+
+**Log hopper**: [See inside](https://scratch.mit.edu/projects/525236345/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236345/?autostart=false" frameborder="0"></iframe>
 </div>
+
+**Planet bounce**: [See inside](https://scratch.mit.edu/projects/525236603/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236603/?autostart=false" frameborder="0"></iframe>
 </div>
+--- /task ---
+
 --- /no-print ---
 
 --- print-only ---
