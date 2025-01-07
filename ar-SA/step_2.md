@@ -35,7 +35,11 @@
 
 قم برسم ** ابدأ ** كائن منصة جديد .
 
-ابدأ بشكل بسيط بلون واحد. يمكنك إضافة المزيد من التفاصيل في وقت لاحق.
+ابدأ بشكل بسيط بلون واحد. You can turn the outline off by choosing the red diagonal line.
+
+![](images/no-outline.png)
+
+يمكنك إضافة المزيد من التفاصيل في وقت لاحق.
 
 قم بتوسيط المظهر في محرر الرسام.
 
@@ -75,17 +79,11 @@
 
 يحتاج كائن **شخصيتك** نص بداية لبدء التهيئة لبداية اللعبة.
 
---- collapse ---
+Make a `variable`{:class="block3variables"} called `landed`, and set it to the size your sprite should be when it has landed and is not jumping.
 
----
-title: احصل على شخصيتك جاهزة للبدء
----
+Get your character to go to the **Start** `when flag clicked`{:class="block3events"}. Add a `go to front layer`{:class="block3looks"} block, so your character is on top of the platforms.
 
-قم بعمل `متغير`{ class = "block3variables":} بالاسم `نزل`، وقم بتعيينه على الحجم الذي يجب أن يكون عليه الكائن الخاص بك عندما يهبط ولا يقفز.
-
-اجعل شخصيتك تذهب إلى **ابدأ** `عند النقر على العلم`{: class = "block3events"}. أضف `انتقل إلى كتلة الطبقة الأمامية`{:" class = "block3looks} الكتلة، بحيث تكون شخصيتك على اعلى المنصة.
-
-**الشخصية:**
+**Character:**
 
 ```blocks3
 when flag clicked // setup
@@ -97,9 +95,7 @@ show
 broadcast (start v) // start other scripts
 ```
 
-**نصيحة:** قم بإلغاء تحديد متغير `نزل`{class = "block3variables":} في قائمة كتل `المتغيرات`{: class = "block3variables"} حتى لا تظهر على المسرح. لا يحتاج المستخدم لرؤية هذا المتغير.
-
---- /collapse ---
+**Tip:** Uncheck the `landed`{:class="block3variables"} variable in the `Variables`{:class="block3variables"} Blocks menu so that it doesn't show on the Stage. The user doesn't need to see this variable.
 
 **نصيحة:** إنها فكرة جيدة أن تقوم `بث`{: "class="block3events} رسالة `بدء`{:" class="block3events} في نهاية البرنامج النصي للإعداد للسماح للنصوص الأخرى بمعرفة وقت البدء، وإلا قد يبدأون قبل أن يصبح كل شيء جاهزًا.
 
