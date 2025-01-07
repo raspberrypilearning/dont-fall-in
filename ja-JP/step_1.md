@@ -1,4 +1,4 @@
-## はじめに
+## What you will make
 
 トップダウン視点の障害物やプラットフォームのパルクールゲームを設計および作成します。 主人公のキャラクターは、跳んだり、跳びまわったり、跳びはねたり、滑空したり、飛んだりして、移動するプラットフォームに乗りながら、最後までたどり着かなければなりません。
 
@@ -6,23 +6,14 @@
 <span style="color: #0faeb0">**トップダウン/俯瞰視点ゲーム**</span>はゲームを上から見下ろします。 ゲーム全体がトップダウン視点を使用することもあれば、 デザインモードに入るときだけにこの視点を使用するゲームもあります。 トップダウン視点で遊ぶゲームを思いつきますか？ 
 </p>
 
-次のことを行います。
-+ 重要なゲーム条件をチェックするアルゴリズムを使ってゴールのあるゲームを作成します
-+ あなたの興味に合わせてゲームをパーソナライズします
-+ ゲームの難易度を調整して、楽しくプレイできるようにします
-
-![](images/example-strip.png)
-
 --- no-print ---
-
---- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-### 試してみる ▶️ 
+### Play
 
-スペースバーを押すかステージをタップして次のプラットフォームにジャンプします。 カスタードに落ちないようにタイミングを計ってジャンプしましょう。
+Click the space bar or tap the Stage to jump to the next platform. カスタードに落ちないようにタイミングを計ってジャンプしましょう。
 
 + このゲームはどのようにトップダウン視点を作成していますか？ 
 + 飛ぶとキャラクターのサイズはどのように変化しますか？ 
@@ -31,13 +22,12 @@
 </div>
 
 <div>
+**Don't fall in the custard!**: [See inside](https://scratch.mit.edu/projects/525202210/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525202210/?autostart=false" frameborder="0"></iframe>
 </div>
 
 </div>
-
---- /task ---
 
 ### アイデアを得る 💭
 
@@ -46,15 +36,23 @@
 --- task ---
 
 これらの例題プロジェクトを調べてより多くのアイデアを入手してください。
+
+**Baby bird**: [See inside](https://scratch.mit.edu/projects/525236983/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236983/?autostart=false" frameborder="0"></iframe>
 </div>
+
+**Log hopper**: [See inside](https://scratch.mit.edu/projects/525236345/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236345/?autostart=false" frameborder="0"></iframe>
 </div>
+
+**Planet bounce**: [See inside](https://scratch.mit.edu/projects/525236603/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236603/?autostart=false" frameborder="0"></iframe>
 </div>
+--- /task ---
+
 --- /no-print ---
 
 --- print-only ---
