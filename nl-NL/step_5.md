@@ -4,7 +4,7 @@
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 Nou dat is te makkelijk! 
 
-In deze stap voeg je platforms toe om op te landen. Door erop te springen voorkom je dat je erin valt. 
+In deze stap voeg je platforms toe om op te landen. Jumping on them will stop your sprite falling in. 
 </div>
 <div>
 ![](images/riding-example.png){:width="300px"}
@@ -227,8 +227,4 @@ broadcast (stop v)
 
 --- /task ---
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Er zijn veel <span style="color: #0faeb0">platformspellen</span> in 2D of soms zelfs in 3D!  Platforms komen veel voor in obstakel games en parkour-games. Sommige games hebben platforms die bewegen, worden getoond en verborgen, of geleidelijk verdwijnen als je erop springt. Heb jij wel eens een game gespeeld die platforms had waarop je moest springen? Hoe zit het met games met bewegende platforms?
-</p>
-
---- save ----
+--- save ---
