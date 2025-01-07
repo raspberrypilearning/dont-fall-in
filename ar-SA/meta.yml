@@ -6,11 +6,11 @@ meta_title: Scratch coding projects for kids and teens | Don't fall in
 meta_description: Learn Scratch with the Raspberry Pi Foundation’s coding projects for kids and teens. Make a Scratch parkour game then jump, hop, or fly to catch a ride.
 version: 4
 listed: true
-copyedit: false
+copyedit: true
 last_tested: "2021-03-26"
 steps:
   - 
-    title: You will make
+    title: What you will make
   - 
     title: اختر الموضوع الخاص بك
   - 
@@ -35,7 +35,8 @@ steps:
     completion:
       - external
   - 
-    title: قم بترقية مشروعك
+    title: Challenge
+    challenge: true
   - 
     title: مشاركة
   - 
