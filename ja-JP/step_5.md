@@ -4,7 +4,7 @@
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 うーん、これでは簡単すぎる！ 
 
-このステップでは、着地するプラットフォームを追加します。 その上にジャンプすれば落下を防げます。 
+このステップでは、着地するプラットフォームを追加します。 Jumping on them will stop your sprite falling in. 
 </div>
 <div>
 ![](images/riding-example.png){:width="300px"}
@@ -227,8 +227,4 @@ broadcast (stop v)
 
 --- /task ---
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-2Dと3Dのものを含めて<span style="color: #0faeb0">プラットフォームゲーム</span>がたくさんあります。 通常、障害物（オビー）ゲームやパルクールゲームにはプラットフォームがあります。 中には、ジャンプするときに移動したり、表示されたり隠れたり、徐々に消えたりするプラットフォームもあります。 プラットフォームにジャンプするゲームをプレイしたことはありますか？ プラットフォームが移動するゲームはどうですか？
-</p>
-
---- save ----
+--- save ---
