@@ -17,17 +17,12 @@
 
 --- /task ---
 
+###  End the game when touching a coloured platform
+
 --- task ---
 
-`色に触れた`{:class="block3sensing"}を使用して、キャラクターが**ゴール**のプラットフォームに到達したことを検出するコードを追加します。
+Use a `touching color`{:class="block3sensing"} block to detect when your character sprite reaches the **End** platform.
 
---- collapse ---
-
----
-title: 色に触れたらゲームが終了します
----
-
-**キャラクター**:
 
 ```blocks3
 when I receive [start v]
@@ -44,15 +39,29 @@ end
 end
 ```
 
-「停止」`メッセージを送る`{:class ="block3events"}でゲームが終了したことを他のスプライトに知らせるのがよいでしょう。 `スプライトの他のスクリプトを止める`{:class="block3control"}ブロックはキャラクターをジャンプさせるループを停止します。
+`スプライトの他のスクリプトを止める`{:class="block3control"}ブロックはキャラクターをジャンプさせるループを停止します。
 
---- /collapse ---
+A `broadcast (stop v)`{:class="block3events"} message is used when your game is finished so that other sprites can stop, but this sprite can do something such as playing a sound before it stops.
 
-色は**ゴール**のプラットフォームの色に合わせる必要があります。
+--- /task ---
 
-[[[scratch3-set-block-input-colour-with-eyedropper]]]
+Use the eyedropper to pick the colour of your **End** platform
 
-**ヒント：** ゲームが終了したことを検出したら、`停止`{:class="block3events"}`メッセージを送る`{:class="block3events"}とよいでしょう。そうすれば、他のスプライトを停止させて、今のスプライトが停止する前に音を再生するといった何かを行えます。
+--- task ---
+
+```blocks3
+<touching color (#20f73b) ?>
+
+```
+Click on the colour input to open the colour picker and then click on the eyedropper at the bottom.
+
+![](images/eye-dropper-tool.png)
+
+Move the mouse pointer over to the End platform on the Stage and click to select the colour.
+
+![](images/eye-dropper-stage.png)
+
+The colour in the block input will change to match the colour you chose. Click in the Code area to close the colour picker.
 
 --- /task ---
 
