@@ -2,43 +2,43 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: Domanda 3 di 3
 ---
 
-Which block should a sprite use to let another sprite know that something has happened?
+Quale blocco dovrebbe usare uno sprite per far sapere a un altro sprite che è successo qualcosa?
 
 --- choices ---
 
-- ( ) `when I receive`{:class="block3events"}
+- ( ) `quando ricevo`{:class="block3events"}
 
   --- feedback ---
 
-Not quite, this block is used to get a sprite to do something when it receives a message.
+Non proprio, questo blocco viene utilizzato per far sì che uno sprite faccia qualcosa quando riceve un messaggio.
 
   --- /feedback ---
 
-- ( ) `when this sprite clicked`{:class="block3events"}
+- ( ) `quando si clicca questo sprite`{:class="block3events"}
 
 
   --- feedback ---
 
-No, this block is used by one sprite to get it to do something when you click on it.
+No, questo blocco viene utilizzato da uno sprite per fargli fare qualcosa quando ci clicchi sopra.
 
   --- /feedback ---
 
-- (x) `broadcast`{:class="block3events"}
+- (x) `invia a tutti`{:class="block3events"}
 
   --- feedback ---
 
-Yes, this block sends a message that can be used to communicate with other sprites.
+Sì, questo blocco invia un messaggio che può essere utilizzato per comunicare con altri sprite.
 
   --- /feedback ---
 
-- ( ) `start`{:class="block3events"}
+- ( ) `inizio`{:class="block3events"}
 
   --- feedback ---
 
-No, `start`{:class="block3events"} can be a message that the block sent, but it is not a block.
+No, `start`{:class="block3events"} può essere un messaggio inviato dal blocco, ma non è un blocco.
 
   --- /feedback ---
 
