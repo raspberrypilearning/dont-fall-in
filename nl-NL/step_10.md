@@ -4,7 +4,7 @@ Als je het [Meer scratch](https://projects.raspberrypi.org/en/raspberrypi/more-s
 
 --- print-only ---
 
-![Deze sprite heeft je nodig](images/this-sprite-needs-you.png)
+![Deze sprite heeft je nodig](images/this-sprite-needs-you-project.png)
 
 --- /print-only ---
 
