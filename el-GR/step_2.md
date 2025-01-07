@@ -35,7 +35,11 @@
 
 Ζωγράφισε ένα νέο αντικείμενο πλατφόρμας **Έναρξη**.
 
-Ξεκίνησε με ένα απλό μονόχρωμο σχήμα. Μπορείς να προσθέσεις περισσότερες λεπτομέρειες αργότερα.
+Ξεκίνησε με ένα απλό μονόχρωμο σχήμα. You can turn the outline off by choosing the red diagonal line.
+
+![](images/no-outline.png)
+
+Μπορείς να προσθέσεις περισσότερες λεπτομέρειες αργότερα.
 
 Δημιούργησε μία νέα ενδυμασία στον επεξεργαστή ζωγραφικής.
 
@@ -75,17 +79,11 @@
 
 Το αντικείμενο **χαρακτήρα** χρειάζεται ένα script έναρξης για να ρυθμίσεις τα πάντα για την αρχή του παιχνιδιού.
 
---- collapse ---
+Make a `variable`{:class="block3variables"} called `landed`, and set it to the size your sprite should be when it has landed and is not jumping.
 
----
-title: Ετοίμασε τον χαρακτήρα σου να ξεκινήσει
----
+Get your character to go to the **Start** `when flag clicked`{:class="block3events"}. Add a `go to front layer`{:class="block3looks"} block, so your character is on top of the platforms.
 
-Δημιούργησε μια `μεταβλητή`{:class="block3variables"} που ονομάζεται `προσγειωμένη` και όρισέ την στο μέγεθος που πρέπει να είναι το αντικείμενό σου όταν έχει προσγειωθεί και δεν κάνει άλμα.
-
-Βάλε τον χαρακτήρα σου να πάει στην **Έναρξη** `όταν κάνεις κλικ στη σημαία`{:class="block3events"}. Πρόσθεσε ένα μπλοκ `πήγαινε σε επίπεδο προσκήνιο`{:class="block3looks"}, ώστε ο χαρακτήρας σου να βρίσκεται πάνω από τις πλατφόρμες.
-
-**Χαρακτήρας:**
+**Character:**
 
 ```blocks3
 when flag clicked // setup
@@ -97,9 +95,7 @@ show
 broadcast (start v) // start other scripts
 ```
 
-**Συμβουλή:** Κατάργησε την επιλογή της μεταβλητής `προσγειωμένη`{:class="block3variables"} στο μενού μπλοκ `Μεταβλητές`{:class="block3variables"} ώστε να μην εμφανίζεται στην Σκηνή. Ο χρήστης δεν χρειάζεται να δει αυτή τη μεταβλητή.
-
---- /collapse ---
+**Tip:** Uncheck the `landed`{:class="block3variables"} variable in the `Variables`{:class="block3variables"} Blocks menu so that it doesn't show on the Stage. The user doesn't need to see this variable.
 
 **Συμβουλή:** Είναι καλή ιδέα να `μεταδώσεις`{:class="block3events"} ένα μήνυμα `έναρξη`{:class="block3events"} στο τέλος του script προετοιμασίας για να ενημερώσεις τα άλλα script πότε πρέπει να ξεκινήσουν, διαφορετικά μπορεί να ξεκινήσουν πριν να είναι όλα έτοιμα.
 
