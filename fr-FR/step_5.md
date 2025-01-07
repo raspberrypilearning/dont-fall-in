@@ -4,7 +4,7 @@
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 Eh bien c'est trop facile ! 
 
-Dans cette étape, tu ajouteras des plateformes sur lesquelles atterrir. Sauter dessus évitera de tomber. 
+Dans cette étape, tu ajouteras des plateformes sur lesquelles atterrir. Jumping on them will stop your sprite falling in. 
 </div>
 <div>
 ![](images/riding-example.png){:width="300px"}
@@ -227,8 +227,4 @@ broadcast (stop v)
 
 --- /task ---
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Il existe de nombreux <span style="color: #0faeb0">jeux de plateformes</span>, y compris des jeux 2D et 3D. Les plateformes sont courantes dans les jeux d'obstacles (obby) et les jeux de parcours. Certains jeux ont des plateformes qui se déplacent, s'affichent et se cachent, ou disparaissent progressivement lorsque tu sautes dessus. Peux-tu penser à des jeux auxquels tu as joué qui ont des plateformes sur lesquelles tu dois sauter ? Qu'en est-il des jeux avec des plateformes mobiles ?
-</p>
-
---- save ----
+--- save ---
