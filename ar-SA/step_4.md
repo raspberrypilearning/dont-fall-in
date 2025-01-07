@@ -17,17 +17,12 @@
 
 --- /task ---
 
+###  End the game when touching a coloured platform
+
 --- task ---
 
-أضف التعليمات البرمجية لاكتشاف متى تصل شخصيتك إلى **نهاية** المنصة باستخدام `ملامس للون` {:" class = "block3sensing}.
+Use a `touching color`{:class="block3sensing"} block to detect when your character sprite reaches the **End** platform.
 
---- collapse ---
-
----
-title: قم بإنهاء اللعبة عند لمس اللون
----
-
-**الشخصية**:
 
 ```blocks3
 when I receive [start v]
@@ -44,15 +39,29 @@ end
 end
 ```
 
-إنها لفكرة جيدة لـ `بث` {:"class = "block3events} رسالة "إيقاف" لإعلام الكائنات الأخرى بأن اللعبة قد انتهت. `توقف النصية الأخرى في الكائن`{:" class = "block3control} توقف الحلقة التي تجعل الشخصية يقفز.
+`توقف النصية الأخرى في الكائن`{:" class = "block3control} توقف الحلقة التي تجعل الشخصية يقفز.
 
---- /collapse ---
+A `broadcast (stop v)`{:class="block3events"} message is used when your game is finished so that other sprites can stop, but this sprite can do something such as playing a sound before it stops.
 
-سوف تحتاج إلى ضبط اللون الذي يتم استشعاره على لون الخاص بك **النهاية** المنصة.
+--- /task ---
 
-[[[scratch3-set-block-input-colour-with-eyedropper]]]
+Use the eyedropper to pick the colour of your **End** platform
 
-**نصيحة:** إنها فكرة جيدة أن تقوم `بالبث` {:" class = "block3events} `توقف` {:" class = "block3events} رسالة عندما تكتشف أن لعبتك قد انتهت بحيث يمكن أن تتوقف الكائنات الحية الأخرى ، ولكن هذا يمكن للكائن أن يفعل شيئًا مثل تشغيل صوت قبل أن يتوقف.
+--- task ---
+
+```blocks3
+<touching color (#20f73b) ?>
+
+```
+Click on the colour input to open the colour picker and then click on the eyedropper at the bottom.
+
+![](images/eye-dropper-tool.png)
+
+Move the mouse pointer over to the End platform on the Stage and click to select the colour.
+
+![](images/eye-dropper-stage.png)
+
+The colour in the block input will change to match the colour you chose. Click in the Code area to close the colour picker.
 
 --- /task ---
 
