@@ -4,7 +4,7 @@
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 Wel mae hynny'n rhy hawdd! 
 
-Yn y cam yma, byddi di'n ychwanegu mwy o blatfformiau i lanio arnyn nhw. Bydd neidio arnyn nhw'n osgoi disgyn i mewn. 
+Yn y cam yma, byddi di'n ychwanegu mwy o blatfformiau i lanio arnyn nhw. Jumping on them will stop your sprite falling in. 
 </div>
 <div>
 ![](images/riding-example.png){:width="300px"}
@@ -227,8 +227,4 @@ broadcast (stop v)
 
 --- /task ---
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Mae yna lawer o <span style="color: #0faeb0">gemau platfformio</span> gan gynnwys rhai 2D a 3D. Mae platfformiau yn gyffredin mewn gemau rhwystrau (obby) a gemau parkour. Mae gan rai gemau blatfformiau sy'n symud, sy'n ymddangos ac yn cuddio, neu'n sy'n diflannu'n raddol pan fydd di'n neidio arnyn nhw. Allwi di feddwl am gemau rwyt ti wedi'u chwarae sydd â phlatfformiau mae'n rhaid i ti neidio arnyn nhw? Beth am gemau gyda phlatfformiau sy'n symud?
-</p>
-
---- save ----
+--- save ---
