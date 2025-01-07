@@ -17,17 +17,12 @@
 
 --- /task ---
 
+###  End the game when touching a coloured platform
+
 --- task ---
 
-Πρόσθεσε κώδικα για να εντοπίσεις πότε ο χαρακτήρας σου φτάνει στην πλατφόρμα **Τέλος** χρησιμοποιώντας το `αγγίζει χρώμα`{:class="block3sensing"}.
+Use a `touching color`{:class="block3sensing"} block to detect when your character sprite reaches the **End** platform.
 
---- collapse ---
-
----
-title: Τερμάτισε το παιχνίδι όταν αγγίζεις χρώμα
----
-
-**Χαρακτήρας**:
 
 ```blocks3
 when I receive [start v]
@@ -44,15 +39,29 @@ end
 end
 ```
 
-Είναι καλή ιδέα να `μεταδώσεις`{:class="block3events"} ένα μήνυμα 'λήψη' για να ενημερώσεις τα άλλα αντικείμενα ότι το παιχνίδι έχει τελειώσει. Το μπλοκ `σταμάτησε άλλα σενάρια σε αυτό το αντικείμενο`{:class="block3control"} σταματά τον βρόχο που κάνει τον χαρακτήρα να πηδήξει.
+Το μπλοκ `σταμάτησε άλλα σενάρια σε αυτό το αντικείμενο`{:class="block3control"} σταματά τον βρόχο που κάνει τον χαρακτήρα να πηδήξει.
 
---- /collapse ---
+A `broadcast (stop v)`{:class="block3events"} message is used when your game is finished so that other sprites can stop, but this sprite can do something such as playing a sound before it stops.
 
-Θα χρειαστεί να ορίσεις το χρώμα που αγγίζει ο χαρακτήρας στο χρώμα της πλατφόρμας **Τέλος**.
+--- /task ---
 
-[[[scratch3-set-block-input-colour-with-eyedropper]]]
+Use the eyedropper to pick the colour of your **End** platform
 
-**Συμβουλή:** Είναι καλή ιδέα να `μεταδώσεις`{:class="block3events"} ένα μήνυμα `λήξη`{:class="block3events"} όταν αντιληφθείς ότι τελείωσε το παιχνίδι, έτσι ώστε τα υπόλοιπα αντικείμενα να σταματήσουν, αλλά αυτό το αντικείμνο να μπορεί να κάνει κάτι όπως να παίξει έναν ήχο πριν σταματήσει.
+--- task ---
+
+```blocks3
+<touching color (#20f73b) ?>
+
+```
+Click on the colour input to open the colour picker and then click on the eyedropper at the bottom.
+
+![](images/eye-dropper-tool.png)
+
+Move the mouse pointer over to the End platform on the Stage and click to select the colour.
+
+![](images/eye-dropper-stage.png)
+
+The colour in the block input will change to match the colour you chose. Click in the Code area to close the colour picker.
 
 --- /task ---
 
