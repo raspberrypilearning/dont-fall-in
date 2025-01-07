@@ -1,4 +1,4 @@
-## You will make
+## What you will make
 
 تصميم وبناء عرض من أعلى لأسفل ، أو عقبة أو منصة ، لعبة باركور. ستحتاج شخصيتك إلى القفز ، أو القفز ، أو الانزلاق ، أو الارتداد ، أو الطيران للركوب على منصات متحركة والوصول إلى النهاية.
 
@@ -6,21 +6,12 @@
 <span style="color: #0faeb0">** ألعاب من أعلى إلى أسفل / رؤية عين الطائر **</span> انظر إلى أسفل على اللعبة من أعلى. أحيانًا يكون للعبة بأكملها وجهة النظر هذه. تستخدم الألعاب الأخرى طرق العرض من أعلى لأسفل عند الدخول إلى وضع التصميم. هل يمكنك التفكير في أي ألعاب تلعبها تستخدم العرض من أعلى لأسفل؟ 
 </p>
 
-سوف تفعلها:
-+ اصنع لعبة بهدف باستخدام خوارزمية تتحقق من ظروف اللعبة المهمة
-+ قم بإضفاء الطابع الشخصي على لعبة حسب اهتماماتك
-+ اضبط مستوى صعوبة اللعبة ، بحيث يكون اللعب ممتعًا
-
-![](images/example-strip.png)
-
 --- no-print ---
-
---- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-### Play ▶️ 
+### Play
 
 Click the space bar or tap the Stage to jump to the next platform. حان وقت قفزاتك حتى لا تقع في الكاسترد.
 
@@ -31,13 +22,12 @@ Click the space bar or tap the Stage to jump to the next platform. حان وقت
 </div>
 
 <div>
+**Don't fall in the custard!**: [See inside](https://scratch.mit.edu/projects/525202210/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525202210/?autostart=false" frameborder="0"></iframe>
 </div>
 
 </div>
-
---- /task ---
 
 ### Get ideas 💭
 
@@ -46,15 +36,23 @@ Click the space bar or tap the Stage to jump to the next platform. حان وقت
 --- task ---
 
 استكشف هذه المشاريع النموذجية للحصول على مزيد من الأفكار:
+
+**Baby bird**: [See inside](https://scratch.mit.edu/projects/525236983/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236983/?autostart=false" frameborder="0"></iframe>
 </div>
+
+**Log hopper**: [See inside](https://scratch.mit.edu/projects/525236345/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236345/?autostart=false" frameborder="0"></iframe>
 </div>
+
+**Planet bounce**: [See inside](https://scratch.mit.edu/projects/525236603/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236603/?autostart=false" frameborder="0"></iframe>
 </div>
+--- /task ---
+
 --- /no-print ---
 
 --- print-only ---
