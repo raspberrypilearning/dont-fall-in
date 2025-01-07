@@ -4,7 +4,7 @@ Jeśli podążasz ścieżką [Więcej Scratcha](https://projects.raspberrypi.org
 
 --- print-only ---
 
-![Ten duszek Cię potrzebuje](images/this-sprite-needs-you.png)
+![Ten duszek Cię potrzebuje](images/this-sprite-needs-you-project.png)
 
 --- /print-only ---
 
