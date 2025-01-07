@@ -4,7 +4,7 @@
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 Bem, isso é muito fácil! 
 
-Nesta etapa, você adicionará plataformas para pousar. Pular sobre eles evitará cair. 
+Nesta etapa, você adicionará plataformas para pousar. Jumping on them will stop your sprite falling in. 
 </div>
 <div>
 ![](images/riding-example.png){:width="300px"}
@@ -227,8 +227,4 @@ broadcast (stop v)
 
 --- /task ---
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Existem muitos <span style="color: #0faeb0">jogos de plataforma</span> incluindo jogos 2D e 3D. As plataformas são comuns em jogos de obstáculos (obby) e jogos de parkour. Alguns jogos possuem plataformas que se movem, mostram e escondem, ou desaparecem gradualmente quando você salta sobre elas. Você consegue pensar em jogos que você jogou e que possuem plataformas nas quais você precisa pular? E os jogos com plataformas móveis?
-</p>
-
---- save ----
+--- save ---
