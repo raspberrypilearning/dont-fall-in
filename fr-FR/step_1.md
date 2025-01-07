@@ -1,4 +1,4 @@
-## Ce que tu vas faire
+## What you will make
 
 Conçois et construis un jeu de parcours en vue de dessus, avec obstacles ou plateformes. Ton personnage devra sauter, bondir, glisser, rebondir ou voler pour monter sur des plateformes mobiles et arriver à la fin.
 
@@ -6,23 +6,14 @@ Conçois et construis un jeu de parcours en vue de dessus, avec obstacles ou pla
 <span style="color: #0faeb0">**Jeux avec vue de dessus/aérienne**</span> Regarde le jeu d'en haut. Parfois, le jeu entier a cette vue. D'autres jeux utilisent des vues de dessus lorsque tu entres dans un mode de conception. Peux-tu penser à des jeux auxquels tu joues qui utilisent la vue de dessus ? 
 </p>
 
-Tu vas devoir :
-+ Créer un jeu avec un objectif en utilisant un algorithme qui vérifie les conditions de jeu importantes
-+ Personnaliser un jeu selon tes intérêts
-+ Ajuster la difficulté d'un jeu, pour qu'il soit amusant à jouer
-
-![](images/example-strip.png)
-
 --- no-print ---
-
---- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-### Joue ▶️ 
+### Play
 
-Clique sur la barre d'espace ou appuie sur la scène pour passer à la plate-forme suivante. Chronomètre tes sauts pour ne pas tomber dans la crème.
+Click the space bar or tap the Stage to jump to the next platform. Chronomètre tes sauts pour ne pas tomber dans la crème.
 
 + Comment le jeu crée-t-il une vue de dessus ? 
 + Comment la taille du personnage change-t-elle lorsqu'il vole ? 
@@ -31,13 +22,12 @@ Clique sur la barre d'espace ou appuie sur la scène pour passer à la plate-for
 </div>
 
 <div>
+**Don't fall in the custard!**: [See inside](https://scratch.mit.edu/projects/525202210/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525202210/?autostart=false" frameborder="0"></iframe>
 </div>
 
 </div>
-
---- /task ---
 
 ### Trouve l'inspiration
 
@@ -46,15 +36,23 @@ Tu vas prendre des décisions de conception pour créer ton propre jeu de platef
 --- task ---
 
 Explore ces exemples de projets pour obtenir plus d'idées :
+
+**Baby bird**: [See inside](https://scratch.mit.edu/projects/525236983/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236983/?autostart=false" frameborder="0"></iframe>
 </div>
+
+**Log hopper**: [See inside](https://scratch.mit.edu/projects/525236345/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236345/?autostart=false" frameborder="0"></iframe>
 </div>
+
+**Planet bounce**: [See inside](https://scratch.mit.edu/projects/525236603/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236603/?autostart=false" frameborder="0"></iframe>
 </div>
+--- /task ---
+
 --- /no-print ---
 
 --- print-only ---
