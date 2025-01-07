@@ -17,17 +17,12 @@ Dodasz pętlę `zawsze`{:class="block3control"}, która sprawdza, czy Twoja **po
 
 --- /task ---
 
+###  End the game when touching a coloured platform
+
 --- task ---
 
-Dodaj kod, aby wykryć, kiedy Twoja postać dotrze do platformy **Koniec**, używając `dotyka koloru`{:class="block3sensing"}.
+Use a `touching color`{:class="block3sensing"} block to detect when your character sprite reaches the **End** platform.
 
---- collapse ---
-
----
-title: Zakończ grę, gdy gracz dotknie koloru
----
-
-**Postać**:
 
 ```blocks3
 when I receive [start v]
@@ -44,15 +39,29 @@ end
 end
 ```
 
-Dobrym pomysłem jest `nadanie`{:class="block3events"} komunikatu „zatrzymaj”, aby inne duszki wiedziały, że gra się zakończyła. Blok `zatrzymaj inne skrypty duszka`{:class="block3control"} zatrzymuje pętlę powodującą przeskok postaci.
+Blok `zatrzymaj inne skrypty duszka`{:class="block3control"} zatrzymuje pętlę powodującą przeskok postaci.
 
---- /collapse ---
+A `broadcast (stop v)`{:class="block3events"} message is used when your game is finished so that other sprites can stop, but this sprite can do something such as playing a sound before it stops.
 
-Będziesz musiał ustawić wykrywany kolor na kolor platformy **Koniec**.
+--- /task ---
 
-[[[scratch3-set-block-input-colour-with-eyedropper]]]
+Use the eyedropper to pick the colour of your **End** platform
 
-**Wskazówka:** Dobrym pomysłem jest `nadawanie`{:class="block3events"} komunikatu `-stop`{:class="block3events"}, gdy wykryjesz, że gra się zakończyła, aby inne duszki mogły się zatrzymać. Dany duszek może np. odtworzyć dźwięk, zanim się zatrzyma.
+--- task ---
+
+```blocks3
+<touching color (#20f73b) ?>
+
+```
+Click on the colour input to open the colour picker and then click on the eyedropper at the bottom.
+
+![](images/eye-dropper-tool.png)
+
+Move the mouse pointer over to the End platform on the Stage and click to select the colour.
+
+![](images/eye-dropper-stage.png)
+
+The colour in the block input will change to match the colour you chose. Click in the Code area to close the colour picker.
 
 --- /task ---
 
