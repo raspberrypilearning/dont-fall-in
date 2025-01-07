@@ -35,7 +35,11 @@ Crea un fondo de color sólido.
 
 Dibuja un nuevo objeto como plataforma de **Inicio**.
 
-Empieza con una forma simple de un solo color. Puedes agregar más detalles después.
+Empieza con una forma simple de un solo color. You can turn the outline off by choosing the red diagonal line.
+
+![](images/no-outline.png)
+
+Puedes agregar más detalles después.
 
 Centra tu disfraz en el Editor de dibujos.
 
@@ -75,17 +79,11 @@ O dibujar tu propio objeto **personaje**. Comienza con formas simples y agrega d
 
 El objeto **personaje** tiene que tener un script de inicio para configurar todo lo necesario para que empiece el juego.
 
---- collapse ---
+Make a `variable`{:class="block3variables"} called `landed`, and set it to the size your sprite should be when it has landed and is not jumping.
 
----
-title: Prepara a tu personaje para empezar
----
+Get your character to go to the **Start** `when flag clicked`{:class="block3events"}. Add a `go to front layer`{:class="block3looks"} block, so your character is on top of the platforms.
 
-Crea una `variable`{:class="block3variables"} llamada `aterrizaje` y configúrala con el tamaño que debería tener tu objeto cuando está apoyado y no está saltando.
-
-Haz que tu personaje vaya al **Inicio** `al presionar la bandera`{:class="block3events"}. Agrega el bloque `ir a la capa de adelante`{:class="block3looks"} para que tu personaje esté encima de las plataformas.
-
-**Personaje:**
+**Character:**
 
 ```blocks3
 when flag clicked // setup
@@ -97,9 +95,7 @@ show
 broadcast (start v) // start other scripts
 ```
 
-**Consejo:** Desmarca la variable `aterrizaje`{:class="block3variables"} en el menú de Bloques de `Variables`{:class="block3variables"} para que no se muestre en el Escenario. El usuario no necesita ver esta variable.
-
---- /collapse ---
+**Tip:** Uncheck the `landed`{:class="block3variables"} variable in the `Variables`{:class="block3variables"} Blocks menu so that it doesn't show on the Stage. The user doesn't need to see this variable.
 
 **Consejo:** Es una buena idea `enviar`{:class="block3events"} un mensaje de `inicio`{:class="block3events"} al final de tu script de configuración para que otros scripts sepan cuándo empezar, de lo contrario podrían hacerlo antes de que todo esté listo.
 
