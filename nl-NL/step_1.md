@@ -1,4 +1,4 @@
-## Wat ga je maken
+## What you will make
 
 Ontwerp en maak een hindernis- of platformparkour-spel met bovenaanzicht. Je personage moet springen, huppelen, glijden, stuiteren of vliegen om een ritje te maken op bewegende platforms en het einde te halen.
 
@@ -6,23 +6,14 @@ Ontwerp en maak een hindernis- of platformparkour-spel met bovenaanzicht. Je per
 <span style="color: #0faeb0">**Bovenaanzicht/vogelvlucht** games</span> kijken van bovenaf op het spel. Soms heeft het hele spel deze weergave. Andere games gebruiken bovenaanzichtweergave wanneer je een ontwerpmodus opent. Kun je spellen bedenken die je speelt met een weergave van bovenaf? 
 </p>
 
-Je gaat:
-+ Een spel maken dat met behulp van een algoritme belangrijke spelvoorwaarden controleert om te zien of je (al dan niet) je doel hebt bereikt
-+ Een game naar jouw interesses personaliseren
-+ De moeilijkheidsgraad van het spel aanpassen, zodat het leuk is om te spelen
-
-![](images/example-strip.png)
-
 --- no-print ---
-
---- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-### Speel ▶️ 
+### Play
 
-Klik op de spatiebalk of tik op het speelveld om naar het volgende platform te springen. Denk goed na over de timing van je sprongen zodat je niet in de vla valt.
+Click the space bar or tap the Stage to jump to the next platform. Denk goed na over de timing van je sprongen zodat je niet in de vla valt.
 
 + Hoe creëert het spel een bovenaanzicht? 
 + Hoe verandert de grootte van het personage als het vliegt? 
@@ -31,13 +22,12 @@ Klik op de spatiebalk of tik op het speelveld om naar het volgende platform te s
 </div>
 
 <div>
+**Don't fall in the custard!**: [See inside](https://scratch.mit.edu/projects/525202210/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525202210/?autostart=false" frameborder="0"></iframe>
 </div>
 
 </div>
-
---- /task ---
 
 ### Doe inspiratie op 💭
 
@@ -46,15 +36,23 @@ Je gaat een aantal ontwerpbeslissingen nemen om je eigen platformgame met bovena
 --- task ---
 
 Bekijk deze voorbeeldprojecten om meer ideeën op te doen:
+
+**Baby bird**: [See inside](https://scratch.mit.edu/projects/525236983/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236983/?autostart=false" frameborder="0"></iframe>
 </div>
+
+**Log hopper**: [See inside](https://scratch.mit.edu/projects/525236345/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236345/?autostart=false" frameborder="0"></iframe>
 </div>
+
+**Planet bounce**: [See inside](https://scratch.mit.edu/projects/525236603/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236603/?autostart=false" frameborder="0"></iframe>
 </div>
+--- /task ---
+
 --- /no-print ---
 
 --- print-only ---
