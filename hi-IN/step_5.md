@@ -4,7 +4,7 @@
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 Well that's too easy! 
 
-In this step, you will add platforms to land on. Jumping on them will avoid falling in. 
+In this step, you will add platforms to land on. Jumping on them will stop your sprite falling in. 
 </div>
 <div>
 ![](images/riding-example.png){:width="300px"}
@@ -227,8 +227,4 @@ broadcast (stop v)
 
 --- /task ---
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-There are lots of <span style="color: #0faeb0">platform games</span> including 2D and 3D ones. Platforms are common in obstacle (obby) games and parkour games. Some games have platforms that move, show and hide, or gradually disappear when you jump on them. Can you think of games that you have played that have platforms that you have to jump on? What about games with moving platforms?
-</p>
-
---- save ----
+--- save ---
