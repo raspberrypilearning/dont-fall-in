@@ -1,8 +1,8 @@
-## Choose your theme
+## Scegli un tema
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add a character and backdrop, and create start and end platforms. 
+In questa fase aggiungerai un personaggio e uno sfondo e creerai le piattaforme di partenza e di arrivo. 
 </div>
 <div>
 ![](images/setup-example.png){:width="300px"}
@@ -11,13 +11,13 @@ In this step, you will add a character and backdrop, and create start and end pl
 
 --- task ---
 
-Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"} and delete the cat sprite. Scratch will open in another browser tab.
+Apri un [nuovo progetto Scratch](http://rpf.io/scratch-new){:target="_blank"} ed elimina lo sprite del gatto. Scratch si aprirà in una nuova scheda del browser.
 
 --- /task ---
 
 --- task ---
 
-Create a solid colour backdrop.
+Crea uno sfondo di colore uniforme.
 
 [[[scratch-paint-single-colour-backdrop]]]
 
@@ -25,7 +25,7 @@ Create a solid colour backdrop.
 
 --- task ---
 
-**Choose:** Will your character move from left to right, or bottom to top?
+**Scegli:** Il tuo personaggio si muoverà da sinistra verso destra o dal basso verso l'alto?
 
 ![](images/direction-examples.png)
 
@@ -33,39 +33,43 @@ Create a solid colour backdrop.
 
 --- task ---
 
-Paint a new **Start** platform sprite.
+Dipingi un nuovo sprite della piattaforma **Partenza**.
 
-Start with a simple single coloured shape. You can add more detail later.
+Inizia con una semplice forma monocromatica. You can turn the outline off by choosing the red diagonal line.
 
-Centre your costume in the Paint editor.
+![](images/no-outline.png)
+
+Potrai aggiungere ulteriori dettagli in seguito.
+
+Creare un nuovo costume nell'editor di Paint.
 
 [[[scratch-crosshair]]]
 
-Position your **Start** platform sprite where you want your character to start the game.
+Posiziona lo sprite della piattaforma **Partenza** nel punto in cui vuoi che il tuo personaggio inizi la partita.
 
 --- /task ---
 
 --- task ---
 
-Create a simple **End** platform sprite. You can add more detail later.
+Crea uno sprite della piattaforma semplice **Arrivo**. Potrai aggiungere ulteriori dettagli in seguito.
 
-Centre your costume in the Paint editor.
+Creare un nuovo costume nell'editor di Paint.
 
-Position your **End** sprite on the Stage where you want your character to finish the game.
+Posiziona il tuo sprite **Arrivo** sullo Stage in cui vuoi che il tuo personaggio termini il gioco.
 
 --- /task ---
 
 --- task ---
 
-Create a **character** sprite.
+Crea uno sprite del **personaggio**.
 
-**Choose:** Do you want to add or paint a **character** sprite?
+**Scegli:** Vuoi aggiungere o dipingere uno sprite del **personaggio**?
 
-You might want to add a top-down **character** sprite such as **Tatiana**, **Taylor**, or **Trisha**.
+Potresti voler aggiungere uno sprite **personaggio** visto dall'alto come **Tatiana**, **Taylor**, o **Trisha**.
 
-![Image of the top down sprites available in scratch](images/top-down-sprites.png)
+![Immagine degli sprite dall'alto verso il basso disponibili in scratch](images/top-down-sprites.png)
 
-Or, paint your own **character** sprite. Start with simple shapes and add details later. Centre your costume in the Paint editor.
+Oppure dipingi il tuo sprite del **personaggio**. Inizia con forme semplici e aggiungi i dettagli in un secondo momento. Creare un nuovo costume nell'editor di Paint.
 
 [[[generic-scratch3-draw-sprite]]]
 
@@ -73,13 +77,7 @@ Or, paint your own **character** sprite. Start with simple shapes and add detail
 
 --- task ---
 
-Your **character** sprite needs a start script to get everything set up for the beginning of the game.
-
---- collapse ---
-
----
-title: Get your character ready to start
----
+Lo sprite del tuo **personaggio** ha bisogno di uno script di avvio per preparare tutto all'inizio del gioco.
 
 Make a `variable`{:class="block3variables"} called `landed`, and set it to the size your sprite should be when it has landed and is not jumping.
 
@@ -99,9 +97,7 @@ broadcast (start v) // start other scripts
 
 **Tip:** Uncheck the `landed`{:class="block3variables"} variable in the `Variables`{:class="block3variables"} Blocks menu so that it doesn't show on the Stage. The user doesn't need to see this variable.
 
---- /collapse ---
-
-**Tip:** It's a good idea to `broadcast`{:class="block3events"} a `start`{:class="block3events"} message at the end of your setup script to let other scripts know when to start, otherwise they might start before everything is ready.
+**Suggerimento:** è una buona idea `trasmettere`{:class="block3events"} un messaggio di `inizio`{:class="block3events"} alla fine dello script di installazione per far sapere agli altri script quando iniziare, altrimenti potrebbero avviarsi prima che tutto sia pronto.
 
 --- /task ---
 
@@ -112,12 +108,12 @@ broadcast (start v) // start other scripts
 --- collapse ---
 
 ---
-title: My sprite is pointing in the wrong direction
+title: Il mio sprite punta o salta nella direzione sbagliata
 ---
 
-The **Direction** property in the Sprite pane can be used to control the direction the sprite is pointing in. Turn the wheel to make a sprite point in the direction you need.
+La proprietà **Direzione** nel riquadro Sprite può essere utilizzata per controllare la direzione in cui punta lo sprite. Gira la rotellina per far sì che uno sprite punti nella direzione desiderata.
 
-![The sprite pane with direction property selected. A pop up menu is shown with a direction wheel used for adjusting the direction the sprite is pointing.](images/direction-property.png)
+![Il riquadro sprite con la proprietà direzione selezionata. Viene visualizzato un menu a comparsa con una rotellina direzionale utilizzata per regolare la direzione in cui punta lo sprite.](images/direction-property.png)
 
 --- /collapse ---
 
@@ -125,7 +121,7 @@ The **Direction** property in the Sprite pane can be used to control the directi
 
 --- task ---
 
-Give your project a title that describes your game.
+Assegna al tuo progetto un titolo che descriva il tuo gioco.
 
 --- /task ---
 
