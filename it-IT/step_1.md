@@ -1,69 +1,67 @@
-## You will make
+## What you will make
 
-Design and build a top-down view, obstacle or platform, parkour game. Your character will need to jump, hop, glide, bounce, or fly to catch a ride on moving platforms and make it to the end.
+Progetta e costruisci un gioco di parkour ad ostacoli o piattaforme, con vista dall'alto. Il tuo personaggio dovrà saltare, saltellare, planare, rimbalzare o volare per salire sulle piattaforme mobili e arrivare alla fine.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Top-down/bird's-eye view games**</span> look down on the game from above. Sometimes the whole game has this view. Other games use top-down views when you enter a design mode. Can you think of any games you play that use top-down view? 
+<span style="color: #0faeb0">**Giochi con vista dall'alto/dall'alto**</span> guarda il gioco dall'alto. A volte l'intero gioco ha questa visuale. Altri giochi utilizzano viste dall'alto quando si accede alla modalità di progettazione. Ti vengono in mente dei giochi che utilizzano la visuale dall'alto? 
 </p>
 
-You will:
-+ Make a game with a goal using an algorithm that checks for important game conditions
-+ Personalise a game to your interests
-+ Adjust the difficulty of a game, so that it’s fun to play
-
-![](images/example-strip.png)
-
 --- no-print ---
-
---- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-### Play ▶️ 
+### Play
 
-Click the space bar or tap the Stage to jump to the next platform. Time your jumps so you don't fall in the custard.
+Click the space bar or tap the Stage to jump to the next platform. Calcola il tempo dei tuoi salti per non cadere nella crema.
 
-+ How does the game create a top-down view? 
-+ How does the character's size change when it flies? 
-+ What happens if you don’t land on a platform? (Go on, do fall in the custard!)
++ In che modo il gioco crea una visuale dall'alto? 
++ Come cambiano le dimensioni del personaggio quando vola? 
++ Cosa succede se non atterri su una piattaforma? (Dai, tuffati nella crema!)
 
 </div>
 
 <div>
+**Don't fall in the custard!**: [See inside](https://scratch.mit.edu/projects/525202210/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525202210/?autostart=false" frameborder="0"></iframe>
 </div>
 
 </div>
 
---- /task ---
+### Lasciati ispirare 💭
 
-### Get ideas 💭
-
-You are going to make some design decisions to make a top-down platform game of your own. You'll choose the theme, colours, character, number of platforms, and the difficulty level.
+Dovrai prendere alcune decisioni di progettazione per creare il tuo gioco con la piattaforma vista dall'alto. Potrai scegliere il tema, i colori, il personaggio, il numero di piattaforme e il livello di difficoltà.
 
 --- task ---
 
-Explore these example projects to get more ideas:
+Esplora questi progetti di esempio per trovare altre idee:
+
+**Baby bird**: [See inside](https://scratch.mit.edu/projects/525236983/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236983/?autostart=false" frameborder="0"></iframe>
 </div>
+
+**Log hopper**: [See inside](https://scratch.mit.edu/projects/525236345/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236345/?autostart=false" frameborder="0"></iframe>
 </div>
+
+**Planet bounce**: [See inside](https://scratch.mit.edu/projects/525236603/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236603/?autostart=false" frameborder="0"></iframe>
 </div>
+--- /task ---
+
 --- /no-print ---
 
 --- print-only ---
 
-### Get ideas 💭
+### Lasciati ispirare 💭
 
-You are going to make some design decisions to make a top-down platform game of your own. You'll choose the theme, colours, character, number of platforms and the difficulty level. See inside example projects in [Scratch 2: Don't fall in - Examples](https://scratch.mit.edu/studios/29599110/){:target="_blank"} Scratch studio.
+Dovrai prendere alcune decisioni di progettazione per creare il tuo gioco con la piattaforma vista dall'alto. Potrai scegliere il tema, i colori, il personaggio, il numero di piattaforme e il livello di difficoltà. Guarda gli esempi di progetti in [Scratch 2: Non caderci - Esempi](https://scratch.mit.edu/studios/29599110/){:target="_blank"} Scratch studio.
 
-![The Stage from the 'dont fall in the custard' project.](images/custard.png) ![The Stage from the 'baby bird' project.](images/bird.png) ![The Stage from the 'log hopper' project.](images/frog.png) ![The Stage from the 'planet bounce' project.](images/space.png)
+![Il palco del progetto "Non cadere nella crema pasticcera".](images/custard.png) ![Il palco del progetto "Uccellino".](images/bird.png) ![Il palco del progetto "Tramoggia per tronchi".](images/frog.png) ![Il palco del progetto 'Rimbalzo del pianeta'.](images/space.png)
 
 --- /print-only ---
 
