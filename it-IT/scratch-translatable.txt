@@ -1,13 +1,13 @@
-Start
+Avvia
 
-landed
+atterrato
 
 stop
 
-End
+Fine
 
-Platform 1
+Piattaforma 1
 
-Platfrom 2
+Piattaforma 2
 
-Platform 3
+Piattaforma 3
