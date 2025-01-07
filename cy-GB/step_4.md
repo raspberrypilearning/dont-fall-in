@@ -17,17 +17,12 @@ Rwyt ti'n mynd i ychwanegu dolen `am byth`{:class="block3control"} sy'n gwirio a
 
 --- /task ---
 
+###  End the game when touching a coloured platform
+
 --- task ---
 
-Ychwanega god i ganfod pan fydd dy gymeriad yn cyrraedd y platfform **Diwedd** gan ddefnyddio `cyffwrdd lliw`{:class="block3sensing"}.
+Use a `touching color`{:class="block3sensing"} block to detect when your character sprite reaches the **End** platform.
 
---- collapse ---
-
----
-title: Gorffen y gêm wrth gyffwrdd lliw
----
-
-**Cymeriad**:
 
 ```blocks3
 when I receive [start v]
@@ -44,15 +39,29 @@ end
 end
 ```
 
-Mae'n syniad `darlledu`{:class="block3events"} neges 'stop' i roi gwybod i gorluniau eraill fod y gêm wedi dod i ben. Mae'r bloc `aros sgriptiau eraill yn y ciplun`{:class="block3control"} yn stopio'r ddolen sy'n gwneud i'r cymeriad neidio.
+Mae'r bloc `aros sgriptiau eraill yn y ciplun`{:class="block3control"} yn stopio'r ddolen sy'n gwneud i'r cymeriad neidio.
 
---- /collapse ---
+A `broadcast (stop v)`{:class="block3events"} message is used when your game is finished so that other sprites can stop, but this sprite can do something such as playing a sound before it stops.
 
-Bydd angen i ti osod y lliw sy'n cael ei synhwyro i liw dy blatfform **Diwedd**.
+--- /task ---
 
-[[[scratch3-set-block-input-colour-with-eyedropper]]]
+Use the eyedropper to pick the colour of your **End** platform
 
-**Awgrym:** Mae'n syniad da `darlledu`{:class="block3events"} neges `dechrau`{:class="block3events"} ar ddiwedd dy sgript gosod i roi gwybod i sgriptiau eraill pryd i ddechrau, fel arall efallai byddan nhw'n dechrau cyn bod popeth yn barod.
+--- task ---
+
+```blocks3
+<touching color (#20f73b) ?>
+
+```
+Click on the colour input to open the colour picker and then click on the eyedropper at the bottom.
+
+![](images/eye-dropper-tool.png)
+
+Move the mouse pointer over to the End platform on the Stage and click to select the colour.
+
+![](images/eye-dropper-stage.png)
+
+The colour in the block input will change to match the colour you chose. Click in the Code area to close the colour picker.
 
 --- /task ---
 
