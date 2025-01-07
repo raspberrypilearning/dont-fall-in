@@ -1,20 +1,20 @@
-## Quick quiz
+## Quiz veloce
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Rispondi alle tre domande. Alcuni suggerimenti ti aiuteranno a trovare la risposta corretta.
 
-When you have answered each question, click on **Check my answer**.
+Dopo aver risposto a ciascuna domanda, fai clic su **Controlla la mia risposta**.
 
-Have fun!
+Divertiti!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Domanda 1 di 3
 ---
 
-![The Stage of a lava-jumping game. The character is on the end platform, a golden door.](images/quiz-lava-stage.png)
+![La fase di un gioco di salti nella lava. Il personaggio si trova sulla piattaforma finale, una porta dorata.](images/quiz-lava-stage.png)
 
-You win this game by reaching the golden door, and lose if you land in the lava pit. The game isn't working. How could you fix it?
+Si vince la partita raggiungendo la porta dorata, si perde se si finisce nella fossa di lava. Il gioco non funziona. Come potresti aggiustarlo?
 
 ```blocks3
 when flag clicked
@@ -40,27 +40,27 @@ end
 
 --- choices ---
 
-- ( ) Change the colour in the 'check lose' condition
+- ( ) Cambia il colore nella condizione 'seleziona perso'
 
   --- feedback ---
 
-Close. The 'check lose' condition doesn't have the right colour, but just changing that won't make the game work.
+Chiudi. La condizione "seleziona perso" non ha il colore giusto, ma cambiarlo semplicemente non farà funzionare il gioco.
 
   --- /feedback ---
 
-- ( ) Change the colour in the 'check win' condition
+- ( ) Cambia il colore nella condizione 'seleziona vinto'
 
   --- feedback ---
 
-Close. The 'check win' condition doesn't have the right colour, but just changing that won't make the game work.
+Chiudi. La condizione "seleziona vinto" non ha il colore giusto, ma cambiarlo semplicemente non farà funzionare il gioco.
 
   --- /feedback ---
 
-- (x) Swap the colours in the 'check win' and 'check lose' conditions
+- (x) Scambia i colori nelle condizioni "seleziona vinto" e "seleziona perso"
 
   --- feedback ---
 
-Yes. The 'check lose' and 'check win' conditions have the colours the wrong way round! The player will win when they fall in the lava and lose when they reach the golden door! Swapping the conditions will fix this.
+Sì. Le condizioni "seleziona perso" e "seleziona vinto" hanno i colori invertiti! Il giocatore vincerà quando cadrà nella lava e perderà quando raggiungerà la porta dorata! Il problema si risolverà invertendo le condizioni.
 
   --- /feedback ---
 
