@@ -17,17 +17,12 @@ Agregarás un bucle `por siempre`{:class="block3control"} que verifica si tu **p
 
 --- /task ---
 
+###  End the game when touching a coloured platform
+
 --- task ---
 
-Agrega código para detectar cuándo llega a la plataforma **Fin** usando `tocando el color`{: class="block3sensing"}.
+Use a `touching color`{:class="block3sensing"} block to detect when your character sprite reaches the **End** platform.
 
---- collapse ---
-
----
-title: Termina el juego tocando el color
----
-
-**Personaje**:
 
 ```blocks3
 when I receive [start v]
@@ -44,15 +39,29 @@ end
 end
 ```
 
-Es una buena idea `enviar`{:class="block3events"} un mensaje de 'detener' para que otros objetos sepan que el juego ha terminado. El bloque `detener otros programas en el objeto`{:class="block3control"} detiene el bucle que hace que el personaje salte.
+El bloque `detener otros programas en el objeto`{:class="block3control"} detiene el bucle que hace que el personaje salte.
 
---- /collapse ---
+A `broadcast (stop v)`{:class="block3events"} message is used when your game is finished so that other sprites can stop, but this sprite can do something such as playing a sound before it stops.
 
-Tendrás que establecer que el color que se detecte sea el mismo de tu plataforma **Fin**.
+--- /task ---
 
-[[[scratch3-set-block-input-colour-with-eyedropper]]]
+Use the eyedropper to pick the colour of your **End** platform
 
-**Consejo:** Es una buena idea `enviar`{:class="block3events"} un mensaje de `detener`{:class="block3events"} cuando detectes que tu juego ha terminado para que otros objetos puedan detenerse, pero este objeto puede hacer algo, como reproducir un sonido antes de que se detenga.
+--- task ---
+
+```blocks3
+<touching color (#20f73b) ?>
+
+```
+Click on the colour input to open the colour picker and then click on the eyedropper at the bottom.
+
+![](images/eye-dropper-tool.png)
+
+Move the mouse pointer over to the End platform on the Stage and click to select the colour.
+
+![](images/eye-dropper-stage.png)
+
+The colour in the block input will change to match the colour you chose. Click in the Code area to close the colour picker.
 
 --- /task ---
 
