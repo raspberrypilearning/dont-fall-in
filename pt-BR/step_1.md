@@ -1,4 +1,4 @@
-## O que você vai fazer
+## What you will make
 
 Projete e construa uma visão de cima para baixo, obstáculo ou plataforma, jogo de parkour. Seu personagem precisará pular, saltar, planar, quicar ou voar para pegar carona em plataformas móveis e chegar até o fim.
 
@@ -6,23 +6,14 @@ Projete e construa uma visão de cima para baixo, obstáculo ou plataforma, jogo
 <span style="color: #0faeb0">**Jogos de cima para baixo/visão panorâmica**</span> observe o jogo de cima. Às vezes, todo o jogo tem essa visão. Outros jogos usam visualizações de cima para baixo quando você entra no modo de design. Você consegue pensar em algum jogo que use a visualização de cima para baixo? 
 </p>
 
-Você deve:
-+ Faça um jogo com um objetivo usando um algoritmo que verifica condições importantes do jogo
-+ Personalizar um jogo de acordo com seus interesses
-+ Ajustar a dificuldade de um jogo para que ele seja divertido jogar
-
-![](images/example-strip.png)
-
 --- no-print ---
-
---- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-### Jogar ▶️ 
+### Play
 
-Clique na barra de espaço ou toque no Palco para pular para a próxima plataforma. Cronometre seus saltos para não cair no creme.
+Click the space bar or tap the Stage to jump to the next platform. Cronometre seus saltos para não cair no creme.
 
 + Como o jogo cria uma visão de cima para baixo? 
 + Como o tamanho do personagem muda quando ele voa? 
@@ -31,13 +22,12 @@ Clique na barra de espaço ou toque no Palco para pular para a próxima platafor
 </div>
 
 <div>
+**Don't fall in the custard!**: [See inside](https://scratch.mit.edu/projects/525202210/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525202210/?autostart=false" frameborder="0"></iframe>
 </div>
 
 </div>
-
---- /task ---
 
 ### Tenha ideias 💭
 
@@ -46,15 +36,23 @@ Você tomará algumas decisões de design para criar seu próprio jogo de plataf
 --- task ---
 
 Explore estes projetos de exemplo para obter ideia para o seu livro:
+
+**Baby bird**: [See inside](https://scratch.mit.edu/projects/525236983/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236983/?autostart=false" frameborder="0"></iframe>
 </div>
+
+**Log hopper**: [See inside](https://scratch.mit.edu/projects/525236345/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236345/?autostart=false" frameborder="0"></iframe>
 </div>
+
+**Planet bounce**: [See inside](https://scratch.mit.edu/projects/525236603/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236603/?autostart=false" frameborder="0"></iframe>
 </div>
+--- /task ---
+
 --- /no-print ---
 
 --- print-only ---
