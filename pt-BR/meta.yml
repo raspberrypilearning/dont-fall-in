@@ -6,11 +6,11 @@ meta_title: Projetos de codificação Scratch para crianças e adolescentes | N�
 meta_description: Aprenda Scratch com os projetos de codificação da Raspberry Pi Foundation para crianças e adolescentes. Faça um jogo de parkour Scratch e depois pule, salte ou voe para pegar uma carona.
 version: 4
 listed: true
-copyedit: false
+copyedit: true
 last_tested: "2021-03-26"
 steps:
   - 
-    title: Você vai fazer
+    title: What you will make
   - 
     title: Escolha um tema
   - 
@@ -35,7 +35,8 @@ steps:
     completion:
       - external
   - 
-    title: Atualize seu projeto
+    title: Challenge
+    challenge: true
   - 
     title: Compartilhar
   - 
