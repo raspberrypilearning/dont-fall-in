@@ -35,7 +35,7 @@ Crea uno sfondo di colore uniforme.
 
 Dipingi un nuovo sprite della piattaforma **Partenza**.
 
-Inizia con una semplice forma monocromatica. You can turn the outline off by choosing the red diagonal line.
+Inizia con una semplice forma monocromatica. È possibile disattivare il contorno selezionando la linea diagonale rossa.
 
 ![](images/no-outline.png)
 
@@ -79,11 +79,11 @@ Oppure dipingi il tuo sprite del **personaggio**. Inizia con forme semplici e ag
 
 Lo sprite del tuo **personaggio** ha bisogno di uno script di avvio per preparare tutto all'inizio del gioco.
 
-Make a `variable`{:class="block3variables"} called `landed`, and set it to the size your sprite should be when it has landed and is not jumping.
+Crea una `variabile`{:class="block3variables"} chiamata `atterrato` e impostala sulla dimensione che dovrebbe avere il tuo sprite quando è atterrato e non sta saltando.
 
-Get your character to go to the **Start** `when flag clicked`{:class="block3events"}. Add a `go to front layer`{:class="block3looks"} block, so your character is on top of the platforms.
+Fai in modo che il tuo personaggio vada all'**inizio** `quando clicchi sulla bandiera`{:class="block3events"}. Aggiungi un blocco `passa allo sfondo`{:class="block3looks"}, in modo che il tuo personaggio sia in cima alle piattaforme.
 
-**Character:**
+**Carattere:**
 
 ```blocks3
 when flag clicked // setup
@@ -95,7 +95,7 @@ show
 broadcast (start v) // start other scripts
 ```
 
-**Tip:** Uncheck the `landed`{:class="block3variables"} variable in the `Variables`{:class="block3variables"} Blocks menu so that it doesn't show on the Stage. The user doesn't need to see this variable.
+**Suggerimento:** Deseleziona la variabile `atterrato`{:class="block3variables"} nel menu Blocchi `Variabili`{:class="block3variables"} in modo che non venga visualizzata sullo Stage. L'utente non ha bisogno di vedere questa variabile.
 
 **Suggerimento:** è una buona idea `trasmettere`{:class="block3events"} un messaggio di `inizio`{:class="block3events"} alla fine dello script di installazione per far sapere agli altri script quando iniziare, altrimenti potrebbero avviarsi prima che tutto sia pronto.
 
