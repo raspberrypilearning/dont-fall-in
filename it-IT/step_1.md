@@ -1,4 +1,4 @@
-## What you will make
+## Quello che farai
 
 Progetta e costruisci un gioco di parkour ad ostacoli o piattaforme, con vista dall'alto. Il tuo personaggio dovrà saltare, saltellare, planare, rimbalzare o volare per salire sulle piattaforme mobili e arrivare alla fine.
 
@@ -11,9 +11,9 @@ Progetta e costruisci un gioco di parkour ad ostacoli o piattaforme, con vista d
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-### Play
+### Gioca
 
-Click the space bar or tap the Stage to jump to the next platform. Calcola il tempo dei tuoi salti per non cadere nella crema.
+Fai clic sulla barra spaziatrice o tocca il palco per passare alla piattaforma successiva. Calcola il tempo dei tuoi salti per non cadere nella crema.
 
 + In che modo il gioco crea una visuale dall'alto? 
 + Come cambiano le dimensioni del personaggio quando vola? 
@@ -22,7 +22,7 @@ Click the space bar or tap the Stage to jump to the next platform. Calcola il te
 </div>
 
 <div>
-**Don't fall in the custard!**: [See inside](https://scratch.mit.edu/projects/525202210/editor){:target="_blank"}
+**Non cadere nella crema!**: [Guarda dentro](https://scratch.mit.edu/projects/525202210/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525202210/?autostart=false" frameborder="0"></iframe>
 </div>
@@ -37,17 +37,17 @@ Dovrai prendere alcune decisioni di progettazione per creare il tuo gioco con la
 
 Esplora questi progetti di esempio per trovare altre idee:
 
-**Baby bird**: [See inside](https://scratch.mit.edu/projects/525236983/editor){:target="_blank"}
+** Uccellino **: [Guarda dentro](https://scratch.mit.edu/projects/525236983/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236983/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**Log hopper**: [See inside](https://scratch.mit.edu/projects/525236345/editor){:target="_blank"}
+**Tramoggia per tronchi**: [Guarda dentro](https://scratch.mit.edu/projects/525236345/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236345/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**Planet bounce**: [See inside](https://scratch.mit.edu/projects/525236603/editor){:target="_blank"}
+**Rimbalzo del pianeta**: [Guarda dentro](https://scratch.mit.edu/projects/525236603/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/525236603/?autostart=false" frameborder="0"></iframe>
 </div>
