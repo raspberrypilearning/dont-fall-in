@@ -217,7 +217,7 @@ Osserva i tuoi sprite della **piattaforma** `quando ricevo`{:class="block3events
 when I receive [stop v]
 stop [tutti gli altri script dello sprite v]
 ```
-Controlla che il blocco `inviare`{:class="block3events"} all'interno dei blocchi `se` vinci e perdi{:class="block3control"} sono uguali a `stop`{:class="block3events"}.
+Controlla che il blocco `inviare`{:class="block3events"} all'interno dei blocchi `se`{:class="block3control"} vinci e perdi sono uguali a `stop`{:class="block3events"}.
 
 ```blocks3
 broadcast (stop v)
