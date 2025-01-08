@@ -4,7 +4,7 @@
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 Beh, è troppo facile! 
 
-In questa fase aggiungerai le piattaforme su cui atterrare. Jumping on them will stop your sprite falling in. 
+In questa fase aggiungerai le piattaforme su cui atterrare. Saltandoci sopra si eviterà di caderci dentro. 
 </div>
 <div>
 ![](images/riding-example.png){:width="300px"}
