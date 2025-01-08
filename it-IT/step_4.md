@@ -17,11 +17,11 @@ Aggiungerai un ciclo `per sempre`{:class="block3control"} che controlla se il tu
 
 --- /task ---
 
-###  End the game when touching a coloured platform
+###  Termina il gioco toccando una piattaforma colorata
 
 --- task ---
 
-Use a `touching color`{:class="block3sensing"} block to detect when your character sprite reaches the **End** platform.
+Utilizza un blocco `sta toccando il colore`{:class="block3sensing"} per rilevare quando lo sprite del tuo personaggio raggiunge la piattaforma **Fine**.
 
 
 ```blocks3
@@ -41,11 +41,11 @@ end
 
 Il blocco `interrompe gli altri script nello sprite`{:class="block3control"} interrompe il ciclo che fa saltare il personaggio.
 
-A `broadcast (stop v)`{:class="block3events"} message is used when your game is finished so that other sprites can stop, but this sprite can do something such as playing a sound before it stops.
+Un messaggio `(stop v)`{:class="block3events"} viene utilizzato quando il gioco è terminato, in modo che gli altri sprite possano fermarsi, ma questo sprite può fare qualcosa come riprodurre un suono prima di fermarsi.
 
 --- /task ---
 
-Use the eyedropper to pick the colour of your **End** platform
+Usa il contagocce per scegliere il colore della tua piattaforma **Fine**
 
 --- task ---
 
@@ -53,15 +53,15 @@ Use the eyedropper to pick the colour of your **End** platform
 <touching color (#20f73b) ?>
 
 ```
-Click on the colour input to open the colour picker and then click on the eyedropper at the bottom.
+Clicca sull'input dei colori per aprire il selettore del colore, poi clicca sul contagocce in basso.
 
 ![](images/eye-dropper-tool.png)
 
-Move the mouse pointer over to the End platform on the Stage and click to select the colour.
+Sposta il puntatore del mouse sulla piattaforma Fine sullo Stage poi clicca per selezionare un colore.
 
 ![](images/eye-dropper-stage.png)
 
-The colour in the block input will change to match the colour you chose. Click in the Code area to close the colour picker.
+Il colore nell'input del blocco cambierà per corrispondere al colore scelto. Clicca nell'area del Codice per chiudere il contagocce.
 
 --- /task ---
 
