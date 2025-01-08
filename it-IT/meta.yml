@@ -1,0 +1,33 @@
+---
+title: Non caderci!
+hero_image: images/banner.png
+description: Progetta e crea un gioco di parkour con ostacoli o piattaforme con visuale dall'alto.
+meta_title: Progetti di programmazione con Scratch per bambini e ragazzi | Non caderci
+meta_description: Impara Scratch con i progetti di programmazione della Raspberry Pi Foundation per bambini e adolescenti. Crea un gioco con Scratch sul parkour, quindi salta, saltella o vola per prendere salire.
+version: 4
+listed: true
+copyedit: true
+last_tested: "2021-03-26"
+steps:
+  - title: Cosa creerai
+  - title: Scegli un tema
+  - title: Salta, saltella, rimbalza o scivola!
+    completion:
+      - engaged
+  - title: Vittorie
+  - title: Viaggia sulle piattaforme
+  - title: Regola la difficoltà
+    completion:
+      - internal
+  - title: Quiz veloce
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Sfida
+    challenge: true
+  - title: Condividi
+  - title: E adesso?

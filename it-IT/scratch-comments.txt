@@ -1,0 +1,31 @@
+impostazioni
+
+dimensioni quando non si salta
+
+non saltare
+
+avvia altri script
+
+non in aria
+
+alla fine
+
+ferma altri sprite
+
+smetti di saltare dopo la vittoria
+
+aggiungi questo blocco per i giochi da sinistra a destra
+
+prova numeri diversi
+
+scegli un colore sulla tua piattaforma
+
+scegli il tuo sfondo
+
+evitare di saltare dopo aver perso
+
+aggiungi un suono al tuo sprite
+
+seleziona perso
+
+seleziona vinto
