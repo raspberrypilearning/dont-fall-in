@@ -1,0 +1,13 @@
+Avvia
+
+atterrato
+
+stop
+
+Fine
+
+Piattaforma 1
+
+Piattaforma 2
+
+Piattaforma 3
