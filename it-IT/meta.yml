@@ -10,7 +10,7 @@ copyedit: true
 last_tested: "2021-03-26"
 steps:
   - 
-    title: What you will make
+    title: Cosa creerai
   - 
     title: Scegli un tema
   - 
@@ -35,7 +35,7 @@ steps:
     completion:
       - external
   - 
-    title: Challenge
+    title: Sfida
     challenge: true
   - 
     title: Condividi
