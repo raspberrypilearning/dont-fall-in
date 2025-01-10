@@ -1,4 +1,4 @@
-## E agora?
+## What can you do now?
 
 Se você estiver seguindo o caminho [More Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch), você pode passar para o projeto [Este sprite precisa de você](https://projects.raspberrypi.org/en/projects/this-sprite-needs-you). Neste projeto, você fará um animal de estimação virtual ou uma simulação com a qual interagirá para ajudar.
 
