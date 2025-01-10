@@ -1,4 +1,4 @@
-## 次は何をしますか？
+## What can you do now?
 
 [Scratch続編](https://projects.raspberrypi.org/en/raspberrypi/more-scratch)パスをたどっている場合は、 [このスプライトにはあなたが必要だ](https://projects.raspberrypi.org/en/projects/this-sprite-needs-you)プロジェクトに進むことができます。 このプロジェクトは、あなたが操作して役立つ仮想ペットまたはシミュレーションを作成します。
 
