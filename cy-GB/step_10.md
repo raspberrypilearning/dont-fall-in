@@ -1,4 +1,4 @@
-## Beth nesaf?
+## What can you do now?
 
 Os wyt ti'n dilyn y llwybr [Mwy o Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch), galli di symud ymlaen i'r prosiect [Mae'r corlun yma dy angen di](https://projects.raspberrypi.org/en/projects/this-sprite-needs-you). Yn y prosiect yma, byddi di'n creu anifail anwes rhithwir neu efelychiad y byddi di'n ei helpu.
 
