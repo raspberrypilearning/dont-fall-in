@@ -1,4 +1,4 @@
-## Wat kun je verder nog doen?
+## What can you do now?
 
 Als je het [Meer scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch)-pad volgt, kun je doorgaan naar het [Deze sprite heeft je nodig](https://projects.raspberrypi.org/en/projects/this-sprite-needs-you)-project. In dit project maak je een virtueel huisdier waarvoor je kunt zorgen en dat jouw hulp nodig heeft.
 
