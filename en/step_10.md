@@ -1,4 +1,4 @@
-## What next?
+## What can you do now?
 
 If you are following the [More Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) path, you can move on to the [This sprite needs you](https://projects.raspberrypi.org/en/projects/this-sprite-needs-you) project. In this project, you will make a virtual pet or simulation that you interact with to help.
 
