@@ -1,4 +1,4 @@
-## ما التالي؟
+## What can you do now?
 
 إذا كنت تتبع مسار [المزيد من Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch)، يمكنك الانتقال إلى مشروع [هذا الكائن يحتاجك](https://projects.raspberrypi.org/en/projects/this-sprite-needs-you). في هذا المشروع ، ستصنع حيوانًا أليفًا افتراضيًا أو محاكاة تتفاعل معها للمساعدة.
 
