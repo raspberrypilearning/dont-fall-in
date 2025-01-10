@@ -1,4 +1,4 @@
-## Τι υπάρχει στη συνέχεια;
+## What can you do now?
 
 Εάν ακολουθείς το μονοπάτι[Περισσότερο Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch), μπορείς να προχωρήσεις στο έργο [Αυτό το αντικείμενο σε χρειάζεται](https://projects.raspberrypi.org/en/projects/this-sprite-needs-you). Σε αυτό το έργο, θα φτιάξεις ένα εικονικό κατοικίδιο ή μια προσομοίωση με την οποία αλληλεπιδράς για να βοηθήσεις.
 
