@@ -1,4 +1,4 @@
-## Co następne?
+## What can you do now?
 
 Jeśli podążasz ścieżką [Więcej Scratcha](https://projects.raspberrypi.org/en/raspberrypi/more-scratch), możesz przejść do projektu [Ten duszek Cię potrzebuje](https://projects.raspberrypi.org/en/projects/this-sprite-needs-you). W tym projekcie stworzysz wirtualnego zwierzaka lub symulację, z którą będziesz wchodzić w interakcję, aby jej pomóc.
 
