@@ -1,13 +1,13 @@
-Start
+Старт
 
-landed
+на землі
 
-stop
+стоп
 
-End
+Фініш
 
-Platform 1
+Платформа 1
 
-Platfrom 2
+Платформа 2
 
-Platform 3
+Платформа 3
