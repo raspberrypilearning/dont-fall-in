@@ -2,43 +2,43 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: Питання 3 з 3
 ---
 
-Which block should a sprite use to let another sprite know that something has happened?
+Який блок має використовувати спрайт, щоб повідомити інший спрайт про подію?
 
 --- choices ---
 
-- ( ) `when I receive`{:class="block3events"}
+- ( ) `коли я отримую`{:class="block3events"}
 
   --- feedback ---
 
-Not quite, this block is used to get a sprite to do something when it receives a message.
+Не зовсім. Цей блок використовують, щоб спрайт щось робив, коли отримує повідомлення.
 
   --- /feedback ---
 
-- ( ) `when this sprite clicked`{:class="block3events"}
+- ( ) `коли спрайт натиснуто`{:class="block3events"}
 
 
   --- feedback ---
 
-No, this block is used by one sprite to get it to do something when you click on it.
+Ні, цей блок використовує один спрайт, який має щось робити, коли ти на нього натискаєш.
 
   --- /feedback ---
 
-- (x) `broadcast`{:class="block3events"}
+- (x) `оповістити`{:class="block3events"}
 
   --- feedback ---
 
-Yes, this block sends a message that can be used to communicate with other sprites.
+Так, цей блок надсилає повідомлення, яке можна використовувати для звʼязку з іншими спрайтами.
 
   --- /feedback ---
 
-- ( ) `start`{:class="block3events"}
+- ( ) `старт`{:class="block3events"}
 
   --- feedback ---
 
-No, `start`{:class="block3events"} can be a message that the block sent, but it is not a block.
+Ні, `старт`{:class="block3events"} може бути текстом повідомлення, яке надсилає спрайт, але це не блок.
 
   --- /feedback ---
 
