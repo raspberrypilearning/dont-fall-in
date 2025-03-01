@@ -124,7 +124,7 @@ Aggiungi il codice allo sprite del tuo **personaggio ** per rilevare `se`{:class
 --- collapse ---
 
 ---
-title: Altrimenti toccando lo sfondo
+title: Altrimenti si sta toccando lo sfondo
 ---
 
 ```blocks3
@@ -172,7 +172,7 @@ end
 
 --- task ---
 
-Aggiungi codice ai tuoi sprite della **piattaforma** per impedirne il movimento quando lo sprite del **personaggio** raggiunge la piattaforma **finale** — o cade dentro!
+Aggiungi codice ai tuoi sprite della **piattaforma** per impedirne il movimento quando lo sprite del **personaggio** raggiunge la piattaforma **Arrivo** — o precipita!
 
 ```blocks3
 when I receive [stop v]
@@ -183,7 +183,7 @@ stop [other scripts in sprite v]
 
 --- task ---
 
-**Test:** Gioca di nuovo e assicurati che le piattaforme si fermino quando il gioco finisce. Il gioco termina quando raggiungi la piattaforma **finale**, oppure quando cadi dentro.
+**Test:** Gioca di nuovo e assicurati che le piattaforme si fermino quando il gioco finisce. Il gioco termina quando raggiungi la piattaforma **Arrivo**, oppure quando precipi.
 
 --- /task ---
 
