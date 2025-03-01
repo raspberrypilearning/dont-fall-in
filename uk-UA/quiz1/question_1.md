@@ -1,66 +1,66 @@
-## Quick quiz
+## Швидкий тест
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Дай відповідь на три запитання. Підказки допоможуть знайти правильну відповідь.
 
-When you have answered each question, click on **Check my answer**.
+Відповівши на кожне питання, натисни на **Перевірити мою відповідь**.
 
-Have fun!
+Успіхів!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Питання 1 з 3
 ---
 
-![The Stage of a lava-jumping game. The character is on the end platform, a golden door.](images/quiz-lava-stage.png)
+![Сцена з гри, де потрібно стрибати через лаву. Персонаж на фінальній платформі з золотими дверима.](images/quiz-lava-stage.png)
 
-You win this game by reaching the golden door, and lose if you land in the lava pit. The game isn't working. How could you fix it?
+У цій гри ти виграєш, якщо дійдеш до золотих дверей, і програєш, якщо впадеш у лаву. Ця гра не працює. Як можна її полагодити?
 
 ```blocks3
 when flag clicked
-go to (Start v)
-broadcast (start v)
+go to (Старт v)
+broadcast (старт v)
 ```
 
 ```blocks3
-when I receive [start v]
+when I receive [старт v]
 forever
-if <touching color (#fff700) ?> then // check lose
-broadcast (stop v) // stop other sprites
+if <touching color (#fff700) ?> then // перевірити програш
+broadcast (стоп v) // зупинити інші спрайти
 play sound (Lose v) until done
-stop [all v]
+stop [все v]
 end
-if <touching color (#ff0000) ?> then // check win
-broadcast (stop v) // stop other sprites
+if <touching color (#ff0000) ?> then // перевірити виграш
+broadcast (стоп v) // зупинити інші спрайти
 play sound (Win v) until done
-stop [all v]
+stop [все v]
 end
 ```
 
 
 --- choices ---
 
-- ( ) Change the colour in the 'check lose' condition
+- ( ) Треба змінити колір в умові «перевірити програш»
 
   --- feedback ---
 
-Close. The 'check lose' condition doesn't have the right colour, but just changing that won't make the game work.
+Майже. В умові «перевірити програш» вказаний неправильний колір, але якщо лише виправити його, гра все одно не працюватиме.
 
   --- /feedback ---
 
-- ( ) Change the colour in the 'check win' condition
+- ( ) Треба змінити колір в умові «перевірити виграш»
 
   --- feedback ---
 
-Close. The 'check win' condition doesn't have the right colour, but just changing that won't make the game work.
+Майже. В умові «перевірити виграш» вказаний неправильний колір, але якщо лише виправити його, гра все одно не працюватиме.
 
   --- /feedback ---
 
-- (x) Swap the colours in the 'check win' and 'check lose' conditions
+- (x) Поміняти місцями кольори в умовах «перевірити програш» і «перевірити виграш»
 
   --- feedback ---
 
-Yes. The 'check lose' and 'check win' conditions have the colours the wrong way round! The player will win when they fall in the lava and lose when they reach the golden door! Swapping the conditions will fix this.
+Так. В умовах «перевірити програш» і «перевірити виграш» переплутані кольори! Гравець виграє, якщо впаде в лаву, і програє, якщо дійде до золотих дверей! Якщо поміняти умови місцями, гра працюватиме правильно.
 
   --- /feedback ---
 
