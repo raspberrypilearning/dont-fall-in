@@ -1,31 +1,31 @@
-setup
+початок
 
-size when not jumping
+розмір, коли не стрибає
 
-not jumping
+не стрибає
 
-start other scripts
+запустити інші скрипти
 
-not in the air
+не в повітрі
 
-at end
+біля фінішу
 
-stop other sprites
+зупинити інші спрайти
 
-stop jumping after win
+не стрибати після виграшу
 
-add this block for left to right games
+додай цей блок до ігор, де треба стрибати зліва направо
 
-try different numbers
+спробуй різні числа
 
-choose a colour on your platform
+вибери колір платформи
 
-choose your backdrop colour
+вибери колір тла
 
-prevent jumping after losing
+не стрибати після програшу
 
-add a sound of your choice
+додай звук на свій вибір
 
-check lose
+перевірити програш
 
-check win
+перевірити виграш
