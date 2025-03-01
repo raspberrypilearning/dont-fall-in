@@ -1,19 +1,19 @@
-## Winner
+## Перемога
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will detect the player reaching the **End** platform to win the game. 
+На цьому етапі ти навчишся виявляти, коли гравець досягає **фінішної** платформи і виграє. 
 </div>
 <div>
 ![](images/winner-aims.png){:width="300px"}
 </div>
 </div>
 
-You're going to add a `forever`{:class="block3control"} loop that checks if your **character** is at platform level, and if so, `if`{:class="block3control"} it has reached the **End** platform.
+Ти додаси цикл `завжди`{:class="block3control"}, який перевіряє, чи знаходиться **персонаж** на рівні з платформами і, якщо так, чи він досяг **фінішної** платформи. Для цього використовуй блок `якщо`{:class="block3control"}.
 
 --- task ---
 
-**Choose:** Add a winning sound to your character.
+**Вибери** звук перемоги для свого персонажа.
 
 --- /task ---
 
