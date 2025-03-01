@@ -1,32 +1,32 @@
 ---
-title: Don't fall in!
+title: Не впади!
 hero_image: images/banner.png
-description: Design and create a top-down view obstacle or platform parkour game.
-meta_title: Scratch coding projects for kids and teens | Don't fall in
-meta_description: Learn Scratch with the Raspberry Pi Foundation’s coding projects for kids and teens. Make a Scratch parkour game then jump, hop, or fly to catch a ride.
+description: Розроби та побудуй гру з видом згори, де можна стрибати з платформи на платформу або долати перешкоди.
+meta_title: Скретч-проєкти для дітей та підлітків | Не впади
+meta_description: Вивчай Скретч за допомогою проєктів Raspberry Pi Foundation для дітей і підлітків. Створи паркурну гру в Скретчі, де можна стрибати або перелітати з платформи на платформу.
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-03-26"
 steps:
   - 
-    title: What you will make
+    title: Що ти зробиш
   - 
-    title: Choose your theme
+    title: Вибери тему
   - 
-    title: Jump, hop, bounce, or glide!
+    title: Стрибай, плигай, підскакуй або лети!
     completion:
       - engaged
   - 
-    title: Winner
+    title: Перемога
   - 
-    title: Ride on platforms
+    title: Катайся на платформах
   - 
-    title: Adjust the difficulty
+    title: Налаштуй складність
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Швидкий тест
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -35,9 +35,9 @@ steps:
     completion:
       - external
   - 
-    title: Challenge
+    title: Додаткове завдання
     challenge: true
   - 
-    title: Share
+    title: Пошир свій проєкт
   - 
-    title: What can you do now?
+    title: Що ти тепер вмієш?
