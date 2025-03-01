@@ -2,22 +2,22 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Тепер ти запрограмуєш свого персонажа, щоб він стрибав з першої платформи на фінішну. 
+Тепер ти запрограмуєш свого персонажа, щоб він стрибав зі стартової платформи на фінішну. 
 </div>
 <div>
 ![](images/jump-example.png){:width="300px"}
 </div>
 </div>
 
-You're going to make your character jump across the Stage. Don't worry about falling in yet.
+Ти зробиш так, щоб персонаж стрибав від одного кінця Сцени до іншого. Поки що не хвилюйся, що він може впасти.
 
 --- task ---
 
-**Choose:** Add a jumping sound that suits your character.
+**Вибери** звук стрибка, який підходить твоєму персонажу.
 
 [[[generic-scratch3-sound-from-library]]]
 
-Now make your character jump across the Stage by pressing the <kbd>space</kbd> bar on a keyboard or tapping the Stage on a tablet.
+Тепер нехай твій персонаж стрибає від одного краю Сцени до іншого, коли ти натискаєш <kbd>пробіл</kbd> на клавіатурі або торкаєшся Сцени на планшеті.
 
 [[[scratch3-top-down-jumping]]]
 
@@ -25,101 +25,101 @@ Now make your character jump across the Stage by pressing the <kbd>space</kbd> b
 
 --- task ---
 
-**Test:** Tap the <kbd>space</kbd> bar or Stage to make your character jump across the Stage to the **End** platform.
+**Протестуй:** натисни на <kbd>пробіл</kbd> або торкнися Сцени, щоб твій персонаж стрибав по Сцені до **фінішної** платформи.
 
-Adjust your code until the character jumps across the Stage in three or four jumps.
+Налаштуй свій код так, щоб персонаж долав Сцену за три або чотири стрибки.
 
 --- /task ---
 
-**Tip:** It's really common for games to have a `forever`{:class="block3control"} block with `if`{:class="block3control"} statements inside it to do something when important conditions become true.
+**Порада:** ігри часто мають блок `завжди`{:class="block3control"} з виразами `якщо`{:class="block3control"} всередині, щоб робити якусь дію, коли виконуються важливі умови.
 
 --- task ---
 
-**Debug:**
+**Налагодження:**
 
 --- collapse ---
 
 ---
-title: My sprite doesn't go to the Start platform when I click the green flag
+title: Мій спрайт не переходить на стартову платформу, коли я натискаю на зелений прапорець
 ---
 
-Check that you have a setup script on your **character** sprite:
+Переконайся, що у тебе є початковий скрипт для спрайта **персонажа**:
 
 
 ```blocks3
-when flag clicked // setup
-+go to (Start v)
-set [landed v] to [0]
-set size to (landed) %
-+go to [front v] layer
+when flag clicked // початок
++go to (Старт v)
+set [на землі v] to [0]
+set size to (на землі) %
++go to [передній v] layer
 show
-broadcast (start v) // start other scripts
+broadcast (старт v) // запустити інші скрипти
 ```
 
-Check that that name in the `go to`{:class="block3motion"} block matches the name of your **Start** sprite.
+Перевір, щоб імʼя у блоці `перейти до`{:class="block3motion"} збігалося з назвою твого спрайта **Старт**.
 
-Check that you have a `go to front layer`{:class="block3looks"} block. Your sprite might be underneath the Start plaform!
+Перевір, чи є в коді блок `помістити на передній план`{:class="block3looks"}. Твій спрайт може бути під стартовою платформою!
 
-Make sure you haven't hidden your **character** sprite. Add a `show`{:class="block3looks"} block to your setup script if you need to.
+Переконайся, що спрайт **персонажа** не схований. Якщо потрібно, додай блок `показати`{:class="block3looks"} до початкового скрипту.
 
-
---- /collapse ---
-
---- collapse ---
-
----
-title: My sprite doesn't go to the centre of the Start platform
----
-
-You need to make sure all your sprite costumes are centered in the Paint editor.
-
-The `go to`{:class="block3motion"} `other sprite`{:class="block3motion"} block moves a sprite so that its centre is in the same position as the centre of the other sprite. If their centres are in the wrong place, then your **character** won't go to the centre of the platforms.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: My sprite points or jumps in the wrong direction!
+title: Мій спрайт не йде у центр стартової платформи
 ---
 
-Add a `point in direction`{:class="block3motion"} block to the **character**'s setup script or change the direction in the sprite pane. You might also need to change the `rotation style`{:class="block3motion"}. You might also need to rotate the **costume** of your sprite so that it faces to the right.
+Переконайся, що всі образи спрайтів відцентровані у редакторі Малювання.
+
+Блок `перейти до`{:class="block3motion"} `іншого спрайта`{:class="block3motion"} пересуває спрайт таким чином, щоб його центр знаходився в тій же точці, що й центр іншого спрайта. Якщо центри зміщені, то **персонаж** не буде переходити на центр платформ.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: My sprite doesn't jump the right distance
+title: Мій спрайт повернутий або стрибає не в той бік!
 ---
 
-Look at your **character**'s `when I receieve (jump)`{:class="block3events"} script. Try changing the number of steps in the `move`{:class="block3motion"} blocks, or the number of repeats in the `repeat`{:class="block3control"} blocks.
+Додай блок `повернути в напрямку`{:class="block3motion"} до початкового скрипту **персонажа** або зміни напрям на панелі спрайтів. Можливо, тобі доведеться змінити `стиль обертання`{:class="block3motion"}. Ти також можеш змінити **образ** твого спрайта, щоб він був повернутий праворуч.
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: Мій спрайт не стрибає на потрібну відстань
+---
+
+Подивись на скрипт **персонажа** `коли я отримую (старт)`{:class="block3events"}. Спробуй змінити кількість кроків у блоках `перемістити на`{:class="block3motion"} або кількість повторів у блоках `повторити`{:class="block3control"}.
 
 ```blocks3
 +move [5] steps
 ```
 
-Remember, you will need to change the numbers for the up and down parts of the jump.
+Памʼятай, що потрібно змінювати цифри для стрибків вгору і вниз.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: My sprite doesn't grow and shrink correctly when it jumps
+title: Мій спрайт неправильно збільшується чи зменшується під час стрибків
 ---
 
-Make sure you have a `broadcast (start)`{:class="block3events"} block at the end of your **character**'s `when flag clicked`{:class="block3events"} script.
+Переконайся, що у твоєму коді є блок `оповістити (старт)`{:class="block3events"} у кінці скрипту `коли натиснуто прапорець`{:class="block3events"} твого **персонажа**.
 
-Look at your **character**'s `when I receieve (start)`{:class="block3events"} script.
+Подивись на скрипт твого **персонажа** `коли я отримую (старт)`{:class="block3events"}.
 
-Make sure that the `change size`{:class="block3looks"} block in the second `repeat`{:class="block3events"} block has a negative number to make the sprite smaller such as `-3`.
+Переконайся, що блок `змінити розмір`{:class="block3looks"} у другому блоці `повторити`{:class="block3events"} містить відʼємне число (наприклад, `-3`), що робитиме спрайт меншим.
 
 --- /collapse ---
 
-If you have a bug that we haven't covered here, then let us know in the feedback. If you fixed the bug yourself (well done!), let us know that too.
+Якщо у тебе зʼявилася помилка, про яку ми тут не розповідали, повідом нам про це у відгуку. Якщо ти виправив/-ла помилку самостійно (молодець!), розкажи нам про це.
 
-**Tip:** If you're stuck, try reading your code out loud or in your head to make sure it says what you think it does. You might find the bug.
+**Порада:** якщо у тебе виникли складнощі, прочитай свій код вголос або про себе. Так ти зможеш перевірити, чи він робить те, що має робити. Можливо, ти знайдеш помилку.
 
 --- /task ---
 
