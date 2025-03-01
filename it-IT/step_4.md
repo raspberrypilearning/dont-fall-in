@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In questa fase, rileverai il giocatore che raggiunge la piattaforma **Fine** per vincere la partita. 
+In questa fase, controllerai se il giocatore raggiunge la piattaforma **Arrivo** vincendo la partita. 
 </div>
 <div>
 ![](images/winner-aims.png){:width="300px"}
@@ -21,7 +21,7 @@ Aggiungerai un ciclo `per sempre`{:class="block3control"} che controlla se il tu
 
 --- task ---
 
-Utilizza un blocco `sta toccando il colore`{:class="block3sensing"} per rilevare quando lo sprite del tuo personaggio raggiunge la piattaforma **Fine**.
+Utilizza un blocco `sta toccando il colore`{:class="block3sensing"} per rilevare quando lo sprite del tuo personaggio raggiunge la piattaforma **Arrivo**.
 
 
 ```blocks3
@@ -45,7 +45,7 @@ Un messaggio `(stop v)`{:class="block3events"} viene utilizzato quando il gioco 
 
 --- /task ---
 
-Usa il contagocce per scegliere il colore della tua piattaforma **Fine**
+Usa il contagocce per scegliere il colore della tua piattaforma di **Arrivo**
 
 --- task ---
 
@@ -67,7 +67,7 @@ Il colore nell'input del blocco cambierà per corrispondere al colore scelto. Cl
 
 --- task ---
 
-**Test:** Clicca sulla bandierina verde e muovi il mouse sullo stage. Assicurati di sentire il suono della vittoria quando raggiungi la piattaforma **finale**.
+**Test:** Clicca sulla bandierina verde e muovi il mouse sullo stage. Assicurati di sentire il suono della vittoria quando raggiungi la piattaforma di **Arrivo**.
 
 **Suggerimento:** È molto importante testare il progetto prima di passare alla fase successiva e aggiungere altro codice. È più difficile trovare e correggere i bug quando si aggiunge altro codice.
 
@@ -96,7 +96,7 @@ Il blocco `va ad (altro sprite)`{:class="block3motion"} sposta uno sprite in mod
 title: Il gioco finisce troppo presto
 ---
 
-Controlla che il tuo sprite non tocchi il colore finale quando non si trova sulla piattaforma **finale**: se utilizzi lo stesso colore altrove nel tuo progetto, il tuo personaggio potrebbe morire troppo presto.
+Controlla che il tuo sprite non tocchi il colore finale quando non si trova sulla piattaforma di **Arrivo**: se utilizzi lo stesso colore altrove nel tuo progetto, il tuo personaggio potrebbe morire troppo presto.
 
 --- /collapse ---
 
@@ -108,7 +108,7 @@ title: Il suono non viene riprodotto quando atterro sulla piattaforma finale
 
 Fai clic sullo sprite del tuo **personaggio** e poi sulla scheda "Suoni". Assicurati di aver aggiunto il suono della fine al tuo sprite. Fare clic sul pulsante **Riproduci** per assicurare che l'audio funzioni sul computer.
 
-Fai clic sulla scheda **Codice** e controlla che il suono corretto sia nel blocco `riproduci suono`{:class="block3sound"} che viene eseguito quando lo sprite raggiunge la piattaforma **finale**.
+Fai clic sulla scheda **Codice** e controlla che il suono corretto sia nel blocco `riproduci suono`{:class="block3sound"} che viene eseguito quando lo sprite raggiunge la piattaforma di **Arrivo**.
 
 Assicurati che il colore sia corretto nel blocco `colore di contatto`{:class="block3sensing"}. Selezionalo di nuovo se non sei sicuro. A volte i colori sembrano simili ma non sono uguali.
 
