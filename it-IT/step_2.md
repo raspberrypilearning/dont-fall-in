@@ -33,7 +33,7 @@ Crea uno sfondo di colore uniforme.
 
 --- task ---
 
-Dipingi un nuovo sprite della piattaforma **Partenza**.
+Disegna un nuovo sprite per creare una piattaforma di **Partenza**.
 
 Inizia con una semplice forma monocromatica. È possibile disattivare il contorno selezionando la linea diagonale rossa.
 
@@ -51,11 +51,11 @@ Posiziona lo sprite della piattaforma **Partenza** nel punto in cui vuoi che il 
 
 --- task ---
 
-Crea uno sprite della piattaforma semplice **Arrivo**. Potrai aggiungere ulteriori dettagli in seguito.
+Crea uno sprite per una semplice piattaforma di **Arrivo**. Potrai aggiungere ulteriori dettagli in seguito.
 
-Creare un nuovo costume nell'editor di Paint.
+Centra il nuovo costume nell'editor di Paint.
 
-Posiziona il tuo sprite **Arrivo** sullo Stage in cui vuoi che il tuo personaggio termini il gioco.
+Posiziona il tuo sprite **Arrivo** sullo Stage nel punto in cui vuoi che il tuo personaggio termini il gioco.
 
 --- /task ---
 
@@ -81,7 +81,7 @@ Lo sprite del tuo **personaggio** ha bisogno di uno script di avvio per preparar
 
 Crea una `variabile`{:class="block3variables"} chiamata `atterrato` e impostala sulla dimensione che dovrebbe avere il tuo sprite quando è atterrato e non sta saltando.
 
-Fai in modo che il tuo personaggio vada all'**inizio** `quando clicchi sulla bandiera`{:class="block3events"}. Aggiungi un blocco `passa allo sfondo`{:class="block3looks"}, in modo che il tuo personaggio sia in cima alle piattaforme.
+Fai in modo che il tuo personaggio vada all'**inizio** `quando clicchi sulla bandiera`{:class="block3events"}. Aggiungi un blocco `vai in primo piano`{:class="block3looks"}, in modo che il tuo personaggio sia sempre davanti alle piattaforme.
 
 **Carattere:**
 
