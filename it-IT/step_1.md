@@ -3,7 +3,7 @@
 Progetta e costruisci un gioco di parkour ad ostacoli o piattaforme, con vista dall'alto. Il tuo personaggio dovrà saltare, saltellare, planare, rimbalzare o volare per salire sulle piattaforme mobili e arrivare alla fine.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Giochi con vista dall'alto/dall'alto**</span> guarda il gioco dall'alto. A volte l'intero gioco ha questa visuale. Altri giochi utilizzano viste dall'alto quando si accede alla modalità di progettazione. Ti vengono in mente dei giochi che utilizzano la visuale dall'alto? 
+<span style="color: #0faeb0">**Giochi con vista dall'alto/a volo d'uccello**</span> mostrano il gioco dall'alto. A volte l'intero gioco ha questa visuale. Altri giochi utilizzano viste dall'alto quando si accede alla modalità di progettazione. Ti vengono in mente dei giochi che utilizzano la visuale dall'alto? 
 </p>
 
 --- no-print ---
@@ -13,7 +13,7 @@ Progetta e costruisci un gioco di parkour ad ostacoli o piattaforme, con vista d
 
 ### Gioca
 
-Fai clic sulla barra spaziatrice o tocca il palco per passare alla piattaforma successiva. Calcola il tempo dei tuoi salti per non cadere nella crema.
+Premi la barra spaziatrice o tocca lo Stage per saltare sulla piattaforma successiva. Calcola quando saltare per non cadere nella crema.
 
 + In che modo il gioco crea una visuale dall'alto? 
 + Come cambiano le dimensioni del personaggio quando vola? 
@@ -31,7 +31,7 @@ Fai clic sulla barra spaziatrice o tocca il palco per passare alla piattaforma s
 
 ### Lasciati ispirare 💭
 
-Dovrai prendere alcune decisioni di progettazione per creare il tuo gioco con la piattaforma vista dall'alto. Potrai scegliere il tema, i colori, il personaggio, il numero di piattaforme e il livello di difficoltà.
+Dovrai prendere alcune decisioni di progettazione per creare il tuo gioco con vista dall'alto. Potrai scegliere il tema, i colori, il personaggio, il numero di piattaforme e il livello di difficoltà.
 
 --- task ---
 
