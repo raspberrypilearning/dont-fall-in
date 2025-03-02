@@ -17,35 +17,35 @@
 
 --- /task ---
 
-###  End the game when touching a coloured platform
+###  Як завершити гру, коли персонаж торкається кольорової платформи
 
 --- task ---
 
-Use a `touching color`{:class="block3sensing"} block to detect when your character sprite reaches the **End** platform.
+Щоб виявити, коли спрайт персонажа досягає **фінішної** платформи, використовуй блок `торкається кольору`{:class="block3sensing"}.
 
 
 ```blocks3
-when I receive [start v]
+when I receive [старт v]
 forever
-if <(size) = (landed)> then // not in the air
-if <touching color (#b89d2f) ?> then // at end
-broadcast (stop v) // stop other sprites
-stop [other scripts in sprite v] // stop jumping after win
-go to (End v)
+if <(size) = (на землі)> then // не в повітрі
+if <touching color (#b89d2f) ?> then // біля фінішу
+broadcast (стоп v) // зупинити інші спрайти
+stop [інші скрипти цього спрайту v] // не стрибати після виграшу
+go to (Фініш v)
 play sound (Win v) until done
-stop [all v]
+stop [все v]
 end
 end
 end
 ```
 
-The `stop other scripts in sprite`{:class="block3control"} block stops the loop that makes the character jump.
+Блок `зупинити інші скрипти цього спрайту`{:class="block3control"} припиняє цикл, який змушує персонажа стрибати.
 
-A `broadcast (stop v)`{:class="block3events"} message is used when your game is finished so that other sprites can stop, but this sprite can do something such as playing a sound before it stops.
+Використовуй блок `оповістити (стоп v)`{:class="block3events"}, коли гра закінчується, щоб інші спрайти теж зупинилися. Але цей спрайт може, наприклад, відтворювати звук перед тим, як зупиниться.
 
 --- /task ---
 
-Use the eyedropper to pick the colour of your **End** platform
+Щоб вибрати колір **фінішної** платформи, використовуй піпетку.
 
 --- task ---
 
@@ -53,74 +53,74 @@ Use the eyedropper to pick the colour of your **End** platform
 <touching color (#20f73b) ?>
 
 ```
-Click on the colour input to open the colour picker and then click on the eyedropper at the bottom.
+Клацни на поле вводу кольору, щоб відкрити панель вибору кольору, а далі клацни на піпетку внизу.
 
 ![](images/eye-dropper-tool.png)
 
-Move the mouse pointer over to the End platform on the Stage and click to select the colour.
+Перемісти вказівник миші на фінішну платформу на Сцені та клацни на неї, щоб вибрати колір.
 
 ![](images/eye-dropper-stage.png)
 
-The colour in the block input will change to match the colour you chose. Click in the Code area to close the colour picker.
+Колір у полі вводу блока поміняється на обраний колір. Клацни в області коду, щоб закрити панель вибору кольору.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click the green flag and then jump your character across the Stage. Make sure you hear the winning sound when you reach the **End** platform.
+**Протестуй:** натисни на зелений прапорець і стрибай персонажем через Сцену. Ти маєш почути звук перемоги, коли досягнеш **фінішної** платформи.
 
-**Tip:** It's really important that you test your project before moving to the next step and adding more code. It's harder to find and fix bugs when you have added more code.
+**Порада:** дуже важливо протестувати свій проєкт перед тим, як додавати новий код. Коли ти додаси ще код, знаходити і виправляти помилки буде важче.
 
 --- /task ---
 
 
 --- task ---
 
-**Debug:**
+**Налагодження:**
 
 --- collapse ---
 
 ---
-title: My sprite doesn't go to the centre of the End platform
+title: Мій спрайт не йде у центр фінішної платформи
 ---
 
-You need to make sure all your sprite costumes are centered in the Paint editor.
+Переконайся, що всі образи спрайтів відцентровані у редакторі Малювання.
 
-The `go to (other sprite)`{:class="block3motion"} block moves a sprite so that it's centre is in the same position as the centre of the other sprite. If their centres are in the wrong place, then your **character** won't go to the centre of the platforms.
+Блок `перейти до (іншого спрайта)`{:class="block3motion"} пересуває спрайт таким чином, щоб його центр знаходився в тій же точці, що й центр іншого спрайта. Якщо центри зміщені, то **персонаж** не буде переходити на центр платформ.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The game ends too soon
+title: Гра закінчується надто рано
 ---
 
-Check that your sprite isn't touching the End colour when it's not on the **End** platform — if you use the same colour elsewhere in your project, then your character could die too soon.
+Переконайся, що твій спрайт не торкається фінального кольору до того, як він досягне **фінішної** платформи. Якщо ти використовуєш такий самий колір в іншому місці, твій персонаж може програти зарано.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The sound doesn't play when I land on the End platform
+title: Коли я приземляюся на фінішну платформу, звук не відтворюється
 ---
 
-Click on your **character** sprite and then the 'Sounds' tab. Make sure you have added the End sound to your sprite. Click on the **Play** button to make sure sound is working on your computer.
+Натисни на спрайт свого **персонажа**, а потім на вкладку «Звуки». Переконайся, що ти додав/-ла фінішний звук до свого спрайта. Натисни кнопку **Відтворити**, щоб перевірити, чи працює звук на твоєму компʼютері.
 
-Click on the **Code** tab and check that the correct sound is in the `play sound`{:class="block3sound"} block that runs when the sprite reaches the **End** platform.
+Натисни на вкладку **Код** і перевір, чи має блок `відтворити звук`{:class="block3sound"} правильний звук. Саме цей блок відтворює звук, коли спрайт досягає **фінішної** платформи.
 
-Make sure the colour is correct in the `touching colour`{:class="block3sensing"} block. Select it again if you're not sure. Sometimes colours look similar but aren't the same.
+Переконайся, що блок `торкається кольору`{:class="block3sensing"} має правильний колір. Вибери колір знову, якщо ти точно не знаєш. Іноді кольори схожі, але не однакові.
 
 ```blocks3
-when I receive [start v]
+when I receive [старт v]
 forever
-if < (size) = (landed) > then // not in the air
-+if <touching color (#b89d2f) ?> then // at end
-broadcast (stop v) // stop other sprites
-go to (End v)
+if < (size) = (на землі) > then // не в повітрі
++if <touching color (#b89d2f) ?> then // біля фінішу
+broadcast (стоп v) // зупинити інші спрайти
+go to (Фініш v)
 +play sound (Win v) until done
-stop [all v]
+stop [все v]
 end
 end
 end
@@ -128,9 +128,9 @@ end
 
 --- /collapse ---
 
-If you have a bug that we haven't covered here, then let us know in the feedback. If you fixed the bug yourself (well done!), let us know that too.
+Якщо у тебе зʼявилася помилка, про яку ми тут не розповідали, повідом нам про це у відгуку. Якщо ти виправив/-ла помилку самостійно (молодець!), розкажи нам про це.
 
-**Tip:** If you're stuck, try reading your code out loud or in your head to make sure it says what you think it does. You might find the bug.
+**Порада:** якщо у тебе виникли складнощі, прочитай свій код вголос або про себе. Так ти зможеш перевірити, чи він робить те, що має робити. Можливо, ти знайдеш помилку.
 
 --- /task ---
 
