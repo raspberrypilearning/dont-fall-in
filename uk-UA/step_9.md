@@ -1,14 +1,14 @@
-## Share
+## Пошир свій проєкт
 
-If you are in a club, why not share your project with friends?
+Якщо ти відвідуєш клуб кодування, чому б не поділитися своїм проєктом з друзями?
 
-You could also show your family how your project works.
+Ти також можеш показати своїй родині, як працює твій проєкт.
 
-If you have a Scratch account, you can share your project through Scratch. You can send a link to people you know, and the whole Scratch community will be able to find your project and try it out.
+Якщо у тебе є обліковий запис Скретч, ти можеш поширити свій проєкт там. Ти також можеш надіслати посилання своїм знайомим, і вся Скретч-спільнота зможе знайти твій проєкт та попрацювати з ним.
 
 [[[share-scratch]]]
 
-Why not invite your friends to create a project? Let them know how you had fun.
+Чому б не запросити друзів приєднатися до створення проєкту? Розкажи їм, що тобі дуже сподобалось.
 
 If you have a Scratch account, and have shared your **Don't fall in** project, keep an eye out for comments that others may make about your creation. Feedback is a great way to reflect on your work. Ignore any comments that are unhelpful or irrelevant.
 
