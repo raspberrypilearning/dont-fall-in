@@ -87,12 +87,12 @@ Fai in modo che il tuo personaggio vada all'**inizio** `quando clicchi sulla ban
 
 ```blocks3
 when flag clicked // impostazioni
-go to (Start v)
+go to (Avvia v)
 set [atterrato v] to [40] // dimensioni quando non si salta
 set size to (atterrato) % // non saltare
 go to [primo v] layer
 show
-broadcast (start v) // avvia altri script
+broadcast (avvia v) // avvia altri script
 ```
 
 **Suggerimento:** Deseleziona la variabile `atterrato`{:class="block3variables"} nel menu Blocchi `Variabili`{:class="block3variables"} in modo che non venga visualizzata sullo Stage. L'utente non ha bisogno di vedere questa variabile.

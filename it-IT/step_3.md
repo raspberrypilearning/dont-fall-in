@@ -48,12 +48,12 @@ Controlla di avere uno script di configurazione sul tuo sprite del **personaggio
 
 ```blocks3
 when flag clicked // impostazioni
-+go to (Start v)
++go to (Avvia v)
 set [atterrato v] to [0]
 set size to (atterrato) %
 +go to [primo v] layer
 show
-broadcast (start v) // avvia altri script
+broadcast (avvia v) // avvia altri script
 ```
 
 Controlla che il nome nel blocco `vai a`{:class="block3motion"} corrisponda al nome dello sprite **iniziale**.
