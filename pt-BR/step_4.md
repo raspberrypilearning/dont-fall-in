@@ -17,15 +17,11 @@ Você adicionará um laço `forever`{:class="block3control"} que verifica se seu
 
 --- /task ---
 
+### Termine o jogo ao tocar na cor
+
 --- task ---
 
 Adicione código para detectar quando seu personagem atinge a plataforma **Fim** usando `tocando a cor`{:class="block3sensing"}.
-
---- collapse ---
-
----
-title: Termine o jogo ao tocar na cor
----
 
 **Personagem**:
 
@@ -46,8 +42,6 @@ end
 
 É uma boa ideia `transmitir`{:class="block3events"} uma mensagem de 'parar' para que outros sprites saibam que o jogo terminou. O bloco `parar outros scripts no sprite`{:class="block3control"} interrompe o laço que faz o personagem pular.
 
---- /collapse ---
-
 Você precisará definir a cor detectada para a cor da sua plataforma **Fim**.
 
 [[[scratch3-set-block-input-colour-with-eyedropper]]]
@@ -64,13 +58,11 @@ Você precisará definir a cor detectada para a cor da sua plataforma **Fim**.
 
 --- /task ---
 
-
 --- task ---
 
 **Depurar:**
 
 --- collapse ---
-
 ---
 title: Meu sprite não vai para o centro da plataforma Fim
 ---
@@ -82,7 +74,6 @@ O bloco `vá para (outro sprite)`{:class="block3motion"} outro sprite move um sp
 --- /collapse ---
 
 --- collapse ---
-
 ---
 title: O jogo termina muito cedo
 ---
@@ -92,7 +83,6 @@ Verifique se seu sprite não está tocando a cor final quando não estiver na pl
 --- /collapse ---
 
 --- collapse ---
-
 ---
 title: O som não toca quando eu pouso na plataforma Fim
 ---
