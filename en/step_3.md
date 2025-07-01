@@ -43,7 +43,7 @@ Adjust your code until the character jumps across the Stage in three or four jum
 title: My sprite doesn't go to the Start platform when I click the green flag
 ---
 
-Check that you have a setup script on your **character** sprite:
+Check that you have a setup script on your **character** sprite.
 
 
 ```blocks3
