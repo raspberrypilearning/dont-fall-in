@@ -31,9 +31,7 @@ Adjust your code until the character jumps across the Stage in three or four jum
 
 --- /task ---
 
-**Tip:** It's really common for games to have a `forever`{:class="block3control"} block with `if`{:class="block3control"} statements inside it to do something when important conditions become true.
-
---- task ---
+**Tip:** It's really common for games to have a `forever`{:class="block3control"} block with `if`{:class="block3control"} statements inside it to do something when important conditions become true
 
 **Debug:**
 
@@ -120,7 +118,5 @@ Make sure that the `change size`{:class="block3looks"} block in the second `repe
 If you have a bug that we haven't covered here, then let us know in the feedback. If you fixed the bug yourself (well done!), let us know that too. 
 
 **Tip:** If you're stuck, try reading your code out loud or in your head to make sure it says what you think it does. You might find the bug.
-
---- /task ---
 
 --- save ----
