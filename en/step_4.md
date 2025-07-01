@@ -17,7 +17,7 @@ You're going to add a `forever`{:class="block3control"} loop that checks if your
 
 --- /task ---
 
-### End the game when touching a coloured platform
+### End the game when touching a coloured platform
 
 --- task ---
 
