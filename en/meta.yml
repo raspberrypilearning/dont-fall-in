@@ -12,7 +12,7 @@ last_tested: "2021-03-26"
 steps:
   - title: What you will make
   - title: Choose your theme
-  - title: Jump, hop, bounce, or glide!
+  - title: 'Jump, hop, bounce, or glide!'
     completion:
       - engaged
   - title: Winner
