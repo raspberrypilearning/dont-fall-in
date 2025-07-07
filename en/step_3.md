@@ -31,7 +31,7 @@ Adjust your code until the character jumps across the Stage in three or four jum
 
 --- /task ---
 
-**Tip:** It's really common for games to have a `forever`{:class="block3control"} block with `if`{:class="block3control"} statements inside it to do something when important conditions become true.
+**Tip:** It's really common for games to have a `forever`{:class="block3control"} block with `if`{:class="block3control"} statements inside it to do something when important conditions become true
 
 --- task ---
 
@@ -43,7 +43,7 @@ Adjust your code until the character jumps across the Stage in three or four jum
 title: My sprite doesn't go to the Start platform when I click the green flag
 ---
 
-Check that you have a setup script on your **character** sprite:
+Check that you have a setup script on your **character** sprite.
 
 
 ```blocks3
@@ -123,4 +123,4 @@ If you have a bug that we haven't covered here, then let us know in the feedback
 
 --- /task ---
 
---- save ----
+--- save ---
