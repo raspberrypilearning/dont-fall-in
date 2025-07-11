@@ -9,17 +9,17 @@ listed: true
 copyedit: true
 last_tested: "2021-03-26"
 steps:
-  - title: Що ти зробиш
-  - title: Вибери тему
-  - title: 'Стрибай, плигай, підскакуй або лети!'
+  - title: What you will make
+  - title: Choose your theme
+  - title: 'Jump, hop, bounce, or glide!'
     completion:
       - engaged
-  - title: Перемога
-  - title: Катайся на платформах
-  - title: Налаштуй складність
+  - title: Winner
+  - title: Ride on platforms
+  - title: Adjust the difficulty
     completion:
       - internal
-  - title: Швидкий тест
+  - title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -27,7 +27,6 @@ steps:
       passing_score: 3
     completion:
       - external
-  - title: Додаткове завдання
+  - title: Challenge
     challenge: true
-  - title: Пошир свій проєкт
-  - title: Що ти тепер вмієш?
+  - title: Share
