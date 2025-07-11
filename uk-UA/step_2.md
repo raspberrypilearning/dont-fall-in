@@ -1,8 +1,8 @@
-## Вибери тему
+## Choose your theme
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Тепер ти додаси персонажа і тло, а також створиш першу та останню платформи. 
+In this step, you will add a character and backdrop, and create start and end platforms. 
 </div>
 <div>
 ![](images/setup-example.png){:width="300px"}
@@ -11,13 +11,13 @@
 
 --- task ---
 
-Відкрий [новий проєкт у Скретчі](http://rpf.io/scratch-new){:target="_blank"} та видали спрайт кота. Скретч відкриється у новій вкладці браузера.
+Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"} and delete the cat sprite. Scratch will open in another browser tab.
 
 --- /task ---
 
 --- task ---
 
-Створи однотонний фон.
+Create a solid colour backdrop. 
 
 [[[scratch-paint-single-colour-backdrop]]]
 
@@ -25,7 +25,7 @@
 
 --- task ---
 
-**Вибери**, як рухатиметься твій персонаж — зліва направо чи знизу вгору?
+**Choose:** Will your character move from left to right, or bottom to top? 
 
 ![](images/direction-examples.png)
 
@@ -33,43 +33,43 @@
 
 --- task ---
 
-Намалюй новий спрайт для **стартової** платформи.
+Paint a new **Start** platform sprite. 
 
-Спочатку зроби просту однотонну форму. Ти можеш вимкнути контур, натиснувши на червону діагональну лінію.
+Start with a simple single coloured shape. You can turn the outline off by choosing the red diagonal line.
 
 ![](images/no-outline.png)
 
-Згодом ти зможеш додати більше деталей.
+You can add more detail later. 
 
-Відцентруй свій образ у редакторі Малювання.
+Centre your costume in the Paint editor.
 
 [[[scratch-crosshair]]]
 
-Розмісти спрайт **стартової** платформи там, де хочеш бачити персонажа на початку гри.
+Position your **Start** platform sprite where you want your character to start the game.
 
 --- /task ---
 
 --- task ---
 
-Створи простий спрайт **фінішної** платформи. Згодом ти зможеш додати більше деталей.
+Create a simple **End** platform sprite. You can add more detail later. 
 
-Відцентруй свій образ у редакторі Малювання.
+Centre your costume in the Paint editor.
 
-Розмісти спрайт **фінішної** платформи там, де хочеш бачити персонажа в кінці гри.
+Position your **End** sprite on the Stage where you want your character to finish the game.
 
 --- /task ---
 
 --- task ---
 
-Створи спрайт **персонажа**.
+Create a **character** sprite. 
 
-**Вибери,** чи хочеш ти додати готовий спрайт **персонажа**, чи намалювати власний?
+**Choose:** Do you want to add or paint a **character** sprite? 
 
-Ти можеш додати один із таких спрайтів **персонажа** з видом згори: **Tatiana**, **Taylor** або **Trisha**.
+You might want to add a top-down **character** sprite such as **Tatiana**, **Taylor**, or **Trisha**. 
 
-![Зображення спрайтів з видом згори, доступних у Скретчі.](images/top-down-sprites.png)
+![Image of the top down sprites available in scratch](images/top-down-sprites.png)
 
-Або намалюй власний спрайт **персонажа**. Почти з простих фігур, а пізніше додай деталі. Відцентруй свій образ у редакторі Малювання.
+Or, paint your own **character** sprite. Start with simple shapes and add details later. Centre your costume in the Paint editor.
 
 [[[generic-scratch3-draw-sprite]]]
 
@@ -77,43 +77,43 @@
 
 --- task ---
 
-Твій спрайт **персонажа** повинен мати початковий скрипт перед стартом гри.
+Your **character** sprite needs a start script to get everything set up for the beginning of the game.
 
-Створи `змінну`{:class="block3variables"} під назвою `на землі` та встанови для неї розмір, який повинен мати твій спрайт, коли він не стрибає та знаходиться на землі.
+Make a `variable`{:class="block3variables"} called `landed`, and set it to the size your sprite should be when it has landed and is not jumping.
 
-Зроби так, щоб твій персонаж опинявся на **старті**, `коли натиснуто прапорець`{:class="block3events"}. Додай блок `помістити на передній план`{:class="block3looks"}, щоб твій персонаж розміщувався над платформами.
+Get your character to go to the **Start** `when flag clicked`{:class="block3events"}. Add a `go to front layer`{:class="block3looks"} block, so your character is on top of the platforms. 
 
-**Персонаж:**
+**Character:**
 
 ```blocks3
-when flag clicked // початок
-go to (Старт v)
-set [на землі v] to [40] // розмір, коли не стрибає
-set size to (на землі) % // не стрибає
-go to [передній v] layer
+when flag clicked // setup
+go to (Start v)
+set [landed v] to [40] // size when not jumping
+set size to (landed) % // not jumping
+go to [front v] layer
 show
-broadcast (start v) // запустити інші скрипти
+broadcast (start v) // start other scripts
 ```
 
-**Порада:** Зніми позначку зі змінної `на землі`{:class="block3variables"} у меню `Змінні`{:class="block3variables"}, щоб її не було видно на Сцені. Гравцю не потрібно бачити цю змінну.
+**Tip:** Uncheck the `landed`{:class="block3variables"} variable in the `Variables`{:class="block3variables"} Blocks menu so that it doesn't show on the Stage. The user doesn't need to see this variable.
 
-**Порада:** буде корисним `оповістити`{:class="block3events"} інші скрипти за допомогою повідомлення `старт`{:class="block3events"} у кінці початкового скрипту, щоб вони знали, коли починати. Інакше вони можуть запуститися до того, як все буде готове.
+**Tip:** It's a good idea to `broadcast`{:class="block3events"} a `start`{:class="block3events"} message at the end of your setup script to let other scripts know when to start, otherwise they might start before everything is ready.
 
 --- /task ---
 
 --- task ---
 
-**Налагодження:**
+**Debug:**
 
 --- collapse ---
 
 ---
-title: Мій спрайт повернутий не в той бік
+title: My sprite is pointing in the wrong direction
 ---
 
-Використовуй властивість **Напрям** на панелі спрайтів, щоб керувати напрямом спрайта. Повертай кружальце, щоб спрайт показував у той бік, у який тобі потрібно.
+The **Direction** property in the Sprite pane can be used to control the direction the sprite is pointing in. Turn the wheel to make a sprite point in the direction you need. 
 
-![Панель спрайтів з вибраною властивістю «Напрям». Спливне меню з кружальцем напряму, за допомогою якого можна змінити напрям спрайта.](images/direction-property.png)
+![The sprite pane with direction property selected. A pop up menu is shown with a direction wheel used for adjusting the direction the sprite is pointing.](images/direction-property.png)
 
 --- /collapse ---
 
@@ -121,7 +121,7 @@ title: Мій спрайт повернутий не в той бік
 
 --- task ---
 
-Дай своєму проєктові назву, що описує гру.
+Give your project a title that describes your game.
 
 --- /task ---
 

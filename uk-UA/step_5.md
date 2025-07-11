@@ -1,10 +1,10 @@
-## Катайся на платформах
+## Ride on platforms
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Ну це надто легко! 
+Well that's too easy! 
 
-У цьому кроці ти додаси платформи, на які можна стрибати. Потрібно стрибати по них, щоб спрайт не провалився вниз. 
+In this step, you will add platforms to land on. Jumping on them will stop your sprite falling in. 
 </div>
 <div>
 ![](images/riding-example.png){:width="300px"}
@@ -13,33 +13,33 @@
 
 --- task ---
 
-Створи спрайт **Платформа 1**, на який можна стрибнути.
+Create a **Platform 1** sprite to land on. 
 
-Намалюй образ для спрайта **Платформа 1**.
+Paint a costume for your **Platform 1** sprite.
 
-**Порада:** якщо ти хочеш, щоб твій спрайт `відбивався`{:class="block3motion"}, але образ з тим не розвертався, тобі потрібно або обрати симетричний образ, або встановити стиль обертання **не обертати**.
+**Tip:** If you want your sprite to `bounce`{:class="block3motion"} without the costume appearing to change direction, you will need a costume that is symmetrical, or set the rotation style to **Don't rotate**. 
 
-![Спливне меню функції напрямку на панелі спрайтів з вибраним значком «не обертати».](images/dont-rotate.png)
+![The direction property pop-up menu in the Sprite pane with the dont rotate icon selected.](images/dont-rotate.png)
 
 --- /task ---
 
 --- task ---
 
-Додай код до спрайта **Платформа 1**, щоб він почав рухатися.
+Add code to your **Platform 1** sprite to get it moving.
 
-Можливо, тобі доведеться `повернути в напрямку`{:class="block3motion"} `0` спрайт **Платформа 1**, щоб він рухався вгору й униз по екрану.
+You may need your **Platform 1** sprite to `point in direction`{:class="block3motion"} `0` to move up and down the screen. 
 
 --- collapse ---
 
 ---
-title: Додай руху платформі
+title: Make your platform move
 ---
 
 ```blocks3
-when I receive [старт v]
-point in direction (0) // додай цей блок до ігор, де треба стрибати зліва направо
+when I receive [start v]
+point in direction (0) // add this block for left to right games
 forever
-move (4) steps // спробуй різні числа
+move (4) steps // try different numbers
 if on edge, bounce
 end
 ```
@@ -50,56 +50,56 @@ end
 
 --- task ---
 
-**Протестуй:** натисни на зелений прапорець і перевір, чи правильно рухається твоя платформа.
+**Test:** Click the green flag and make sure your platform moves correctly.
 
 --- /task ---
 
 --- task ---
 
-Здублюй спрайт **Платформа 1** і назви новий спрайт **Платформа 2**.
+Duplicate your **Platform 1** sprite and name it **Platform 2** .
 
-**Вибери** кількість платформ. Якщо ти хочеш мати три платформи, знову здублюй спрайт **Платформа 1** і назви новий спрайт **Платформа 3**.
+**Choose:** If you want to have 3 platforms, duplicate the **Platform 1** sprite again and name it **Platform 3**. 
 
 [[[scratch3-duplicate-sprite]]]
 
-Експериментуй з кількістю кроків і розміром спрайтів, щоб на якусь платформу стрибнути було легше, а на якусь важче.
+Experiment with the number of steps and the sprite size to make each platforms easier or harder to jump on. 
 
 --- /task ---
 
-Визнач за допомогою блока `якщо`{:class="block3control"}, чи приземлився твій **персонаж** на спрайт **платформи** і знаходиться в безпеці, чи (блок `інакше`{:class="block3control"}) твій **персонаж** провалився!
+Detect `if`{:class="block3control"} your **character** sprite has landed on a **platform** sprite and is safe, `else`{:class="block3control"} your **character** sprite has fallen in!
 
 --- task ---
 
-Додай код до спрайта **персонажа**, щоб перевірити, чи він `торкається кольору`{:class="block3sensing"} спрайтів **платформ**.
+Add code to your **character** sprite to sense `if touching`{:class="block3sensing"} a colour on the **platform** sprites.
 
-**Вибери** колір, на який потрібно приземлитися твоєму персонажу, якщо твої платформи різних кольорів. Можливо, якщо він на самому краєчку платформи, він має впасти!
+**Choose:** If your platform has multiple colours, choose which colour your character needs to land on. You might want them to fall in if they are only on the edge!
 
 --- collapse ---
 
 ---
-title: Якщо персонаж торкається платформи
+title: If touching platform
 ---
 
 ```blocks3
-when I receive [старт v]
+when I receive [start v]
 forever
-if <(size) = (на землі) > then // не в повіртрі
-if <touching color (#b89d2f) ?> then // біля фінішу
-broadcast (стоп v) // зупинити інші спрайти
-stop [інші скрипти цього спрайту v]
-go to (Фініш v)
+if <(size) = (landed) > then // not in the air
+if <touching color (#b89d2f) ?> then // at end
+broadcast (stop v) // stop other sprites
+stop [other scripts in sprite v]
+go to (End v)
 play sound (Win v) until done
-stop [все v]
+stop [all v]
 end
-+ if <touching color (#762356) ?> then // вибери колір платформи
-if <touching (Платформа 1 v)> then
-go to (Платформа 1 v)
++ if <touching color (#762356) ?> then // choose a colour on your platform
+if <touching (Platform 1 v)> then
+go to (Platform 1 v)
 end
-if <touching (Платформа 2 v)> then
-go to (Платформа 2 v)
+if <touching (Platform 2 v)> then
+go to (Platform 2 v)
 end
-if <touching (Платформа 3 v)> then
-go to (Платформа 3 v)
+if <touching (Platform 3 v)> then
+go to (Platform 3 v)
 end
 else
 end
@@ -113,48 +113,48 @@ end
 
 --- task ---
 
-**Протестуй:** натисни на зелений прапорець і перевір, чи може персонаж стрибати по платформах.
+**Test:** Click the green flag and make sure your sprite can ride on the platforms.
 
 --- /task ---
 
 --- task ---
 
-Додай код до спрайта **персонажа**, який за допомогою блока `якщо`{:class="block3control"} перевірятиме, чи `торкається`{:class="block3sensing"} він кольору тла, а потім завершуватиме гру.
+Add code to your **character** sprite to sense `if`{:class="block3control"} `touching`{:class="block3sensing"} the backdrop colour, then end the game.
 
 --- collapse ---
 
 ---
-title: Блок «інакше»
+title: Else touching backdrop
 ---
 
 ```blocks3
-when I receive [старт v]
+when I receive [start v]
 forever
-if <(size) = (на землі)> then // не в повітрі
-if <touching color (#b89d2f) ?> then // біля фінішу
-broadcast (стоп v) // зупинити інші спрайти
-stop [інші скрипти цього спрайту v] 
-go to (Фініш v)
+if <(size) = (landed)> then // not in the air
+if <touching color (#b89d2f) ?> then // at end
+broadcast (stop v) // stop other sprites
+stop [other scripts in sprite v] 
+go to (End v)
 play sound (Win v) until done
-stop [все v]
+stop [all v]
 end
-if <touching color (#762356) ?> then // вибери колір платформи
-if <touching (Платформа 1 v)> then
-go to (Платформа 1 v)
+if <touching color (#762356) ?> then // choose a colour on your platform
+if <touching (Platform 1 v)> then
+go to (Platform 1 v)
 end
-if <touching (Платформа 2 v)> then
-go to (Платформа 2 v)
+if <touching (Platform 2 v)> then
+go to (Platform 2 v)
 end
-if <touching (Платформа 3 v)> then
-go to (Платформа 3 v)
+if <touching (Platform 3 v)> then
+go to (Platform 3 v)
 end
 else
-+ if <touching color (#37ab37) ?> then // вибери колір тла
-broadcast (стоп v)
-stop [інші скрипти цього спрайту v] // не стрибати після програшу
++ if <touching color (#37ab37) ?> then // choose your backdrop colour
+broadcast (stop v)
+stop [other scripts in sprite v] // prevent jumping after losing
 hide
-play sound (lose v) until done // додай звук на свій вибір
-stop [все v]
+play sound (lose v) until done // add a sound of your choice
+stop [all v]
 end
 end
 end
@@ -166,61 +166,61 @@ end
 
 --- task ---
 
-**Протестуй:** почни грати у свою гру та пропусти одну платформу. Ти маєш почути звук програшу.
+**Test:** Play your game and try missing a platform. Make sure you hear the lose sound.
 
 --- /task ---
 
 --- task ---
 
-Додай код до спрайтів **платформи**, щоб вони більше не рухалися, коли спрайт **персонажа** дійде до **фінішної** платформи — або ж провалиться!
+Add code to your **platform** sprites to stop them moving when the **character** sprite reaches the **End** platform — or falls in!
 
 ```blocks3
-when I receive [стоп v]
-stop [інші скрипти цього спрайту v]
+when I receive [stop v]
+stop [other scripts in sprite v]
 ```
 
 --- /task ---
 
 --- task ---
 
-**Протестуй:** зіграй знову і подивися, чи перестають платформи рухатися, кола гра закінчується. Гра закінчується, коли ти доходиш до **фінішної** платформи або коли провалюєшся.
+**Test:** Play again and make sure the platforms stop when the game ends. The game ends when you reach the **End** platform, or when you fall in.
 
 --- /task ---
 
 --- task ---
 
-**Налагодження:**
+**Debug:**
 
 --- collapse ---
 
 ---
-title: Гра закінчується надто рано
+title: The game ends too soon
 ---
 
-Переконайся, що блоки `якщо`{:class="block3control"} розташовані у правильному порядку всередині блока `завжди`{:class="block3control"}. Порівняй свій код з прикладом вище.
+Make sure you have the `if`{:class="block3control"} blocks in the correct order inside your `forever`{:class="block3control"} block. Check carefully against the example code.
 
-Якщо **персонаж** торкнеться тла до того, як він приземлиться на платформу, гра може закінчитися несправедливо!
+If you check that the **character** is touching the backdrop before it has had chance to land on a platform, then your game could end unfairly!
 
-Переконайся, що блоки `якщо`{:class="block3control"}, які перевіряють умови гри, розміщені всередині блока `якщо`{:class="block3control"}, який перевіряє розмір **персонажа**. Якщо твій спрайт торкається кольору тла під час стрибка, це нормально. Проблема постає, тільки якщо він приземлиться в заварний крем, лаву, радіоактивний слиз або іншу небезпеку на твій вибір.
+Make sure your `if`{:class="block3control"} blocks to check game conditions are inside an `if`{:class="block3control"} block that checks the size of the **character** is normal. It's fine for your sprite to be touching the backdrop colour when jumping. It's only a problem if they land in the custard, lava, radio-active goo, or whatever hazard you have chosen.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: Платформи продовжують рухатися, коли я виграю або програю
+title: The platforms don't stop when I win or lose
 ---
 
-Подивись на скрипт у спрайтах **платформ** `коли я отримую`{:class="block3events"} і перевір, чи має він повідомлення `стоп`{:class="block3events"}.
+Look at your **platform** sprites' `when I receive`{:class="block3events"} script and check the message is `stop`{:class="block3events"}.
 
 ```blocks3
-when I receive [стоп v]
-stop [інші скрипти цього спрайту v]
+when I receive [stop v]
+stop [other scripts in sprite v]
 ```
-Блок `оповістити`{:class="block3events"} всередині блоків `якщо`{:class="block3control"} для перемоги й програшу повинен містити повідомлення `стоп`{:class="block3events"}.
+Check that the `broadcast`{:class="block3events"} block inside the win and lose `if`{:class="block3control"} blocks is `stop`{:class="block3events"}. 
 
 ```blocks3
-broadcast (стоп v)
+broadcast (stop v)
 ```
 
 --- /collapse ---

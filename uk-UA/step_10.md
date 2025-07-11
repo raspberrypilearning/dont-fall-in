@@ -1,10 +1,10 @@
-## Що ти тепер вмієш?
+## What can you do now?
 
-Якщо ти йдеш напрямом [Більше Скретчу](https://projects.raspberrypi.org/uk-UA/raspberrypi/more-scratch), можеш переходити до наступного проєкту — [«Цей спрайт потребує тебе»](https://projects.raspberrypi.org/uk-UA/projects/this-sprite-needs-you). У цьому проєкті ти створиш віртуального домашнього улюбленця або симулятор, з яким можна взаємодіяти й допомагати йому.
+If you are following the [More Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) path, you can move on to the [This sprite needs you](https://projects.raspberrypi.org/en/projects/this-sprite-needs-you) project. In this project, you will make a virtual pet or simulation that you interact with to help.
 
 --- print-only ---
 
-![Цей спрайт потребує тебе](images/this-sprite-needs-you-project.png)
+![This sprite needs you](images/this-sprite-needs-you-project.png)
 
 --- /print-only ---
 
@@ -16,4 +16,4 @@
 
 --- /no-print ---
 
-Якщо тобі подобається досліджувати Скретч, спробуй [ці проєкти](https://projects.raspberrypi.org/uk-UA/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).

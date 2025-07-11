@@ -1,51 +1,51 @@
-## Перемога
+## Winner
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-На цьому етапі ти навчишся виявляти, коли гравець досягає **фінішної** платформи і виграє. 
+In this step, you will detect the player reaching the **End** platform to win the game. 
 </div>
 <div>
 ![](images/winner-aims.png){:width="300px"}
 </div>
 </div>
 
-Ти додаси цикл `завжди`{:class="block3control"}, який перевіряє, чи знаходиться **персонаж** на рівні з платформами і, якщо так, чи він досяг **фінішної** платформи. Для цього використовуй блок `якщо`{:class="block3control"}.
+You're going to add a `forever`{:class="block3control"} loop that checks if your **character** is at platform level, and if so, `if`{:class="block3control"} it has reached the **End** platform.
 
 --- task ---
 
-**Вибери** звук перемоги для свого персонажа.
+**Choose:** Add a winning sound to your character.
 
 --- /task ---
 
-###  Як завершити гру, коли персонаж торкається кольорової платформи
+### End the game when touching a coloured platform
 
 --- task ---
 
-Щоб виявити, коли спрайт персонажа досягає **фінішної** платформи, використовуй блок `торкається кольору`{:class="block3sensing"}.
+Use a `touching color`{:class="block3sensing"} block to detect when your character sprite reaches the **End** platform.
 
 
 ```blocks3
-when I receive [старт v]
+when I receive [start v]
 forever
-if <(size) = (на землі)> then // не в повітрі
-if <touching color (#b89d2f) ?> then // біля фінішу
-broadcast (стоп v) // зупинити інші спрайти
-stop [інші скрипти цього спрайту v] // не стрибати після виграшу
-go to (Фініш v)
+if <(size) = (landed)> then // not in the air
+if <touching color (#b89d2f) ?> then // at end
+broadcast (stop v) // stop other sprites
+stop [other scripts in sprite v] // stop jumping after win
+go to (End v)
 play sound (Win v) until done
-stop [все v]
+stop [all v]
 end
 end
 end
 ```
 
-Блок `зупинити інші скрипти цього спрайту`{:class="block3control"} припиняє цикл, який змушує персонажа стрибати.
+The `stop other scripts in sprite`{:class="block3control"} block stops the loop that makes the character jump.
 
-Використовуй блок `оповістити (стоп v)`{:class="block3events"}, коли гра закінчується, щоб інші спрайти теж зупинилися. Але цей спрайт може, наприклад, відтворювати звук перед тим, як зупиниться.
+A `broadcast (stop v)`{:class="block3events"} message is used when your game is finished so that other sprites can stop, but this sprite can do something such as playing a sound before it stops.
 
 --- /task ---
 
-Щоб вибрати колір **фінішної** платформи, використовуй піпетку.
+Use the eyedropper to pick the colour of your **End** platform
 
 --- task ---
 
@@ -53,74 +53,74 @@ end
 <touching color (#20f73b) ?>
 
 ```
-Клацни на поле вводу кольору, щоб відкрити панель вибору кольору, а далі клацни на піпетку внизу.
+Click on the colour input to open the colour picker and then click on the eyedropper at the bottom.
 
 ![](images/eye-dropper-tool.png)
 
-Перемісти вказівник миші на фінішну платформу на Сцені та клацни на неї, щоб вибрати колір.
+Move the mouse pointer over to the End platform on the Stage and click to select the colour.
 
 ![](images/eye-dropper-stage.png)
 
-Колір у полі вводу блока поміняється на обраний колір. Клацни в області коду, щоб закрити панель вибору кольору.
+The colour in the block input will change to match the colour you chose. Click in the Code area to close the colour picker.
 
 --- /task ---
 
 --- task ---
 
-**Протестуй:** натисни на зелений прапорець і стрибай персонажем через Сцену. Ти маєш почути звук перемоги, коли досягнеш **фінішної** платформи.
+**Test:** Click the green flag and then jump your character across the Stage. Make sure you hear the winning sound when you reach the **End** platform.
 
-**Порада:** дуже важливо протестувати свій проєкт перед тим, як додавати новий код. Коли ти додаси ще код, знаходити і виправляти помилки буде важче.
+**Tip:** It's really important that you test your project before moving to the next step and adding more code. It's harder to find and fix bugs when you have added more code.
 
 --- /task ---
 
 
 --- task ---
 
-**Налагодження:**
+**Debug:**
 
 --- collapse ---
 
 ---
-title: Мій спрайт не йде у центр фінішної платформи
+title: My sprite doesn't go to the centre of the End platform
 ---
 
-Переконайся, що всі образи спрайтів відцентровані у редакторі Малювання.
+You need to make sure all your sprite costumes are centered in the Paint editor. 
 
-Блок `перейти до (іншого спрайта)`{:class="block3motion"} пересуває спрайт таким чином, щоб його центр знаходився в тій же точці, що й центр іншого спрайта. Якщо центри зміщені, то **персонаж** не буде переходити на центр платформ.
+The `go to (other sprite)`{:class="block3motion"} block moves a sprite so that it's centre is in the same position as the centre of the other sprite. If their centres are in the wrong place, then your **character** won't go to the centre of the platforms.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: Гра закінчується надто рано
+title: The game ends too soon
 ---
 
-Переконайся, що твій спрайт не торкається фінального кольору до того, як він досягне **фінішної** платформи. Якщо ти використовуєш такий самий колір в іншому місці, твій персонаж може програти зарано.
+Check that your sprite isn't touching the End colour when it's not on the **End** platform — if you use the same colour elsewhere in your project, then your character could die too soon.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: Коли я приземляюся на фінішну платформу, звук не відтворюється
+title: The sound doesn't play when I land on the End platform
 ---
 
-Натисни на спрайт свого **персонажа**, а потім на вкладку «Звуки». Переконайся, що ти додав/-ла фінішний звук до свого спрайта. Натисни кнопку **Відтворити**, щоб перевірити, чи працює звук на твоєму компʼютері.
+Click on your **character** sprite and then the 'Sounds' tab. Make sure you have added the End sound to your sprite. Click on the **Play** button to make sure sound is working on your computer.
 
-Натисни на вкладку **Код** і перевір, чи має блок `відтворити звук`{:class="block3sound"} правильний звук. Саме цей блок відтворює звук, коли спрайт досягає **фінішної** платформи.
+Click on the **Code** tab and check that the correct sound is in the `play sound`{:class="block3sound"} block that runs when the sprite reaches the **End** platform.
 
-Переконайся, що блок `торкається кольору`{:class="block3sensing"} має правильний колір. Вибери колір знову, якщо ти точно не знаєш. Іноді кольори схожі, але не однакові.
+Make sure the colour is correct in the `touching colour`{:class="block3sensing"} block. Select it again if you're not sure. Sometimes colours look similar but aren't the same.
 
 ```blocks3
-when I receive [старт v]
+when I receive [start v]
 forever
-if < (size) = (на землі) > then // не в повітрі
-+if <touching color (#b89d2f) ?> then // біля фінішу
-broadcast (стоп v) // зупинити інші спрайти
-go to (Фініш v)
+if < (size) = (landed) > then // not in the air
++if <touching color (#b89d2f) ?> then // at end
+broadcast (stop v) // stop other sprites
+go to (End v)
 +play sound (Win v) until done
-stop [все v]
+stop [all v]
 end
 end
 end
@@ -128,9 +128,9 @@ end
 
 --- /collapse ---
 
-Якщо у тебе зʼявилася помилка, про яку ми тут не розповідали, повідом нам про це у відгуку. Якщо ти виправив/-ла помилку самостійно (молодець!), розкажи нам про це.
+If you have a bug that we haven't covered here, then let us know in the feedback. If you fixed the bug yourself (well done!), let us know that too. 
 
-**Порада:** якщо у тебе виникли складнощі, прочитай свій код вголос або про себе. Так ти зможеш перевірити, чи він робить те, що має робити. Можливо, ти знайдеш помилку.
+**Tip:** If you're stuck, try reading your code out loud or in your head to make sure it says what you think it does. You might find the bug.
 
 --- /task ---
 

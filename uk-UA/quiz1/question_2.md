@@ -2,36 +2,36 @@
 --- question ---
 
 ---
-legend: Питання 2 з 3
+legend: Question 2 of 3
 ---
 
-Це код для рухомої платформи:
+This is the code for a moving platform:
 
 ```blocks3
-when I receive [старт v]
+when I receive [start v]
 forever
 move [20] steps
 if on edge, bounce
 end
 ```
 
-Гра занадто складна, і грати в неї нецікаво. Як можна зробити її легшою?
+The game is too hard, and it's not fun to play. What could you do to make it easier to play?
 
 --- choices ---
 
-- (x) Треба змінити число у блоці `перемістити на`{:class="block3motion"} на **менше** число
+- (x) Change the number in the `move`{:class="block3motion"} block to a **smaller** number
 
   --- feedback ---
 
-Правильно. Якщо зменшити число, платформа буде переміщуватися на меншу кількість кроків щоразу, коли запускається цикл `завжди`{:class="block3control"}, тому платформа рухатиметься повільніше. Тому стрибати на неї буде легше.
+That's right. Making the number smaller will make the platform move a smaller number of steps each time the `forever`{:class="block3control"} loops runs so the platform will move more slowly. That makes it easier to jump on.
 
   --- /feedback ---
 
-- (x) Треба змінити число у блоці `перемістити на`{:class="block3motion"} на **більше** число
+- ( ) Change the number in the `move`{:class="block3motion"} block to a **bigger** number
 
   --- feedback ---
 
-Якщо платформа переміщуватиметься на більшу кількість кроків щоразу, як запускається цикл `завжди`{:class="block3control"}, вона рухатиметься швидше. Це означає, що стрибати на платформу буде складніше.
+Making the platform move more steps each time the `forever`{:class="block3control"} loop runs will make it move faster. That will make the platform harder to jump on.
 
   --- /feedback ---
 

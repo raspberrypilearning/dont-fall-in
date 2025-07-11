@@ -1,23 +1,23 @@
-## Пошир свій проєкт
+## Share
 
-Якщо ти відвідуєш клуб кодування, чому б не поділитися своїм проєктом з друзями?
+If you are in a club, why not share your project with friends?
 
-Ти також можеш показати своїй родині, як працює твій проєкт.
+You could also show your family how your project works.
 
-Якщо у тебе є обліковий запис Скретч, ти можеш поширити свій проєкт там. Ти також можеш надіслати посилання своїм знайомим, і вся Скретч-спільнота зможе знайти твій проєкт та попрацювати з ним.
+If you have a Scratch account, you can share your project through Scratch. You can send a link to people you know, and the whole Scratch community will be able to find your project and try it out.
 
 [[[share-scratch]]]
 
-Чому б не запросити друзів приєднатися до створення проєкту? Розкажи їм, що тобі дуже сподобалось.
+Why not invite your friends to create a project? Let them know how you had fun.
 
-Якщо у тебе є обліковий запис Скретч і ти поширив/-ла свій проєкт **«Не впади!»**, слідкуй за коментарями, які інші користувачі можуть залишити щодо твоєї творчості. Відгуки – чудовий спосіб поміркувати про свою роботу. Не звертай уваги на коментарі, які не є корисними або не стосуються теми.
+If you have a Scratch account, and have shared your **Don't fall in** project, keep an eye out for comments that others may make about your creation. Feedback is a great way to reflect on your work. Ignore any comments that are unhelpful or irrelevant.
 
 [[[comments-feedback-scratch]]]
 
 --- task ---
 
-Надихай спільноту Raspberry Pi Foundation своїм проєктом!
+Inspire the Raspberry Pi Foundation community with your project!
 
-Щоб додати свій проєкт до [Скретч-студії «Не впади!»](https://scratch.mit.edu/studios/29601182){:target="_blank"}, заповни [цю форму](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"} (англійською мовою).
+To submit your project to our ['Don't fall in - Community'](https://scratch.mit.edu/studios/29601182){:target="_blank"} Scratch studio, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
 
 --- /task ---
