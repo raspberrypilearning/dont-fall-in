@@ -49,7 +49,7 @@ Check that you have a setup script on your **character** sprite.
 ```blocks3
 when flag clicked // setup
 +go to (Start v)
-set [landed v] to [0]
+set [landed v] to [40] // size when not jumping
 set size to (landed) %
 +go to [front v] layer
 show
